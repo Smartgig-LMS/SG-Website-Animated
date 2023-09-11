@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Testing() {
     return (
-        <div className='d-flex col-12 pt-5 vh-100 fixed'>
+        <div className='webdev col-12 pt-5 vh-100 fixed4'>
             <div className='container' style={{ marginTop: "50px" }}>
                 <div>
                     <img src='./Images/gobeyond/TAAS Icon.png' width="100" height="50" />

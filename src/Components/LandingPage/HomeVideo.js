@@ -10,13 +10,13 @@ import {
     MDBBtn,
     MDBCardOverlay
 } from 'mdb-react-ui-kit';
+import NavBar from './NavBar';
 
 const Homevideo = ({ pageName }) => {
 
     return (
         <>
-
-            <div className={`${pageName === 'homeVideo' ? 'active' : ''} homeVideo fixed`}>
+            <div className={`${pageName === 'homeVideo' ? 'active' : ''} homeVideo `}>
                 <div className='videoTextContainer d-flex justify-content-center align-items-center'>
                     <video className="w-100" autoPlay loop muted>
                         <source

@@ -1,15 +1,17 @@
 import React from 'react'
 import OurClients from './ClientPage'
-import GoBeyond from './GoBeyond';
 import NavBar from './NavBar';
-import Layout from './Layout';
+import Layout from './LayoutPage';
 import WebDev from './WebDev';
 import CloudDevops from './CloudDevops';
 import MobileApp from './MobileApp';
 import Testing from './Testing';
 import Integration from './Integration';
 import Footer from './Footer';
+import Homevideo from './HomeVideo';
 import LeadershipTeam from './LeadershipTeam';
+import { Outlet } from 'react-router-dom';
+import Homelinks from './HomeLinks';
 // import LeadershipTeam from './LeaderShip1';
 // import OurTeam from './OurTeam';
 
@@ -19,30 +21,50 @@ export default function LandingPage() {
 
     const [active, setActive] = React.useState({
         page: "homeVideo",
-        bgColor: "",
+        bgColor: "blue",
     });
 
     return (
-        <div className="main-omesection">
-            {/* <Layout title={"- Home"}> */}
-            <></>
-            <NavBar />
-            <GoBeyond />
-            <div className='homesection2'>
-                <WebDev />
-                <CloudDevops />
-                <MobileApp />
-                <Testing />
-            </div>
-            <Integration />
-            <LeadershipTeam />
-            {/* <div className="main-homesection" id='our-team'>
-                <OurTeam />
-            </div> */}
-            <OurClients />
-            <Footer />
+        <>
+            <Homelinks
+                setPageName={setPageName}
+                setActive={setActive}
+                active={active}
+            />
+            <div className="homesection">
+                <div className="main-homesection" id='homeVideo'>
+                    <Homevideo />
+                </div>
 
-            {/* </Layout> */}
-        </div>
+                <div className='main-homesection' id="web-developement">
+                    <WebDev />
+                </div>
+
+                <div className="main-homesection" id='cloud-services'>
+                    <CloudDevops />
+                </div>
+
+                <div className="main-homesection" id='mobile-app-developement'>
+                    <MobileApp />
+                </div>
+
+                <div className="main-homesection" id='testing'>
+                    <Testing />
+                </div>
+
+                <div className='main-homesection' id='integrations'>
+                    <Integration />
+                </div>
+
+                <div className='main-homesection' id='leadership-team'>
+                    <LeadershipTeam />
+                </div>
+
+                <div className='main-homesection' id='our-clients'>
+                    <OurClients />
+                </div>
+
+            </div>
+        </>
     )
 }

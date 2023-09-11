@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function WebDev() {
     return (
-        <div className='d-flex col-12 pt-5 vh-100 fixed'>
+        <div className='webdev col-12 pt-5 vh-100 fixed'>
             <div className='container' style={{ marginTop: "60px" }}>
                 <div>
                     <img src='./Images/gobeyond/Web Development Icon.png' width="180" height="50" />

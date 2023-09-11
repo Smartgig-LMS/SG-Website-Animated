@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LeadershipTeam() {
     return (
-        <div className='d-flex col-12 pt-5 vh-100 fixed'>
+        <div className='d-flex col-12 pt-5 vh-100 fixed6'>
             <div className='container ml-5'>
                 <img src='./Images/gobeyond/Group 427320764.png' />
             </div>

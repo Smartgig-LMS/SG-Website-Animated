@@ -110,7 +110,7 @@ export default function LeadershipTeam() {
                         </div>
                     </div>
 
-                    <div className='col-md-6 d-flex itmes-center' style={{ marginTop: "50px" }}>
+                    <div className='col-md-6 d-flex' style={{ marginTop: "50px" }}>
                         <div className='col-12'>
                             <div>
                                 <img src='./Images/gobeyond/Group 427321128.png' width="150" height="50" />
@@ -127,7 +127,8 @@ export default function LeadershipTeam() {
                                 embarking new digital horizons as a <br />
                                 mission. Mahesh Nayani : CEO ,Rama Krishna Vaddi <br />
                                 : VP SALES & DELIVERY , Swathi K : DIRECTOR , Siva <br />
-                                Sankar : CO - DIRECTOR , Damu Kamasani : DATA <br />PRACTICE LEAD, Leena Tigalapally : OPERATIONS <br />
+                                Sankar : CO - DIRECTOR , Damu Kamasani : DATA <br />
+                                PRACTICE LEAD, Leena Tigalapally : OPERATIONS <br />
                                 HEAD , Mani Sai : HR LEAD
                             </span>
                             <hr />

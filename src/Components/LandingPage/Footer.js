@@ -4,10 +4,10 @@ export default function Footer() {
     return (
         <>
             <div className='d-flex' style={{ justifyContent: "space-evenly" }}>
-                <div style={{ marginLeft: "30px" }}>
+                <div style={{ marginLeft: "30px", marginTop: '7px' }}>
                     <img src='./Images/gobeyond/SmartGig-logo.png' height="70px" width="131px" />
                 </div>
-                <div className='d-flex' style={{ justifyContent: "space-between", fontWeight: "500", marginTop: '19px', paddingRight: "60px" }}>
+                <div className='d-flex' style={{ justifyContent: "space-between", fontWeight: "500", marginTop: '27px', paddingRight: "60px" }}>
                     <div className='ml-4'>
                         Products
                     </div>
@@ -34,7 +34,7 @@ export default function Footer() {
                 </div>
             </div>
             <hr />
-            <div className='d-flex' style={{ justifyContent: "space-around", marginBottom: "20px" }}>
+            <div className='d-flex' style={{ justifyContent: "space-around" }}>
                 <div style={{ fontWeight: "500" }}>
                     Copyright © 2023 SmartGig. All Rights Reserved.
                 </div>

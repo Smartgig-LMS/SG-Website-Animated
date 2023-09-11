@@ -7,7 +7,7 @@
   justify-content: center;
 }
 .marquee {
-  height: 7em;
+  height: 13em;
   position: absolute;
   overflow: hidden;
 }

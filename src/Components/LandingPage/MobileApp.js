@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function MobileApp() {
     return (
-        <div className='d-flex col-12 pt-5 vh-100 fixed'>
+        <div className='webdev col-12 pt-5 vh-100 fixed3'>
             <div className='container' style={{ marginTop: "40px" }}>
                 <div>
                     <img src='./Images/gobeyond/Mobile app Development Icon.png' width="180" height="50" />

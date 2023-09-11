@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function CloudDevops() {
     return (
-        <div className='d-flex col-12 pt-5 vh-100 fixed'>
+        <div className='webdev col-12 pt-5 vh-100 fixed2'>
             <div className='container' style={{ marginTop: "70px" }}>
                 <div>
                     <img src='./Images/gobeyond/Group 427321194.png' width="180" height="50" />
