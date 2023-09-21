@@ -20,21 +20,18 @@ function RotateTextAnimate() {
                         <h4>
                             <span>Go</span>
                             <span className='text-textColor'> Beyond</span>
-                            <span className='text-dotcolor'>.</span>
                         </h4>
                     </div>
                     <div className="marquee_item">
                         <h4>
                             <span>Imbibe</span>
                             <span className='text-textColor'> Ideas</span>
-                            <span className='text-dotcolor'>.</span>
                         </h4>
                     </div>
                     <div className="marquee_item">
                         <h4>
                             <span>Refine</span>
                             <span className='text-textColor'> Career</span>
-                            <span className='text-dotcolor'>.</span>
                         </h4>
                     </div>
                     {/* <div class="marquee_item">

@@ -2,12 +2,12 @@ import React from 'react'
 
 export default function CloudDevops() {
     return (
-        <div className='webdev col-12 pt-5 vh-100 fixed2'>
-            <div className='container' style={{ marginTop: "70px" }}>
+        <div className='TestingContainer col-12 pt-5 vh-100'>
+            <div className='CloudDev1'>
                 <div>
                     <img src='./Images/gobeyond/Group 427321194.png' width="180" height="50" />
                 </div>
-                <h1 style={{ fontWeight: "700", width: "458", height: "124" }} className='col-12 mb-3 mt-2'>
+                <h1 style={{ fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                     Your cloud  <br />
                     problems stops in <br />
                     one place
@@ -38,7 +38,7 @@ export default function CloudDevops() {
                     </div>
                 </div>
             </div>
-            <div className='container'>
+            <div className='CloudDev2'>
                 <img src='./Images/gobeyond/Group 427321191.png' />
             </div>
         </div>

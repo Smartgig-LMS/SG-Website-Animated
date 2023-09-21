@@ -4,9 +4,9 @@ import LandingPage from '../LandingPage/LandingPage';
 import NavBar from '../LandingPage/NavBar';
 import ProductPage from '../NavigationPages/ProductPage';
 import CulturePage from '../NavigationPages/CulturePage';
-import CarrerPage from '../NavigationPages/CarrerPage';
 import ContactUsPage from '../NavigationPages/ContactUsPage';
 import LayoutPage from '../LandingPage/LayoutPage';
+import CareerPage from '../NavigationPages/CareerPage';
 
 export default function RouteFile() {
     return (
@@ -21,10 +21,10 @@ export default function RouteFile() {
 
         <Routes>
             <Route path='/' element={<LayoutPage />} >
-                <Route path='landingpage' element={<LandingPage />}></Route>
-                <Route path='products' element={<ProductPage />} ></Route>
+                <Route path='' element={<LandingPage />}></Route>
+                <Route path='Partnerships' element={<ProductPage />} ></Route>
                 <Route path='culture' element={<CulturePage />}></Route>
-                <Route path='carrer' element={<CarrerPage />}></Route>
+                <Route path='career' element={<CareerPage />}></Route>
                 <Route path='contact' element={<ContactUsPage />} ></Route>
             </Route>
         </Routes >

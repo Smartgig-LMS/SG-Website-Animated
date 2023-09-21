@@ -47,10 +47,11 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                         "cloud-services",
                         "mobile-app-developement",
                         "testing",
+                        "data-services",
+                        "cyber-security",
                         "integrations",
                         "leadership-team",
                         "our-clients",
-                        // "security-services",
                     ]}
                     currentClassName="current"
                     className="ms-0 ps-0 list-unstyled d-none d-md-block"
@@ -74,7 +75,7 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                     </li>
                     <li className={`${addClass}`}>
                         <a href="#mobile-app-developement">
-                            <span>Mobile App Developement</span>
+                            <span>Mobile Apps</span>
                         </a>
                     </li>
                     <li className={`${addClass}`}>
@@ -82,11 +83,16 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                             <span>Testing</span>
                         </a>
                     </li>
-                    {/* <li className={`${addClass}`}>
-                        <a href="#security-services">
-                            <span>Security Services</span>
+                    <li className={`${addClass}`}>
+                        <a href="#data-services">
+                            <span>Data Services</span>
                         </a>
-                    </li> */}
+                    </li>
+                    <li className={`${addClass}`}>
+                        <a href="#cyber-security">
+                            <span>Cyber Security</span>
+                        </a>
+                    </li>
                     <li className={`${addClass}`}>
                         <a href="#integrations">
                             <span>Integrations</span>

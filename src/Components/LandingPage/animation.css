@@ -1,0 +1,345 @@
+/* Animation for landing page Start --------------------------------------------> */
+/* 
+.main-homesection .fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+}
+
+.main-homesection .fixed:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy;
+}
+
+.main-homesection .fixed2 {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+}
+
+.main-homesection .fixed2:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy2;
+}
+
+.main-homesection .fixed3 {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+}
+
+.main-homesection .fixed3:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy3;
+}
+
+.main-homesection .fixed4 {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+}
+
+.main-homesection .fixed4:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy4;
+}
+
+.main-homesection .fixed5 {
+  overflow: hidden;
+  position: fixed;
+  top: 20%;
+  left: 0%;
+  width: 100%;
+}
+
+.main-homesection .fixed5:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 20%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy5;
+}
+
+.main-homesection .fixed6 {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+}
+.main-homesection .fixed6:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy6;
+}
+
+.main-homesection .fixed7 {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+}
+.main-homesection .fixed7:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy7;
+}
+
+.main-homesection .fixed8 {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+}
+.main-homesection .fixed8:hover {
+  overflow: hidden;
+  position: fixed;
+  top: 3%;
+  left: 0%;
+  width: 100%;
+  animation: 1s ease-in-out 0s 1 running bouncy8;
+}
+
+.main-homesection:nth-child(1) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 0vh;
+  z-index: 1;
+}
+.main-homesection:nth-child(2) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 100vh;
+  z-index: 2;
+}
+.main-homesection:nth-child(3) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 200vh;
+  z-index: 3;
+}
+
+.main-homesection:nth-child(4) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 300vh;
+  z-index: 4;
+}
+
+.main-homesection:nth-child(5) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 400vh;
+  z-index: 5;
+}
+
+.main-homesection:nth-child(6) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 500vh;
+  z-index: 6;
+}
+
+.main-homesection:nth-child(7) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 600vh;
+  z-index: 7;
+}
+
+.main-homesection:nth-child(8) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 700vh;
+  z-index: 8;
+}
+
+.main-homesection:nth-child(9) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 800vh;
+  z-index: 8;
+}
+.main-homesection:nth-child(10) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 900vh;
+  z-index: 8;
+}
+.main-homesection:nth-child(11) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 1000vh;
+  z-index: 8;
+}
+
+@keyframes bouncy {
+  0% {
+    transform: translateX(90%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes bouncy2 {
+  0% {
+    transform: translateY(-90%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes bouncy3 {
+  0% {
+    transform: translateX(-90%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes bouncy4 {
+  0% {
+    transform: translateY(-90%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes bouncy5 {
+  0% {
+    transform: translateX(90%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes bouncy6 {
+  0% {
+    transform: translateY(-90%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes bouncy7 {
+  0% {
+    transform: translateX(-90%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+} */
+
+/* <-------------------------------------------- Animation  End */
+
+/* Without animation landing page start -------------------------------> */
+
+/* .main-homesection .fixed {
+  overflow: hidden;
+  position: fixed;
+  top: 53%;
+  left: 50%;
+  width: 100%;
+}
+
+.main-homesection:nth-child(1) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 0vh;
+  z-index: 1;
+}
+
+.main-homesection:nth-child(1) .fixed {
+  transform: translate(0%, 0%);
+}
+
+.main-homesection:nth-child(2) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 100vh;
+  z-index: 2;
+}
+
+.main-homesection:nth-child(2) .fixed {
+  transform: translate(-50%, -50%);
+}
+.main-homesection:nth-child(3) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 200vh;
+  z-index: 3;
+}
+
+.main-homesection:nth-child(3) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.main-homesection:nth-child(4) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 300vh;
+  z-index: 4;
+}
+
+.main-homesection:nth-child(4) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.main-homesection:nth-child(5) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 400vh;
+  z-index: 5;
+}
+
+.main-homesection:nth-child(5) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.main-homesection:nth-child(6) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 500vh;
+  z-index: 6;
+}
+
+.main-homesection:nth-child(6) .fixed {
+  transform: translate(-50%, -50%);
+}
+
+.main-homesection:nth-child(7) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 600vh;
+  z-index: 7;
+}
+
+.main-homesection:nth-child(7) .fixed {
+  transform: translate(-50%, -50%);
+} 
+
+.main-homesection:nth-child(8) {
+  box-shadow: inset 0 1px 80px rgba(0, 0, 0, 0.14);
+  top: 700vh;
+  z-index: 8;
+}
+
+.main-homesection:nth-child(8) .fixed {
+  transform: translate(-50%, -50%);
+}
+*/

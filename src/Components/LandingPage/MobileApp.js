@@ -2,15 +2,14 @@ import React from 'react'
 
 export default function MobileApp() {
     return (
-        <div className='webdev col-12 pt-5 vh-100 fixed3'>
-            <div className='container' style={{ marginTop: "40px" }}>
+        <div className='TestingContainer col-12 pt-5 vh-100'>
+            <div className='MobApp1' >
                 <div>
-                    <img src='./Images/gobeyond/Mobile app Development Icon.png' width="180" height="50" />
+                    <img src='./Images/gobeyond/Mobile app Development Icon (1).png' width="150" height="50" />
                 </div>
-                <h1 style={{ fontWeight: "700", width: "458", height: "124" }} className='col-12 mb-3 mt-2'>
-                    We make it effortlessly<br />
-                    both IOS and Android<br />
-                    Apps
+                <h1 style={{ fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                    We make it effortless<br />
+                    Mobile Apps<br />
                 </h1>
                 <span>
                     As mobile applications continue to rise as a gateway towards <br />
@@ -35,7 +34,7 @@ export default function MobileApp() {
                             </div>
                         </div>
                         <p>
-                            Get a powerful analytics tool in your<br />
+                            Get a powerful analytics tool<br /> in your
                             own brand name.
                         </p>
                     </div>
@@ -51,13 +50,14 @@ export default function MobileApp() {
                             </div>
                         </div>
                         <p>
-                            Easily converse with your data using<br />
+                            Easily converse with
+                            your data <br />using
                             everyday language.
                         </p>
                     </div>
                 </div>
             </div>
-            <div className='container'>
+            <div className='MobApp2'>
                 <img src='./Images/gobeyond/Image.png' />
             </div>
         </div>

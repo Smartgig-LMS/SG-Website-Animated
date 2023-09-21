@@ -7,7 +7,7 @@
   justify-content: center;
 }
 .marquee {
-  height: 13em;
+  height: 8em;
   position: absolute;
   overflow: hidden;
 }
@@ -26,6 +26,7 @@
   align-items: center;
   display: flex;
 }
+
 .marquee_text {
   /* letter-spacing: -.05em; */
   /* text-transform: uppercase;
@@ -43,6 +44,22 @@ h4 > span {
   font-size: 90px;
   font-weight: 700;
   line-height: normal;
+  color: white;
+  animation: titleHover 10s linear infinite;
+
+  /* height: 8.7vh;
+  width: 21vw;
+  position: absolute;
+  top: 27.5%;
+  left: 38.5%;
+  animation: titleHover 10s linear infinite; */
+}
+
+@keyframes titleHover {
+  100% {
+    transform: scale(1.5);
+    position: absolute;
+  }
 }
 
 .text-textColor {

@@ -1,7 +1,105 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../LandingPage/Footer'
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+
+const slideImages = [
+    {
+        image: './Images/gobeyond/351.png',
+        image2: './Images/gobeyond/Annual day 1.png',
+        image3: './Images/gobeyond/Team1.png',
+    },
+    {
+        image: './Images/gobeyond/Rectangle 13369.png',
+        image2: './Images/gobeyond/Rectangle 13371.png',
+        image3: './Images/gobeyond/Rectangle 13370.png',
+    },
+    // {
+    //     image: './Images/gobeyond/351.png',
+    //     image2: './Images/gobeyond/Rectangle 13371.png',
+    //     image3: './Images/gobeyond/Annual day 1.png',
+    // },
+];
 
 export default function CulturePage() {
+
+    React.useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+    }, []);
+
+    const spanStyle = {
+        padding: '20px',
+        backgroundColor: '#efefef',
+        color: '#000000'
+    }
+
+    const divStyle = {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundSize: 'cover',
+        height: '400px'
+    }
+
+    // const slideImages = [
+    //     {
+    //         url: '../../../public/Images/gobeyond/Rectangle 13369.png',
+    //         caption: 'Slide 1'
+    //     },
+    //     {
+    //         url: '../../../public/Images/gobeyond/Rectangle 13370.png',
+    //         caption: 'Slide 2'
+    //     },
+    //     {
+    //         url: '../../../public/Images/gobeyond/Rectangle 13371.png',
+    //         caption: 'Slide 3'
+    //     },
+    // ];
+
+    const [current, setCurrent] = useState(0);
+    const length = slideImages.length;
+
+    if (!Array.isArray(slideImages) || slideImages.length <= 0) {
+        return null;
+    }
+
+    console.log(current);
+
+    const nextSlide = () => {
+        setCurrent(current === length - 1 ? 0 : current + 1);
+    };
+
+    const prevSlide = () => {
+        setCurrent(current === 0 ? length - 1 : current - 1);
+    };
+
+
+
+    {/* <div className='ImagesTour'>
+                            <div >
+                                <div>
+                                    <img src='./Images/gobeyond/Rectangle 13369.png' />
+                                </div>
+                            </div>
+                            <div className='ml-4'>
+                                <div >
+                                    <div>
+                                        <img src='./Images/gobeyond/Rectangle 13370.png' />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='ml-4'>
+                                <div >
+                                    <div>
+                                        <img src='./Images/gobeyond/Rectangle 13371.png' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
+
     return (
         <div>
             <div className='culturepg'>
@@ -11,7 +109,7 @@ export default function CulturePage() {
                 </div>
                 <div className='Lastcontainer'>
                     <div>
-                        <img src='./Images/gobeyond/Group 427321121 (3).png' width="120" height="50" />
+                        <img src='./Images/gobeyond/Group 427321121 (3).png' width="129" height="50" />
                     </div>
                     <h1>
                         Helping Millions grow<br />
@@ -24,63 +122,7 @@ export default function CulturePage() {
                         customers. We are paving the way for next-generation technologies and digital services, propelling businesses toward the ultimate <br />
                         evolution and future readiness
                     </span>
-                    <br />
-                    <hr />
-                    <h5 className='mb-3'>
-                        Our Services
-                    </h5>
-                    <div className='topcontain'>
-                        <div >
-                            <div>
-                                <img src='./Images/gobeyond/Slick websites Icon.png' />
-                            </div>
-                            <div className='mt-2'>
-                                <h6 style={{ fontWeight: "700" }}>
-                                    Web<br />
-                                    Development
-                                </h6>
-                            </div>
-                        </div>
-                        <div className='ml-4'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Smooth Web Apps Icon.png' />
-                                </div>
-                                <div className='mt-2'>
-                                    <h6 style={{ fontWeight: "700" }}>
-                                        Cloud / <br />
-                                        Dev Ops
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='ml-4'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Slick websites Icon.png' />
-                                </div>
-                                <div className='mt-2'>
-                                    <h6 style={{ fontWeight: "700" }}>
-                                        Mobile <br />
-                                        App
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='ml-4'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Smooth Web Apps Icon.png' />
-                                </div>
-                                <div className='mt-2'>
-                                    <h6 style={{ fontWeight: "700" }}>
-                                        Testing as <br />
-                                        a Service
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
                 <div className='totalMain2'>
                     <div className='Leftcontainer'>
@@ -103,7 +145,7 @@ export default function CulturePage() {
                 <div className='totalMain2'>
                     <div className='rightContainer'>
                         <div className='opLeftSec'>
-                            <img src='./Images/gobeyond/Group 427321121 (5).png' width="159" height="48" />
+                            <img src='./Images/gobeyond/Group 427321121 (5).png' width="139" height="45" />
                         </div>
                         <h1 className='col-12 mb-4 mt-0'>
                             Breaking down Information <br />
@@ -124,69 +166,69 @@ export default function CulturePage() {
                     <div>
                         <img src='./Images/gobeyond/Group 427321207.png' width="156" height="50" />
                     </div>
-                    <h1>
-                        Values &<br />
-                        Principles
-                    </h1>
-                    <span>
-                        At our company ,we priortize harmony and teamwork to culitivate a collabrative environment, where each individual's strengths are recognised and<br />
-                        valued. We leave no stone unturned , when it comes to usher our capabilites as they are the focal point of progress in our dyanmic work culture ,<br />
-                        which are emphasized with boundless innovation , bulding of a brand image with global comptence , employee advocacy , and seamless <br />
-                        differentiation which is being led by visionary and insightful leadership .
-                    </span>
-                    <br />
-                    <hr />
-                    <h5 className='mb-3'>
-                        Our Services
-                    </h5>
-                    <div className='ImagesTour'>
-                        <div >
-                            <div>
-                                <img src='./Images/gobeyond/Rectangle 13369.png' />
-                            </div>
-                            <div className='mt-2 d-flex'>
-                                <h6 style={{ fontWeight: "700", color: "#65B1DB" }}>
-                                    |
-                                </h6>
-                                <h6 style={{ fontWeight: "700", marginLeft: "10px" }}>
-                                    Group Image
-                                </h6>
-                            </div>
-                        </div>
-                        <div className='ml-4'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Rectangle 13370.png' />
+                    <h2>
+                        Values & Principles
+                    </h2>
+                    <img src='./Images/gobeyond/Group 427321385.png' className='mt-5' height="74" width="950" />
+                    {/* <br />
+                    <hr /> */}
+                    {/* <div className="slide-container">
+                        <Slide>
+                            {slideImages.map((slideImage, index) => (
+                                <div key={index}>
+                                    <div style={{ ...divStyle, backgroundImage: `url(${slideImage.url})` }}>
+                                        <span style={spanStyle}>{slideImage.caption}</span>
+                                    </div>
                                 </div>
-                                <div className='mt-2 d-flex'>
-                                    <h6 style={{ fontWeight: "700", color: "#65B1DB" }}>
-                                        |
-                                    </h6>
-                                    <h6 style={{ fontWeight: "700", marginLeft: "10px" }}>
-                                        Group Image
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='ml-4'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Rectangle 13371.png' />
-                                </div>
-                                <div className='mt-2 d-flex'>
-                                    <h6 style={{ fontWeight: "700", color: "#65B1DB" }}>
-                                        |
-                                    </h6>
-                                    <h6 style={{ fontWeight: "700", marginLeft: "10px" }}>
-                                        Group Image
-                                    </h6>
-                                </div>
-                            </div>
-                        </div>
+                            ))}
+                        </Slide>
+                    </div> */}
 
-                    </div>
+                    <section className="slider">
+                        <ArrowBackIosNewIcon className="left-arrow" onClick={prevSlide} />
+                        <p>.</p>
+                        <ArrowForwardIosIcon className="right-arrow" onClick={nextSlide} />
+                        {slideImages.map((slider, index) => {
+                            return (
+                                <div
+                                    className={index === current ? "slide active" : "slide"}
+                                    key={index}
+                                >
+                                    {index === current && (
+                                        <>
+                                            <img src={slider.image} alt="Slider image" className="image" />
+                                            <img src={slider.image2} alt="Slider image" className="image" />
+                                            <img src={slider.image3} alt="Slider image" className="image" />
+                                        </>
+                                    )}
+                                </div>
+                            );
+                        })}
+                    </section>
+
+                    {/* <div className='ImagesTour'>
+                            <div >
+                                <div>
+                                    <img src='./Images/gobeyond/Rectangle 13369.png' />
+                                </div>
+                            </div>
+                            <div className='ml-4'>
+                                <div >
+                                    <div>
+                                        <img src='./Images/gobeyond/Rectangle 13370.png' />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='ml-4'>
+                                <div >
+                                    <div>
+                                        <img src='./Images/gobeyond/Rectangle 13371.png' />
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
                 </div>
-                {/* <Footer /> */}
+                <Footer />
             </div>
         </div>
     )
