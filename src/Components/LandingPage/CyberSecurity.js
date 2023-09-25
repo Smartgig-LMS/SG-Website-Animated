@@ -23,7 +23,7 @@ export default function CyberSecurity() {
                 </span>
             </div>
             <div className='Cyber2'>
-                <img src='./Images/gobeyond/Group 427321294.png' />
+                <img src='./Images/gobeyond/Group 427321293.png' />
             </div>
         </div>
     )

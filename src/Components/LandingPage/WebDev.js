@@ -3,7 +3,7 @@ import React from 'react'
 export default function WebDev() {
     return (
         // <div className='webdev col-12 pt-5 vh-100 fixed'>
-        <div className='WebContainer col-12 pt-5 vh-100'>
+        <div className='TestingContainer col-12 pt-5 vh-100'>
             <div className='Webdev1'>
                 <div>
                     <img src='./Images/gobeyond/Web Development Icon.png' width="180" height="50" />
@@ -56,8 +56,7 @@ export default function WebDev() {
                 </div>
             </div>
             <div className='Webdev2'>
-                {/* <img src='./Images/gobeyond/Web development Image.png' /> */}
-                <img src='./Images/gobeyond/Group 515896.png' />
+                <img src='./Images/gobeyond/WebDev.png' />
             </div>
         </div>
     )

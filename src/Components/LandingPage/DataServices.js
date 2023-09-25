@@ -13,13 +13,13 @@ export default function DataServices() {
                     Data Services
                 </h1>
                 <span>
-                    Data services is a broad term that encompasses<br />
-                    various activities and technologies related to<br />
-                    managing, processing, and utilizing data. These<br />
-                    services are essential in today's digital world where<br />
-                    data plays a crucial role in decision-making, business <br />
-                    operations, research, and more. Here are some key<br />
-                    aspects of data services:
+                    Ever thought of turning your data into a strategic asset.<br />
+                    Make it happen with our exceptional data services, which <br />
+                    make you to handle the complexities with ease in your own<br />
+                    path of excellence as we effortlessly manage, analyse and <br />
+                    leverage your data to harness the full potential of your <br />
+                    information assets to make you stay ahead in today’s <br />
+                    data – driven world.
                 </span>
                 <div className='mt-5'>
                     {/* <Accordion defaultActiveKey="0"> */}
@@ -30,8 +30,8 @@ export default function DataServices() {
                                 <div className='headingAccordion'> Artificial intelligence</div>
                             </Accordion.Header>
                             <Accordion.Body>
-                                AI refers to the simulation of human intelligence in<br />
-                                machines or computer systems.
+                                Experience innovation through AI, optimizing <br />
+                                operations and enhancing user experiences.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
@@ -40,8 +40,8 @@ export default function DataServices() {
                                 <div className='headingAccordion'>  Machine learning</div>
                             </Accordion.Header>
                             <Accordion.Body>
-                                Machine learning powers AI in applications like image <br />
-                                recognition, language processing, and recommendations.
+                                Harnessing Cutting – Edge Machine<br />
+                                Learning for maximum Impact.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
@@ -50,15 +50,15 @@ export default function DataServices() {
                                 <div className='headingAccordion'>  Data Migration</div>
                             </Accordion.Header>
                             <Accordion.Body>
-                                Data migration is moving data from one location to <br />
-                                another with careful planning for a smooth transition.
+                                Embrace Seamless data migration to ensure<br />
+                                continuity and quality.
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
                 </div>
             </div>
             <div className='DataService2'>
-                <img src='./Images/gobeyond/Standard quality control collage concept.png' />
+                <img src='./Images/gobeyond/7xm456259 2.png' />
             </div>
         </div>
     )

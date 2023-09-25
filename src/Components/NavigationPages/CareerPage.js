@@ -57,6 +57,93 @@ export default function CareerPage() {
             btnText.innerHTML = "Show less";
             moreText.style.display = "inline";
         }
+
+    }
+
+    function myFunction2() {
+        var dots = document.getElementById("dots2");
+        var moreText = document.getElementById("more2");
+        var btnText = document.getElementById("myBtn2");
+        console.log(dots, moreText, btnText);
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Show more";
+            moreText.style.display = "none";
+            // window.scrollTo({ top: "700px", left: 0, behavior: 'smooth' });
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Show less";
+            moreText.style.display = "inline";
+        }
+
+    }
+    function myFunction3() {
+        var dots = document.getElementById("dots3");
+        var moreText = document.getElementById("more3");
+        var btnText = document.getElementById("myBtn3");
+        console.log(dots, moreText, btnText);
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Show more";
+            moreText.style.display = "none";
+            // window.scrollTo({ top: "700px", left: 0, behavior: 'smooth' });
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Show less";
+            moreText.style.display = "inline";
+        }
+
+    }
+    function myFunction4() {
+        var dots = document.getElementById("dots4");
+        var moreText = document.getElementById("more4");
+        var btnText = document.getElementById("myBtn4");
+        console.log(dots, moreText, btnText);
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Show more";
+            moreText.style.display = "none";
+            // window.scrollTo({ top: "700px", left: 0, behavior: 'smooth' });
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Show less";
+            moreText.style.display = "inline";
+        }
+
+    }
+    function myFunction5() {
+        var dots = document.getElementById("dots5");
+        var moreText = document.getElementById("more5");
+        var btnText = document.getElementById("myBtn5");
+        console.log(dots, moreText, btnText);
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Show more";
+            moreText.style.display = "none";
+            // window.scrollTo({ top: "700px", left: 0, behavior: 'smooth' });
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Show less";
+            moreText.style.display = "inline";
+        }
+
+    }
+    function myFunction6() {
+        var dots = document.getElementById("dots6");
+        var moreText = document.getElementById("more6");
+        var btnText = document.getElementById("myBtn6");
+        console.log(dots, moreText, btnText);
+        if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Show more";
+            moreText.style.display = "none";
+            // window.scrollTo({ top: "700px", left: 0, behavior: 'smooth' });
+        } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Show less";
+            moreText.style.display = "inline";
+        }
+
     }
 
     const handleClickOpen = () => {
@@ -175,13 +262,6 @@ export default function CareerPage() {
                                 fullWidth
                                 variant="standard"
                             />
-                            <div style={{ textAlign: "left" }}>
-                                <br />
-                                <label required className='form-label'>Upload Resume</label>
-                                <sup className='star'>*</sup>
-                                <br />
-                                <input className='input-group form-control w-100' name="resume" id="resume" type="file" required />
-                            </div>
 
                         </DialogContent>
                         <DialogActions>
@@ -205,7 +285,6 @@ export default function CareerPage() {
                 </div>
 
                 <div className='mt-5'>
-                    {/* <MDBCard className='mdcrdForCareer'> */}
                     <div className='card p-4 w-75 mdcrdForCareer'>
                         <div className='careerRate'>
                             <div className='careerRate2'>
@@ -218,9 +297,6 @@ export default function CareerPage() {
                                     </h4>
                                 </div>
                             </div>
-                            {/* <div>
-                            ₹20 - 40k / Year
-                        </div> */}
                         </div>
                         <div className='threeDiv'>
                             <div className='threeDiv1'>
@@ -334,10 +410,11 @@ export default function CareerPage() {
                             </button>
                         </div>
                     </div>
-                    {/* </MDBCard> */}
                 </div>
+
+                {/* 2nd */}
+
                 <div className='mt-5'>
-                    {/* <MDBCard className='mdcrdForCareer'> */}
                     <div className='card p-4 w-75 mdcrdForCareer'>
                         <div className='careerRate'>
                             <div className='careerRate2'>
@@ -346,54 +423,75 @@ export default function CareerPage() {
                                 </div>
                                 <div>
                                     <h4 className='ml-3'>
-                                        Full Stack Developer
+                                        IOS Developer
                                     </h4>
                                 </div>
                             </div>
-                            {/* <div>
-                            ₹30 - 80k / Year
-                        </div> */}
                         </div>
                         <div className='threeDiv'>
                             <div className='threeDiv1'>
-                                Full Time
+                                4 + Years
                             </div>
                             <div className='threeDiv2'>
-                                FEA Analysis
+                                15 days or Immediate
                             </div>
                             <div className='threeDiv3'>
-                                Hyderabad
+                                Hyderabad(WFO)
                             </div>
                         </div>
                         <hr />
                         <div>
-                            <h6>
-                                Minimum Qualification
-                            </h6>
-                            <ul>
-                                <li>Bachelor's degree in Design or equivalent practical experience.</li>
-                                <li>Experience collaborating with multidisciplinary teams of Designers, Researchers, Engineers, Content Strategists, and Product Managers throughout the
-                                    design process.
-                                </li>
-                                <li>
-                                    Portfolio highlighting multiple projects that demonstrates experience crafting digital interfaces, and designing consumer-focused, app/mobile products.
-                                </li>
-                            </ul>
+                            <span id="dots2" style={{ display: "inline", textAlign: "left" }}>
+                                <p>
+                                    This is a full-time on-site role for an iOS Developer. The iOS Developer will be responsible for the day-to-day tasks associated with mobile application development, iOS development, mobile applications, software development. The iOS Developer will be collaborating with the software development team to develop, test, and deploy high quality mobile applications. The role involves working out of our office in Hyderabad.
+                                </p>                         </span>
+                            <span id='more2' style={{ display: "none", textAlign: "start" }}>
+                                <p>
+                                    This is a full-time on-site role for an iOS Developer. The iOS Developer will be responsible for the day-to-day tasks associated with mobile application development, iOS development, mobile applications, software development. The iOS Developer will be collaborating with the software development team to develop, test, and deploy high quality mobile applications. The role involves working out of our office in Hyderabad.
+                                </p>
+                                <h6>
+                                    Responsibilities:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Looking 4+ years of exp in ios, Objective-C and Swift , React Native.
+                                    </li>
+                                    <li>
+                                        iOS frameworks such as Core Data
+                                    </li>
+                                    <li>
+                                        Restful APIs to connect iOS applications to back-end services.
+                                    </li>
+                                    <li>
+                                        Understanding of Apple's design principles and interface guidelines ,
+                                    </li>
+                                    <li>
+                                        Familiarity with cloud message APIs and push notifications.
+                                    </li>
+                                    <li>
+                                        Proficient understanding of code versioning tools such as Git, SVN, bit bucket and continuous integration.
+                                    </li>
+                                    <li>
+                                        Have excellent knowledge MVVM MVVC about the performance optimisation of mobile applications.
+                                    </li>
+                                </ul>
+
+                            </span>
                         </div>
                         <div className='btnsCareer'>
-                            <button className='bt1Career'>
-                                learn more
+                            <button className='bt1Career' onClick={myFunction2} id="myBtn2">
+                                Show more
                             </button>
                             <button onClick={handleClickOpen} className='bt2Career'>
                                 Apply Now
                             </button>
                         </div>
                     </div>
-                    {/* </MDBCard> */}
                 </div>
+
+                {/* 3rd one */}
+
                 <div className='mt-5'>
-                    {/* <MDBCard className='mdcrdForCareer'>   */}
-                    {/* <div className='card shadow-lg p-4 w-75 mdcrdForCareer'> */}
                     <div className='card p-4 w-75 mdcrdForCareer'>
                         <div className='careerRate'>
                             <div className='careerRate2'>
@@ -402,50 +500,432 @@ export default function CareerPage() {
                                 </div>
                                 <div>
                                     <h4 className='ml-3'>
-                                        Project Manager
+                                        Test Engineer
                                     </h4>
                                 </div>
                             </div>
-                            {/* <div>
-                            ₹25 - 50k / Year
-                        </div> */}
                         </div>
                         <div className='threeDiv'>
                             <div className='threeDiv1'>
-                                Full Time
+                                4 + Years
                             </div>
                             <div className='threeDiv2'>
-                                FEA Analysis
+                                15 days or Immediate
                             </div>
                             <div className='threeDiv3'>
-                                Hyderabad
+                                Hyderabad(WFO)
                             </div>
                         </div>
                         <hr />
                         <div>
-                            <h6>
-                                Minimum Qualification
-                            </h6>
-                            <ul>
-                                <li>Bachelor's degree in Design or equivalent practical experience.</li>
-                                <li>Experience collaborating with multidisciplinary teams of Designers, Researchers, Engineers, Content Strategists, and Product Managers throughout the
-                                    design process.
-                                </li>
-                                <li>
-                                    Portfolio highlighting multiple projects that demonstrates experience crafting digital interfaces, and designing consumer-focused, app/mobile products.
-                                </li>
-                            </ul>
+                            <span id="dots3" style={{ display: "inline", textAlign: "left" }}>
+                                <p>
+                                    We are seeking a skilled and experienced Test Engineer with a proven track record in software testing. As a Test Engineer, you will play a critical role in ensuring the quality and reliability of our software products. You will collaborate with cross-functional teams, including developers, designers, and product managers, to identify, plan, and execute effective testing strategies. The ideal candidate will have at least 4 years of professional experience in software testing and a deep understanding of testing methodologies, tools, and best practices.                                </p>
+                            </span>
+                            <span id='more3' style={{ display: "none", textAlign: "start" }}>
+                                <p>
+                                    We are seeking a skilled and experienced Test Engineer with a proven track record in software testing. As a Test Engineer, you will play a critical role in ensuring the quality and reliability of our software products. You will collaborate with cross-functional teams, including developers, designers, and product managers, to identify, plan, and execute effective testing strategies. The ideal candidate will have at least 4 years of professional experience in software testing and a deep understanding of testing methodologies, tools, and best practices.                                </p>
+                                <h6>
+                                    Responsibilities:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Develop and execute comprehensive test plans, test cases, and test scripts to validate software functionality, performance, and reliability.
+                                    </li>
+                                    <li>
+                                        Collaborate with the development team to define testing requirements and ensure testability of software features and enhancements.
+                                    </li>
+                                    <li>
+                                        Perform functional, regression, integration, and system-level testing to identify defects and ensure adherence to quality standards.
+                                    </li>
+                                    <li>
+                                        Conduct thorough defect analysis, accurately document and track issues, and work closely with the development team to resolve them.
+                                    </li>
+                                    <li>
+                                        Participate in design and code reviews to provide input on testability, usability, and performance aspects of the software.
+                                    </li>
+                                    <li>
+                                        Identify and implement test automation opportunities to improve testing efficiency and coverage.
+                                    </li>
+                                    <li>
+                                        Stay up-to-date with industry trends and advancements in testing methodologies, tools, and technologies.
+                                    </li>
+                                    <li>
+                                        Continuously improve testing processes and contribute to the overall quality assurance efforts within the organization.
+                                    </li>
+                                    <li>
+                                        Collaborate with cross-functional teams to ensure that test environments and test data are set up properly for effective testing.
+                                    </li>
+                                    <li>
+                                        Communicate test progress, test results, and other relevant information to stakeholders in a clear and concise manner.
+                                    </li>
+                                </ul>
+                            </span>
                         </div>
                         <div className='btnsCareer'>
-                            <button className='bt1Career'>
-                                learn more
+                            <button className='bt1Career' onClick={myFunction3} id="myBtn3">
+                                Show more
                             </button>
                             <button onClick={handleClickOpen} className='bt2Career'>
                                 Apply Now
                             </button>
                         </div>
                     </div>
-                    {/* </MDBCard> */}
+                </div>
+
+                {/* 4th */}
+
+                <div className='mt-5'>
+                    <div className='card p-4 w-75 mdcrdForCareer'>
+                        <div className='careerRate'>
+                            <div className='careerRate2'>
+                                <div>
+                                    <img src='./Images/gobeyond/Group 427321267.png' />
+                                </div>
+                                <div>
+                                    <h4 className='ml-3'>
+                                        Dotnet Developer
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='threeDiv'>
+                            <div className='threeDiv1'>
+                                4 + Years
+                            </div>
+                            <div className='threeDiv2'>
+                                15 days or Immediate
+                            </div>
+                            <div className='threeDiv3'>
+                                Hyderabad(WFO)
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <span id="dots4" style={{ display: "inline" }}>
+                                <h6>
+                                    Responsibilities:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Good programming experience and a demonstrated proficiency and Experience in .NET Development
+                                    </li>
+                                    <li>
+                                        Handling support tickets and working on prioritization
+                                    </li>
+                                    <li>
+                                        Good verbal and written communication skills
+                                    </li>
+                                    <li>
+                                        Strong understanding of .NET core, MVC, Web API's, C#, ADO.net, SQL, OOPs Concepts, and CI/CD is a plus.
+                                    </li>
+                                </ul>
+                            </span>
+                            <span id='more4' style={{ display: "none", textAlign: "start" }}>
+
+                                <h6>
+                                    Responsibilities:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Good programming experience and a demonstrated proficiency and Experience in .NET Development
+                                    </li>
+                                    <li>
+                                        Handling support tickets and working on prioritization
+                                    </li>
+                                    <li>
+                                        Good verbal and written communication skills
+                                    </li>
+                                    <li>
+                                        Strong understanding of .NET core, MVC, Web API's, C#, ADO.net, SQL, OOPs Concepts, and CI/CD is a plus.
+                                    </li>
+                                    <li>
+                                        Good exposure in both database and Front-end development.
+                                    </li>
+                                    <li>
+                                        Strong troubleshooting and communication skills
+                                    </li>
+                                    <li>
+                                        Strong in at least one of the .NET languages (e.g., C#, Visual Basic .NET) and HTML5/CSS3/jQuery
+                                    </li>
+                                    <li>
+                                        Ability to independently learn new technologies.
+                                    </li>
+                                    <li>
+                                        Ability to show initiative and work independently with minimal direction.
+                                    </li>
+                                    <li>
+                                        Demonstrate a desire to remain current with industry technologies and standards.
+                                    </li>
+                                    <li>
+                                        Understanding of Agile methodologies
+                                    </li>
+                                    <li>
+                                        Proficient understanding of code versioning tools, such as Git, TFS.
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                        <div className='btnsCareer'>
+                            <button className='bt1Career' onClick={myFunction4} id="myBtn4">
+                                Show more
+                            </button>
+                            <button onClick={handleClickOpen} className='bt2Career'>
+                                Apply Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                {/* 5th */}
+
+                <div className='mt-5'>
+                    <div className='card p-4 w-75 mdcrdForCareer'>
+                        <div className='careerRate'>
+                            <div className='careerRate2'>
+                                <div>
+                                    <img src='./Images/gobeyond/Group 427321267.png' />
+                                </div>
+                                <div>
+                                    <h4 className='ml-3'>
+                                        UI Developer
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='threeDiv'>
+                            <div className='threeDiv1'>
+                                4 + Years
+                            </div>
+                            <div className='threeDiv2'>
+                                15 days or Immediate
+                            </div>
+                            <div className='threeDiv3'>
+                                Hyderabad(WFO)
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <span id="dots5" style={{ display: "inline", textAlign: "left" }}>
+                                <p>
+                                    We are seeking a talented and experienced UI Developer to join our team. As a UI Developer, you will be responsible for creating visually appealing and user-friendly interfaces for our web and mobile applications. You will work closely with our design and development teams to implement and enhance the user interface components, ensuring a seamless and engaging user experience.                                </p>
+                            </span>
+                            <span id='more5' style={{ display: "none", textAlign: "start" }}>
+                                <p>
+                                    We are seeking a talented and experienced UI Developer to join our team. As a UI Developer, you will be responsible for creating visually appealing and user-friendly interfaces for our web and mobile applications. You will work closely with our design and development teams to implement and enhance the user interface components, ensuring a seamless and engaging user experience.                                </p>
+                                <h6>
+                                    Responsibilities:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Collaborate with designers and developers to translate wireframes, mockups, and concepts into functional user interfaces. Develop high-quality, responsive web and mobile interfaces using HTML, CSS, and JavaScript frameworks.
+                                    </li>
+                                    <li>
+                                        Implement interactive and dynamic elements, such as animations, transitions, and user input validations.
+                                    </li>
+                                    <li>
+                                        Optimize application performance and ensure cross-browser compatibility.
+                                    </li>
+                                    <li>
+                                        Work closely with back-end developers to integrate front-end components with server-side logic.
+                                    </li>
+                                    <li>
+                                        Stay up to date with the latest UI trends, technologies, and best practices.
+                                    </li>
+                                    <li>
+                                        Continuously improve the user interface by gathering feedback and conducting usability testing.
+                                    </li>
+                                    <li>
+                                        Collaborate with the UX team to ensure a consistent and intuitive user experience throughout the application.
+                                    </li>
+                                    <li>
+                                        Document code and maintain a clean and organized codebase.
+                                    </li>
+                                </ul>
+
+                                <h6>
+                                    Skills:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Bachelor's degree in Computer Science, Web Design, or a related field.
+                                    </li>
+                                    <li>
+                                        3 to 5 years of professional experience as a UI Developer or a similar role.
+                                    </li>
+                                    <li>
+                                        Strong proficiency in HTML, CSS, and JavaScript.
+                                    </li>
+                                    <li>
+                                        Experience with JavaScript frameworks such as React, Angular, or Vue.js.
+                                    </li>
+                                    <li>
+                                        Solid understanding of responsive design principles and mobile-first development.
+                                    </li>
+                                    <li>
+                                        Proficient understanding of cross-browser compatibility and accessibility standards.
+                                    </li>
+                                    <li>
+                                        Experience with version control systems, such as Git.
+                                    </li>
+                                    <li>
+                                        Familiarity with front-end build tools and preprocessors, such as Webpack, Gulp, or SASS.
+                                    </li>
+                                    <li>
+                                        Excellent problem-solving skills and attention to detail.
+                                    </li>
+                                    <li>
+                                        Strong communication and collaboration skills to work effectively within a team.
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                        <div className='btnsCareer'>
+                            <button className='bt1Career' onClick={myFunction5} id="myBtn5">
+                                Show more
+                            </button>
+                            <button onClick={handleClickOpen} className='bt2Career'>
+                                Apply Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                {/* 6th */}
+
+                <div className='mt-5'>
+                    <div className='card p-4 w-75 mdcrdForCareer'>
+                        <div className='careerRate'>
+                            <div className='careerRate2'>
+                                <div>
+                                    <img src='./Images/gobeyond/Group 427321267.png' />
+                                </div>
+                                <div>
+                                    <h4 className='ml-3'>
+                                        Java Developer
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='threeDiv'>
+                            <div className='threeDiv1'>
+                                4 + Years
+                            </div>
+                            <div className='threeDiv2'>
+                                15 days or Immediate
+                            </div>
+                            <div className='threeDiv3'>
+                                Hyderabad(WFO)
+                            </div>
+                        </div>
+                        <hr />
+                        <div>
+                            <span id="dots6" style={{ display: "inline", textAlign: "left" }}>
+                                <p>
+                                    We are seeking a skilled Java Developer with 4+years of experience to join our development team. As a Java Developer, you will be responsible for designing, developing, and maintaining high-quality software applications using Java and related technologies. The ideal candidate will have strong experience in Spring Boot, Microservices, and Kafka, along with a solid understanding of software development principles and best practices.
+                                </p>
+                            </span>
+                            <span id='more6' style={{ display: "none", textAlign: "start" }}>
+                                <p>
+                                    We are seeking a skilled Java Developer with 4+years of experience to join our development team. As a Java Developer, you will be responsible for designing, developing, and maintaining high-quality software applications using Java and related technologies. The ideal candidate will have strong experience in Spring Boot, Microservices, and Kafka, along with a solid understanding of software development principles and best practices.
+                                </p>
+                                <h6>
+                                    Responsibilities:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Design, develop, and maintain robust and scalable Java-based applications using Spring Boot, Microservices, and Kafka.
+                                    </li>
+                                    <li>
+                                        Collaborate with cross-functional teams, including product managers, architects, and other developers, to gather and analyse requirements, and translate them into technical specifications.
+                                    </li>
+                                    <li>
+                                        Write clean, efficient, and maintainable code following coding standards and best practices.
+                                    </li>
+                                    <li>
+                                        Perform code reviews to ensure adherence to coding standards, quality, and performance requirements.
+                                    </li>
+                                    <li>
+                                        Troubleshoot and debug issues reported by users or stakeholders, and provide timely resolutions.
+                                    </li>
+                                    <li>
+                                        Implement and integrate third-party APIs and libraries as needed.
+                                    </li>
+                                    <li>
+                                        Develop and execute unit tests and automated test suites to ensure software quality and reliability.
+                                    </li>
+                                    <li>
+                                        Optimize application performance and ensure scalability and responsiveness.
+                                    </li>
+                                    <li>
+                                        Collaborate with DevOps teams to deploy and maintain applications in production environments.
+                                    </li>
+                                    <li>
+                                        Stay updated with the latest industry trends and technologies, and share knowledge with the team.
+                                    </li>
+                                </ul>
+
+                                <h6>
+                                    Skills:
+                                </h6>
+                                <ul>
+                                    <li>
+                                        Bachelor's degree in Computer Science, Software Engineering, or a related field.
+                                    </li>
+                                    <li>
+                                        Experience as a Java Developer, with a focus on Spring Boot, Microservices, and Kafka.
+                                    </li>
+                                    <li>
+                                        Strong proficiency in Java programming language and object-oriented design principles.
+                                    </li>
+                                    <li>
+                                        Experience with Spring Boot and Spring Framework for building enterprise applications.
+                                    </li>
+                                    <li>
+                                        Hands-on experience with Microservices architecture and design patterns.
+                                    </li>
+                                    <li>
+                                        Familiarity with Kafka messaging system and event-driven architectures.
+                                    </li>
+                                    <li>
+                                        Solid understanding of software development principles, practices, and methodologies.
+                                    </li>
+                                    <li>
+                                        Proficient in using build tools such as Maven or Gradle.
+                                    </li>
+                                    <li>
+                                        Experience with version control systems, such as Git.
+                                    </li>
+                                    <li>
+                                        Familiarity with database systems and SQL.
+                                    </li>
+                                    <li>
+                                        Strong problem-solving and analytical skills.
+                                    </li>
+                                    <li>
+                                        Excellent communication and collaboration abilities.
+                                    </li>
+                                    <li>
+                                        Ability to work independently and as part of a team.
+                                    </li>
+                                    <li>
+                                        Knowledge of front-end technologies (e.g., HTML, CSS, JavaScript) is a plus.
+                                    </li>
+                                    <li>
+                                        Experience with cloud platforms (e.g., AWS, Azure) is a plus.
+                                    </li>
+                                </ul>
+                            </span>
+                        </div>
+                        <div className='btnsCareer'>
+                            <button className='bt1Career' onClick={myFunction6} id="myBtn6">
+                                Show more
+                            </button>
+                            <button onClick={handleClickOpen} className='bt2Career'>
+                                Apply Now
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
                 <div className='glassdoor'>

@@ -20,6 +20,7 @@ export default function NavBar() {
     }
     const navigateFnLP = () => {
         navigate("/");
+        window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }
 
 

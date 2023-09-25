@@ -25,53 +25,51 @@ const OurClients = () => {
             <div className='col-12 pt-5 vh-100 Clientpg'>
                 <div className='text-center'>
                     <img src='./Images/brand/OurClient.png' width="150" height="50" />
-                    <h2 className='col-12 mb-3 mt-2 clientPgHeading'>Millions run on SmarGig every day</h2>
+                    <h2 className='col-12 mb-3 mt-2 clientPgHeading'>Fuelling Innovation Through Collaborative Excellence</h2>
                     <span className='col-12 mb-0 mt-2 clientPgPara'>
-                        Powering the best teams, from next-generation startups <br />
-                        to established enterprises.
+                        Meet Our Valued Clients
                     </span>
                 </div>
                 <div className="ClientpgImgs">
                     <div className='mdbcardMain'>
                         <div className='d-flex py-3 px-2 GapForClient' >
 
-                            <div className='card ClientPgCard' style={{ backgroundColor: "#5B1CB0", borderRadius: "10px" }} >
-                                <img src='./Images/gobeyond/Peddle.png' />
+                            <div className='card shadow ClientPgCard' >
+                                <img src='./Images/gobeyond/Atcs.png' className='ATCSIMG' />
                             </div>
 
-                            {/* <MDBCard className='mdbcard2'*/}
-                            <div className='card ClientPgCard' >
+                            <div className='card shadow ClientPgCard' >
                                 <img src='./Images/brand/PhaseZeroLogo.png' alt='...' className='InfioIMG' />
                             </div>
 
-                            <div className='card ClientPgCard' style={{ backgroundColor: "#40916C", borderRadius: "10px" }} >
-                                <img src='./Images/gobeyond/AltimetrikLogo.png' />
+                            <div className='card shadow ClientPgCard'>
+                                <img src='./Images/gobeyond/Group 427321539.svg' />
                             </div>
 
-                            <div className='card ClientPgCard'>
+                            <div className='card shadow ClientPgCard'>
                                 <img src='./Images/brand/InfionicLogo.png' className='InfioIMG' alt='...' />
                             </div>
 
-                            <div className='card ClientPgCard' style={{ backgroundColor: "#1F376C", borderRadius: "10px" }} >
-                                <img src='./Images/gobeyond/Savitr.png' />
+                            <div className='card shadow ClientPgCard'>
+                                <img src='./Images/gobeyond/TEAM15919945.png' className='ITUSIMG' />
                             </div>
                         </div>
 
                         <div className='d-flex px-2 GapForClient' >
 
-                            <div className='card ClientPgCard' >
+                            <div className='card shadow ClientPgCard' >
                                 <img src='./Images/brand/InsurFinLogo.png' className='InsureIMG' alt='...' />
                             </div>
-                            <div className='card ClientPgCard' style={{ backgroundColor: "#D59B41", borderRadius: "10px" }} >
-                                <img src='./Images/gobeyond/Axiom.png' />
+                            <div className='card shadow ClientPgCard'>
+                                <img src='./Images/gobeyond/AnimotionLogo_final.png' width="45%" />
                             </div>
-                            <div className='card ClientPgCard' >
+                            <div className='card shadow ClientPgCard' >
                                 <img src='./Images/gobeyond/FineKonLogo.png' className='InsureIMG' alt='FineKon Logo' />
                             </div>
-                            <div className='card ClientPgCard' style={{ backgroundColor: "#2EC4B6", borderRadius: "10px" }} >
-                                <img src='./Images/gobeyond/MectecH.png' />
+                            <div className='card shadow ClientPgCard'>
+                                <img src='./Images/gobeyond/Group4273215.png' width="75%" />
                             </div>
-                            <div className='card ClientPgCard' >
+                            <div className='card shadow ClientPgCard' >
                                 <img src='./Images/brand/InfinityLearnLogo.png' className='InsureIMG' alt='...' />
                             </div>
 

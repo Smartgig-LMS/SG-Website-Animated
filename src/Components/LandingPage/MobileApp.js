@@ -58,7 +58,7 @@ export default function MobileApp() {
                 </div>
             </div>
             <div className='MobApp2'>
-                <img src='./Images/gobeyond/Image.png' />
+                <img src='./Images/gobeyond/7xm289613.png' />
             </div>
         </div>
     )

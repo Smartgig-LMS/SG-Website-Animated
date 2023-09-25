@@ -24,44 +24,46 @@ export default function Testing() {
                         <Accordion.Item eventKey="0">
                             <Accordion.Header >
                                 <img src='./Images/gobeyond/Group 427321256.png' width="25" height="25" />
-                                <h6 className='mt-2 ml-3'>
+                                <div className='headingAccordion'>
                                     Mobile Apps
-                                </h6>
+                                </div>
                             </Accordion.Header>
                             <Accordion.Body>
-                                Unlock your app's full potential with our expert optimization <br />
-                                and testing.
+                                Unlock your app's full potential with our expert<br />
+                                optimization and testing.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>
                                 <img src='./Images/gobeyond/Group 427321254.png' width="25" height="25" />
-                                <h6 className='mt-2 ml-3'>
+                                <div className='headingAccordion'>
                                     Web Application
-                                </h6>
+                                </div>
                             </Accordion.Header>
                             <Accordion.Body>
-                                Optimize your web app's performance with rigorous testing <br />
-                                for impenetrable security and seamless user experience.
+                                Optimize your web app's performance with <br />
+                                rigorous testing for impenetrable security<br />
+                                and seamless user experience.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
                             <Accordion.Header>
                                 <img src='./Images/gobeyond/Group 427321257.png' height="25px" width="25px" />
-                                <h6 className='mt-2 ml-3'>
+                                <div className='headingAccordion'>
                                     Security Services
-                                </h6>
+                                </div>
                             </Accordion.Header>
                             <Accordion.Body>
-                                Elevate your cybersecurity with expert Penetration Testing<br />
-                                and cutting-edge solutions for robust protection.
+                                Elevate your cybersecurity with expert Penetration<br />
+                                Testing and cutting-edge solutions for robust<br />
+                                protection.
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
                 </div>
             </div>
             <div className='Testing2'>
-                <img src='./Images/gobeyond/testingMain.png' />
+                <img src='./Images/gobeyond/Software-Tester 1.png' />
             </div>
         </div>
     )

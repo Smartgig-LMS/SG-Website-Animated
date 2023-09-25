@@ -39,7 +39,7 @@ export default function CloudDevops() {
                 </div>
             </div>
             <div className='CloudDev2'>
-                <img src='./Images/gobeyond/Group 427321191.png' />
+                <img src='./Images/gobeyond/Cloud69.png' />
             </div>
         </div>
     )

@@ -44,21 +44,6 @@ export default function CulturePage() {
         height: '400px'
     }
 
-    // const slideImages = [
-    //     {
-    //         url: '../../../public/Images/gobeyond/Rectangle 13369.png',
-    //         caption: 'Slide 1'
-    //     },
-    //     {
-    //         url: '../../../public/Images/gobeyond/Rectangle 13370.png',
-    //         caption: 'Slide 2'
-    //     },
-    //     {
-    //         url: '../../../public/Images/gobeyond/Rectangle 13371.png',
-    //         caption: 'Slide 3'
-    //     },
-    // ];
-
     const [current, setCurrent] = useState(0);
     const length = slideImages.length;
 
@@ -76,36 +61,11 @@ export default function CulturePage() {
         setCurrent(current === 0 ? length - 1 : current - 1);
     };
 
-
-
-    {/* <div className='ImagesTour'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Rectangle 13369.png' />
-                                </div>
-                            </div>
-                            <div className='ml-4'>
-                                <div >
-                                    <div>
-                                        <img src='./Images/gobeyond/Rectangle 13370.png' />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='ml-4'>
-                                <div >
-                                    <div>
-                                        <img src='./Images/gobeyond/Rectangle 13371.png' />
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
-
     return (
         <div>
             <div className='culturepg'>
                 <div className='CultureHeadnig'>
                     <h1>Culture</h1>
-                    <img src="./Images/gobeyond/Rectangle 13220.png" alt="" />
                 </div>
                 <div className='Lastcontainer'>
                     <div>
@@ -116,11 +76,7 @@ export default function CulturePage() {
                         better.
                     </h1>
                     <span>
-                        In this expeditious outlook of digital era SmartGig is a zestful company in the domain of Information Technology which made its mark <br />
-                        in the niche industries. With our bunch of energised and expertise professionals, we unleash the true potential to provide tremendous<br />
-                        experience in designing, developing, and testing the solutions that empower our clients to deliver exceptional experiences to their <br />
-                        customers. We are paving the way for next-generation technologies and digital services, propelling businesses toward the ultimate <br />
-                        evolution and future readiness
+                        In this constantly evolving landscape of technology, SmartGig is a dynamic IT company that specializes in <br />niche industries. Our team of enthusiastic experts, unlocks the full potential of designing, developing, and <br />testing solutions for our clients and help businesses embrace next-gen technologies to stay future-ready.<br />
                     </span>
 
                 </div>
@@ -137,8 +93,7 @@ export default function CulturePage() {
                             our Cutting Edge Technology
                         </h1>
                         <span>
-                            Leading business excellence and empowering customers through our expeertise <br />
-                            in smart technology - driven transformations , unlocking their full potential .
+                            Our mission is our meticulous vision to drive business excellence and<br /> empower customers through our expertise in  smart technology driven<br /> transformations and to embrace the software services with Avant-grade solutions.
                         </span>
                     </div>
                 </div>
@@ -152,9 +107,7 @@ export default function CulturePage() {
                             Silos using Technology
                         </h1>
                         <span>
-                            To foster strong and lasting bonds with our clients , serving as<br />
-                            their trusted partner in software development and quality<br />
-                            services delivered by smart minds .
+                            Our prime focus is to deliver absolute hands-free software development along<br />  with other end -to -end software Testing and quality services to our clients to<br /> enhance their experience with efficiency and to build a strong long-term relationship <br />with them to navigate them towards leveraging on the technology landscape.
                         </span>
                     </div>
                     <div className='Leftcontainer'>
@@ -170,21 +123,55 @@ export default function CulturePage() {
                         Values & Principles
                     </h2>
                     <img src='./Images/gobeyond/Group 427321385.png' className='mt-5' height="74" width="950" />
-                    {/* <br />
-                    <hr /> */}
-                    {/* <div className="slide-container">
-                        <Slide>
-                            {slideImages.map((slideImage, index) => (
-                                <div key={index}>
-                                    <div style={{ ...divStyle, backgroundImage: `url(${slideImage.url})` }}>
-                                        <span style={spanStyle}>{slideImage.caption}</span>
-                                    </div>
+                    <div className='card mt-5'>
+                        <div className='d-flex'>
+                            <div className='cultureAnimat'>
+                                <br />
+                                <h4>
+                                    Values & Principles
+                                </h4>
+                                <br />
+                                <div className='newcard'>
+                                    <p>
+                                        At our core, we are driven by trust, honesty, <br />integrity, respect, passion, and a dedicated team <br />that embodies these values in everything we do
+                                    </p>
+                                    <hr />
+                                    <p>
+                                        Drive for Excellence:<br />
+                                        Dedicated and determined to serve the best for <br />our clients
+                                    </p>
+                                    <hr />
+                                    <p>
+                                        Inclusivity and Diversity:<br />
+                                        Fostering equality by valuing diverse perspectives <br />ensures all team members feel included
+                                    </p>
+                                    <hr />
+                                    <p>
+                                        Client-Centric Approach :<br />
+                                        Building strong client connections with unwavering<br /> commitment to delivering value
+                                    </p>
                                 </div>
-                            ))}
-                        </Slide>
-                    </div> */}
+                            </div>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <div className='imageOfCultureNew5'>
+                                    <img src='./Images/gobeyond/Trip2.png' />
+                                </div>
+                                <div className='imageOfCultureNew5'>
+                                    <img src='./Images/gobeyond/GroupImg32.png' />
+                                </div>
+                            </div>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <div className='imageOfCultureNew5'>
+                                    <img src='./Images/gobeyond/MicrosoftTeams-image362.png' />
+                                </div>
+                                <div className='imageOfCultureNew5'>
+                                    <img src='./Images/gobeyond/Group 427321517.png' />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                    <section className="slider">
+                    {/* <section className="slider">
                         <ArrowBackIosNewIcon className="left-arrow" onClick={prevSlide} />
                         <p>.</p>
                         <ArrowForwardIosIcon className="right-arrow" onClick={nextSlide} />
@@ -196,37 +183,16 @@ export default function CulturePage() {
                                 >
                                     {index === current && (
                                         <>
-                                            <img src={slider.image} alt="Slider image" className="image" />
-                                            <img src={slider.image2} alt="Slider image" className="image" />
-                                            <img src={slider.image3} alt="Slider image" className="image" />
+                                            <img src={slider.image} alt="Slider image" className="imageOfCulture" />
+                                            <img src={slider.image2} alt="Slider image" className="imageOfCulture" />
+                                            <img src={slider.image3} alt="Slider image" className="imageOfCulture" />
                                         </>
                                     )}
                                 </div>
                             );
                         })}
-                    </section>
+                    </section> */}
 
-                    {/* <div className='ImagesTour'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Rectangle 13369.png' />
-                                </div>
-                            </div>
-                            <div className='ml-4'>
-                                <div >
-                                    <div>
-                                        <img src='./Images/gobeyond/Rectangle 13370.png' />
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='ml-4'>
-                                <div >
-                                    <div>
-                                        <img src='./Images/gobeyond/Rectangle 13371.png' />
-                                    </div>
-                                </div>
-                            </div>
-                        </div> */}
                 </div>
                 <Footer />
             </div>
