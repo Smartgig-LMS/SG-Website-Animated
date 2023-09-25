@@ -64,7 +64,7 @@ export default function ProductPage() {
                 <img src='./Images/gobeyond/Group 4273211216.png' />
             </div>
             <p style={{ textAlign: "center", padding: "2%" }}>
-                Ever thought of turning your data into a strategic asset. Make it happen with our exceptional data services, which make you to handle the complexities with ease in your own path of excellence as we effortlessly manage, analyse and leverage your data to harness the full potential of your information assets to make you stay ahead in today’s data – driven world.
+                {/* Ever thought of turning your data into a strategic asset. Make it happen with our exceptional data services, which make you to handle the complexities with ease in your own path of excellence as we effortlessly manage, analyse and leverage your data to harness the full potential of your information assets to make you stay ahead in today’s data – driven world. */}
             </p>
             <div className='Lastcontainer'>
                 <div className='card mt-5'>

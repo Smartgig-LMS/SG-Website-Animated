@@ -268,8 +268,8 @@
   .totalMain2 {
     display: flex;
     justify-content: space-around;
-    margin-top: 10%;
-    margin-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 2%;
   }
 
   .occultimg {
@@ -589,25 +589,22 @@
     background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
     opacity: 1;
     background-size: cover;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 5%;
   }
   .firstCareerDiv h1 {
     color: white;
-    padding-top: 10%;
   }
 
   .firstCareerDivSpan {
     color: white;
-    padding-top: 10%;
   }
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
     text-align: center;
   }
-
   .CareerHeadnig {
-    margin-bottom: 3rem;
     margin-top: 3rem;
   }
 
@@ -683,16 +680,16 @@
   }
 
   .firstContact h1 {
-    font-size: 60px;
+    /* font-size: 60px; */
     margin-bottom: 3rem;
     color: white;
     background-image: url("../../../public/Images/gobeyond/Contact-us-imaghe.png");
     opacity: 1;
     background-size: cover;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    padding-right: 55%;
   }
-
   .contactPg {
     text-align: center;
   }
@@ -1329,8 +1326,8 @@
   .totalMain2 {
     display: flex;
     justify-content: space-around;
-    margin-top: 10%;
-    margin-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 2%;
   }
 
   .occultimg {
@@ -1611,25 +1608,22 @@
     background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
     opacity: 1;
     background-size: cover;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 5%;
   }
   .firstCareerDiv h1 {
     color: white;
-    padding-top: 10%;
   }
 
   .firstCareerDivSpan {
     color: white;
-    padding-top: 10%;
   }
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
     text-align: center;
   }
-
   .CareerHeadnig {
-    margin-bottom: 3rem;
     margin-top: 3rem;
   }
 
@@ -1703,14 +1697,15 @@
   }
 
   .firstContact h1 {
-    font-size: 60px;
+    /* font-size: 60px; */
     margin-bottom: 3rem;
     color: white;
     background-image: url("../../../public/Images/gobeyond/Contact-us-imaghe.png");
     opacity: 1;
     background-size: cover;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    padding-right: 55%;
   }
 
   .contactPg {
@@ -2350,8 +2345,8 @@
   .totalMain2 {
     display: flex;
     justify-content: space-around;
-    margin-top: 10%;
-    margin-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 2%;
   }
 
   .occultimg {
@@ -2665,25 +2660,22 @@
     background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
     opacity: 1;
     background-size: cover;
-    padding-bottom: 10%;
+    padding-top: 15%;
+    padding-bottom: 5%;
   }
   .firstCareerDiv h1 {
     color: white;
-    padding-top: 10%;
   }
 
   .firstCareerDivSpan {
     color: white;
-    padding-top: 10%;
   }
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
     text-align: center;
   }
-
   .CareerHeadnig {
-    margin-bottom: 3rem;
     margin-top: 3rem;
   }
 
@@ -2755,18 +2747,17 @@
     border-radius: 5px;
     padding: 5px 15px 5px 15px;
   }
-
   .firstContact h1 {
-    font-size: 60px;
+    /* font-size: 60px; */
     margin-bottom: 3rem;
     color: white;
     background-image: url("../../../public/Images/gobeyond/Contact-us-imaghe.png");
     opacity: 1;
     background-size: cover;
-    padding-bottom: 10%;
-    padding-top: 10%;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    padding-right: 55%;
   }
-
   .contactPg {
     text-align: center;
   }

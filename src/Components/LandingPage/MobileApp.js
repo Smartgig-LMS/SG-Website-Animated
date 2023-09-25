@@ -34,8 +34,9 @@ export default function MobileApp() {
                             </div>
                         </div>
                         <p>
-                            Get a powerful analytics tool<br /> in your
-                            own brand name.
+                            Experience excellence on iOS <br />
+                            with high performance, and <br />
+                            visually stunning apps
                         </p>
                     </div>
                     <div className='ml-3'>
@@ -50,9 +51,9 @@ export default function MobileApp() {
                             </div>
                         </div>
                         <p>
-                            Easily converse with
-                            your data <br />using
-                            everyday language.
+                            Unlock exponential growth <br />
+                            with our expert Android <br />
+                            app development
                         </p>
                     </div>
                 </div>

@@ -74,6 +74,9 @@ const OurClients = () => {
                             </div>
 
                         </div>
+                        <span className=' mt-5'>
+                            and many more...
+                        </span>
                     </div>
 
                     <div className='col-12 text-center tryusbtn'>

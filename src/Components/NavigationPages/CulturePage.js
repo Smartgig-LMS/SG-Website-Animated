@@ -72,8 +72,7 @@ export default function CulturePage() {
                         <img src='./Images/gobeyond/Group 427321121 (3).png' width="129" height="50" />
                     </div>
                     <h1>
-                        Helping Millions grow<br />
-                        better.
+                        Client first, Team foremost
                     </h1>
                     <span>
                         In this constantly evolving landscape of technology, SmartGig is a dynamic IT company that specializes in <br />niche industries. Our team of enthusiastic experts, unlocks the full potential of designing, developing, and <br />testing solutions for our clients and help businesses embrace next-gen technologies to stay future-ready.<br />
@@ -84,31 +83,39 @@ export default function CulturePage() {
                     <div className='Leftcontainer'>
                         <img src="./Images/gobeyond/mission 1.png" alt="image" className='mission' />
                     </div>
-                    <div className='rightContainer'>
-                        <div className='opLeftSec'>
+                    <div className='rightContainer mt-3'>
+                        <div className='opLeftSec ml-5'>
                             <img src='./Images/gobeyond/Group 427321121 (4).png' width="159" height="48" />
                         </div>
-                        <h1 className='col-12 mb-4 mt-0'>
+                        {/* <h1 className='col-12 mb-4 mt-0'>
                             Optimise your Business with<br />
                             our Cutting Edge Technology
-                        </h1>
-                        <span>
-                            Our mission is our meticulous vision to drive business excellence and<br /> empower customers through our expertise in  smart technology driven<br /> transformations and to embrace the software services with Avant-grade solutions.
-                        </span>
+                        </h1> */}
+                        <h5 className='col-12 mb-4 mt-0'>
+                            Our mission is our meticulous vision to drive business<br />
+                            excellence and empower customers through our expertise <br />
+                            in smart technology driven transformations and to embrace <br />
+                            the software services with Avant-grade solutions.
+                        </h5>
                     </div>
                 </div>
                 <div className='totalMain2'>
-                    <div className='rightContainer'>
-                        <div className='opLeftSec'>
+                    <div className='rightContainer mt-5'>
+                        <div className='opLeftSec ml-5'>
                             <img src='./Images/gobeyond/Group 427321121 (5).png' width="139" height="45" />
                         </div>
-                        <h1 className='col-12 mb-4 mt-0'>
+                        {/* <h1 className='col-12 mb-4 mt-0'>
                             Breaking down Information <br />
                             Silos using Technology
-                        </h1>
-                        <span>
-                            Our prime focus is to deliver absolute hands-free software development along<br />  with other end -to -end software Testing and quality services to our clients to<br /> enhance their experience with efficiency and to build a strong long-term relationship <br />with them to navigate them towards leveraging on the technology landscape.
-                        </span>
+                        </h1> */}
+                        <h5 className='col-12 mb-4 mt-0'>
+                            Our prime focus is to deliver absolute hands-free software <br />
+                            development along  with other end -to -end software Testing <br />
+                            and quality services to our clients to enhance their experience<br />
+                            with efficiency and to build a strong long-term relationship with<br />
+                            them to navigate them towards leveraging on the technology <br />
+                            landscape.
+                        </h5>
                     </div>
                     <div className='Leftcontainer'>
                         <img src="./Images/gobeyond/Vision_entrepreneurs_ecosystem 1.png" alt="image" className='vision' />

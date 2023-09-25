@@ -55,12 +55,13 @@ export default function ContactUsPage() {
                 // show the user a success message
                 console.log(result, "success");
                 window.alert("Email Sent Successfully");
-                navigate("/contact");
+                setOpen(false);
                 // toast.success("Email Sent Successfully");
             }, (error) => {
                 // show the user an error   
                 console.log(error, "failed");
                 window.alert("Can't Sent Email");
+                setOpen(false);
                 // toast.warning("Can't Sent Email")
             });
     };
@@ -191,7 +192,7 @@ export default function ContactUsPage() {
             <div className='contactPg'>
                 <div className='firstContact'>
                     <h1 className='ContactHeadnig'>
-                        How can we help<br />
+                        How can we help
                         you?
                     </h1>
                 </div>
@@ -218,7 +219,7 @@ export default function ContactUsPage() {
                         <div className='card shadow' style={{ height: "130px", width: "500px" }}>
                             <a href='https://infionic.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
                                 <h6>
-                                    More about infionic product
+                                    More about Infionic Product
                                 </h6>
                             </a>
                         </div>
@@ -228,7 +229,7 @@ export default function ContactUsPage() {
                         <div className='card shadow' style={{ height: "130px", width: "500px" }}>
                             <a href='https://Occultcybersecurity.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
                                 <h6>
-                                    More about occult cyber security
+                                    More about Occult Cyber Security
                                 </h6>
                             </a>
                         </div>

@@ -33,8 +33,8 @@ export default function WebDev() {
                             </div>
                         </div>
                         <p>
-                            It is a long established fact<br />
-                            that a reader
+                            Crafting digital experiences<br />
+                            that captivate
                         </p>
                     </div>
                     <div className='ml-4'>
@@ -49,8 +49,8 @@ export default function WebDev() {
                             </div>
                         </div>
                         <p>
-                            There are many variations of<br />
-                            passages
+                            Embark Flawless user journey with <br />
+                            converge of speed and usability
                         </p>
                     </div>
                 </div>

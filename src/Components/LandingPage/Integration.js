@@ -18,7 +18,7 @@ export default function Integration() {
                     other great tools
                 </h1>
                 <span className='spanInteg' style={{ fontWeight: "500", marginTop: "20px" }} >
-                    SmartGig absolutely works great with tools in your other existing platform
+                    We work closely with world class products to build solutions to our clients seamless and effeciently
                 </span>
             </div>
             <div className='IntegrationLogos py-3 px-2 mt-2'>
