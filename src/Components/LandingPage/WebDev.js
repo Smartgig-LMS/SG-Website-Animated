@@ -6,7 +6,7 @@ export default function WebDev() {
         <div className='TestingContainer pt-5 vh-100'>
             <div className='Webdev1'>
                 <div>
-                    <img src='./Images/gobeyond/Web Development Icon.svg' width="180" height="50" />
+                    <img src='./Images/gobeyond/Group 427321583.svg' width="180" height="50" />
                 </div>
                 <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
                     We make it effortlessly

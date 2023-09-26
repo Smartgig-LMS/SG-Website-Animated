@@ -9,7 +9,7 @@ export default function DataServices() {
                 <div>
                     <img src='./Images/gobeyond/DataSer1.svg' width="190" height="50" />
                 </div>
-                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
                     Data Services
                 </h1>
                 <span>

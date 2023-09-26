@@ -8,12 +8,14 @@ export default function Testing() {
                 <div>
                     <img src='./Images/gobeyond/TAAS Icon.svg' width="90" height="45" />
                 </div>
-                <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
-                    Quality Engineering for your <br />
-                </h1>
-                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
-                    Digital transformations
-                </h1>
+                <div className='webhead'>
+                    <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                        Quality Engineering for your <br />
+                    </h1>
+                    <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                        Digital transformations
+                    </h1>
+                </div>
                 <span>
                     Are you in search for top notch software testing as<br />
                     a service, then look no further. We specialize in<br />

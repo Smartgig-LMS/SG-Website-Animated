@@ -27,7 +27,7 @@ export default function CloudDevops() {
                 </div>
                 <h1 id='heading' style={{ color: "#2563AC" }}>
                 </h1>
-                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
                     Your cloud services<br />
                 </h1>
                 <span className='mb-3'>
@@ -35,7 +35,7 @@ export default function CloudDevops() {
                     For operational efficiency and sustainability, go Smart way  with us.
                 </span>
                 <hr />
-                <div style={{ display: "flex", textAlign: "center", gap: "4%", marginTop: "2%" }}>
+                <div style={{ display: "flex", textAlign: "center", gap: "4%", marginTop: "2%", fontSize: "12px", fontWeight: "500" }}>
                     <div>
                         <div>
                             <div>

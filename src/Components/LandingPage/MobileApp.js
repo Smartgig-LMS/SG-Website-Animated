@@ -7,12 +7,14 @@ export default function MobileApp() {
                 <div>
                     <img src='./Images/gobeyond/Mobile app Development Icon.svg' width="150" height="50" />
                 </div>
-                <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
-                    Pave the way through futuristic<br />
-                </h1>
-                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
-                    Mobile Apps<br />
-                </h1>
+                <div className='webhead'>
+                    <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                        Pave the way through futuristic<br />
+                    </h1>
+                    <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                        Mobile Apps<br />
+                    </h1>
+                </div>
                 <span>
                     As mobile applications continue to rise as a gateway towards <br />
                     success in this digital realm, we signify the need for crafting them<br />

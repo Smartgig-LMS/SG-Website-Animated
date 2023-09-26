@@ -471,6 +471,12 @@
     display: flex;
     justify-content: space-evenly;
   }
+  .webhead {
+    transition: 0.5s all ease-in-out;
+  }
+  .webhead:hover {
+    transform: translateX(25px);
+  }
 
   .Webdev1 {
     font-size: smaller;
@@ -499,34 +505,69 @@
   }
 
   .Webdev2 img {
-    /* width: 425px; */
-    /* height: 500px; */
     height: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Webdev2 {
+    overflow: hidden;
+  }
+  .Webdev2:hover img {
+    transform: scale(1.05);
+  }
+
+  .CloudDev2 {
+    overflow: hidden;
   }
   .CloudDev2 img {
-    /* width: 425px;
-    height: 500px; */
     height: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  .CloudDev2:hover img {
+    transform: scale(1.05);
+  }
+
+  .MobApp2 {
+    overflow: hidden;
   }
   .MobApp2 img {
-    /* width: 425px;
-    height: 500px; */
     height: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  .MobApp2:hover img {
+    transform: scale(1.05);
+  }
+
+  .Testing2 {
+    overflow: hidden;
   }
   .Testing2 img {
-    /* width: 425px;
-    height: 500px; */
     height: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Testing2:hover img {
+    transform: scale(1.05);
+  }
+
+  .DataService2 {
+    overflow: hidden;
   }
   .DataService2 img {
-    /* width: 425px;
-    height: 500px; */
     height: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  .DataService2:hover img {
+    transform: scale(1.05);
+  }
+
+  .Cyber2 {
+    overflow: hidden;
   }
   .Cyber2 img {
-    /* width: 425px;
-    height: 500px; */
     height: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Cyber2:hover img {
+    transform: scale(1.05);
   }
 
   .Clientpg {
@@ -1541,16 +1582,85 @@
   }
 
   .webhead {
-    /* transition-timing-function: ease-in;
-    transition: 1s;
-    transform: translateX(-60%, 0%); */
-    /* position: absolute; */
-    /* top: 0%;
-    left: 0%; */
-    /* -webkit-transform: translate(-50%, -50%); */
-    /* -ms-transform: translate(-50%, -50%); */
-    /* transform: translate(-50%, -50%); */
-    /* animation: Heading 2s 1s 3 linear ease-in-out; */
+    transition: 0.5s all ease-in-out;
+  }
+  .webhead:hover {
+    transform: translateX(25px);
+  }
+
+  /* @keyframes Heading {
+    0% {
+      transform: translateX(-15px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  } */
+
+  .Webdev2 {
+    overflow: hidden;
+  }
+  .Webdev2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Webdev2:hover img {
+    transform: scale(1.05);
+  }
+
+  .CloudDev2 {
+    overflow: hidden;
+  }
+  .CloudDev2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .CloudDev2:hover img {
+    transform: scale(1.05);
+  }
+
+  .MobApp2 {
+    overflow: hidden;
+  }
+  .MobApp2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .MobApp2:hover img {
+    transform: scale(1.05);
+  }
+
+  .Testing2 {
+    overflow: hidden;
+  }
+  .Testing2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Testing2:hover img {
+    transform: scale(1.05);
+  }
+
+  .DataService2 {
+    overflow: hidden;
+  }
+  .DataService2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .DataService2:hover img {
+    transform: scale(1.05);
+  }
+
+  .Cyber2 {
+    overflow: hidden;
+  }
+  .Cyber2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Cyber2:hover img {
+    transform: scale(1.05);
   }
 
   .Webdev1 {
@@ -2583,6 +2693,12 @@
     display: flex;
     justify-content: space-evenly;
   }
+  .webhead {
+    transition: 0.5s all ease-in-out;
+  }
+  .webhead:hover {
+    transform: translateX(25px);
+  }
 
   .Webdev1 {
     font-size: x-large;
@@ -2614,21 +2730,68 @@
 
   .Webdev2 img {
     height: 90%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Webdev2 {
+    overflow: hidden;
+  }
+  .Webdev2:hover img {
+    transform: scale(1.05);
+  }
+
+  .CloudDev2 {
+    overflow: hidden;
   }
   .CloudDev2 img {
     height: 90%;
+    transition: 0.5s all ease-in-out;
+  }
+  .CloudDev2:hover img {
+    transform: scale(1.05);
+  }
+
+  .MobApp2 {
+    overflow: hidden;
   }
   .MobApp2 img {
     height: 90%;
+    transition: 0.5s all ease-in-out;
+  }
+  .MobApp2:hover img {
+    transform: scale(1.05);
+  }
+
+  .Testing2 {
+    overflow: hidden;
   }
   .Testing2 img {
     height: 90%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Testing2:hover img {
+    transform: scale(1.05);
+  }
+
+  .DataService2 {
+    overflow: hidden;
   }
   .DataService2 img {
     height: 90%;
+    transition: 0.5s all ease-in-out;
+  }
+  .DataService2:hover img {
+    transform: scale(1.05);
+  }
+
+  .Cyber2 {
+    overflow: hidden;
   }
   .Cyber2 img {
     height: 90%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Cyber2:hover img {
+    transform: scale(1.05);
   }
 
   .Clientpg {
