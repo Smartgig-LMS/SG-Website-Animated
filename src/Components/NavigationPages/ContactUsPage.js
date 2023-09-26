@@ -197,14 +197,16 @@ export default function ContactUsPage() {
                     </h1>
                 </div>
                 <div className='secondContact'>
+                    <p>
+                        We are happy to assist you in providing comprehensive services, backed by a dedicated team of professionals<br /> who are committed to going the extra mile for you, around the clock, to enhance your experience with unwavering efficiency.<br />
+                        {/* Contact us:
+                        http://www.smartgig.tech<br />
+
+                        +91 8772999711 */}
+                    </p>
                     <h3
                     >I’m Looking for
                     </h3>
-                    <p>
-                        Please select your area of interest below. An <br />
-                        SmartGig representative will contact you shortly<br />
-                        after receiving your request.
-                    </p>
                 </div>
                 <div className='thirdContact'>
                     <div className='thirdContact1'>

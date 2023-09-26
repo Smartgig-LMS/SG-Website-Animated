@@ -24,7 +24,7 @@ const OurClients = () => {
         <>
             <div className='col-12 pt-5 vh-100 Clientpg'>
                 <div className='text-center'>
-                    <img src='./Images/brand/OurClient.png' width="150" height="50" />
+                    <img src='./Images/gobeyond/OurClient.svg' width="150" height="50" />
                     <h2 className='col-12 mb-3 mt-2 clientPgHeading'>Fuelling Innovation Through Collaborative Excellence</h2>
                     <span className='col-12 mb-0 mt-2 clientPgPara'>
                         Meet Our Valued Clients

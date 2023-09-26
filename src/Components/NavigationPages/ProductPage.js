@@ -60,68 +60,72 @@ export default function ProductPage() {
             </div>
 
             {/* new */}
-            <div className='infiLogo'>
-                <img src='./Images/gobeyond/Group 4273211216.png' />
-            </div>
-            <p style={{ textAlign: "center", padding: "2%" }}>
-                {/* Ever thought of turning your data into a strategic asset. Make it happen with our exceptional data services, which make you to handle the complexities with ease in your own path of excellence as we effortlessly manage, analyse and leverage your data to harness the full potential of your information assets to make you stay ahead in today’s data – driven world. */}
-            </p>
-            <div className='Lastcontainer'>
-                <div className='card mt-5'>
-                    <div className='d-flex'>
-                        <div className='imageOfCultureNew4'>
-                            <div class="container">
-                                <a href='https://occultcybersecurity.com/' target='_blank'>
-                                    <img src='./Images/gobeyond/Group 427321546.png' />
-                                    <div class="overlay">
-                                        <div class="text">
-                                            <h1>
-                                                Threat Intelligence Service
-                                                Providers, Q3 2023
-                                            </h1>
-                                            <p>
-                                                Occult Cyber is a vitalizing hub for advanced threat surface management with a team of dedicated cyber professionals, who provide in-depth analyses, actionable recommendations, and the latest industry trends to mitigate the cyber threats and to elevate the cyber defenses of business organizations to ensure they stay one step ahead in fortification of their cyber fortress.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div style={{ display: "flex", flexDirection: "column" }}>
-                            <div className='imageOfCultureNew3'>
+            <div className='d-fx'>
+                <div>
+                    <div className='infiLogo'>
+                        <img src='./Images/gobeyond/Grou.svg' />
+                    </div>
+                    <p className='mt-2' style={{ textAlign: "center", paddingLeft: "10%", paddingRight: "10%" }}>
+                        At SmartGig, we pride ourselves on fostering a culture of collaboration and innovation. Our commitment to excellence is reflected in our diverse partnership programs, which are meticulously designed to meet the distinct requirements of businesses within the industry with access to the world of unparalleled opportunities, through our relentless pursuit of cutting-edge solutions that drive your success .As not just partners but as your innovation catalyst, helping you stay ahead in a rapidly evolving digital landscape. 'Come Join us to redefine possibilities together
+                    </p>
+                </div>
+                <div className='Lastcontainer'>
+                    <div className='card mt-5'>
+                        <div className='d-flex'>
+                            <div className='imageOfCultureNew4'>
                                 <div class="container">
-                                    <a href='https://infionic.com/' target='_blank'>
-                                        <img src='./Images/gobeyond/Group 427321532.png' />
+                                    <a href='https://occultcybersecurity.com/' target='_blank'>
+                                        <img src='./Images/gobeyond/Group 427321546.png' />
                                         <div class="overlay">
                                             <div class="text">
-                                                <h4>
-                                                    Infionic provides best
-                                                    Business Solutions
-                                                </h4>
+                                                <h1>
+                                                    Threat Intelligence Service
+                                                    Providers, Q3 2023
+                                                </h1>
                                                 <p>
-                                                    Infionic was born with an idea of a unified vision and collaborative approach to business operations.
+                                                    Occult Cyber is a vitalizing hub for advanced threat surface management with a team of dedicated cyber professionals, who provide in-depth analyses, actionable recommendations, and the latest industry trends to mitigate the cyber threats and to elevate the cyber defenses of business organizations to ensure they stay one step ahead in fortification of their cyber fortress.
                                                 </p>
                                             </div>
                                         </div>
                                     </a>
                                 </div>
                             </div>
-                            <div className='imageOfCultureNew3'>
-                                <div class="container">
-                                    <a href='https://www.insurfin.in' target='_blank'>
-                                        <img src='./Images/gobeyond/Group42.png' />
-                                        <div class="overlay">
-                                            <div class="text">
-                                                <h4>
-                                                    Enhanced Opportunity
-                                                    with Every Prospect
-                                                </h4>
-                                                <p>
-                                                    InsurFin Financing is a practice in which a lender provides funds to an individual to pay for their insurance premiums.
-                                                </p>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <div className='imageOfCultureNew3'>
+                                    <div class="container">
+                                        <a href='https://infionic.com/' target='_blank'>
+                                            <img src='./Images/gobeyond/Group 427321532.png' />
+                                            <div class="overlay">
+                                                <div class="text">
+                                                    <h4>
+                                                        Infionic provides best
+                                                        Business Solutions
+                                                    </h4>
+                                                    <p>
+                                                        Infionic was born with an idea of a unified vision and collaborative approach to business operations.
+                                                    </p>
+                                                </div>
                                             </div>
-                                        </div>
-                                    </a>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div className='imageOfCultureNew3'>
+                                    <div class="container">
+                                        <a href='https://www.insurfin.in' target='_blank'>
+                                            <img src='./Images/gobeyond/Group42.png' />
+                                            <div class="overlay">
+                                                <div class="text">
+                                                    <h4>
+                                                        Enhanced Opportunity
+                                                        with Every Prospect
+                                                    </h4>
+                                                    <p>
+                                                        InsurFin Financing is a practice in which a lender provides funds to an individual to pay for their insurance premiums.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +134,7 @@ export default function ProductPage() {
             </div>
 
             <div className='testimonials mt-3'>
-                <img src='./Images/gobeyond/Group 4273211944.png' height="48" width="190" />
+                <img src='./Images/gobeyond/Group 427321194.svg' height="48" width="190" />
                 <h2 style={{ fontWeight: "bold" }}>
                     What people are saying
                 </h2>

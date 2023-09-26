@@ -79,7 +79,7 @@ export default function LeadershipTeam() {
 
             <div className='LeaderShip2'>
                 <div>
-                    <img src='./Images/gobeyond/Group 427321128.png' width="150" height="50" />
+                    <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
                 </div>
                 <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                     Leadership Team

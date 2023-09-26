@@ -228,8 +228,8 @@
 
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
-    padding-top: 14%;
-    padding-bottom: 14%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     opacity: 1;
     text-align: center;
     background-size: cover;
@@ -267,8 +267,15 @@
 
   .totalMain2 {
     display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
+    justify-content: space-evenly;
+    text-align: right;
+    margin-top: 3%;
+  }
+  .totalMain3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 1%;
     margin-bottom: 2%;
   }
 
@@ -448,10 +455,16 @@
     margin-left: 1rem;
   }
 
-  .TestingContainer {
+  /* .TestingContainer {
     margin-top: 1.5%;
     display: flex;
     justify-content: space-evenly;
+  } */
+  .TestingContainer {
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
   }
   .LeadershipContainer {
     margin-top: 3.5%;
@@ -488,32 +501,32 @@
   .Webdev2 img {
     /* width: 425px; */
     /* height: 500px; */
-    height: 90%;
+    height: 80%;
   }
   .CloudDev2 img {
     /* width: 425px;
     height: 500px; */
-    height: 90%;
+    height: 80%;
   }
   .MobApp2 img {
     /* width: 425px;
     height: 500px; */
-    height: 90%;
+    height: 80%;
   }
   .Testing2 img {
     /* width: 425px;
     height: 500px; */
-    height: 90%;
+    height: 80%;
   }
   .DataService2 img {
     /* width: 425px;
     height: 500px; */
-    height: 90%;
+    height: 80%;
   }
   .Cyber2 img {
     /* width: 425px;
     height: 500px; */
-    height: 90%;
+    height: 80%;
   }
 
   .Clientpg {
@@ -1281,8 +1294,8 @@
 
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
-    padding-top: 14%;
-    padding-bottom: 14%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     opacity: 1;
     text-align: center;
     background-size: cover;
@@ -1325,8 +1338,15 @@
 
   .totalMain2 {
     display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
+    justify-content: space-evenly;
+    text-align: right;
+    margin-top: 3%;
+  }
+  .totalMain3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 1%;
     margin-bottom: 2%;
   }
 
@@ -1503,15 +1523,34 @@
     margin-left: 1rem;
   }
 
-  .TestingContainer {
+  /* .TestingContainer {
     margin-top: 1.5%;
     display: flex;
     justify-content: space-evenly;
+  } */
+  .TestingContainer {
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
   }
   .LeadershipContainer {
     margin-top: 5.5%;
     display: flex;
     justify-content: space-evenly;
+  }
+
+  .webhead {
+    /* transition-timing-function: ease-in;
+    transition: 1s;
+    transform: translateX(-60%, 0%); */
+    /* position: absolute; */
+    /* top: 0%;
+    left: 0%; */
+    /* -webkit-transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+    /* animation: Heading 2s 1s 3 linear ease-in-out; */
   }
 
   .Webdev1 {
@@ -1930,7 +1969,7 @@
     align-items: center;
   }
   .testimonials {
-    padding: 9%;
+    padding: 3%;
     text-align: center;
   }
   .testiContain {
@@ -2300,8 +2339,8 @@
 
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
-    padding-top: 14%;
-    padding-bottom: 14%;
+    padding-top: 10%;
+    padding-bottom: 10%;
     opacity: 1;
     text-align: center;
     background-size: cover;
@@ -2344,8 +2383,15 @@
 
   .totalMain2 {
     display: flex;
-    justify-content: space-around;
-    margin-top: 5%;
+    justify-content: space-evenly;
+    text-align: right;
+    margin-top: 3%;
+  }
+  .totalMain3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 1%;
     margin-bottom: 2%;
   }
 
@@ -2521,12 +2567,17 @@
     margin-left: 1rem;
   }
 
-  .TestingContainer {
+  /* .TestingContainer {
     margin-top: 1.5%;
     display: flex;
     justify-content: space-evenly;
+  } */
+  .TestingContainer {
+    margin-top: 1.5%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 3%;
   }
-
   .LeadershipContainer {
     margin-top: 9.5%;
     display: flex;

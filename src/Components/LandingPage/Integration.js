@@ -12,7 +12,7 @@ export default function Integration() {
     return (
         <div className='col-12 pb-5 IntegrationContainer'>
             <div className='text-center'>
-                <img src='./Images/gobeyond/Integration Icon.png' width="150" height="50" />
+                <img src='./Images/gobeyond/Group 427321129.svg' width="150" height="50" />
                 <h1 style={{ color: "#0F0049", fontWeight: "700", marginTop: "1%" }}>
                     Seamless integration with<br />
                     other great tools

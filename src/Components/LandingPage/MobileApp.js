@@ -5,10 +5,12 @@ export default function MobileApp() {
         <div className='TestingContainer col-12 pt-5 vh-100'>
             <div className='MobApp1' >
                 <div>
-                    <img src='./Images/gobeyond/Mobile app Development Icon (1).png' width="150" height="50" />
+                    <img src='./Images/gobeyond/Mobile app Development Icon.svg' width="150" height="50" />
                 </div>
-                <h1 style={{ fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
-                    We make it effortless<br />
+                <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                    Pave the way through futuristic<br />
+                </h1>
+                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                     Mobile Apps<br />
                 </h1>
                 <span>

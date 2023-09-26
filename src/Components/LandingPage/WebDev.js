@@ -3,21 +3,22 @@ import React from 'react'
 export default function WebDev() {
     return (
         // <div className='webdev col-12 pt-5 vh-100 fixed'>
-        <div className='TestingContainer col-12 pt-5 vh-100'>
+        <div className='TestingContainer pt-5 vh-100'>
             <div className='Webdev1'>
                 <div>
-                    <img src='./Images/gobeyond/Web Development Icon.png' width="180" height="50" />
+                    <img src='./Images/gobeyond/Web Development Icon.svg' width="180" height="50" />
                 </div>
-                <h1 style={{ fontWeight: "700", width: "458", height: "124" }} className='mb-3 mt-2'>
-                    We make it <br /> effortlessly for user
+                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
+                    We make it effortlessly
+                    for user
                 </h1>
                 <span>
                     We are determined in creating seamless user experience<br />
-                    through our websites and web apps by bringing design<br />
-                    and functionality come together harmoniously to<br />
-                    enhance the  user experience with efficiency in which<br />
-                    users can interact, explore and be inspired by our<br />
-                    magnificence.
+                    for our customers through websites and web apps developed <br />
+                    by us while bringing design and functionality excellence.<br />
+                    Enhance your customers user experience with futuristic<br />
+                    designs thereby making their interaction with the application<br />
+                    rich.
                 </span>
                 <hr />
                 <div className='d-flex'>
@@ -49,13 +50,14 @@ export default function WebDev() {
                             </div>
                         </div>
                         <p>
-                            Embark Flawless user journey with <br />
+                            Embark flawless user journey with <br />
                             converge of speed and usability
                         </p>
                     </div>
                 </div>
             </div>
             <div className='Webdev2'>
+                {/* <img src='./Images/gobeyond/Web39.png' /> */}
                 <img src='./Images/gobeyond/WebDev.png' />
             </div>
         </div>

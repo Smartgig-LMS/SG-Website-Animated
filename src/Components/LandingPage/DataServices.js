@@ -7,9 +7,9 @@ export default function DataServices() {
         <div className=' col-12 pt-5 vh-100 TestingContainer'>
             <div className='DataService1'>
                 <div>
-                    <img src='./Images/gobeyond/Group 427321194 (1).png' width="190" height="50" />
+                    <img src='./Images/gobeyond/DataSer1.svg' width="190" height="50" />
                 </div>
-                <h1 style={{ fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                     Data Services
                 </h1>
                 <span>
