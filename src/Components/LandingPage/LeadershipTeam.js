@@ -84,7 +84,7 @@ export default function LeadershipTeam() {
                 <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                     Leadership Team
                 </h1>
-                <span style={{ fontWeight: "600", fontStyle: "Roboto", fontSize: "18px" }}>
+                <span className='leadershipContent'  style={{ fontWeight: "600", fontStyle: "Roboto", fontSize: "18px" }}>
                     Meet our dynamic leadership team who are <br />
                     an epitome of unwavering dedication and <br />
                     determination in driving forward the organization <br />

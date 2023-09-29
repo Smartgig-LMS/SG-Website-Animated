@@ -105,7 +105,7 @@ export default function LeadershipTeam() {
                                     Leadership <br />
                                     Team
                                 </h1>
-                                <span style={{ fontWeight: "400", fontStyle: "Roboto", }}>
+                                <span className='leadershipContent' style={{ fontWeight: "400", fontStyle: "Roboto", }}>
                                     Meet our dynamic leadership team who are an <br />
                                     epitome of unwavering dedication and <br />
                                     determination in driving forward the organization <br />

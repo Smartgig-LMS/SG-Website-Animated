@@ -39,7 +39,7 @@ export default function CloudDevops() {
                     <div>
                         <div>
                             <div>
-                                <img src='./Images/gobeyond/Cloud Migration and Modernisation.svg' />
+                                <img className='cloudAppImg1' src='./Images/gobeyond/Cloud Migration and Modernisation.svg' />
                             </div>
                             <div className='mt-2'>
                                 <p>
@@ -49,7 +49,7 @@ export default function CloudDevops() {
                         </div>
                         <div>
                             <div>
-                                <img src='./Images/gobeyond/DevSecOps.svg' />
+                                <img className='cloudAppImg2' src='./Images/gobeyond/DevSecOps.svg' />
                             </div>
                             <div className='mt-2'>
                                 <p>
@@ -61,7 +61,7 @@ export default function CloudDevops() {
                     <div>
                         <div >
                             <div>
-                                <img src='./Images/gobeyond/Infrastructure Services.svg' />
+                                <img className='cloudAppImg3' src='./Images/gobeyond/Infrastructure Services.svg' />
                             </div>
                             <div className='mt-2'>
                                 <p>
@@ -71,7 +71,7 @@ export default function CloudDevops() {
                         </div>
                         <div >
                             <div>
-                                <img src='./Images/gobeyond/Data and AI.svg' />
+                                <img className='cloudAppImg4' src='./Images/gobeyond/Data and AI.svg' />
                             </div>
                             <div className='mt-2'>
                                 <p>
@@ -80,10 +80,10 @@ export default function CloudDevops() {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div className='thirdCloudService'>
                         <div >
                             <div>
-                                <img src='./Images/gobeyond/Cloud Security.svg' />
+                                <img className='cloudAppImg5' src='./Images/gobeyond/Cloud Security.svg' />
                             </div>
                             <div className='mt-2'>
                                 <p>
@@ -93,7 +93,7 @@ export default function CloudDevops() {
                         </div>
                         <div >
                             <div>
-                                <img src='./Images/gobeyond/Cloud Economics.svg' />
+                                <img className='cloudAppImg6' src='./Images/gobeyond/Cloud Economics.svg' />
                             </div>
                             <div className='mt-2'>
                                 <p>
@@ -124,7 +124,7 @@ export default function CloudDevops() {
                 </div> */}
             </div>
             <div className='CloudDev2'>
-                <img src='./Images/gobeyond/Cloud69.png' />
+                <img className='cloudImg2' src='./Images/gobeyond/Cloud69.png' />
             </div>
         </div>
     )

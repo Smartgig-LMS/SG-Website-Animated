@@ -12,7 +12,7 @@ export default function DataServices() {
                 <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
                     Data Services
                 </h1>
-                <span>
+                <span className='dateServiceContent'>
                     Ever thought of turning your data into a strategic asset.<br />
                     Make it happen with our exceptional data services, which <br />
                     make you to handle the complexities with ease in your own<br />
@@ -26,7 +26,7 @@ export default function DataServices() {
                     <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header >
-                                <img src='./Images/gobeyond/Group 427321265.png' width="25" height="25" />
+                                <img className='dropDownImg' src='./Images/gobeyond/Group 427321265.png' width="25" height="25" />
                                 <div className='headingAccordion'> Artificial intelligence</div>
                             </Accordion.Header>
                             <Accordion.Body>
@@ -36,7 +36,7 @@ export default function DataServices() {
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>
-                                <img src='./Images/gobeyond/Group 427321264.png' width="25" height="25" />
+                                <img className='dropDownImg' src='./Images/gobeyond/Group 427321264.png' width="25" height="25" />
                                 <div className='headingAccordion'>  Machine learning</div>
                             </Accordion.Header>
                             <Accordion.Body>
@@ -46,7 +46,7 @@ export default function DataServices() {
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
                             <Accordion.Header>
-                                <img src='./Images/gobeyond/Website.png' width="25" height="25" />
+                                <img className='dropDownImg' src='./Images/gobeyond/Website.png' width="25" height="25" />
                                 <div className='headingAccordion'>  Data Migration</div>
                             </Accordion.Header>
                             <Accordion.Body>
@@ -58,7 +58,7 @@ export default function DataServices() {
                 </div>
             </div>
             <div className='DataService2'>
-                <img src='./Images/gobeyond/7xm456259 2.png' />
+                <img className='dataServiceImg' src='./Images/gobeyond/7xm456259 2.png' />
             </div>
         </div>
     )
