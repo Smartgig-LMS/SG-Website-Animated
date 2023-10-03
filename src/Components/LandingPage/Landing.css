@@ -3475,7 +3475,7 @@
 }
 /* for mobile less than 400px-------------------------------------------------------------- */
 
-@media all and (min-width: 300px) and (max-width: 400px) {
+@media all and (min-width: 250px) and (max-width: 400px) {
   .Navsection {
     background: #fff;
     position: relative;
@@ -3762,24 +3762,30 @@
     cursor: pointer;
   }
 
+  .Webdev2 img {
+    width: 70%;
+    border-radius: 13px;
+  }
   .CloudDev2 img {
-    width: 50%;
+    width: 70%;
   }
   .MobApp2 img {
-    width: 50%;
+    width: 70%;
   }
   .Testing2 img {
-    width: 50%;
+    width: 70%;
+    margin-top: 3%;
   }
   .DataService2 img {
-    width: 50%;
+    margin-top: 3%;
+    width: 70%;
   }
   .Cyber2 img {
     margin-top: 3%;
-    width: 50%;
+    width: 70%;
   }
   .GameImg {
-    width: 50%;
+    width: 70%;
     margin-top: 3%;
     /* margin-left: 3rem; */
   }
@@ -3806,21 +3812,21 @@
     width: 50%;
     margin-left: 15px;
   }
-  /* .CloudDev1 {
-    margin-top: 5rem;
-  } */
+  .CloudDev1 {
+    margin-top: 10rem;
+  }
   .cloudImg2 {
     width: 380px;
   }
   .MobApp1 {
-    /* margin-top: 32rem; */
+    margin-top: 23rem;
     margin-right: 2px;
   }
   .mobileImg {
     width: 380px;
   }
   .Testing1 {
-    /* margin-top: 48rem; */
+    margin-top: 39rem;
     margin-left: 0px;
   }
   .testingImage {
@@ -3828,7 +3834,7 @@
     margin-top: 20px;
   }
   .DataService1 {
-    /* margin-top: 64rem; */
+    margin-top: 54rem;
     margin-left: 3px;
     margin-right: 3px;
   }
@@ -3836,18 +3842,18 @@
     width: 380px;
     margin-top: 20px;
   }
-  /* .Cyber1 {
-    margin-top: 78rem;
-  } */
+  .Cyber1 {
+    margin-top: 65rem;
+  }
   .cyberImg {
     width: 380px;
     margin-top: 20px;
   }
-  /* .Gamification1 {
-    margin-top: 80rem;
-  } */
+  .Gamification1 {
+    margin-top: 72rem;
+  }
   .IntegrationContainer {
-    /* margin-top: 83rem; */
+    margin-top: 80rem;
     margin-left: 3rem;
   }
   .text-center {
