@@ -1,16 +1,19 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import { slide as Menu } from 'react-burger-menu'
+import MenuIcon from '@mui/icons-material/Menu';
+import { colors } from '@mui/material';
+import { red } from '@mui/material/colors';
 
 export default function NavBar() {
 
+    const [isopen, setIsopen] = React.useState(false);
     const navigate = useNavigate();
     const navigateFn = () => {
         navigate("/Partnerships");
-        console.log("nag");
     }
     const navigateFn2 = () => {
         navigate("/culture");
-        console.log("nag2");
     }
     const navigateFn3 = () => {
         navigate("/career");
@@ -23,6 +26,10 @@ export default function NavBar() {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }
 
+    const showSettings = (event) => {
+        event.preventDefault();
+        setIsopen(!isopen);
+    }
 
     return (
         <div className='Navsection'>
@@ -31,23 +38,46 @@ export default function NavBar() {
                     <img src='./Images/gobeyond/SmartGig-logo.png' height="70px" width="131px" />
                 </div>
 
-                <ul className='navbarStyle'>
-                    <li className='ml-4' onClick={navigateFnLP} >
-                        Home
-                    </li>
-                    <li className='ml-4' onClick={navigateFn} >
-                        Partnerships
-                    </li>
-                    <li className='ml-4' onClick={navigateFn2} >
-                        Culture
-                    </li>
-                    <li className='ml-4' onClick={navigateFn3} >
-                        Career
-                    </li>
-                    <li className='ml-4' onClick={navigateFn4} >
-                        Contact Us
-                    </li>
-                </ul>
+                <div className='hamburgerMenuforWeb'>
+                    <ul className='navbarStyle'>
+                        <li className='ml-4' onClick={navigateFnLP} >
+                            Home
+                        </li>
+                        <li className='ml-4' onClick={navigateFn} >
+                            Partnerships
+                        </li>
+                        <li className='ml-4' onClick={navigateFn2} >
+                            Culture
+                        </li>
+                        <li className='ml-4' onClick={navigateFn3} >
+                            Career
+                        </li>
+                        <li className='ml-4' onClick={navigateFn4} >
+                            Contact Us
+                        </li>
+                    </ul>
+                </div>
+
+                <div className='hamburgerMenu'>
+                    {/* <Menu right isOpen={isopen} customBurgerIcon={<MenuIcon height={70} width={70} />}> */}
+                    <Menu right isOpen={isopen} customBurgerIcon={<img src='./Images/gobeyond/Subtract.svg' height={70} width={70} />}>
+                        <li className="menu-item" onClick={navigateFnLP} >
+                            Home
+                        </li>
+                        <li className="menu-item" onClick={navigateFn} >
+                            Partnerships
+                        </li>
+                        <li className="menu-item" onClick={navigateFn2} >
+                            Culture
+                        </li>
+                        <li className="menu-item" onClick={navigateFn3} >
+                            Career
+                        </li>
+                        <li className="menu-item" onClick={navigateFn4} >
+                            Contact Us
+                        </li>
+                    </Menu>
+                </div>
             </div >
         </div >
     )
