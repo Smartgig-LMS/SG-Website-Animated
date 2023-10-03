@@ -3473,9 +3473,9 @@
   width: 600px;
   border-radius: 33px;
 }
-/* for mobile less than 767px-------------------------------------------------------------- */
+/* for mobile less than 400px-------------------------------------------------------------- */
 
-@media (max-width: 767px) {
+@media all and (min-width: 300px) and (max-width: 400px) {
   .Navsection {
     background: #fff;
     position: relative;
@@ -3571,17 +3571,17 @@
     margin-top: 20px;
   }
   .Cyber1 {
-    margin-top: 80rem;
+    margin-top: 78rem;
   }
   .cyberImg {
     width: 380px;
     margin-top: 20px;
   }
   .Gamification1 {
-    margin-top: 88rem;
+    margin-top: 80rem;
   }
   .IntegrationContainer {
-    margin-top: 95rem;
+    margin-top: 83rem;
     margin-left: 3rem;
   }
   .text-center {
@@ -3623,7 +3623,540 @@
   }
   .LeaderShipMob1 {
     display: flex;
-    height: 210px;
+    /* height: 170px; */
+    padding-top: 10%;
+    gap: 20px;
+  }
+  .clientPageforWeb {
+    display: none;
+  }
+  .LeaderShipMob2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .IntegrationLogos {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 1.4px;
+    text-align: left;
+    margin: 0px;
+  }
+  span.mb-3 {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .mobileContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .dateServiceContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .cyberSecurityContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .GamificationContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .mt-2 {
+    line-height: 1.4;
+    text-align: left;
+    font-weight: 500;
+    white-space: normal;
+  }
+  .integrationHeader {
+    margin-top: 8px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .spanInteg {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 500;
+    white-space: normal;
+    display: block;
+  }
+  .col-12.pt-5.vh-100.LeadershipContainer {
+    margin-top: -70px;
+  }
+  .leadershipContent {
+    white-space: nowrap;
+  }
+  .appsDescription {
+    white-space: nowrap;
+  }
+  .cloudAppImg1 {
+    margin-right: 60px;
+  }
+  .cloudAppImg2 {
+    margin-right: 40px;
+  }
+  .cloudAppImg3 {
+    margin-right: 94px;
+  }
+  .cloudAppImg4 {
+    margin-right: 89px;
+  }
+  .cloudAppImg5 {
+    margin-right: 30px;
+  }
+  .cloudAppImg6 {
+    margin-right: 26px;
+  }
+  .dropDownImg {
+    margin-right: 10px;
+  }
+  .webDevCont {
+    white-space: nowrap;
+  }
+  .futursticHeading {
+    margin-top: 10px;
+    font-weight: 900px;
+  }
+  .cyberSecHead {
+    margin-top: -10px;
+  }
+  .thirdCloudService {
+    margin-left: -26px;
+  }
+}
+
+/* for mobile less than 767px-------------------------------------------------------------- */
+
+@media all and (min-width: 400px) and (max-width: 667px) {
+  .Navsection {
+    background: #fff;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbarStyle {
+    list-style: none;
+    font-weight: 500;
+    margin-top: 19px;
+    padding-right: 60px;
+  }
+  .navbarStyle li {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .CloudDev2 img {
+    width: 50%;
+  }
+  .MobApp2 img {
+    width: 50%;
+  }
+  .Testing2 img {
+    width: 50%;
+  }
+  .DataService2 img {
+    width: 50%;
+  }
+  .Cyber2 img {
+    margin-top: 3%;
+    width: 50%;
+  }
+  .GameImg {
+    width: 50%;
+    margin-top: 3%;
+    /* margin-left: 3rem; */
+  }
+  .cloudcontents {
+    display: flex;
+    text-align: center;
+    gap: 4%;
+    margin-top: 2%;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .Webdev1 {
+    /* margin-top: -80px; */
+    /* margin-left: 15px; */
+    margin-right: 15px;
+  }
+  .formob {
+    display: none;
+  }
+  .webAppDec {
+    white-space: nowrap;
+  }
+  .webImg2 {
+    width: 50%;
+    margin-left: 15px;
+  }
+  /* .CloudDev1 {
+    margin-top: 5rem;
+  } */
+  .cloudImg2 {
+    width: 380px;
+  }
+  .MobApp1 {
+    /* margin-top: 32rem; */
+    margin-right: 2px;
+  }
+  .mobileImg {
+    width: 380px;
+  }
+  .Testing1 {
+    /* margin-top: 48rem; */
+    margin-left: 0px;
+  }
+  .testingImage {
+    width: 380px;
+    margin-top: 20px;
+  }
+  .DataService1 {
+    /* margin-top: 64rem; */
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .dataServiceImg {
+    width: 380px;
+    margin-top: 20px;
+  }
+  /* .Cyber1 {
+    margin-top: 78rem;
+  } */
+  .cyberImg {
+    width: 380px;
+    margin-top: 20px;
+  }
+  /* .Gamification1 {
+    margin-top: 80rem;
+  } */
+  .IntegrationContainer {
+    /* margin-top: 83rem; */
+    margin-left: 3rem;
+  }
+  .text-center {
+    /* margin-top: 360px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .IntegrationLogos {
+    /* display: flex; */
+    gap: 20px;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .IntegrationCard {
+    height: 86px !important;
+    width: 86px !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .IntegrationCard img {
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+  }
+  .img_card {
+    max-width: 50px;
+  }
+  .integrationForMobile {
+    display: block;
+  }
+  .integrationForWeb {
+    display: none;
+  }
+  .LeadershipForMobile {
+    display: block;
+  }
+  .LeadershipForWeb {
+    display: none;
+  }
+  .LeaderShipMob1 {
+    display: flex;
+    /* height: 170px; */
+    /* padding-top: 10%; */
+    gap: 20px;
+  }
+  .clientPageforWeb {
+    display: none;
+  }
+  .LeaderShipMob2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .IntegrationLogos {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 1.4px;
+    text-align: left;
+    margin: 0px;
+  }
+  span.mb-3 {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .mobileContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .dateServiceContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .cyberSecurityContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .GamificationContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .mt-2 {
+    line-height: 1.4;
+    text-align: left;
+    font-weight: 500;
+    white-space: normal;
+  }
+  .integrationHeader {
+    margin-top: 8px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .spanInteg {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 500;
+    white-space: normal;
+    display: block;
+  }
+  .col-12.pt-5.vh-100.LeadershipContainer {
+    margin-top: -70px;
+  }
+  .leadershipContent {
+    white-space: nowrap;
+  }
+  .appsDescription {
+    white-space: nowrap;
+  }
+  .cloudAppImg1 {
+    margin-right: 60px;
+  }
+  .cloudAppImg2 {
+    margin-right: 40px;
+  }
+  .cloudAppImg3 {
+    margin-right: 94px;
+  }
+  .cloudAppImg4 {
+    margin-right: 89px;
+  }
+  .cloudAppImg5 {
+    margin-right: 30px;
+  }
+  .cloudAppImg6 {
+    margin-right: 26px;
+  }
+  .dropDownImg {
+    margin-right: 10px;
+  }
+  .webDevCont {
+    white-space: nowrap;
+  }
+  .futursticHeading {
+    margin-top: 10px;
+    font-weight: 900px;
+  }
+  .cyberSecHead {
+    margin-top: -10px;
+  }
+  .thirdCloudService {
+    margin-left: -26px;
+  }
+}
+
+/* for mobile less than 1000px-------------------------------------------------------------- */
+
+@media all and (min-width: 667px) and (max-width: 1000px) {
+  .Navsection {
+    background: #fff;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbarStyle {
+    list-style: none;
+    font-weight: 500;
+    margin-top: 19px;
+    padding-right: 60px;
+  }
+  .navbarStyle li {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .CloudDev2 img {
+    width: 50%;
+  }
+  .MobApp2 img {
+    width: 50%;
+  }
+  .Testing2 img {
+    width: 50%;
+  }
+  .DataService2 img {
+    width: 50%;
+  }
+  .Cyber2 img {
+    margin-top: 3%;
+    width: 50%;
+  }
+  .GameImg {
+    width: 50%;
+    margin-top: 3%;
+    /* margin-left: 3rem; */
+  }
+  .cloudcontents {
+    display: flex;
+    text-align: center;
+    gap: 4%;
+    margin-top: 2%;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .Webdev1 {
+    /* margin-top: -80px; */
+    /* margin-left: 15px; */
+    margin-right: 15px;
+  }
+  .formob {
+    display: none;
+  }
+  .webAppDec {
+    white-space: nowrap;
+  }
+  .webImg2 {
+    width: 50%;
+    margin-left: 15px;
+  }
+  /* .CloudDev1 {
+    margin-top: 5rem;
+  } */
+  .cloudImg2 {
+    width: 380px;
+  }
+  .MobApp1 {
+    /* margin-top: 32rem; */
+    margin-right: 2px;
+  }
+  .mobileImg {
+    width: 380px;
+  }
+  .Testing1 {
+    /* margin-top: 48rem; */
+    margin-left: 0px;
+  }
+  .testingImage {
+    width: 380px;
+    margin-top: 20px;
+  }
+  .DataService1 {
+    /* margin-top: 64rem; */
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .dataServiceImg {
+    width: 380px;
+    margin-top: 20px;
+  }
+  /* .Cyber1 {
+    margin-top: 78rem;
+  } */
+  .cyberImg {
+    width: 380px;
+    margin-top: 20px;
+  }
+  /* .Gamification1 {
+    margin-top: 80rem;
+  } */
+  .IntegrationContainer {
+    /* margin-top: 83rem; */
+    margin-left: 3rem;
+  }
+  .text-center {
+    /* margin-top: 360px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .IntegrationLogos {
+    /* display: flex; */
+    gap: 20px;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .IntegrationCard {
+    height: 86px !important;
+    width: 86px !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .IntegrationCard img {
+    width: 100%;
+    transition: 0.3s all ease-in-out;
+  }
+  .img_card {
+    max-width: 50px;
+  }
+  .integrationForMobile {
+    display: block;
+  }
+  .integrationForWeb {
+    display: none;
+  }
+  .LeadershipForMobile {
+    display: block;
+  }
+  .LeadershipForWeb {
+    display: none;
+  }
+  .LeaderShipMob1 {
+    display: flex;
+    /* height: 170px; */
+    /* padding-top: 10%; */
     gap: 20px;
   }
   .clientPageforWeb {

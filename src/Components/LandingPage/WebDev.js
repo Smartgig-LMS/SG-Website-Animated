@@ -18,11 +18,10 @@ export default function WebDev() {
                         We are determined in creating seamless user experiences for our Customers websites and web apps
                         by bringing design and functionality come together harmoniously to enhance the user experience
                         with efficiency in which users can interact, explore and be inspired by our magnificence.
-
                     </span>
                     <div className='d-flex mt-5'>
                         <div>
-                            <div >
+                            <div>
                                 <div>
                                     <img src='./Images/gobeyond/Slick websites Icon.png' />
                                 </div>

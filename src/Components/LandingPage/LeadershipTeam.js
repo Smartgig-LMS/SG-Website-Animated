@@ -105,7 +105,7 @@ export default function LeadershipTeam() {
             {/* for mobile -----------------------------------------------------------------*/}
 
             <div className='LeadershipForMobile'>
-                <div className='row pt-5 vh-100 ml-5 LeadershipContainer '>
+                <div className='row pt-1 vh-100 ml-5 LeadershipContainer '>
                     <div className='col'>
                         <div className='LeaderShip2'>
                             <div>
@@ -114,7 +114,7 @@ export default function LeadershipTeam() {
                             <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                                 Leadership Team
                             </h1>
-                            <span style={{ fontWeight: "600", fontStyle: "Roboto", fontSize: "18px" }}>
+                            <span style={{ fontWeight: "500", fontStyle: "Roboto", fontSize: "18px" }}>
                                 Meet our dynamic leadership team who are
                                 an epitome of unwavering dedication and
                                 determination in driving forward the organization
@@ -126,7 +126,7 @@ export default function LeadershipTeam() {
                     </div>
                     <div className='LeaderShipMob1'>
                         <div className='LeaderShipMob2'>
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/mahesh-nayani-4a947a1a' target='_blank'>
                                     <img className='mahesh' src='./Images/gobeyond/Mahesh.png' data-tooltip-id="my-tooltip-1" />
                                 </a>
@@ -139,7 +139,7 @@ export default function LeadershipTeam() {
                                 </small>
                             </div>
 
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/ramakrishnavaddi' target='_blank'>
                                     <img className='rama' src='./Images/gobeyond/Rama.png' data-tooltip-id="my-tooltip-2" />
                                 </a>
@@ -151,7 +151,7 @@ export default function LeadershipTeam() {
                             </div>
                         </div>
                         <div className='LeaderShipMob2' >
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/sankar-r-499470210' target='_blank'>
                                     <img className='shankar' src='./Images/gobeyond/Shankar.png' height="109" width="109" data-tooltip-id="my-tooltip-4" />
                                 </a>
@@ -161,7 +161,7 @@ export default function LeadershipTeam() {
                                 </h6>
                                 <small>COO</small>
                             </div>
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/leena-tiganapally-313487214' target='_blank'>
                                     <img className='leena' src='./Images/gobeyond/Leena.png' height="109" width="109" data-tooltip-id="my-tooltip-3" />
                                 </a>

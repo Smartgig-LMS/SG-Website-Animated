@@ -128,9 +128,20 @@ export default function CloudDevops() {
                             </div>
                         </div>
                         <div className='formob'>
+
                             <div >
                                 <div>
-                                    <img src='./Images/gobeyond/Cloud-business.svg' />
+                                    <img src='./Images/gobeyond/Industry-cloud.svg' />
+                                </div>
+                                <div className='mt-2'>
+                                    <p>
+                                        Industry <br /> Cloud
+                                    </p>
+                                </div>
+                            </div>
+                            <div >
+                                <div>
+                                    <img src='./Images/gobeyond/CloudBusinesApplication.svg' />
                                 </div>
                                 <div className='mt-2'>
                                     <p>
@@ -139,16 +150,6 @@ export default function CloudDevops() {
                                 </div>
                             </div>
 
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Industry-cloud.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Industry Cloud
-                                    </p>
-                                </div>
-                            </div>
                         </div>
 
                     </div>
