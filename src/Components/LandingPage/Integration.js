@@ -158,7 +158,7 @@ export default function Integration() {
                             </a>
                         </div>
                     </div>
-                    <div className='IntegrationLogos py-1 px-2 mt-4 ml-5'>
+                    <div className='IntegrationLogos py-1 px-2 mt-4 ml-4'>
 
                         <div className='card shadow IntegrationCard' >
                             <a href="https://www.qlik.com/us/" target='_blank' >
