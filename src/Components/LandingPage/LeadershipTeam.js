@@ -5,8 +5,8 @@ export default function LeadershipTeam() {
     const [flag, setFlag] = useState(false);
 
     return (
-        <div className='col-12 pt-5 vh-100 LeadershipContainer '>
-
+        <div className='row pt-5 vh-100 ml-5 LeadershipContainer '>
+        <div className='col ml-4 pr-0'>
             <div className='LeaderShip1 ml-5'>
                 <div className='circle'>
                     <a href='https://www.linkedin.com/in/mahesh-nayani-4a947a1a' target='_blank'>
@@ -76,7 +76,8 @@ export default function LeadershipTeam() {
                 </ReactTooltip>
 
             </div>
-
+            </div>
+            <div className='col'>
             <div className='LeaderShip2'>
                 <div>
                     <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
@@ -84,15 +85,16 @@ export default function LeadershipTeam() {
                 <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                     Leadership Team
                 </h1>
-                <span className='leadershipContent'  style={{ fontWeight: "600", fontStyle: "Roboto", fontSize: "18px" }}>
-                    Meet our dynamic leadership team who are <br />
-                    an epitome of unwavering dedication and <br />
-                    determination in driving forward the organization <br />
-                    towards excellence with innovation as vision and <br />
-                    embarking new digital horizons as a <br />
+                <span style={{ fontWeight: "600", fontStyle: "Roboto", fontSize: "18px" }}>
+                    Meet our dynamic leadership team who are 
+                    an epitome of unwavering dedication and 
+                    determination in driving forward the organization 
+                    towards excellence with innovation as vision and 
+                    embarking new digital horizons as a 
                     mission.
                 </span>
-                <hr />
+                
+            </div>
             </div>
         </div >
     )

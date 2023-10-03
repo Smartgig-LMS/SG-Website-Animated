@@ -113,7 +113,7 @@ export default function LeadershipTeam() {
                                     embarking new digital horizons as a <br />
                                     mission.
                                 </span>
-                                <hr />
+                                
                             </div>
                         </div>
                     </div>
