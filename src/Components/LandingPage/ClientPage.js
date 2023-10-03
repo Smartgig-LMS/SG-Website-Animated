@@ -21,7 +21,7 @@ const OurClients = () => {
     }
 
     return (
-        <>
+        <div className='clientPageforWeb'>
             <div className='col-12 pt-5 vh-100 Clientpg'>
                 <div className='text-center'>
                     <img src='./Images/gobeyond/OurClient.svg' width="150" height="50" />
@@ -74,9 +74,9 @@ const OurClients = () => {
                             </div>
 
                         </div>
-                         <span className=' mt-5'>
+                        <span className=' mt-5'>
                             and many more...
-                        </span>  
+                        </span>
                     </div>
 
                     <div className='col-12 text-center tryusbtn'>
@@ -87,7 +87,7 @@ const OurClients = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
