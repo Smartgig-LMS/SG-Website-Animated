@@ -51,8 +51,6 @@ export default function CulturePage() {
         return null;
     }
 
-    console.log(current);
-
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1);
     };

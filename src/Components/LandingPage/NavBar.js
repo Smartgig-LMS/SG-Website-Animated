@@ -30,24 +30,25 @@ export default function NavBar() {
                 <div style={{ marginLeft: "30px" }} onClick={navigateFnLP}>
                     <img src='./Images/gobeyond/SmartGig-logo.png' height="70px" width="131px" />
                 </div>
-                <div className='d-flex' style={{ justifyContent: "space-between", fontWeight: "500", marginTop: '19px', paddingRight: "60px" }}>
-                    <div className='ml-4' onClick={navigateFnLP} style={{ cursor: "pointer" }}>
+
+                <ul className='navbarStyle'>
+                    <li className='ml-4' onClick={navigateFnLP} >
                         Home
-                    </div>
-                    <div className='ml-4' onClick={navigateFn} style={{ cursor: "pointer" }}>
+                    </li>
+                    <li className='ml-4' onClick={navigateFn} >
                         Partnerships
-                    </div>
-                    <div className='ml-4' onClick={navigateFn2} style={{ cursor: "pointer" }}>
+                    </li>
+                    <li className='ml-4' onClick={navigateFn2} >
                         Culture
-                    </div>
-                    <div className='ml-4' onClick={navigateFn3} style={{ cursor: "pointer" }}>
+                    </li>
+                    <li className='ml-4' onClick={navigateFn3} >
                         Career
-                    </div>
-                    <div className='ml-4' onClick={navigateFn4} style={{ cursor: "pointer" }}>
+                    </li>
+                    <li className='ml-4' onClick={navigateFn4} >
                         Contact Us
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </li>
+                </ul>
+            </div >
+        </div >
     )
 }

@@ -19,6 +19,16 @@
     width: 100%;
     z-index: 1000;
   }
+  .navbarStyle {
+    list-style: none;
+    font-weight: 500;
+    margin-top: 19px;
+    padding-right: 60px;
+  }
+  .navbarStyle li {
+    display: inline-block;
+    cursor: pointer;
+  }
 
   /* .homeVideo {
     position: fixed;
@@ -1136,6 +1146,16 @@
     position: fixed;
     width: 100%;
     z-index: 1000;
+  }
+  .navbarStyle {
+    list-style: none;
+    font-weight: 500;
+    margin-top: 19px;
+    padding-right: 60px;
+  }
+  .navbarStyle li {
+    display: inline-block;
+    cursor: pointer;
   }
 
   /* .homeVideo {
@@ -2269,6 +2289,16 @@
     width: 100%;
     z-index: 1000;
   }
+  .navbarStyle {
+    list-style: none;
+    font-weight: 500;
+    margin-top: 19px;
+    padding-right: 60px;
+  }
+  .navbarStyle li {
+    display: inline-block;
+    cursor: pointer;
+  }
 
   /* .homeVideo {
     position: fixed;
@@ -3382,6 +3412,22 @@
     flex-direction: column;
     margin-top: 10px;
   } */
+  .Navsection {
+    background: #fff;
+    position: relative;
+    width: 100%;
+    z-index: 1000;
+  }
+  .navbarStyle {
+    list-style: none;
+    font-weight: 500;
+    margin-top: 19px;
+    padding-right: 60px;
+  }
+  .navbarStyle li {
+    display: inline-block;
+    cursor: pointer;
+  }
   .videoTextContainer {
     width: 412px;
     height: 400px;
@@ -3441,6 +3487,23 @@
     margin-top: 360px;
     display: flex;
     flex-direction: column;
+  }
+  .IntegrationLogos {
+    /* display: flex; */
+    gap: 20px;
+    /* align-items: center;
+    justify-content: center; */
+  }
+  .IntegrationCard {
+    height: 86px !important;
+    width: 86px !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .IntegrationCard img {
+    width: 100%;
+    transition: 0.3s all ease-in-out;
   }
   .img_card {
     max-width: 50px;

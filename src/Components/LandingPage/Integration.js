@@ -30,19 +30,19 @@ export default function Integration() {
 
                 <div className='card shadow IntegrationCard' >
                     <a href="https://azure.microsoft.com/en-in" target='_blank' >
-                        <img className='img_card'  src='./Images/gobeyond/Azure.png' alt='...' height="70px" width="70px" />
+                        <img className='img_card' src='./Images/gobeyond/Azure.png' alt='...' height="70px" width="70px" />
                     </a>
                 </div>
 
                 <div className='card shadow IntegrationCard' >
                     <a href="https://www.figma.com/" target='_blank' >
-                        <img className='img_card'  src='./Images/gobeyond/Figma Icon.png' alt='...' height="70px" width="70px" />
+                        <img className='img_card' src='./Images/gobeyond/Figma Icon.png' alt='...' height="70px" width="70px" />
                     </a>
                 </div>
 
                 <div className='card shadow IntegrationCard' >
                     <a href="https://aws.amazon.com/" target='_blank'>
-                        <img  className='img_card'  src='./Images/gobeyond/aws.png' alt='...' height="54px" width="90px" />
+                        <img className='img_card' src='./Images/gobeyond/aws.png' alt='...' height="54px" width="90px" />
                     </a>
                 </div>
 
