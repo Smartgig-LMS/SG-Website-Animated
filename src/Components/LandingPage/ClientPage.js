@@ -27,7 +27,7 @@ const OurClients = () => {
                     <img src='./Images/gobeyond/OurClient.svg' width="150" height="50" />
                     <h2 className='col-12 mb-3 mt-2 clientPgHeading'>Fuelling Innovation Through Collaborative Excellence</h2>
                     <span className='col-12 mb-0 mt-2 clientPgPara'>
-                        Meet Our Valued Clients
+                        Powering the best teams, from next-generation startups to establish enterprises.
                     </span>
                 </div>
                 <div className="ClientpgImgs">
@@ -55,7 +55,7 @@ const OurClients = () => {
                             </div>
                         </div>
 
-                        <div className='d-flex px-2 GapForClient' >
+                        <div className='d-flex px-2 py-1 GapForClient' >
 
                             <div className='card shadow ClientPgCard' >
                                 <img src='./Images/brand/InsurFinLogo.png' className='InsureIMG' alt='...' />
@@ -74,9 +74,9 @@ const OurClients = () => {
                             </div>
 
                         </div>
-                        <span className=' mt-5'>
+                         <span className=' mt-5'>
                             and many more...
-                        </span>
+                        </span>  
                     </div>
 
                     <div className='col-12 text-center tryusbtn'>

@@ -3,7 +3,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function Testing() {
     return (
-        <div className='col-12 pt-5 vh-100 TestingContainer'>
+        <div className='row pt-5 vh-100 pl-5 TestingContainer'>
+            <div className='col ml-4 pr-0'>
             <div className='Testing1'>
                 <div>
                     <img src='./Images/gobeyond/TAAS Icon.svg' width="90" height="45" />
@@ -17,13 +18,13 @@ export default function Testing() {
                     </h1>
                 </div>
                 <span>
-                    Are you in search for top notch software testing as<br />
-                    a service, then look no further. We specialize in<br />
-                    unbiased, high-quality testing, by utilizing both<br />
-                    automated and manual methods, we make you to <br />
+                    Are you in search for top notch software testing as
+                    a service, then look no further. We specialize in
+                    unbiased, high-quality testing, by utilizing both
+                    automated and manual methods, we make you to
                     experience unparalleled excellence and efficiency.
                 </span>
-                <div className='mt-4'>
+                <div className='mt-5'>
                     <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header >
@@ -64,8 +65,11 @@ export default function Testing() {
                     </Accordion>
                 </div>
             </div>
-            <div className='Testing2'>
-                <img className='testingImage' src='./Images/gobeyond/Software-Tester 1.png' />
+            </div>
+            <div className='col ml-3'>
+            <div className='Testing2 img-left'>
+                <img src='./Images/gobeyond/Software-Tester 1.png' />
+            </div>
             </div>
         </div>
     )

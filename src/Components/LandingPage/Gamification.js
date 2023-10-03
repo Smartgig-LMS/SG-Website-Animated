@@ -24,8 +24,8 @@ export default function Gamification() {
                     enhanced learning and increased productivity
                 </span>
             </div>
-            <div className='Gamification2'>
-                <img className='GameImg' src='./Images/gobeyond/Group 427321293.png' />
+            <div className='Gamification2 img-left'>
+                <img className='GameImg' src='./Images/gobeyond/gamification.png' />
             </div>
         </div>
     )

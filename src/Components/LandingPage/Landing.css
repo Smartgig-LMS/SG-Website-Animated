@@ -1,5 +1,3 @@
-/* Width 1000 to 1200 */
-
 @media all and (min-width: 1000px) and (max-width: 1200px) {
   .main-homesection {
     position: absolute;
@@ -408,7 +406,7 @@
     flex-direction: column;
     gap: 15px;
     z-index: 999;
-    width: 90px;
+    width: 103px;
   }
   .vertical-Links a {
     position: relative;
@@ -448,7 +446,7 @@
   }
 
   .vertical-Links .current a::before {
-    width: 60px;
+    width: 80px;
     height: 4px;
   }
 
@@ -474,7 +472,7 @@
     margin-top: 1.5%;
     display: flex;
     justify-content: space-around;
-    margin-left: 3%;
+    margin-left: 3% !important;
   }
   .LeadershipContainer {
     margin-top: 3.5%;
@@ -489,6 +487,7 @@
   }
 
   .Webdev1 {
+    margin-left: 20px;
     font-size: smaller;
     /* margin-top: 25px; */
   }
@@ -508,6 +507,7 @@
   }
   .Cyber1 {
     font-size: smaller;
+    margin-top: 20%;
   }
   .LeaderShip2 {
     margin-top: 5rem;
@@ -933,7 +933,7 @@
 
   .shankar {
     margin-left: 12rem;
-    margin-top: 6rem;
+    margin-top: 4.9rem;
   }
 
   .circle {
@@ -1169,47 +1169,47 @@
     z-index: 1;
   }
   .main-homesection:nth-child(2) {
-    top: 100vh;
+    top: 110vh;
     z-index: 2;
   }
   .main-homesection:nth-child(3) {
-    top: 200vh;
+    top: 210vh;
     z-index: 3;
   }
   .main-homesection:nth-child(4) {
-    top: 300vh;
+    top: 310vh;
     z-index: 4;
   }
   .main-homesection:nth-child(5) {
-    top: 400vh;
+    top: 410vh;
     z-index: 5;
   }
   .main-homesection:nth-child(6) {
-    top: 500vh;
+    top: 510vh;
     z-index: 6;
   }
   .main-homesection:nth-child(7) {
-    top: 600vh;
+    top: 610vh;
     z-index: 7;
   }
   .main-homesection:nth-child(8) {
-    top: 700vh;
+    top: 710vh;
     z-index: 8;
   }
   .main-homesection:nth-child(9) {
-    top: 800vh;
+    top: 810vh;
     z-index: 9;
   }
   .main-homesection:nth-child(10) {
-    top: 900vh;
+    top: 930vh;
     z-index: 10;
   }
   .main-homesection:nth-child(11) {
-    top: 1000vh;
+    top: 1010vh;
     z-index: 11;
   }
   .main-homesection:nth-child(12) {
-    top: 1100vh;
+    top: 1010vh;
     z-index: 12;
   }
 
@@ -1542,7 +1542,7 @@
     flex-direction: column;
     gap: 15px;
     z-index: 999;
-    width: 90px;
+    width: 103px;
   }
   .vertical-Links a {
     position: relative;
@@ -1582,7 +1582,7 @@
   }
 
   .vertical-Links .current a::before {
-    width: 60px;
+    width: 80px;
     height: 4px;
   }
 
@@ -1608,7 +1608,7 @@
     margin-top: 1.5%;
     display: flex;
     justify-content: space-around;
-    margin-left: 3%;
+    margin-left: 3% !important;
   }
   .LeadershipContainer {
     margin-top: 5.5%;
@@ -1710,6 +1710,7 @@
   }
 
   .Webdev1 {
+    margin-left: 20px;
     margin-top: 60px;
   }
   .CloudDev1 {
@@ -1728,7 +1729,7 @@
     margin-top: 8rem;
   }
   .Cyber1 {
-    margin-top: 7%;
+    margin-top: 20%;
   }
   .Gamification1 {
     margin-top: 7%;
@@ -2074,7 +2075,7 @@
 
   .shankar {
     margin-left: 12rem;
-    margin-top: 6rem;
+    margin-top: 4.9rem;
   }
 
   .circle {
@@ -2679,7 +2680,7 @@
     flex-direction: column;
     gap: 15px;
     z-index: 999;
-    width: 90px;
+    width: 103px;
   }
   .vertical-Links a {
     position: relative;
@@ -2719,7 +2720,7 @@
   }
 
   .vertical-Links .current a::before {
-    width: 60px;
+    width: 80px;
     height: 4px;
   }
 
@@ -2745,7 +2746,7 @@
     margin-top: 1.5%;
     display: flex;
     justify-content: space-around;
-    margin-left: 3%;
+    margin-left: 3% !important;
   }
   .LeadershipContainer {
     margin-top: 9.5%;
@@ -2760,6 +2761,7 @@
   }
 
   .Webdev1 {
+    margin-left: 20px;
     font-size: x-large;
     margin-top: 60px;
   }
@@ -2781,7 +2783,7 @@
   }
   .Cyber1 {
     font-size: x-large;
-    margin-top: 7%;
+    margin-top: 20%;
   }
   .LeaderShip2 {
     margin-top: 5rem;
@@ -3210,7 +3212,7 @@
 
   .shankar {
     margin-left: 12rem;
-    margin-top: 6rem;
+    margin-top: 4.9rem;
   }
 
   .circle {
@@ -3405,6 +3407,11 @@
     margin-top: 40px;
   } */
 }
+
+.img-left {
+  height: 550px;
+  width: 600px;
+  border-radius: 33px;
 
 @media (max-width: 767px) {
   /* .d-flex{
@@ -3633,4 +3640,5 @@
   }.DataService1{
     margin-top: 270px;
   } */
+}
 }

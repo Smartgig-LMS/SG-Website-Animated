@@ -52,7 +52,7 @@ export default function Integration() {
                     </a>
                 </div>
             </div>
-            <div className='IntegrationLogos py-3 px-2 mt-2'>
+            <div className='IntegrationLogos py-1 px-2 mt-2'>
                 <div className='card shadow IntegrationCard' >
                     <a href="https://www.atlassian.com/software/jira" target='_blank'>
                         <img className='img_card' src='./Images/gobeyond/jiraLogo.png' alt='...' height="82px" width="82px" />
