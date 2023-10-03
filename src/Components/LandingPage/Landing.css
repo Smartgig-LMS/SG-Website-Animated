@@ -570,6 +570,17 @@
     transform: scale(1.05);
   }
 
+  .Gamification2 {
+    overflow: hidden;
+  }
+  .Gamification2 img {
+    height: 80%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Gamification2:hover img {
+    transform: scale(1.05);
+  }
+
   .Clientpg {
     margin-top: 4rem;
   }
@@ -1142,40 +1153,44 @@
     z-index: 2;
   }
   .main-homesection:nth-child(3) {
-    top: 220vh;
+    top: 210vh;
     z-index: 3;
   }
   .main-homesection:nth-child(4) {
-    top: 330vh;
+    top: 310vh;
     z-index: 4;
   }
   .main-homesection:nth-child(5) {
-    top: 440vh;
+    top: 410vh;
     z-index: 5;
   }
   .main-homesection:nth-child(6) {
-    top: 550vh;
+    top: 510vh;
     z-index: 6;
   }
   .main-homesection:nth-child(7) {
-    top: 660vh;
+    top: 610vh;
     z-index: 7;
   }
   .main-homesection:nth-child(8) {
-    top: 775vh;
+    top: 710vh;
     z-index: 8;
   }
   .main-homesection:nth-child(9) {
-    top: 875vh;
+    top: 810vh;
     z-index: 9;
   }
   .main-homesection:nth-child(10) {
-    top: 990vh;
+    top: 930vh;
     z-index: 10;
   }
   .main-homesection:nth-child(11) {
-    top: 1000vh;
+    top: 1010vh;
     z-index: 11;
+  }
+  .main-homesection:nth-child(12) {
+    top: 1010vh;
+    z-index: 12;
   }
 
   /* end of parallax */
@@ -1663,6 +1678,17 @@
     transform: scale(1.05);
   }
 
+  .Gamification2 {
+    overflow: hidden;
+  }
+  .Gamification2 img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Gamification2:hover img {
+    transform: scale(1.05);
+  }
+
   .Webdev1 {
     margin-left: 20px;
     margin-top: 60px;
@@ -1684,6 +1710,9 @@
   }
   .Cyber1 {
     margin-top: 20%;
+  }
+  .Gamification1 {
+    margin-top: 7%;
   }
 
   .Clientpg {
@@ -2221,7 +2250,7 @@
   } */
 }
 
-/* Width 1200 to 1500 */
+/* Width 1600 to 2000 */
 @media all and (min-width: 1600px) and (max-width: 2000px) {
   .main-homesection {
     position: absolute;
@@ -2796,6 +2825,17 @@
     transform: scale(1.05);
   }
 
+  .Gamification2 {
+    overflow: hidden;
+  }
+  .Gamification2 img {
+    height: 90%;
+    transition: 0.5s all ease-in-out;
+  }
+  .Gamification2:hover img {
+    transform: scale(1.05);
+  }
+
   .Clientpg {
     margin-top: 4rem;
   }
@@ -3343,4 +3383,199 @@
   width: 600px;
   border-radius: 33px;
 
+@media (max-width: 767px) {
+  /* .d-flex{
+    display:flex;
+    flex-direction: column;
+    margin-top: 10px;
+  } */
+  .videoTextContainer {
+    width: 412px;
+    height: 400px;
+  }
+  .Webdev1 {
+    margin-top: -80px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .webAppDec {
+    white-space: nowrap;
+  }
+  .webImg2 {
+    width: 380px;
+    margin-left: 15px;
+  }
+  .CloudDev1 {
+    margin-top: 15px;
+    /* margin-left: 3px; */
+    /* margin-right: 3px; */
+  }
+  .cloudImg2 {
+    width: 380px;
+  }
+  .MobApp1 {
+    margin-top: 80px;
+    margin-right: 2px;
+  }
+  .mobileImg {
+    width: 380px;
+  }
+  .Testing1 {
+    margin-top: 194px;
+    margin-left: 0px;
+  }
+  .testingImage {
+    width: 380px;
+    margin-top: 20px;
+  }
+  .DataService1 {
+    margin-top: 280px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  .dataServiceImg {
+    width: 380px;
+    margin-top: 20px;
+  }
+  .Cyber1 {
+    margin-top: 390px;
+  }
+  .cyberImg {
+    width: 380px;
+    margin-top: 20px;
+  }
+  .text-center {
+    margin-top: 360px;
+    display: flex;
+    flex-direction: column;
+  }
+  .img_card {
+    max-width: 50px;
+  }
+  .IntegrationLogos {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+  .text {
+    font-size: 14px;
+    line-height: 1.4px;
+    text-align: left;
+    margin: 0px;
+  }
+  span.mb-3 {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .mobileContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .dateServiceContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .cyberSecurityContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .GamificationContent {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    white-space: nowrap;
+  }
+
+  .mt-2 {
+    line-height: 1.4;
+    text-align: left;
+    font-weight: 500;
+    white-space: normal;
+  }
+  .integrationHeader {
+    margin-top: 8px;
+    white-space: nowrap;
+    text-align: left;
+  }
+  .spanInteg {
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: 500;
+    white-space: normal;
+    display: block;
+  }
+  .col-12.pt-5.vh-100.LeadershipContainer {
+    margin-top: -70px;
+  }
+  .leadershipContent {
+    white-space: nowrap;
+  }
+  .appsDescription {
+    white-space: nowrap;
+  }
+  .cloudAppImg1 {
+    margin-right: 60px;
+  }
+  .cloudAppImg2 {
+    margin-right: 40px;
+  }
+  .cloudAppImg3 {
+    margin-right: 94px;
+  }
+  .cloudAppImg4 {
+    margin-right: 89px;
+  }
+  .cloudAppImg5 {
+    margin-right: 30px;
+  }
+  .cloudAppImg6 {
+    margin-right: 26px;
+  }
+  .dropDownImg {
+    margin-right: 10px;
+  }
+  .webDevCont {
+    white-space: nowrap;
+  }
+  .futursticHeading {
+    margin-top: 10px;
+    font-weight: 900px;
+  }
+  .cyberSecHead {
+    margin-top: -10px;
+  }
+  .thirdCloudService {
+    margin-left: -26px;
+  }
+
+  /* .mobileContent {
+    white-space: normal; 
+    overflow: visible; 
+    text-overflow: clip; 
+  }
+  .d-flex{
+    flex-direction: row;
+  }
+  .mobileAppImg{
+    width: 340px;
+  }.Testing1{
+    margin-top: 220px;
+  }
+  .testImage{
+    width: 386px;
+    margin-top: 20px;
+  }.DataService1{
+    margin-top: 270px;
+  } */
+}
 }

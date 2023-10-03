@@ -11,10 +11,10 @@ export default function CyberSecurity() {
                 </div>
                 <div className='webhead'>
                     <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className='mt-2'>
-                        Improve cybersecurity for your <br />
+                        Improve cybersecurity for  <br />
                     </h1>
-                    <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
-                        Company in the digital age
+                    <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='mb-3 cyberSecHead'>
+                    your Company in the digital age
                     </h1>
                 </div>
                 <span>

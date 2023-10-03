@@ -55,7 +55,7 @@ const OurClients = () => {
                             </div>
                         </div>
 
-                        <div className='d-flex px-2 GapForClient' >
+                        <div className='d-flex px-2 py-1 GapForClient' >
 
                             <div className='card shadow ClientPgCard' >
                                 <img src='./Images/brand/InsurFinLogo.png' className='InsureIMG' alt='...' />

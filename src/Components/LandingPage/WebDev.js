@@ -32,7 +32,7 @@ export default function WebDev() {
                                 </h6>
                             </div>
                         </div>
-                        <p>
+                        <p >
                             Crafting digital experiences<br />
                             that captivate
                         </p>
@@ -48,7 +48,7 @@ export default function WebDev() {
                                 </h6>
                             </div>
                         </div>
-                        <p>
+                        <p className='webAppDec'>
                             Embark flawless user journey with <br />
                             converge of speed and usability
                         </p>
@@ -59,7 +59,7 @@ export default function WebDev() {
             <div className='col ml-3'>
             <div className='Webdev2 img-left'>
                 {/* <img src='./Images/gobeyond/Web39.png' /> */}
-                <img src='./Images/gobeyond/WebDev.png' />
+                <img className='webImg2' src='./Images/gobeyond/WebDev.png' />
             </div>
             </div>
         </div>

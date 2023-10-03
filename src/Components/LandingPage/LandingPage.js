@@ -14,6 +14,7 @@ import Homelinks from './HomeLinks';
 import DataServices from './DataServices';
 import CyberSecurity from './CyberSecurity';
 import LeadershipTeam from './LeadershipTeam';
+import Gamification from './Gamification';
 // import LeadershipTeam from './LeaderShip1';
 // import OurTeam from './OurTeam';
 
@@ -68,6 +69,10 @@ export default function LandingPage() {
 
                     <div className="main-homesection pt-5" id='cyber-security'>
                         <CyberSecurity />
+                    </div>
+
+                    <div className="main-homesection" id='gamification'>
+                        <Gamification />
                     </div>
 
                     <div className='main-homesection pt-5' id='integrations'>

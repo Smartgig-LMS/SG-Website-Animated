@@ -28,7 +28,7 @@ export default function Testing() {
                     <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header >
-                                <img src='./Images/gobeyond/Group 427321256.png' width="25" height="25" />
+                                <img className='dropDownImg' src='./Images/gobeyond/Group 427321256.png' width="25" height="25" />
                                 <div className='headingAccordion'>
                                     Mobile Apps
                                 </div>
@@ -40,7 +40,7 @@ export default function Testing() {
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
                             <Accordion.Header>
-                                <img src='./Images/gobeyond/Group 427321254.png' width="25" height="25" />
+                                <img className='dropDownImg' src='./Images/gobeyond/Group 427321254.png' width="25" height="25" />
                                 <div className='headingAccordion'>
                                     Web Application
                                 </div>
@@ -53,7 +53,7 @@ export default function Testing() {
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
                             <Accordion.Header>
-                                <img src='./Images/gobeyond/Group 427321257.png' height="25px" width="25px" />
+                                <img className='dropDownImg' src='./Images/gobeyond/Group 427321257.png' height="25px" width="25px" />
                                 <div className='headingAccordion'>
                                     Security Testing
                                 </div>
