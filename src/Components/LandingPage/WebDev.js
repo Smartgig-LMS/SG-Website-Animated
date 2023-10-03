@@ -4,7 +4,7 @@ import React from 'react'
 export default function WebDev() {
     return (
         // <div className='webdev col-12 pt-5 vh-100 fixed'>
-        <div className='row TestingContainer pt-5 vh-100 pl-5'>
+        <div className='row TestingContainer vh-100 pl-5'>
             <div className='col ml-4 pr-0'>
                 <div className='Webdev1'>
                     <div>

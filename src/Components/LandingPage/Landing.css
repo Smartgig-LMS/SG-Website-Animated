@@ -3492,7 +3492,9 @@
     display: inline-block;
     cursor: pointer;
   }
-
+  .homeVideo {
+    margin-left: 13%;
+  }
   .CloudDev2 img {
     width: 50%;
   }
@@ -3761,7 +3763,9 @@
     display: inline-block;
     cursor: pointer;
   }
-
+  .homeVideo {
+    margin-left: 13%;
+  }
   .Webdev2 img {
     width: 70%;
     border-radius: 13px;
@@ -4033,7 +4037,9 @@
     display: inline-block;
     cursor: pointer;
   }
-
+  .homeVideo {
+    margin-left: 13%;
+  }
   .CloudDev2 img {
     width: 50%;
   }
