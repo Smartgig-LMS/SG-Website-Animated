@@ -4,7 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function DataServices() {
     return (
-        <div className=' col-12 pt-5 vh-100 TestingContainer'>
+        <div className=' row pt-5 vh-100 pl-5 TestingContainer'>
+            <div className='col ml-4 pr-0'>
             <div className='DataService1'>
                 <div>
                     <img src='./Images/gobeyond/DataSer1.svg' width="190" height="50" />
@@ -13,12 +14,12 @@ export default function DataServices() {
                     Data Services
                 </h1>
                 <span>
-                    Ever thought of turning your data into a strategic asset.<br />
-                    Make it happen with our exceptional data services, which <br />
-                    make you to handle the complexities with ease in your own<br />
-                    path of excellence as we effortlessly manage, analyse and <br />
-                    leverage your data to harness the full potential of your <br />
-                    information assets to make you stay ahead in today’s <br />
+                    Ever thought of turning your data into a strategic asset.
+                    Make it happen with our exceptional data services, which 
+                    make you to handle the complexities with ease in your own
+                    path of excellence as we effortlessly manage, analyse and
+                    leverage your data to harness the full potential of your
+                    information assets to make you stay ahead in today’s
                     data – driven world.
                 </span>
                 <div className='mt-5'>
@@ -57,8 +58,11 @@ export default function DataServices() {
                     </Accordion>
                 </div>
             </div>
-            <div className='DataService2'>
+            </div>
+            <div className='col ml-3'>
+            <div className='DataService2 img-left'>
                 <img src='./Images/gobeyond/7xm456259 2.png' />
+            </div>
             </div>
         </div>
     )

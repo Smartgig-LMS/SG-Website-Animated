@@ -3,7 +3,8 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function CyberSecurity() {
     return (
-        <div className=' col-12 pt-5 vh-100 TestingContainer'>
+        <div className=' row pt-5 vh-100 pl-5 TestingContainer'>
+            <div className='col ml-4 pr-0'>
             <div className='Cyber1'>
                 <div>
                     <img src='./Images/gobeyond/CyberIocn1.svg' width="190" height="50" />
@@ -17,16 +18,19 @@ export default function CyberSecurity() {
                     </h1>
                 </div>
                 <span>
-                    Elevate your cyber security defences with our <br />
-                    comprehensive cyber security services which fortify<br />
-                    your digital fortress with tailored solutions to <br />
-                    promote cyber safety and safeguard your business <br />
-                    from cyber threats with In-depth analysis and actionable<br />
+                    Elevate your cyber security defences with our
+                    comprehensive cyber security services which fortify
+                    your digital fortress with tailored solutions to
+                    promote cyber safety and safeguard your business
+                    from cyber threats with In-depth analysis and actionable
                     recommendations.
                 </span>
             </div>
-            <div className='Cyber2'>
+            </div>
+            <div className='col ml-3'>
+            <div className='Cyber2 img-left'>
                 <img src='./Images/gobeyond/Group 427321293.png' />
+            </div>
             </div>
         </div>
     )

@@ -106,14 +106,14 @@ export default function LeadershipTeam() {
                                     Team
                                 </h1>
                                 <span style={{ fontWeight: "400", fontStyle: "Roboto", }}>
-                                    Meet our dynamic leadership team who are an <br />
-                                    epitome of unwavering dedication and <br />
-                                    determination in driving forward the organization <br />
-                                    towards excellence with innovation as vision and <br />
-                                    embarking new digital horizons as a <br />
+                                    Meet our dynamic leadership team who are an 
+                                    epitome of unwavering dedication and 
+                                    determination in driving forward the organization 
+                                    towards excellence with innovation as vision and 
+                                    embarking new digital horizons as a 
                                     mission.
                                 </span>
-                                <hr />
+                                
                             </div>
                         </div>
                     </div>

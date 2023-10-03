@@ -39,7 +39,7 @@ const Homelinks = ({ setPageName, setActive, active }) => {
 
     return (
         <>
-            <div className={`${addClass} vertical-Links`} id="verticalNav" >
+            <div className={`${addClass} vertical-Links ml-3`} id="verticalNav" >
                 <Scrollspy
                     items={[
                         "homeVideo",

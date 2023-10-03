@@ -1,9 +1,11 @@
+import { fontFamily, height, lineHeight } from '@mui/system'
 import React from 'react'
 
 export default function WebDev() {
     return (
         // <div className='webdev col-12 pt-5 vh-100 fixed'>
-        <div className='TestingContainer pt-5 vh-100'>
+        <div className='row TestingContainer pt-5 vh-100 pl-5'>
+            <div className='col ml-4 pr-0'>
             <div className='Webdev1'>
                 <div>
                     <img src='./Images/gobeyond/Group 427321583.svg' width="180" height="50" />
@@ -13,15 +15,12 @@ export default function WebDev() {
                     for user
                 </h1>
                 <span>
-                    We are determined in creating seamless user experience<br />
-                    for our customers through websites and web apps developed <br />
-                    by us while bringing design and functionality excellence.<br />
-                    Enhance your customers user experience with futuristic<br />
-                    designs thereby making their interaction with the application<br />
-                    rich.
+                We are determined in creating seamless user experiences for our Customers websites and web apps
+                by bringing design and functionality come together harmoniously to enhance the user experience
+                with efficiency in which users can interact, explore and be inspired by our magnificence.
+
                 </span>
-                <hr />
-                <div className='d-flex'>
+                <div className='d-flex mt-5'>
                     <div>
                         <div >
                             <div>
@@ -56,9 +55,12 @@ export default function WebDev() {
                     </div>
                 </div>
             </div>
-            <div className='Webdev2'>
+            </div>
+            <div className='col ml-3'>
+            <div className='Webdev2 img-left'>
                 {/* <img src='./Images/gobeyond/Web39.png' /> */}
                 <img src='./Images/gobeyond/WebDev.png' />
+            </div>
             </div>
         </div>
     )

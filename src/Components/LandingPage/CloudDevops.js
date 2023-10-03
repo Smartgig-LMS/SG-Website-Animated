@@ -6,7 +6,7 @@ export default function CloudDevops() {
         currentHeader: 0,
         headings: ['Accelerate', 'Transform', 'Innovate'],
         heading: function () {
-            document.getElementById('heading').innerHTML = this.headings[this.currentHeader];
+            //document.getElementById('heading').innerHTML = this.headings[this.currentHeader];
             if (this.currentHeader === this.headings.length - 1) {
                 this.currentHeader = 0;
             } else {
@@ -20,7 +20,8 @@ export default function CloudDevops() {
     }, 2000)
 
     return (
-        <div className='TestingContainer col-12 pt-5 vh-100'>
+        <div className='TestingContainer row pt-5 vh-100 pl-5'>
+            <div className='col ml-4 pr-0'>
             <div className='CloudDev1'>
                 <div>
                     <img src='./Images/gobeyond/Group42.svg' width="180" height="50" />
@@ -31,11 +32,13 @@ export default function CloudDevops() {
                     Your cloud services<br />
                 </h1>
                 <span className='mb-3'>
-                    Enhance your organization's operational efficiency across all stages with<br /> our robust cloud services, leveraging the power of AWS and Azure.<br />
-                    For operational efficiency and sustainability, go Smart way  with us.
+                Enhance your organization's opertional effciency across all stages with our robust cloud
+                services ,levarging the power of AWS and Azure to attain exceptional complaince and 
+                governance standards , through seamless integration of cloud computing and DevOps 
+                methodologies to unlock unmatched operational excellence.
                 </span>
-                <hr />
-                <div style={{ display: "flex", textAlign: "center", gap: "4%", marginTop: "2%", fontSize: "12px", fontWeight: "500" }}>
+                
+                <div className='mt-5' style={{ display: "flex", textAlign: "center", gap: "4%", marginTop: "2%", fontSize: "12px", fontWeight: "500" }}>
                     <div>
                         <div>
                             <div>
@@ -101,7 +104,55 @@ export default function CloudDevops() {
                                 </p>
                             </div>
                         </div>
+                    </div>                   
+                    <div>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/Cloud Operations.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud<br /> Operations
+                                </p>
+                            </div>
+                        </div>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/Cloud Consulting.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud<br /> Consulting
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                    <div>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/Industry Cloud.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Industry Cloud
+                                </p>
+                            </div>
+                        </div>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/Cloud Business Applications.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud Business<br /> Application
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    
+                    
+
                 </div>
 
                 {/* <div>
@@ -123,8 +174,11 @@ export default function CloudDevops() {
                     </div>
                 </div> */}
             </div>
-            <div className='CloudDev2'>
+            </div>
+           <div className='col ml-3'>
+            <div className='CloudDev2 img-left'>
                 <img src='./Images/gobeyond/Cloud69.png' />
+            </div>
             </div>
         </div>
     )

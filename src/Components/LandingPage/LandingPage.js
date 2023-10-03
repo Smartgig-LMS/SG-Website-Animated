@@ -26,6 +26,7 @@ export default function LandingPage() {
         bgColor: "blue",
     });
 
+
     React.useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, []);
@@ -39,36 +40,37 @@ export default function LandingPage() {
                     setActive={setActive}
                     active={active}
                 />
+
                 <div className="homesection">
                     <div className="main-homesection" id='homeVideo'>
                         <Homevideo />
                     </div>
 
-                    <div className='main-homesection' id="web-developement">
+                    <div className='main-homesection pt-5' id="web-developement">
                         <WebDev />
                     </div>
 
-                    <div className="main-homesection" id='cloud-services'>
+                    <div className="main-homesection pt-5" id='cloud-services'>
                         <CloudDevops />
                     </div>
 
-                    <div className="main-homesection" id='mobile-app-developement'>
+                    <div className="main-homesection pt-5" id='mobile-app-developement'>
                         <MobileApp />
                     </div>
 
-                    <div className="main-homesection" id='testing'>
+                    <div className="main-homesection pt-5" id='testing'>
                         <Testing />
                     </div>
 
-                    <div className="main-homesection" id='data-services'>
+                    <div className="main-homesection pt-5" id='data-services'>
                         <DataServices />
                     </div>
 
-                    <div className="main-homesection" id='cyber-security'>
+                    <div className="main-homesection pt-5" id='cyber-security'>
                         <CyberSecurity />
                     </div>
 
-                    <div className='main-homesection' id='integrations'>
+                    <div className='main-homesection pt-5' id='integrations'>
                         <Integration />
                     </div>
 
@@ -76,7 +78,7 @@ export default function LandingPage() {
                         <LeadershipTeam />
                     </div>
 
-                    <div className='main-homesection' id='our-clients'>
+                    <div className='main-homesection pt-5' id='our-clients'>
                         <OurClients />
                     </div>
 
