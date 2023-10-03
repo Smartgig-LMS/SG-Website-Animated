@@ -49,6 +49,7 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                         "testing",
                         "data-services",
                         "cyber-security",
+                        "gamification",
                         "integrations",
                         "leadership-team",
                         "our-clients",
@@ -91,6 +92,11 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                     <li className={`${addClass}`}>
                         <a href="#cyber-security">
                             <span>Cyber Security</span>
+                        </a>
+                    </li>
+                    <li className={`${addClass}`}>
+                        <a href="#gamification">
+                            <span>Gamification</span>
                         </a>
                     </li>
                     <li className={`${addClass}`}>
