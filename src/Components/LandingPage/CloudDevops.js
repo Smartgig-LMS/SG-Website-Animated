@@ -6,7 +6,7 @@ export default function CloudDevops() {
         currentHeader: 0,
         headings: ['Accelerate', 'Transform', 'Innovate'],
         heading: function () {
-            //document.getElementById('heading').innerHTML = this.headings[this.currentHeader];
+            document.getElementById('heading').innerHTML = this.headings[this.currentHeader];
             if (this.currentHeader === this.headings.length - 1) {
                 this.currentHeader = 0;
             } else {
@@ -20,7 +20,7 @@ export default function CloudDevops() {
     }, 2000)
 
     return (
-        <div className='TestingContainer row pt-5 vh-100 pl-5'>
+        <div className='TestingContainer row vh-100 pl-5'>
             <div className='col ml-4 pr-0'>
                 <div className='CloudDev1'>
                     <div>

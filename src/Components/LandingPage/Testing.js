@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function Testing() {
     return (
-        <div className='row pt-5 vh-100 pl-5 TestingContainer'>
+        <div className='row vh-100 pl-5 TestingContainer'>
             <div className='col ml-4 pr-0'>
                 <div className='Testing1'>
                     <div>
@@ -34,7 +34,7 @@ export default function Testing() {
                                     </div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Unlock your app's full potential with our expert<br />
+                                    Unlock your app's full potential with our expert
                                     testing solutions.
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -46,8 +46,8 @@ export default function Testing() {
                                     </div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Achieve business outcomes with consumption<br />
-                                    based, integrated, scalable, flexible quality<br />
+                                    Achieve business outcomes with consumption
+                                    based, integrated, scalable, flexible quality
                                     assurance services.
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -59,7 +59,7 @@ export default function Testing() {
                                     </div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Our winning framework combined with  Right tools and ethical<br /> hacking ensures your applications are fool proof
+                                    Our winning framework combined with  Right tools and ethical hacking ensures your applications are fool proof
                                 </Accordion.Body>
                             </Accordion.Item>
                         </Accordion>

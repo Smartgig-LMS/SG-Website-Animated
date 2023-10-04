@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function DataServices() {
     return (
-        <div className=' row pt-5 vh-100 pl-5 TestingContainer'>
+        <div className=' row vh-100 pl-5 TestingContainer'>
             <div className='col ml-4 pr-0'>
                 <div className='DataService1'>
                     <div>
@@ -31,7 +31,7 @@ export default function DataServices() {
                                     <div className='headingAccordion'> Artificial intelligence</div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Experience innovation through AI, optimizing <br />
+                                    Experience innovation through AI, optimizing
                                     operations and enhancing user experiences.
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -41,7 +41,7 @@ export default function DataServices() {
                                     <div className='headingAccordion'>  Machine learning</div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Harnessing Cutting – Edge Machine<br />
+                                    Harnessing Cutting–Edge Machine
                                     Learning for maximum Impact.
                                 </Accordion.Body>
                             </Accordion.Item>
@@ -51,7 +51,7 @@ export default function DataServices() {
                                     <div className='headingAccordion'>  Data Migration</div>
                                 </Accordion.Header>
                                 <Accordion.Body>
-                                    Embrace Seamless data migration to ensure<br />
+                                    Embrace Seamless data migration to ensure
                                     continuity and quality.
                                 </Accordion.Body>
                             </Accordion.Item>

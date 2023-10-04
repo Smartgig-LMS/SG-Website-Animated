@@ -14,7 +14,7 @@ export default function Integration() {
             {/* for web -----------------------------------------------------------------*/}
 
             <div className='integrationForWeb'>
-                <div className='col-12 pb-5 IntegrationContainer'>
+                <div className='col-12 IntegrationContainer'>
                     <div className='text-center'>
                         <img src='./Images/gobeyond/Group 427321129.svg' width="150" height="50" />
                         <h1 className='integrationHeader' style={{ color: "#0F0049", fontWeight: "700", marginTop: "1%" }}>

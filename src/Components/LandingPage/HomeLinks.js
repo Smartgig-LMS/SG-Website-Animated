@@ -66,7 +66,7 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                     </li>
                     <li className={`${addClass}`}>
                         <a href="#web-developement">
-                            <span>Web Developement</span>
+                            <span>Web Development</span>
                         </a>
                     </li>
                     <li className={`${addClass}`}>

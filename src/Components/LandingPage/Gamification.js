@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function Gamification() {
     return (
         <>
-            <div className='row pt-5 vh-100 pl-5 TestingContainer'>
+            <div className='row vh-100 pl-5 TestingContainer'>
                 <div className='col ml-4 pr-0'>
                     <div className='Gamification1'>
                         <div>

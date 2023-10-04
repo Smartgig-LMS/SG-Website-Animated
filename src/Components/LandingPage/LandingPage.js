@@ -47,43 +47,43 @@ export default function LandingPage() {
                         <Homevideo />
                     </div>
 
-                    <div className='main-homesection pt-5' id="web-developement">
+                    <div className='main-homesection pt-4' id="web-developement">
                         <WebDev />
                     </div>
 
-                    <div className="main-homesection pt-5" id='cloud-services'>
+                    <div className="main-homesection pt-4" id='cloud-services'>
                         <CloudDevops />
                     </div>
 
-                    <div className="main-homesection pt-5" id='mobile-app-developement'>
+                    <div className="main-homesection pt-4" id='mobile-app-developement'>
                         <MobileApp />
                     </div>
 
-                    <div className="main-homesection pt-5" id='testing'>
+                    <div className="main-homesection pt-4" id='testing'>
                         <Testing />
                     </div>
 
-                    <div className="main-homesection pt-5" id='data-services'>
+                    <div className="main-homesection pt-4" id='data-services'>
                         <DataServices />
                     </div>
 
-                    <div className="main-homesection pt-5" id='cyber-security'>
+                    <div className="main-homesection pt-4" id='cyber-security'>
                         <CyberSecurity />
                     </div>
 
-                    <div className="main-homesection" id='gamification'>
+                    <div className="main-homesection pt-4" id='gamification'>
                         <Gamification />
                     </div>
 
-                    <div className='main-homesection pt-5' id='integrations'>
+                    <div className='main-homesection' id='integrations'>
                         <Integration />
                     </div>
 
-                    <div className='main-homesection' id='leadership-team'>
+                    <div className='main-homesection pt-4' id='leadership-team'>
                         <LeadershipTeam />
                     </div>
 
-                    <div className='main-homesection pt-5' id='our-clients'>
+                    <div className='main-homesection pt-4' id='our-clients'>
                         <OurClients />
                     </div>
 

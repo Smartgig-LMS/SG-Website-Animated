@@ -469,15 +469,17 @@
     justify-content: space-evenly;
   } */
   .TestingContainer {
-    margin-top: 1.5%;
+    /* margin-top: 1.5%; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-left: 3% !important;
   }
   .LeadershipContainer {
-    margin-top: 3.5%;
+    /* margin-top: 5.5%; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
   }
   .webhead {
     transition: 0.5s all ease-in-out;
@@ -521,10 +523,14 @@
   }
   .Cyber1 {
     font-size: smaller;
-    margin-top: 20%;
+    /* margin-top: 20%; */
+  }
+  .Gamification1 {
+    font-size: smaller;
+    /* margin-top: 7%; */
   }
   .LeaderShip2 {
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     margin-left: 9%;
   }
 
@@ -652,7 +658,7 @@
     justify-content: center;
   }
   .IntegrationContainer {
-    margin-top: 9%;
+    margin-top: 4%;
   }
   .integrationForWeb {
     display: block;
@@ -1195,47 +1201,47 @@
     z-index: 1;
   }
   .main-homesection:nth-child(2) {
-    top: 110vh;
+    top: 100vh;
     z-index: 2;
   }
   .main-homesection:nth-child(3) {
-    top: 210vh;
+    top: 200vh;
     z-index: 3;
   }
   .main-homesection:nth-child(4) {
-    top: 310vh;
+    top: 300vh;
     z-index: 4;
   }
   .main-homesection:nth-child(5) {
-    top: 410vh;
+    top: 400vh;
     z-index: 5;
   }
   .main-homesection:nth-child(6) {
-    top: 510vh;
+    top: 500vh;
     z-index: 6;
   }
   .main-homesection:nth-child(7) {
-    top: 610vh;
+    top: 600vh;
     z-index: 7;
   }
   .main-homesection:nth-child(8) {
-    top: 710vh;
+    top: 700vh;
     z-index: 8;
   }
   .main-homesection:nth-child(9) {
-    top: 810vh;
+    top: 800vh;
     z-index: 9;
   }
   .main-homesection:nth-child(10) {
-    top: 930vh;
+    top: 900vh;
     z-index: 10;
   }
   .main-homesection:nth-child(11) {
-    top: 1010vh;
+    top: 1000vh;
     z-index: 11;
   }
   .main-homesection:nth-child(12) {
-    top: 1010vh;
+    top: 1100vh;
     z-index: 12;
   }
 
@@ -1631,15 +1637,17 @@
     justify-content: space-evenly;
   } */
   .TestingContainer {
-    margin-top: 1.5%;
+    /* margin-top: 1.5%; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-left: 3% !important;
   }
   .LeadershipContainer {
-    margin-top: 5.5%;
+    /* margin-top: 5.5%; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
   }
 
   .webhead {
@@ -1737,7 +1745,7 @@
 
   .Webdev1 {
     margin-left: 20px;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   .cloudcontents {
     display: flex;
@@ -1747,33 +1755,33 @@
     font-size: 12px;
     font-weight: 500;
   }
-  .CloudDev1 {
-    margin-top: 70px;
-  }
-  .MobApp1 {
+  /* .CloudDev1 {
+    margin-top: 7%;
+  } */
+  /* .MobApp1 {
     margin-top: 40px;
-  }
-  .Testing1 {
+  } */
+  /* .Testing1 {
     margin-top: 50px;
-  }
-  .DataService1 {
+  } */
+  /* .DataService1 {
     margin-top: 50px;
-  }
+  } */
   .hamburgerMenu {
     display: none;
   }
   .hamburgerMenuforWeb {
     display: block;
   }
-  .LeaderShip2 {
+  /* .LeaderShip2 {
     margin-top: 8rem;
-  }
-  .Cyber1 {
+  } */
+  /* .Cyber1 {
     margin-top: 20%;
-  }
-  .Gamification1 {
+  } */
+  /* .Gamification1 {
     margin-top: 7%;
-  }
+  } */
 
   .Clientpg {
     margin-top: 4rem;
@@ -1821,7 +1829,7 @@
   }
 
   .IntegrationContainer {
-    margin-top: 9%;
+    margin-top: 5%;
   }
   .integrationForWeb {
     display: block;
@@ -2795,15 +2803,17 @@
     justify-content: space-evenly;
   } */
   .TestingContainer {
-    margin-top: 1.5%;
+    /* margin-top: 1.5%; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-left: 3% !important;
   }
   .LeadershipContainer {
-    margin-top: 9.5%;
+    /* margin-top: 5.5%; */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
   }
   .webhead {
     transition: 0.5s all ease-in-out;
@@ -2815,7 +2825,7 @@
   .Webdev1 {
     margin-left: 20px;
     font-size: x-large;
-    margin-top: 60px;
+    /* margin-top: 60px; */
   }
   .cloudcontents {
     display: flex;
@@ -2827,19 +2837,19 @@
   }
   .CloudDev1 {
     font-size: x-large;
-    margin-top: 70px;
+    /* margin-top: 7%; */
   }
   .MobApp1 {
     font-size: x-large;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   .Testing1 {
     font-size: x-large;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
   .DataService1 {
     font-size: x-large;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
   .hamburgerMenu {
     display: none;
@@ -2849,11 +2859,15 @@
   }
   .Cyber1 {
     font-size: x-large;
-    margin-top: 20%;
+    /* margin-top: 20%; */
   }
-  .LeaderShip2 {
+  .Gamification1 {
+    font-size: x-large;
+    /* margin-top: 7%; */
+  }
+  /* .LeaderShip2 {
     margin-top: 5rem;
-  }
+  } */
 
   .Webdev2 img {
     height: 90%;
@@ -3487,9 +3501,9 @@
 }
 
 .img-left {
-  height: 550px;
-  width: 600px;
-  border-radius: 33px;
+  height: 650px !important;
+  width: 600px !important;
+  border-radius: 33px !important;
 }
 /* for mobile less than 400px-------------------------------------------------------------- */
 

@@ -9,8 +9,8 @@ export default function LeadershipTeam() {
         <>
             {/* for web -----------------------------------------------------------------*/}
             <div className='LeadershipForWeb'>
-                <div className='row pt-5 vh-100 ml-5 LeadershipContainer '>
-                    <div className='col ml-4 pr-0'>
+                <div className='row vh-100 ml-5 LeadershipContainer'>
+                    <div className='col ml-5 pr-0'>
                         <div className='LeaderShip1 ml-5'>
                             <div className='circle'>
                                 <a href='https://www.linkedin.com/in/mahesh-nayani-4a947a1a' target='_blank'>
@@ -86,7 +86,7 @@ export default function LeadershipTeam() {
                             <div>
                                 <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
                             </div>
-                            <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                            <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
                                 Leadership Team
                             </h1>
                             <span style={{ fontWeight: "600", fontStyle: "Roboto", fontSize: "18px" }}>
@@ -104,7 +104,7 @@ export default function LeadershipTeam() {
 
             {/* for mobile -----------------------------------------------------------------*/}
 
-            <div className='LeadershipForMobile'>
+            <div className='LeadershipForMobile' >
                 <div className='row pt-1 vh-100 ml-5 LeadershipContainer '>
                     <div className='col'>
                         <div className='LeaderShip2'>
