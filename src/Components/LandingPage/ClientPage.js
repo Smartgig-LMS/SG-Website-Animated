@@ -82,8 +82,21 @@ const OurClients = () => {
                     <div className='col-12 text-center tryusbtn'>
                         <button type='button' className='btn btn-primary' onClick={navigatetoContact}>Try us out</button>
                     </div>
-                    <div>
-                        <Footer />
+                    <div style={{ marginTop: "3%", paddingBottom: "1%", backgroundColor: "#F0F0F0" }}>
+                        <hr />
+                        <div className='d-flex' style={{ justifyContent: "space-around" }}>
+                            <div style={{ fontWeight: "500" }}>
+                                Copyright © 2023 SmartGig. All Rights Reserved.
+                            </div>
+                            <div className='d-flex' style={{ fontWeight: "500" }}>
+                                <div>
+                                    Terms of Service
+                                </div>
+                                <div className='ml-4'>
+                                    Privacy Policy
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

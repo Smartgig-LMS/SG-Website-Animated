@@ -25,7 +25,7 @@ export default function Integration() {
                             We work closely with world class products to build solutions to our clients seamless and effeciently
                         </span>
                     </div>
-                    <div className='IntegrationLogos py-3 px-2 mt-2'>
+                    <div className='IntegrationLogos py-3 px-2 mt-4'>
                         <div className='card shadow IntegrationCard' >
                             <a href="https://www.microsoft.com/en-in/microsoft-teams/log-in" target='_blank'>
                                 <img className='img_card' src='./Images/gobeyond/Teams.png' alt='...' height="72px" width="72px" />

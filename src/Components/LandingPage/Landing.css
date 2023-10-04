@@ -1,4 +1,9 @@
 @media all and (min-width: 1000px) and (max-width: 1200px) {
+  .img-left {
+    height: 550px !important;
+    width: 600px !important;
+    border-radius: 33px !important;
+  }
   .main-homesection {
     position: absolute;
     width: 100%;
@@ -1161,6 +1166,11 @@
 
 /* Width 1200 to 1500 */
 @media all and (min-width: 1200px) and (max-width: 1600px) {
+  .img-left {
+    height: 650px !important;
+    width: 600px !important;
+    border-radius: 33px !important;
+  }
   .main-homesection {
     position: absolute;
     width: 100%;
@@ -1845,7 +1855,7 @@
   }
   .IntegrationLogos {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
   }
@@ -2332,6 +2342,11 @@
 
 /* Width 1600 to 2000 */
 @media all and (min-width: 1600px) and (max-width: 2000px) {
+  .img-left {
+    height: 750px !important;
+    width: 600px !important;
+    border-radius: 33px !important;
+  }
   .main-homesection {
     position: absolute;
     width: 100%;
@@ -3009,7 +3024,7 @@
   }
   .IntegrationLogos {
     display: flex;
-    gap: 20px;
+    gap: 40px;
     align-items: center;
     justify-content: center;
   }
@@ -3500,11 +3515,11 @@
   } */
 }
 
-.img-left {
+/* .img-left {
   height: 650px !important;
   width: 600px !important;
   border-radius: 33px !important;
-}
+} */
 /* for mobile less than 400px-------------------------------------------------------------- */
 
 @media all and (min-width: 250px) and (max-width: 400px) {

@@ -57,7 +57,7 @@ export default function LeadershipTeam() {
 
                             <ReactTooltip
                                 id="my-tooltip-3"
-                                place="right"
+                                place="left"
                                 variant="warning"
                             >
                                 <h6>
