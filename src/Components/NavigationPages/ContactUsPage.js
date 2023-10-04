@@ -277,7 +277,7 @@ export default function ContactUsPage() {
                                     flag2
                                         ?
                                         (
-                                            <h4>Banglore</h4>
+                                            <h4>Bengaluru</h4>
                                         )
                                         :
                                         (

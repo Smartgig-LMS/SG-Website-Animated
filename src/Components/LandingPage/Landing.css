@@ -1167,7 +1167,7 @@
 /* Width 1200 to 1500 */
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   .img-left {
-    height: 650px !important;
+    height: 630px !important;
     width: 600px !important;
     border-radius: 33px !important;
   }

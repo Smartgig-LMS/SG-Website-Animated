@@ -133,7 +133,7 @@ export default function ProductPage() {
                 </div>
             </div>
 
-            <div className='testimonials mt-3'>
+            {/* <div className='testimonials mt-3'>
                 <img src='./Images/gobeyond/Group 427321194.svg' height="48" width="190" />
                 <h2 style={{ fontWeight: "bold" }}>
                     What people are saying
@@ -196,7 +196,7 @@ export default function ProductPage() {
                         );
                     })}
                 </section>
-            </div>
+            </div> */}
 
             {/* old */}
 
