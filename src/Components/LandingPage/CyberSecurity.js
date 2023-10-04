@@ -11,19 +11,20 @@ export default function CyberSecurity() {
                     </div>
                     <div>
                         <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className='mt-2'>
-                            Improve cybersecurity for  <br />
+                            Securing Your
                         </h1>
                         <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 cyberSecHead'>
-                            your Company in the digital age
+                            Tomorrow, Today
                         </h1>
                     </div>
                     <span>
-                        Elevate your cyber security defences with our
-                        comprehensive cyber security services which fortify
-                        your digital fortress with tailored solutions to
-                        promote cyber safety and safeguard your business
-                        from cyber threats with In-depth analysis and actionable
-                        recommendations.
+                        SmartGigs CybersecurityIn an increasingly connected world, security is not a choice; it's a necessity. At SmartGigs, we're dedicated to providing top-tier cybersecurity solutions that empower businesses to thrive in the digital age.
+                        <br />
+                        <br />
+                        <h5>
+                            Our Approach:
+                        </h5>
+                        Threat Intelligence: We stay ahead of emerging threats to keep your systems secure.24/7 Monitoring: Our team never sleeps. We're always watching over your digital assets.Education and Training: We believe in empowering your team with the knowledge to defend against cyber threats.Rapid Response: In the event of an incident, we're ready to take swift action.
                     </span>
                 </div>
             </div>

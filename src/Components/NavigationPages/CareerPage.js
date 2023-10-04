@@ -931,37 +931,24 @@ export default function CareerPage() {
                 <div className='glassdoor'>
                     <div className='glassdoor2'>
                         <h1>
-                            Latest Reviews on Glassdoor
+                            What People are saying about us !
                         </h1>
                     </div>
                     <div className='glassdoor3'>
                         <div className='glassdoor4'>
-                            <img src='./Images/gobeyond/Group 427321323.png' width="318" height="169" />
+                            <img src='./Images/gobeyond/Group 427321712.svg' width="269" height="130" />
+                        </div>
+                        <div className='glassdoor4'>
+                            <img src='./Images/gobeyond/Group 427321705.svg' width="338" height="132" />
+                        </div>
+                        <div className='glassdoor4'>
+                            <img src='./Images/gobeyond/Group 427321326.svg' width="265" height="133" />
                         </div>
                         {/* <div className="gdWidget">
-                        <a href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-combo&t.s=w-m&t.a=c&format=700x400&employerId=5163282&activeTab=R" target="_gd">
-                            SmartGig Salaries
-                        </a>
-                        | More details for
-                        <a href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-jobs&t.s=w-m&t.a=c&employerId=5163282" target="_gd">
-                            SmartGig Jobs
-                        </a>
-                        | <a href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-review&t.s=w-m&t.a=c&employerId=5163282" target="_gd">
-                            SmartGig Reviews
-                        </a>
-                        | <a href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-interview&t.s=w-m&t.a=c&employerId=5163282" target="_gd">
-                            SmartGig Interview Questions &amp; Reviews
-                        </a>
-                    </div> */}
-                        {/* <div class="gdWidget"><a href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-review&t.s=w-m&t.a=c&format=300x250&employerId=5163282" target="_gd">SmartGig Reviews</a> | <a href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-jobs&t.s=w-m&t.a=c&employerId=5163282" target="_gd">SmartGig Jobs</a> | <a href="https://www.glassdoor.com/Reviews/index.htm?t.s=w-m&t.a=c" target="_gd">Company reviews</a> from employees</div><script src="https://www.glassdoor.com/static/js/api/widget/v1.js"></script> */}
-                        <div className="gdWidget">
                             <a href="https://www.glassdoor.com/api/api.htm?version=1&action=employer-review&t.s=w-m&t.a=c&format=400x250&employerId=5163282" target="_gd">
                                 SmartGig Reviews
                             </a> |
-                        </div>
-                        {/* <div>
-                        {star}
-                    </div> */}
+                        </div> */}
                     </div>
                 </div>
                 <Footer />

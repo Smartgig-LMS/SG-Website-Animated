@@ -89,14 +89,10 @@ export default function LeadershipTeam() {
                             <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
                                 Leadership Team
                             </h1>
-                            <span style={{ fontWeight: "600", fontStyle: "Roboto", fontSize: "18px" }}>
-                                Meet our dynamic leadership team who are
-                                an epitome of unwavering dedication and
-                                determination in driving forward the organization
-                                towards excellence with innovation as vision and
-                                embarking new digital horizons as a
-                                mission.
-                            </span>
+                            <p style={{ fontWeight: "500", fontStyle: "Roboto", fontSize: "18px" }}>
+                                Our leadership team at SmartGig represents the driving force behind our organization's relentless pursuit of excellence. They are not just leaders, they are visionaries who have set their sights on innovation as the cornerstone of our journey. With a mission to explore new frontiers in the digital landscape, they inspire us to reach greater heights.
+                                Their collective dedication and unwavering commitment serve as a guiding light for our entire organization. Through their strategic acumen and industry expertise, they have not only fortified our market position but also enabled us to provide unparalleled services to our cherished clients.
+                            </p>
                         </div>
                     </div>
                 </div >

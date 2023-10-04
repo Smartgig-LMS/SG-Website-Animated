@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Footer from '../LandingPage/Footer'
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
@@ -24,40 +24,39 @@ const slideImages = [
     // },
 ];
 
+const listOfImages = [
+    './Images/gobeyond/WhatsApp1.png', './Images/gobeyond/Trip2.png', './Images/gobeyond/GroupImg32.png', './Images/gobeyond/Thumbnail22.png',
+    './Images/gobeyond/Group Img 13.png', './Images/gobeyond/Thumbnail23.png', './Images/gobeyond/Group 427321517.png', './Images/gobeyond/Group Img 2 2.png',
+    './Images/gobeyond/WhatsA1.png', './Images/gobeyond/WhatsApp1.png', './Images/gobeyond/Mahesh352.png', './Images/gobeyond/MicrosoftTeams-image362.png',
+]
+
 export default function CulturePage() {
+
+
+
+    const [displayedImages, setDisplayedImages] = useState(listOfImages.slice(0, 4));
+    const [currentIndex, setCurrentIndex] = useState(4);
+
+    // image chnages in 10 sec -----------------------------
 
     React.useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, []);
+    useEffect(() => {
+        const displayedImages = () => {
+            const nextIndex = currentIndex + 4;
+            if (nextIndex <= listOfImages.length) {
+                setDisplayedImages(listOfImages.slice(currentIndex, nextIndex));
+                setCurrentIndex(nextIndex);
+            } else {
+                setDisplayedImages(listOfImages.slice(0, 4));
+                setCurrentIndex(4);
+            }
+        };
+        const timer = setInterval(displayedImages, 4000);
+        return () => clearInterval(timer);
+    }, [currentIndex, listOfImages]);
 
-    const spanStyle = {
-        padding: '20px',
-        backgroundColor: '#efefef',
-        color: '#000000'
-    }
-
-    const divStyle = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundSize: 'cover',
-        height: '400px'
-    }
-
-    const [current, setCurrent] = useState(0);
-    const length = slideImages.length;
-
-    if (!Array.isArray(slideImages) || slideImages.length <= 0) {
-        return null;
-    }
-
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
-    };
-
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1);
-    };
 
     return (
         <div>
@@ -157,7 +156,7 @@ export default function CulturePage() {
                                     </p>
                                 </div>
                             </div>
-                            <div style={{ display: "flex", flexDirection: "column" }}>
+                            {/* <div style={{ display: "flex", flexDirection: "column" }}>
                                 <div className='imageOfCultureNew5'>
                                     <img src='./Images/gobeyond/Trip2.png' />
                                 </div>
@@ -172,32 +171,27 @@ export default function CulturePage() {
                                 <div className='imageOfCultureNew5'>
                                     <img src='./Images/gobeyond/Group 427321517.png' />
                                 </div>
+                            </div> */}
+
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <div className='imageOfCultureNew5'>
+                                    <img src={displayedImages[0]} />
+                                </div>
+                                <div className='imageOfCultureNew5'>
+                                    <img src={displayedImages[1]} />
+                                </div>
                             </div>
+                            <div style={{ display: "flex", flexDirection: "column" }}>
+                                <div className='imageOfCultureNew5'>
+                                    <img src={displayedImages[2]} />
+                                </div>
+                                <div className='imageOfCultureNew5'>
+                                    <img src={displayedImages[3]} />
+                                </div>
+                            </div>
+
                         </div>
                     </div>
-
-                    {/* <section className="slider">
-                        <ArrowBackIosNewIcon className="left-arrow" onClick={prevSlide} />
-                        <p>.</p>
-                        <ArrowForwardIosIcon className="right-arrow" onClick={nextSlide} />
-                        {slideImages.map((slider, index) => {
-                            return (
-                                <div
-                                    className={index === current ? "slide active" : "slide"}
-                                    key={index}
-                                >
-                                    {index === current && (
-                                        <>
-                                            <img src={slider.image} alt="Slider image" className="imageOfCulture" />
-                                            <img src={slider.image2} alt="Slider image" className="imageOfCulture" />
-                                            <img src={slider.image3} alt="Slider image" className="imageOfCulture" />
-                                        </>
-                                    )}
-                                </div>
-                            );
-                        })}
-                    </section> */}
-
                 </div>
                 <Footer />
             </div>

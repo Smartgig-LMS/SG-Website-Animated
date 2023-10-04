@@ -1,7 +1,7 @@
 @media all and (min-width: 1000px) and (max-width: 1200px) {
   .img-left {
     height: 550px !important;
-    width: 500px !important;
+    width: 520px !important;
     border-radius: 33px !important;
   }
   .main-homesection {
@@ -1168,7 +1168,7 @@
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   .img-left {
     height: 630px !important;
-    width: 600px !important;
+    width: 625px !important;
     border-radius: 33px !important;
   }
   .main-homesection {
@@ -2344,7 +2344,7 @@
 @media all and (min-width: 1600px) and (max-width: 2000px) {
   .img-left {
     height: 750px !important;
-    width: 700px !important;
+    width: 740px !important;
     border-radius: 33px !important;
   }
   .main-homesection {
