@@ -10,9 +10,11 @@ export default function WebDev() {
                     <div>
                         <img src='./Images/gobeyond/Group 427321583.svg' width="180" height="50" />
                     </div>
+                    <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                        We make it <br />
+                    </h1>
                     <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
-                        We make it effortlessly
-                        for user
+                        effortlessly for user
                     </h1>
                     <span>
                         We are determined in creating seamless user experiences for our Customers websites and web apps
@@ -23,7 +25,7 @@ export default function WebDev() {
                         <div>
                             <div>
                                 <div>
-                                    <img src='./Images/gobeyond/Slick websites Icon.png' />
+                                    <img src='./Images/gobeyond/Slick websites Icon2.svg' />
                                 </div>
                                 <div className='mt-2'>
                                     <h6 style={{ fontWeight: "700" }}>
@@ -39,7 +41,7 @@ export default function WebDev() {
                         <div className='ml-4'>
                             <div >
                                 <div>
-                                    <img src='./Images/gobeyond/Smooth Web Apps Icon.png' />
+                                    <img src='./Images/gobeyond/Smooth Web Apps Icon.svg' />
                                 </div>
                                 <div className='mt-2'>
                                     <h6 style={{ fontWeight: "700" }}>

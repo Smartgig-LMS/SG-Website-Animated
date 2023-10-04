@@ -8,11 +8,11 @@ export default function MobileApp() {
                     <div>
                         <img src='./Images/gobeyond/Mobile app Development Icon.svg' width="150" height="50" />
                     </div>
-                    <div className='webhead'>
+                    <div >
                         <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                             Pave the way through<br />
                         </h1>
-                        <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2 futursticHeading'>
+                        <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2 futursticHeading'>
                             Futuristic Mobile Apps<br />
                         </h1>
                     </div>
@@ -30,7 +30,7 @@ export default function MobileApp() {
                         <div>
                             <div>
                                 <div>
-                                    <img src='./Images/gobeyond/IOS Icon.png' />
+                                    <img src='./Images/gobeyond/AplleIOS.svg' />
                                 </div>
                                 <div className='mt-2'>
                                     <h6 style={{ fontWeight: "700" }}>
@@ -47,7 +47,7 @@ export default function MobileApp() {
                         <div className='ml-3'>
                             <div >
                                 <div>
-                                    <img src='./Images/gobeyond/Adndroid Icon.png' />
+                                    <img src='./Images/gobeyond/Android.svg' />
                                 </div>
                                 <div className='mt-2'>
                                     <h6 style={{ fontWeight: "700" }}>

@@ -9,11 +9,11 @@ export default function Testing() {
                     <div>
                         <img src='./Images/gobeyond/TAAS Icon.svg' width="90" height="45" />
                     </div>
-                    <div className='webhead'>
+                    <div >
                         <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
                             Quality Engineering for your <br />
                         </h1>
-                        <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
+                        <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
                             Digital transformations
                         </h1>
                     </div>
@@ -28,7 +28,7 @@ export default function Testing() {
                         <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header >
-                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321256.png' width="25" height="25" />
+                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321256.svg' width="25" height="25" />
                                     <div className='headingAccordion'>
                                         Mobile Apps
                                     </div>
@@ -40,7 +40,7 @@ export default function Testing() {
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>
-                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321254.png' width="25" height="25" />
+                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321254.svg' width="25" height="25" />
                                     <div className='headingAccordion'>
                                         Web Application
                                     </div>
@@ -53,7 +53,7 @@ export default function Testing() {
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
                                 <Accordion.Header>
-                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321257.png' height="25px" width="25px" />
+                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321257.svg' height="25px" width="25px" />
                                     <div className='headingAccordion'>
                                         Security Testing
                                     </div>

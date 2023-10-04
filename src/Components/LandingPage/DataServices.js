@@ -27,7 +27,7 @@ export default function DataServices() {
                         <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header >
-                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321265.png' width="25" height="25" />
+                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321261.svg' width="25" height="25" />
                                     <div className='headingAccordion'> Artificial intelligence</div>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -37,7 +37,7 @@ export default function DataServices() {
                             </Accordion.Item>
                             <Accordion.Item eventKey="1">
                                 <Accordion.Header>
-                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321264.png' width="25" height="25" />
+                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321264.svg' width="25" height="25" />
                                     <div className='headingAccordion'>  Machine learning</div>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -47,7 +47,7 @@ export default function DataServices() {
                             </Accordion.Item>
                             <Accordion.Item eventKey="2">
                                 <Accordion.Header>
-                                    <img className='dropDownImg' src='./Images/gobeyond/Website.png' width="25" height="25" />
+                                    <img className='dropDownImg' src='./Images/gobeyond/Group 427321246.svg' width="25" height="25" />
                                     <div className='headingAccordion'>  Data Migration</div>
                                 </Accordion.Header>
                                 <Accordion.Body>

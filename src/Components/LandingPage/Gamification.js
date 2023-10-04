@@ -10,11 +10,11 @@ export default function Gamification() {
                         <div>
                             <img src='./Images/gobeyond/GamificationLogo.svg' width="190" height="50" />
                         </div>
-                        <div className='webhead'>
+                        <div>
                             <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className='mt-2'>
                                 Gamification for
                             </h1>
-                            <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='mb-3 cyberSecHead'>
+                            <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 cyberSecHead'>
                                 Corporate World
                             </h1>
                         </div>
