@@ -2885,7 +2885,7 @@
   } */
 
   .Webdev2 img {
-    /* height: 100%; */
+    width: 100%;
     transition: 0.5s all ease-in-out;
   }
   .Webdev2 {
@@ -2899,7 +2899,7 @@
     overflow: hidden;
   }
   .CloudDev2 img {
-    height: 90%;
+    width: 100%;
     transition: 0.5s all ease-in-out;
   }
   .CloudDev2:hover img {
@@ -2910,7 +2910,7 @@
     overflow: hidden;
   }
   .MobApp2 img {
-    height: 90%;
+    width: 100%;
     transition: 0.5s all ease-in-out;
   }
   .MobApp2:hover img {
@@ -2921,7 +2921,7 @@
     overflow: hidden;
   }
   .Testing2 img {
-    height: 90%;
+    width: 100%;
     transition: 0.5s all ease-in-out;
   }
   .Testing2:hover img {
@@ -2932,7 +2932,7 @@
     overflow: hidden;
   }
   .DataService2 img {
-    height: 90%;
+    width: 100%;
     transition: 0.5s all ease-in-out;
   }
   .DataService2:hover img {
@@ -2943,7 +2943,7 @@
     overflow: hidden;
   }
   .Cyber2 img {
-    height: 90%;
+    width: 100%;
     transition: 0.5s all ease-in-out;
   }
   .Cyber2:hover img {
@@ -2954,7 +2954,7 @@
     overflow: hidden;
   }
   .Gamification2 img {
-    height: 90%;
+    width: 100%;
     transition: 0.5s all ease-in-out;
   }
   .Gamification2:hover img {
