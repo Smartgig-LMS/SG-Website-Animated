@@ -101,7 +101,7 @@ export default function LeadershipTeam() {
             {/* for mobile -----------------------------------------------------------------*/}
 
             <div className='LeadershipForMobile' >
-                <div className='row pt-1 vh-100 ml-5 LeadershipContainer '>
+                <div className='row pt-1 vh-100 ml-1 LeadershipContainer '>
                     <div className='col'>
                         <div className='LeaderShip2'>
                             <div>

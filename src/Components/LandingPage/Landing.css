@@ -1,9 +1,20 @@
 @media all and (min-width: 1000px) and (max-width: 1200px) {
   .img-left {
-    height: 550px !important;
-    width: 520px !important;
+    /* height: 550px !important;
+    width: 520px !important; */
+    max-width: 93% !important;
+    height: 32rem !important;
     border-radius: 33px !important;
+    overflow: hidden;
   }
+  .img-left img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .img-left:hover img {
+    transform: scale(1.05);
+  }
+
   .main-homesection {
     position: absolute;
     width: 100%;
@@ -468,20 +479,13 @@
     margin-left: 1rem;
   }
 
-  /* .TestingContainer {
-    margin-top: 1.5%;
-    display: flex;
-    justify-content: space-evenly;
-  } */
   .TestingContainer {
-    /* margin-top: 1.5%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3% !important;
+    margin-left: 5.5% !important;
   }
   .LeadershipContainer {
-    /* margin-top: 5.5%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -494,9 +498,8 @@
   }
 
   .Webdev1 {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     font-size: smaller;
-    /* margin-top: 25px; */
   }
   .cloudcontents {
     display: flex;
@@ -539,7 +542,7 @@
     margin-left: 9%;
   }
 
-  .Webdev2 img {
+  /* .Webdev2 img {
     width: 100%;
     transition: 0.5s all ease-in-out;
   }
@@ -614,7 +617,7 @@
   }
   .Gamification2:hover img {
     transform: scale(1.05);
-  }
+  } */
 
   .Clientpg {
     margin-top: 4rem;
@@ -1033,9 +1036,9 @@
     padding: 3%;
   }
 
-  .container {
+  .containerNew {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   .overlay {
     position: absolute;
@@ -1049,7 +1052,7 @@
     height: 0;
     transition: 0.5s ease;
   }
-  .container:hover .overlay {
+  .containerNew:hover .overlay {
     height: 100%;
   }
   .text {
@@ -1167,10 +1170,24 @@
 /* Width 1200 to 1500 */
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   .img-left {
-    height: 630px !important;
-    width: 625px !important;
+    /* height: 630px !important;
+    width: 625px !important; */
+    max-width: 93% !important;
+    height: 40rem !important;
     border-radius: 33px !important;
+    overflow: hidden;
+    /* width: 40vw !important;
+    height: 37rem !important; */
   }
+
+  .img-left img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .img-left:hover img {
+    transform: scale(1.05);
+  }
+
   .main-homesection {
     position: absolute;
     width: 100%;
@@ -1641,20 +1658,13 @@
     margin-left: 1rem;
   }
 
-  /* .TestingContainer {
-    margin-top: 1.5%;
-    display: flex;
-    justify-content: space-evenly;
-  } */
   .TestingContainer {
-    /* margin-top: 1.5%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3% !important;
+    margin-left: 5.5% !important;
   }
   .LeadershipContainer {
-    /* margin-top: 5.5%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1667,16 +1677,7 @@
     transform: translateX(25px);
   }
 
-  /* @keyframes Heading {
-    0% {
-      transform: translateX(-15px);
-    }
-    100% {
-      transform: translateX(0px);
-    }
-  } */
-
-  .Webdev2 {
+  /* .Webdev2 {
     overflow: hidden;
   }
   .Webdev2 img {
@@ -1751,12 +1752,11 @@
   }
   .Gamification2:hover img {
     transform: scale(1.05);
-  }
+  } */
 
-  .Webdev1 {
+  /* .Webdev1 {
     margin-left: 20px;
-    /* margin-top: 60px; */
-  }
+  } */
   .cloudcontents {
     display: flex;
     text-align: center;
@@ -2210,9 +2210,9 @@
     padding: 3%;
   }
 
-  .container {
+  .containerNew {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   .overlay {
     position: absolute;
@@ -2226,7 +2226,7 @@
     height: 0;
     transition: 0.5s ease;
   }
-  .container:hover .overlay {
+  .containerNew:hover .overlay {
     height: 100%;
   }
   .text {
@@ -2343,10 +2343,21 @@
 /* Width 1600 to 2000 */
 @media all and (min-width: 1600px) and (max-width: 2000px) {
   .img-left {
-    height: 750px !important;
-    width: 740px !important;
+    /* height: 750px !important;
+    width: 740px !important; */
+    max-width: 93% !important;
+    height: 45rem !important;
     border-radius: 33px !important;
+    overflow: hidden;
   }
+  .img-left img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .img-left:hover img {
+    transform: scale(1.05);
+  }
+
   .main-homesection {
     position: absolute;
     width: 100%;
@@ -2812,20 +2823,13 @@
     margin-left: 1rem;
   }
 
-  /* .TestingContainer {
-    margin-top: 1.5%;
-    display: flex;
-    justify-content: space-evenly;
-  } */
   .TestingContainer {
-    /* margin-top: 1.5%; */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 3% !important;
+    margin-left: 5.5% !important;
   }
   .LeadershipContainer {
-    /* margin-top: 5.5%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2838,9 +2842,8 @@
   }
 
   .Webdev1 {
-    margin-left: 20px;
+    /* margin-left: 20px; */
     font-size: x-large;
-    /* margin-top: 60px; */
   }
   .cloudcontents {
     display: flex;
@@ -2884,7 +2887,7 @@
     margin-top: 5rem;
   } */
 
-  .Webdev2 img {
+  /* .Webdev2 img {
     width: 100%;
     transition: 0.5s all ease-in-out;
   }
@@ -2959,7 +2962,7 @@
   }
   .Gamification2:hover img {
     transform: scale(1.05);
-  }
+  } */
 
   .Clientpg {
     margin-top: 4rem;
@@ -3384,9 +3387,9 @@
     padding: 3%;
   }
 
-  .container {
+  .containerNew {
     position: relative;
-    width: 50%;
+    width: 100%;
   }
   .overlay {
     position: absolute;
@@ -3400,7 +3403,7 @@
     height: 0;
     transition: 0.5s ease;
   }
-  .container:hover .overlay {
+  .containerNew:hover .overlay {
     height: 100%;
   }
   .text {
@@ -3540,30 +3543,35 @@
     cursor: pointer;
   }
   .homeVideo {
-    margin-left: 18%;
     width: 100%;
   }
+  .img-left img {
+    width: 20rem;
+    margin-top: 5%;
+  }
+  /* .Webdev2 img {
+    width: 20rem;
+  }
   .CloudDev2 img {
-    width: 50%;
+    width: 20rem;
   }
   .MobApp2 img {
-    width: 50%;
+    width: 20rem;
   }
   .Testing2 img {
-    width: 50%;
+    width: 20rem;
   }
   .DataService2 img {
-    width: 50%;
+    width: 20rem;
   }
   .Cyber2 img {
     margin-top: 3%;
-    width: 50%;
+    width: 20rem;
   }
   .GameImg {
-    width: 50%;
+    width: 20rem;
     margin-top: 3%;
-    /* margin-left: 3rem; */
-  }
+  } */
   .cloudcontents {
     display: flex;
     text-align: center;
@@ -3573,8 +3581,6 @@
     font-weight: 500;
   }
   .Webdev1 {
-    /* margin-top: -80px; */
-    /* margin-left: 15px; */
     margin-right: 15px;
   }
   .formob {
@@ -3583,38 +3589,32 @@
   .webAppDec {
     white-space: nowrap;
   }
-  .webImg2 {
+  /* .webImg2 {
     width: 50%;
     margin-left: 15px;
-  }
+  } */
   .CloudDev1 {
-    /* padding-top: 5rem; */
-    margin-top: 15rem;
-    /* margin-left: 3px; */
-    /* margin-right: 3px; */
+    margin-top: 20rem;
   }
-  .cloudImg2 {
+  /* .cloudImg2 {
     width: 380px;
-  }
+  } */
   .MobApp1 {
-    margin-top: 32rem;
-    margin-right: 2px;
+    margin-top: 45rem;
+    /* margin-right: 2px; */
   }
   .mobileImg {
     width: 380px;
   }
   .Testing1 {
-    margin-top: 48rem;
-    margin-left: 0px;
+    margin-top: 68rem;
   }
   .testingImage {
     width: 380px;
     margin-top: 20px;
   }
   .DataService1 {
-    margin-top: 64rem;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-top: 88rem;
   }
   .hamburgerMenu {
     display: block;
@@ -3648,18 +3648,17 @@
     margin-top: 20px;
   }
   .Cyber1 {
-    margin-top: 78rem;
+    margin-top: 108rem;
   }
   .cyberImg {
     width: 380px;
     margin-top: 20px;
   }
   .Gamification1 {
-    margin-top: 80rem;
+    margin-top: 128rem;
   }
   .IntegrationContainer {
-    margin-top: 83rem;
-    margin-left: 3rem;
+    margin-top: 148rem;
   }
   .text-center {
     margin-top: 360px;
@@ -3831,44 +3830,45 @@
   .navbarStyle {
     list-style: none;
     font-weight: 500;
-    margin-top: 19px;
-    padding-right: 60px;
+    /* margin-top: 19px; */
+    /* padding-right: 60px; */
   }
   .navbarStyle li {
     display: inline-block;
     cursor: pointer;
   }
   .homeVideo {
-    margin-left: 18%;
     width: 100%;
   }
-  .Webdev2 img {
-    width: 70%;
-    border-radius: 13px;
+  .img-left img {
+    width: 20rem;
+    margin-top: 5%;
+  }
+  /* .Webdev2 img {
+    width: 20rem;
   }
   .CloudDev2 img {
-    width: 70%;
+    width: 20rem;
   }
   .MobApp2 img {
-    width: 70%;
+    width: 20rem;
   }
   .Testing2 img {
-    width: 70%;
+    width: 20rem;
     margin-top: 3%;
   }
   .DataService2 img {
+    width: 20rem;
     margin-top: 3%;
-    width: 70%;
   }
   .Cyber2 img {
     margin-top: 3%;
-    width: 70%;
+    width: 20rem;
   }
   .GameImg {
-    width: 70%;
+    width: 20rem;
     margin-top: 3%;
-    /* margin-left: 3rem; */
-  }
+  } */
   .cloudcontents {
     display: flex;
     text-align: center;
@@ -3877,24 +3877,22 @@
     font-size: 12px;
     font-weight: 500;
   }
-  .Webdev1 {
-    /* margin-top: -80px; */
-    /* margin-left: 15px; */
+  /* .Webdev1 {
     margin-right: 15px;
-  }
+  } */
   .formob {
     display: none;
   }
   .webAppDec {
     white-space: nowrap;
   }
-  .webImg2 {
+  /* .webImg2 {
     width: 50%;
     margin-left: 15px;
-  }
-  .CloudDev1 {
+  } */
+  /* .CloudDev1 {
     margin-top: 12rem;
-  }
+  } */
   .cloudImg2 {
     width: 380px;
   }
@@ -3961,8 +3959,7 @@
     margin-top: 72rem;
   }
   .IntegrationContainer {
-    margin-top: 80rem;
-    margin-left: 3rem;
+    margin-top: 75rem;
   }
   .text-center {
     /* margin-top: 360px; */
@@ -4145,7 +4142,11 @@
     margin-left: 18%;
     width: 100%;
   }
-  .Webdev2 img {
+  .img-left img {
+    width: 20rem;
+    margin-top: 5%;
+  }
+  /* .Webdev2 img {
     width: 70%;
     border-radius: 13px;
   }
@@ -4170,8 +4171,7 @@
   .GameImg {
     width: 70%;
     margin-top: 3%;
-    /* margin-left: 3rem; */
-  }
+  } */
   .cloudcontents {
     display: flex;
     text-align: center;
@@ -4191,10 +4191,10 @@
   .webAppDec {
     white-space: nowrap;
   }
-  .webImg2 {
+  /* .webImg2 {
     width: 50%;
     margin-left: 15px;
-  }
+  } */
   .CloudDev1 {
     margin-top: 12rem;
   }
@@ -4263,8 +4263,7 @@
     margin-top: 72rem;
   }
   .IntegrationContainer {
-    margin-top: 80rem;
-    margin-left: 3rem;
+    margin-top: 75rem;
   }
   .text-center {
     /* margin-top: 360px; */

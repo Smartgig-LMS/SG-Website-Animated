@@ -1,20 +1,20 @@
 import React from 'react'
 import Footer from '../LandingPage/Footer'
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
+// import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+// import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+// import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
-const slideImages = [
-    {
-        image: './Images/gobeyond/351.png',
-    },
-    {
-        image: './Images/gobeyond/Rectangle 13369.png',
-    },
-    {
-        image: './Images/gobeyond/351.png',
-    },
-];
+// const slideImages = [
+//     {
+//         image: './Images/gobeyond/351.png',
+//     },
+//     {
+//         image: './Images/gobeyond/Rectangle 13369.png',
+//     },
+//     {
+//         image: './Images/gobeyond/351.png',
+//     },
+// ];
 
 export default function ProductPage() {
 
@@ -22,36 +22,36 @@ export default function ProductPage() {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, []);
 
-    const spanStyle = {
-        padding: '20px',
-        backgroundColor: '#efefef',
-        color: '#000000'
-    }
+    // const spanStyle = {
+    //     padding: '20px',
+    //     backgroundColor: '#efefef',
+    //     color: '#000000'
+    // }
 
-    const divStyle = {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        backgroundSize: 'cover',
-        height: '400px'
-    }
+    // const divStyle = {
+    //     display: 'flex',
+    //     alignItems: 'center',
+    //     justifyContent: 'center',
+    //     backgroundSize: 'cover',
+    //     height: '400px'
+    // }
 
-    const [current, setCurrent] = React.useState(0);
-    const length = slideImages.length;
+    // const [current, setCurrent] = React.useState(0);
+    // const length = slideImages.length;
 
-    if (!Array.isArray(slideImages) || slideImages.length <= 0) {
-        return null;
-    }
+    // if (!Array.isArray(slideImages) || slideImages.length <= 0) {
+    //     return null;
+    // }
 
-    console.log(current);
+    // console.log(current);
 
-    const nextSlide = () => {
-        setCurrent(current === length - 1 ? 0 : current + 1);
-    };
+    // const nextSlide = () => {
+    //     setCurrent(current === length - 1 ? 0 : current + 1);
+    // };
 
-    const prevSlide = () => {
-        setCurrent(current === 0 ? length - 1 : current - 1);
-    };
+    // const prevSlide = () => {
+    //     setCurrent(current === 0 ? length - 1 : current - 1);
+    // };
 
     return (
         <div className='productpg '>
@@ -73,7 +73,7 @@ export default function ProductPage() {
                     <div className='card mt-5'>
                         <div className='d-flex'>
                             <div className='imageOfCultureNew4'>
-                                <div class="container">
+                                <div className="containerNew">
                                     <a href='https://occultcybersecurity.com/' target='_blank'>
                                         <img src='./Images/gobeyond/Group 427321546.png' />
                                         <div class="overlay">
@@ -92,7 +92,7 @@ export default function ProductPage() {
                             </div>
                             <div style={{ display: "flex", flexDirection: "column" }}>
                                 <div className='imageOfCultureNew3'>
-                                    <div class="container">
+                                    <div class="containerNew">
                                         <a href='https://infionic.com/' target='_blank'>
                                             <img src='./Images/gobeyond/Group 427321532.png' />
                                             <div class="overlay">
@@ -110,7 +110,7 @@ export default function ProductPage() {
                                     </div>
                                 </div>
                                 <div className='imageOfCultureNew3'>
-                                    <div class="container">
+                                    <div class="containerNew">
                                         <a href='https://www.insurfin.in' target='_blank'>
                                             <img src='./Images/gobeyond/Group42.png' />
                                             <div class="overlay">

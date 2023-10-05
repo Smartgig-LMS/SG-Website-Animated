@@ -3,7 +3,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 export default function CyberSecurity() {
     return (
-        <div className=' row vh-100 pl-5 TestingContainer'>
+        <div className=' row vh-100 TestingContainer'>
             <div className='col ml-4 pr-0'>
                 <div className='Cyber1'>
                     <div>

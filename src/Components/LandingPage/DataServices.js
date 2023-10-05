@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function DataServices() {
     return (
-        <div className=' row vh-100 pl-5 TestingContainer'>
+        <div className=' row vh-100 TestingContainer'>
             <div className='col ml-4 pr-0'>
                 <div className='DataService1'>
                     <div>

@@ -4,7 +4,7 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function Gamification() {
     return (
         <>
-            <div className='row vh-100 pl-5 TestingContainer'>
+            <div className='row vh-100 TestingContainer'>
                 <div className='col ml-4 pr-0'>
                     <div className='Gamification1'>
                         <div>
@@ -19,11 +19,7 @@ export default function Gamification() {
                             </h1>
                         </div>
                         <span>
-                            Are you looking to elevate your business strategies to the next level?
-                            Then embrace the power of Gamification, through our meticulous
-                            vision to encourage the natural engaging environment for clients to
-                            level up the impact in driving forward the increased engagement
-                            enhanced learning and increased productivity
+                            Welcome to SmartGig, a leading provider in leveraging the immense potential of gamification to revolutionize your business operations. Our gamification services are designed to captivate your target audience, boost productivity, and deliver exceptional outcomes. Discover how we can enhance workplace satisfaction, elevate learning experiences, and optimize marketing strategies by strategically incorporating game elements and principles.Our team consists of experienced gamification specialists who possess a profound comprehension of psychology and game design principles. We tailor gamification tactics to correspond with your distinct objectives and target audience.
                         </span>
                     </div>
                 </div>

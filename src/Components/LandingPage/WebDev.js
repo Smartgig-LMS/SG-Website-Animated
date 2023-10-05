@@ -4,7 +4,7 @@ import React from 'react'
 export default function WebDev() {
     return (
         // <div className='webdev col-12 pt-5 vh-100 fixed'>
-        <div className='row TestingContainer vh-100 pl-5'>
+        <div className='row TestingContainer vh-100'>
             <div className='col ml-4 pr-0'>
                 <div className='Webdev1'>
                     <div>
@@ -59,8 +59,7 @@ export default function WebDev() {
             </div>
             <div className='col ml-3'>
                 <div className='Webdev2 img-left'>
-                    {/* <img src='./Images/gobeyond/Web39.png' /> */}
-                    <img className='webImg2' src='./Images/gobeyond/WebDev.png' />
+                    <img className='webImg2' src='./Images/gobeyond/web-development-image.png' />
                 </div>
             </div>
         </div>
