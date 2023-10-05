@@ -171,7 +171,7 @@ export default function LeadershipTeam() {
                         </div>
                     </div>
                 </div >
-                <div style={{ fontWeight: "500", marginTop: "33%", textAlign: "center", marginLeft: "13%" }}>
+                <div style={{ fontWeight: "500", textAlign: "center" }}>
                     <hr />
                     Copyright © 2023 SmartGig. All Rights Reserved.
                 </div>
