@@ -18,13 +18,16 @@ export default function Testing() {
                         </h1>
                     </div>
                     <span>
-                        Are you in search for top notch software testing as
-                        a service, then look no further. We specialize in
-                        unbiased, high-quality testing, by utilizing both
-                        automated and manual methods, we make you to
-                        experience unparalleled excellence and efficiency.
+                        Next Gen SmartGig Quality Engineering Services provides a tailor made approach to define and implement
+                        strategies that enhance your QA Landscape.In the era of Digital Transformations our QA offerings
+                        help you in Requirement , Early Security,Performance Engineering and Infrastructure Testing thereby
+                        reducing your UAT efforts.
+                        <br />
+                        <span style={{ fontWeight: "bold" }}>Testing as a Service (TaaS) </span> offering ensures flexibiltiy to our customers to subscribe to
+                        our testing services on need basis to reduce resources cost ,attain Agility ,Business
+                        Assurance , Access to Tools and resources.
                     </span>
-                    <div className='mt-5'>
+                    <div className='mt-3'>
                         <Accordion>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header >

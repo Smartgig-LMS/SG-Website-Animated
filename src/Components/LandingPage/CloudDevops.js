@@ -32,8 +32,7 @@ export default function CloudDevops() {
                         Your cloud services<br />
                     </h1>
                     <span>
-                        Enhance your organization's opertional effciency across all stages with our robust cloud
-                        services ,levarging the power of AWS and Azure to attain exceptional complaince and
+                        Enhance your organization's cloud systems operational effeciency across all stages with our certified and experienced cloud experts. Attain exceptional complaince and
                         governance standards , through seamless integration of cloud computing and DevOps
                         methodologies to unlock unmatched operational excellence.
                     </span>

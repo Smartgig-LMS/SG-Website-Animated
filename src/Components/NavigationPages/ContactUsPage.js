@@ -210,37 +210,34 @@ export default function ContactUsPage() {
                 </div>
                 <div className='thirdContact'>
                     <div className='thirdContact1'>
-                        <div className='card shadow' style={{ height: "130px", width: "500px", cursor: "pointer" }}>
+                        <div className='card shadow' style={{ height: "248px", width: "286px", cursor: "pointer" }}>
                             <div onClick={handleClickOpen}>
-                                <h6>
+                                <h5>
                                     Request for service
-                                </h6>
+                                </h5>
                             </div>
                         </div>
 
-                        <div className='card shadow' style={{ height: "130px", width: "500px" }}>
+                        <div className='card shadow' style={{ height: "248px", width: "286px" }}>
                             <a href='https://infionic.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
-                                <h6>
+                                <h5>
                                     More about Infionic Product
-                                </h6>
+                                </h5>
                             </a>
                         </div>
-                    </div>
-
-                    <div className='thirdContact2'>
-                        <div className='card shadow' style={{ height: "130px", width: "500px" }}>
+                        <div className='card shadow' style={{ height: "248px", width: "286px" }}>
                             <a href='https://Occultcybersecurity.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
-                                <h6>
+                                <h5>
                                     More about Occult Cyber Security
-                                </h6>
+                                </h5>
                             </a>
                         </div>
 
-                        <div className='card shadow' style={{ height: "130px", width: "500px", cursor: "pointer" }}>
+                        <div className='card shadow' style={{ height: "248px", width: "286px", cursor: "pointer" }}>
                             <div onClick={handleClickCareer}>
-                                <h6>
+                                <h5>
                                     Career related Queries
-                                </h6>
+                                </h5>
                             </div>
                         </div>
                     </div>

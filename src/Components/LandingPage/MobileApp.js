@@ -17,13 +17,10 @@ export default function MobileApp() {
                         </h1>
                     </div>
                     <span>
-                        As mobile applications continue to rise as a gateway towards
-                        success in this digital realm, we signify the need for crafting them
+                        As mobile applications continue to rise as a primary mode of Digital Accessibility, we signify the need for crafting them
                         with the vital prospects of high performance, user friendly and
-                        visually stunning to captivate audiences and drive business
-                        growth as our team of expertise developers  everage Mobile App
-                        Development to make your easiest portal to enrich with
-                        excellence.
+                        visually stunning designs to captivate audiences and drive business
+                        growth. Be it Native or Hybrid bring Enhanced User Experience, Functionally effective, Highly Secured and Personalised apps into use swiftly.
                     </span>
 
                     <div className='d-flex mt-5'>

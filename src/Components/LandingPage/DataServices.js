@@ -15,12 +15,11 @@ export default function DataServices() {
                     </h1>
                     <span>
                         Ever thought of turning your data into a strategic asset.
-                        Make it happen with our exceptional data services, which
-                        make you to handle the complexities with ease in your own
-                        path of excellence as we effortlessly manage, analyse and
-                        leverage your data to harness the full potential of your
-                        information assets to make you stay ahead in today’s
-                        data – driven world.
+                        Make it happen with our exceptional data services - A combination of data Capturing,storing,
+                        cleansing , modeling ,Integrating ,Analysis,Analytics and Insights based solutions using tools
+                        and process available.Combined with Data Science,Cloud Computing and AI gives you the advantage of
+                        bringing out solutions which foster an advantage to your customers.
+
                     </span>
                     <div className='mt-5'>
                         {/* <Accordion defaultActiveKey="0"> */}

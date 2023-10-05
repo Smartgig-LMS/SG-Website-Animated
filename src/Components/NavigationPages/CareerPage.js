@@ -209,7 +209,7 @@ export default function CareerPage() {
                         </DialogTitle>
                         <DialogContent>
                             <p style={{ fontWeight: "400" }}>
-                                Thank you for your interest in Smartgig. We appreciate your enthusiasm for our organization
+                                Thank you for your interest in SmartGig. We appreciate your enthusiasm for our organization
                                 and look forward to reviewing your application.
                             </p>
                             <TextField
@@ -245,9 +245,9 @@ export default function CareerPage() {
                             />
                             <TextField
                                 margin="dense"
-                                name="experience"
-                                id="experience"
-                                label="Experience"
+                                name="LinkedIn"
+                                id="LinkedIn"
+                                label="LinkedIn Link"
                                 type="text"
                                 required
                                 fullWidth

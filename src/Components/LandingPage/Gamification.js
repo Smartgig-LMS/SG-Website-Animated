@@ -19,7 +19,25 @@ export default function Gamification() {
                             </h1>
                         </div>
                         <span>
-                            Welcome to SmartGig, a leading provider in leveraging the immense potential of gamification to revolutionize your business operations. Our gamification services are designed to captivate your target audience, boost productivity, and deliver exceptional outcomes. Discover how we can enhance workplace satisfaction, elevate learning experiences, and optimize marketing strategies by strategically incorporating game elements and principles.Our team consists of experienced gamification specialists who possess a profound comprehension of psychology and game design principles. We tailor gamification tactics to correspond with your distinct objectives and target audience.
+                            In the new age of constant changes to user behaviour and interest towards products Gamification techniques are much needed to reward users upon accomplishing desired task.
+                            SmartGig's Gamification Platform(SGP) can be easily implemented for any enterprise scenerio which will resonate well by imbibing fun, incentive based
+                            engagement.
+                            <br />
+                            <br />
+                            <ul>
+                                <li>
+                                    Push the boundries
+                                </li>
+                                <li>
+                                    Its about experience and engagement
+                                </li>
+                                <li>
+                                    Amplify business outcomes
+                                </li>
+                                <li>
+                                    Build loyality
+                                </li>
+                            </ul>
                         </span>
                     </div>
                 </div>

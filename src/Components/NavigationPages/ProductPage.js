@@ -65,8 +65,8 @@ export default function ProductPage() {
                     <div className='infiLogo'>
                         <img src='./Images/gobeyond/Grou.svg' />
                     </div>
-                    <p className='mt-2' style={{ textAlign: "center", paddingLeft: "10%", paddingRight: "10%" }}>
-                        At SmartGig, we pride ourselves on fostering a culture of collaboration and innovation. Our commitment to excellence is reflected in our diverse partnership programs, which are meticulously designed to meet the distinct requirements of businesses within the industry with access to the world of unparalleled opportunities, through our relentless pursuit of cutting-edge solutions that drive your success .As not just partners but as your innovation catalyst, helping you stay ahead in a rapidly evolving digital landscape. 'Come Join us to redefine possibilities together
+                    <p className='mt-2 container' style={{ textAlign: "center", paddingLeft: "10%", paddingRight: "10%" }}>
+                        At SmartGig, we pride ourselves on fostering a culture of collaboration and innovation. Our commitment to excellence is reflected in our diverse partnerships with startups, which are solving some of the serious problems in B2B ,B2C and P2P space.We are truely amazed with what our partners do and are always open to partner in solutions helping mankind. 'Come Join us to redefine possibilities together
                     </p>
                 </div>
                 <div className='Lastcontainer'>

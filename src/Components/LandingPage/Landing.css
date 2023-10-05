@@ -823,8 +823,9 @@
 
   .thirdContact1 {
     display: flex;
-    /* gap: 1rem; */
-    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .thirdContact2 {
@@ -834,13 +835,13 @@
     justify-content: space-evenly;
   }
 
-  .thirdContact h6 {
-    margin-top: 11%;
+  .thirdContact h5 {
+    margin-top: 27%;
     border-bottom: solid #f18313;
     border-width: 3px;
     text-align: left;
     margin-left: 3%;
-    margin-right: 53%;
+    margin-right: 33%;
     font-weight: bold;
     padding-bottom: 2%;
   }
@@ -1995,8 +1996,9 @@
 
   .thirdContact1 {
     display: flex;
-    /* gap: 1rem; */
-    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .thirdContact2 {
@@ -2006,13 +2008,13 @@
     justify-content: space-evenly;
   }
 
-  .thirdContact h6 {
-    margin-top: 11%;
+  .thirdContact h5 {
+    margin-top: 27%;
     border-bottom: solid #f18313;
     border-width: 3px;
     text-align: left;
     margin-left: 3%;
-    margin-right: 53%;
+    margin-right: 33%;
     font-weight: bold;
     padding-bottom: 2%;
   }
@@ -3172,8 +3174,9 @@
 
   .thirdContact1 {
     display: flex;
-    /* gap: 1rem; */
-    justify-content: space-evenly;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
   }
 
   .thirdContact2 {
@@ -3183,13 +3186,13 @@
     justify-content: space-evenly;
   }
 
-  .thirdContact h6 {
-    margin-top: 11%;
+  .thirdContact h5 {
+    margin-top: 27%;
     border-bottom: solid #f18313;
     border-width: 3px;
     text-align: left;
     margin-left: 3%;
-    margin-right: 53%;
+    margin-right: 33%;
     font-weight: bold;
     padding-bottom: 2%;
   }
@@ -3589,6 +3592,11 @@
   .webAppDec {
     white-space: nowrap;
   }
+  .footerForMobile {
+    font-weight: 500;
+    margin-top: 33%;
+    text-align: center;
+  }
   /* .webImg2 {
     width: 50%;
     margin-left: 15px;
@@ -3893,6 +3901,10 @@
   .CloudDev1 {
     margin-top: 3rem;
   }
+  .footerForMobile {
+    font-weight: 500;
+    text-align: center;
+  }
   .cloudImg2 {
     width: 380px;
   }
@@ -4190,6 +4202,10 @@
   }
   .webAppDec {
     white-space: nowrap;
+  }
+  .footerForMobile {
+    font-weight: 500;
+    text-align: center;
   }
   /* .webImg2 {
     width: 50%;

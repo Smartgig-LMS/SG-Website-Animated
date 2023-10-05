@@ -17,9 +17,7 @@ export default function WebDev() {
                         effortlessly for user
                     </h1>
                     <span>
-                        We are determined in creating seamless user experiences for our Customers websites and web apps
-                        by bringing design and functionality come together harmoniously to enhance the user experience
-                        with efficiency in which users can interact, explore and be inspired by our magnificence.
+                        Businesses constantly evolve to survive, grow, sustain and flourish and we are always at your service to start with your idea and end with building Customer delight Web Apps .Together with our domain experts and expertise in Cutting-Edge technologies, visualise and design futuristic web apps to simplify your massive core systems.
                     </span>
                     <div className='d-flex mt-5'>
                         <div>
