@@ -1171,10 +1171,10 @@
 /* Width 1200 to 1500 */
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   .img-left {
-    /* height: 630px !important;
-    width: 625px !important; */
-    max-width: 93% !important;
-    height: 40rem !important;
+    height: 630px !important;
+    width: 625px !important;
+    /* max-width: 93% !important;
+    height: 35rem !important; */
     border-radius: 33px !important;
     overflow: hidden;
     /* width: 40vw !important;

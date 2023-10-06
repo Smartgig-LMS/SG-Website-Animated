@@ -80,8 +80,7 @@ export default function ContactUsPage() {
                 <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">
                     {/*  xs, sm, md, lg , xl for width*/}
                     {/* <form action="swadeepdwivedia2@gmail.com" method="post" enctype="text/plain"> */}
-                    <form ref={formVar} onSubmit={handleSubmit}>
-                        {/* <form > */}
+                    {/* <form ref={formVar} onSubmit={handleSubmit}>
                         <div className='modalOnContact'>
                             <img src='./Images/gobeyond/Group 427321194 (3).png' width="120" height="35px" />
                             <DialogTitle className='DialogTitle'>
@@ -152,31 +151,6 @@ export default function ContactUsPage() {
                                     variant="standard"
                                     fullWidth
                                 />
-
-                                {/* <TextField
-                                    margin="dense"
-                                    name="relation"
-                                    id="relation"
-                                    label="RELATIONSHIP WITH SMARTGIG"
-                                    type="text"
-                                    fullWidth
-                                    variant="standard"
-                                /> */}
-                                {/* <label style={{ marginTop: "1rem", textAlign: "start" }}>RELATIONSHIP WITH SMARTGIG</label> */}
-                                {/* <FormControl fullWidth style={{ marginTop: "2rem" }}>
-                                    <InputLabel id="demo-simple-select-label">RELATIONSHIP WITH SMARTGIG</InputLabel>
-                                <Select
-                                    labelId="demo-simple-select-label"
-                                    id="demo-simple-select"
-                                    // value={age}
-                                    label="Age"
-                                // onChange={handleChange}
-                                >
-                                    <MenuItem value={10}>Employee</MenuItem>
-                                    <MenuItem value={20}>Client</MenuItem>
-                                </Select>
-                            </FormControl> */}
-
                             </DialogContent>
                             <DialogActions>
                                 <Button onClick={handleClose} type='button' style={{ color: "#F38313", justifyContent: "left" }}>Cancel</Button>
@@ -185,7 +159,10 @@ export default function ContactUsPage() {
                                 </Button>
                             </DialogActions>
                         </div>
-                    </form>
+                    </form> */}
+
+                    <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUOFRDVlhBOTFQQjZZNVRIUjhGUEtXTjc3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
                 </Dialog >
             </div >
 

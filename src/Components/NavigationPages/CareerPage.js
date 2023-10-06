@@ -199,7 +199,7 @@ export default function CareerPage() {
     return (
         <>
             <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">
-                <form ref={formVar} onSubmit={handleSubmit}>
+                {/* <form ref={formVar} onSubmit={handleSubmit}>
                     <div className='modalOnContact'>
                         <img src='./Images/gobeyond/Group 427321194 (3).png' width="120" height="35px" />
                         <DialogTitle className='DialogTitle'>
@@ -271,7 +271,12 @@ export default function CareerPage() {
                             </Button>
                         </DialogActions>
                     </div>
-                </form>
+                </form> */}
+                {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe59s9iP2mciv62zsI0GyGxXxlJnsFHANoofZWB8erEMkvCYw/viewform?embedded=true" width="940" height="956" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
+
+                {/* <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EOyXf_E0LEKROoNwcDbxryxJUMUJQWkM2UkhRRUtaVlRHV1dXTTZVSVFVUi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> */}
+
+                <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUMVZJNEY1QUo4OFJKNUZTSVlDRlFXSU9YMi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
             </Dialog >
             <div className='CareerPg'>
                 <div className='firstCareerDiv'>
