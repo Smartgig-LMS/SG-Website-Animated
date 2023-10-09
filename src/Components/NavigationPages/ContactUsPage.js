@@ -38,9 +38,13 @@ export default function ContactUsPage() {
     }, []);
 
     const [open, setOpen] = React.useState(false);
+    const [open2, setOpen2] = React.useState(false);
 
     const handleClickOpen = () => {
         setOpen(true);
+    };
+    const handleClickOpen2 = () => {
+        setOpen2(true);
     };
 
     const handleClose = () => {
@@ -78,92 +82,11 @@ export default function ContactUsPage() {
         <>
             <div>
                 <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">
-                    {/*  xs, sm, md, lg , xl for width*/}
-                    {/* <form action="swadeepdwivedia2@gmail.com" method="post" enctype="text/plain"> */}
-                    {/* <form ref={formVar} onSubmit={handleSubmit}>
-                        <div className='modalOnContact'>
-                            <img src='./Images/gobeyond/Group 427321194 (3).png' width="120" height="35px" />
-                            <DialogTitle className='DialogTitle'>
-                                <h1>
-                                    Request for services
-                                </h1>
-                            </DialogTitle>
-                            <DialogContent>
-                                <h5 style={{ fontWeight: "800" }}>
-                                    Customer satisfaction is our priority.
-                                    Contact us for a seamless experience.
-                                </h5>
-                                <DialogContentText >
-                                    We appreciate your attention to the mandatory fields marked with an asterisk(*).
-                                </DialogContentText>
-                                <TextField
-                                    autoFocus
-                                    margin="dense"
-                                    id="name"
-                                    required
-                                    label="Full Name"
-                                    type="text"
-                                    name="full_name"
-                                    fullWidth
-                                    variant="standard"
-                                />
-                                <TextField
-                                    margin="dense"
-                                    name="phone_no"
-                                    id="Phone"
-                                    required
-                                    label="Phone"
-                                    // pattern="[0-9]*"
-                                    // inputProps={{
-                                    //     maxLength: 10
-                                    // }}
-                                    type="number"
-                                    fullWidth
-                                    variant="standard"
-                                />
-                                <TextField
-                                    margin="dense"
-                                    name="email_address"
-                                    id="email"
-                                    required
-                                    label="Email Address"
-                                    type="email"
-                                    fullWidth
-                                    variant="standard"
-                                />
-                                <TextField
-                                    margin="dense"
-                                    name="company"
-                                    id="name"
-                                    label="Company"
-                                    type="text"
-                                    fullWidth
-                                    variant="standard"
-                                />
-                                <TextField
-                                    margin="dense"
-                                    name="details"
-                                    id="details"
-                                    label="To enhance our ability to assist you, kindly provide more details or context relevant to your request."
-                                    type="text"
-                                    multiline
-                                    rows={3}
-                                    variant="standard"
-                                    fullWidth
-                                />
-                            </DialogContent>
-                            <DialogActions>
-                                <Button onClick={handleClose} type='button' style={{ color: "#F38313", justifyContent: "left" }}>Cancel</Button>
-                                <Button type='submit' value="Send" style={{ backgroundColor: "#346DAD", color: "white" }} >
-                                    Submit
-                                </Button>
-                            </DialogActions>
-                        </div>
-                    </form> */}
-
                     <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUOFRDVlhBOTFQQjZZNVRIUjhGUEtXTjc3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
                 </Dialog >
+
+                <Dialog open={open2} onClose={handleClose} fullWidth maxWidth="md">
+                    <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUNEdGUjBHWEE2S0MxQVRMVlU0TFhTNTRPRi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>                </Dialog >
             </div >
 
             <div className='contactPg'>
@@ -211,7 +134,7 @@ export default function ContactUsPage() {
                         </div>
 
                         <div className='card shadow' style={{ height: "248px", width: "286px", cursor: "pointer" }}>
-                            <div onClick={handleClickCareer}>
+                            <div onClick={handleClickOpen2}>
                                 <h5>
                                     Career related Queries
                                 </h5>

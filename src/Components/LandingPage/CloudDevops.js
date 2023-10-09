@@ -20,18 +20,18 @@ export default function CloudDevops() {
     }, 2000)
 
     return (
-        <div className='TestingContainer row vh-100'>
-            <div className='col ml-4 pr-0'>
+        <div className='TestingContainer row'>
+            <div className='col pr-0'>
                 <div className='CloudDev1'>
                     <div>
                         <img src='./Images/gobeyond/Group42.svg' width="180" height="50" />
                     </div>
                     <h1 id='heading' style={{ color: "#2563AC" }}>
                     </h1>
-                    <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className='webhead mb-3 mt-2'>
+                    <h1 style={{ color: "#F38211", fontWeight: "700" }} className='webhead mb-3 mt-2'>
                         Your cloud services<br />
                     </h1>
-                    <span>
+                    <span className='w-100'>
                         Enhance your organization's cloud systems operational effeciency across all stages with our certified and experienced cloud experts. Attain exceptional complaince and
                         governance standards , through seamless integration of cloud computing and DevOps
                         methodologies to unlock unmatched operational excellence.

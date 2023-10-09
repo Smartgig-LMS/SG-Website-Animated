@@ -1,9 +1,10 @@
 @media all and (min-width: 1000px) and (max-width: 1200px) {
   .img-left {
-    /* height: 550px !important;
-    width: 520px !important; */
-    max-width: 93% !important;
-    height: 32rem !important;
+    height: 550px !important;
+    width: 520px !important;
+    /* max-width: 93% !important;
+    height: 32rem !important; */
+    object-fit: cover;
     border-radius: 33px !important;
     overflow: hidden;
   }
@@ -349,11 +350,11 @@
   }
 
   .CultureHeadnig h1 {
-    background-image: url("../../../public/Images/gobeyond/Group 427321534.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321728.png");
     background-size: cover;
     padding-top: 13.49%;
     color: white;
-    padding-bottom: 13.49%;
+    padding-bottom: 20.49%;
   }
 
   .culturepg {
@@ -483,7 +484,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5.5% !important;
+    height: 100% !important;
+    margin-left: 6.8% !important;
   }
   .LeadershipContainer {
     display: flex;
@@ -1172,7 +1174,8 @@
 @media all and (min-width: 1200px) and (max-width: 1600px) {
   .img-left {
     height: 630px !important;
-    width: 625px !important;
+    width: 630px !important;
+    object-fit: cover;
     /* max-width: 93% !important;
     height: 35rem !important; */
     border-radius: 33px !important;
@@ -1533,11 +1536,11 @@
   }
 
   .CultureHeadnig h1 {
-    background-image: url("../../../public/Images/gobeyond/Group 427321534.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321728.png");
     background-size: cover;
     padding-top: 13.49%;
     color: white;
-    padding-bottom: 13.49%;
+    padding-bottom: 20.49%;
   }
 
   .culturepg {
@@ -1663,7 +1666,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5.5% !important;
+    height: 100% !important;
+    margin-left: 6.8% !important;
   }
   .LeadershipContainer {
     display: flex;
@@ -2345,10 +2349,11 @@
 /* Width 1600 to 2000 */
 @media all and (min-width: 1600px) and (max-width: 2000px) {
   .img-left {
-    /* height: 750px !important;
-    width: 740px !important; */
-    max-width: 93% !important;
-    height: 45rem !important;
+    height: 750px !important;
+    width: 740px !important;
+    /* max-width: 93% !important;
+    height: 45rem !important; */
+    object-fit: cover;
     border-radius: 33px !important;
     overflow: hidden;
   }
@@ -2699,11 +2704,11 @@
   }
 
   .CultureHeadnig h1 {
-    background-image: url("../../../public/Images/gobeyond/Group 427321534.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321728.png");
     background-size: cover;
     padding-top: 13.49%;
     color: white;
-    padding-bottom: 13.49%;
+    padding-bottom: 20.49%;
   }
 
   .culturepg {
@@ -2829,7 +2834,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 5.5% !important;
+    height: 100% !important;
+    margin-left: 6.8% !important;
   }
   .LeadershipContainer {
     display: flex;
@@ -3552,6 +3558,13 @@
     width: 20rem;
     margin-top: 5%;
   }
+  .TestingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50% !important;
+    margin-left: 1% !important;
+  }
   /* .Webdev2 img {
     width: 20rem;
   }
@@ -3851,6 +3864,13 @@
   .img-left img {
     width: 20rem;
     margin-top: 5%;
+  }
+  .TestingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80% !important;
+    margin-left: 6.8% !important;
   }
   /* .Webdev2 img {
     width: 20rem;
@@ -4157,6 +4177,13 @@
   .img-left img {
     width: 20rem;
     margin-top: 5%;
+  }
+  .TestingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80% !important;
+    margin-left: 6.8% !important;
   }
   /* .Webdev2 img {
     width: 70%;

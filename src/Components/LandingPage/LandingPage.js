@@ -34,7 +34,7 @@ export default function LandingPage() {
 
     return (
         <>
-            <div >
+            <div>
                 {/* <NavBar /> */}
                 <Homelinks
                     setPageName={setPageName}
@@ -86,7 +86,6 @@ export default function LandingPage() {
                     <div className='main-homesection pt-4' id='our-clients'>
                         <OurClients />
                     </div>
-
                 </div>
             </div>
         </>

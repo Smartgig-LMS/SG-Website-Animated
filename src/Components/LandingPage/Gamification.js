@@ -4,8 +4,8 @@ import Accordion from 'react-bootstrap/Accordion';
 export default function Gamification() {
     return (
         <>
-            <div className='row vh-100 TestingContainer'>
-                <div className='col ml-4 pr-0'>
+            <div className='row TestingContainer'>
+                <div className='col pr-0'>
                     <div className='Gamification1'>
                         <div>
                             <img src='./Images/gobeyond/GamificationLogo.svg' width="190" height="50" />

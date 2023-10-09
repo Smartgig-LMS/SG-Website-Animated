@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function MobileApp() {
     return (
-        <div className='TestingContainer row vh-100'>
-            <div className='col ml-4 pr-0'>
+        <div className='TestingContainer row'>
+            <div className='col pr-0'>
                 <div className='MobApp1' >
                     <div>
                         <img src='./Images/gobeyond/Mobile app Development Icon.svg' width="150" height="50" />
