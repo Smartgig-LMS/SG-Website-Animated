@@ -26,7 +26,7 @@ export default function Testing() {
                     our testing services on need basis to reduce resources cost ,attain Agility ,Business
                     Assurance , Access to Tools and resources.
                 </span>
-                <div className='mt-3'>
+                <div className='mt-3 mb-3'>
                     <Accordion>
                         <Accordion.Item eventKey="0">
                             <Accordion.Header >

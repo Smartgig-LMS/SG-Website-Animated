@@ -16,11 +16,11 @@ export default function CyberSecurity() {
                         Tomorrow, Today
                     </h1>
                 </div>
-                <span>
+                <p className='mb-3'>
                     In an increasingly connected world, security is not a choice; it's a necessity. At SmartGig, we're dedicated to providing top-tier cybersecurity solutions that empower businesses to thrive in the digital age.
                     We stay ahead of emerging threats to keep your systems secure. <br /><br />
                     Managed Cyber Security: Simplify cybersecurity for cloud, network and endpoints by using our cloud native suite in an extended detection and response (XDR) platform built with skilled and certified professionals, Technology partenerships and MITRE ATT&CK framework.
-                </span>
+                </p>
             </div>
             <div className='col-lg-5 img-left'>
                 <img src='./Images/gobeyond/Group 427321293.png' />

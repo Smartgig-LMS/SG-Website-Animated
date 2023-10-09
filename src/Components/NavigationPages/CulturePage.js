@@ -62,7 +62,7 @@ export default function CulturePage() {
         <div>
             <div className='culturepg'>
                 <div className='CultureHeadnig'>
-                    <h1></h1>
+                    <h1>Culture</h1>
                 </div>
                 <div className='Lastcontainer'>
                     <div>

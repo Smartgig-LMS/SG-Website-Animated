@@ -19,7 +19,7 @@ export default function DataServices() {
                     and process available.Combined with Data Science,Cloud Computing and AI gives you the advantage of
                     bringing out solutions which foster an advantage to your customers.
                 </span>
-                <div className='mt-5'>
+                <div className='mt-4 mb-3'>
                     {/* <Accordion defaultActiveKey="0"> */}
                     <Accordion>
                         <Accordion.Item eventKey="0">

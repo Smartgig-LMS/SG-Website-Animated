@@ -261,7 +261,9 @@
   .productpg {
     padding-top: 1rem;
   }
-
+  .productpgMobile {
+    display: none;
+  }
   .visitbtn {
     color: #f38313;
     background-color: #fff;
@@ -348,7 +350,7 @@
   }
 
   .CultureHeadnig h1 {
-    background-image: url("../../../public/Images/gobeyond/Group 427321728.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
     color: white;
@@ -1438,6 +1440,9 @@
   .productpg {
     padding-top: 1rem;
   }
+  .productpgMobile {
+    display: none;
+  }
 
   .visitbtn {
     color: #f38313;
@@ -1527,7 +1532,7 @@
   }
 
   .CultureHeadnig h1 {
-    background-image: url("../../../public/Images/gobeyond/Group 427321728.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
     color: white;
@@ -2605,6 +2610,9 @@
   .productpg {
     padding-top: 1rem;
   }
+  .productpgMobile {
+    display: none;
+  }
 
   .visitbtn {
     color: #f38313;
@@ -2693,7 +2701,7 @@
   }
 
   .CultureHeadnig h1 {
-    background-image: url("../../../public/Images/gobeyond/Group 427321728.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
     color: white;
@@ -3548,6 +3556,24 @@
   .TestingContainer {
     margin-left: 2% !important;
   }
+  .productpg {
+    display: none;
+  }
+  .productpgMobile {
+    padding-top: 1rem;
+  }
+  .opHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
+    padding-top: 10%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .opHeadnigs h1 {
+    color: #fff;
+  }
   /* .Webdev2 img {
     width: 20rem;
   }
@@ -3620,7 +3646,11 @@
   }
   .hamburgerMenu {
     display: block;
-    margin-top: 2%;
+    margin-top: 3.5%;
+  }
+  .bm-burger-button {
+    height: 42px !important;
+    width: 42px !important;
   }
   .hamburgerMenuforWeb {
     display: none;
@@ -3637,10 +3667,10 @@
   .bm-menu {
     background: #ffffff;
     padding: 2rem 3rem;
-    font-size: 1.45em;
+    font-size: 1.4rem;
   }
   .bm-menu-wrap {
-    height: 35% !important;
+    height: 100vh !important;
   }
   .bm-overlay {
     height: 0vh !important;
@@ -3663,12 +3693,6 @@
   .text-center {
     display: flex;
     flex-direction: column;
-  }
-  .IntegrationLogos {
-    /* display: flex; */
-    gap: 20px;
-    /* align-items: center;
-    justify-content: center; */
   }
   .IntegrationCard {
     height: 86px !important;
@@ -3698,6 +3722,8 @@
   }
   .LeaderShipMob1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 10%;
     gap: 20px;
   }
@@ -3712,7 +3738,9 @@
   .IntegrationLogos {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
   }
   .text {
     font-size: 14px;
@@ -3828,6 +3856,24 @@
   .TestingContainer {
     margin-left: 2% !important;
   }
+  .productpg {
+    display: none;
+  }
+  .productpgMobile {
+    padding-top: 1rem;
+  }
+  .opHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
+    padding-top: 10%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .opHeadnigs h1 {
+    color: #fff;
+  }
   /* .Webdev2 img {
     width: 20rem;
   }
@@ -3905,7 +3951,11 @@
   }
   .hamburgerMenu {
     display: block;
-    margin-top: 2%;
+    margin-top: 3.5%;
+  }
+  .bm-burger-button {
+    height: 42px !important;
+    width: 42px !important;
   }
   .hamburgerMenuforWeb {
     display: none;
@@ -3922,10 +3972,10 @@
   .bm-menu {
     background: #ffffff;
     padding: 2rem 3rem;
-    font-size: 1.45em;
+    font-size: 1.4rem;
   }
   .bm-menu-wrap {
-    height: 27vh !important;
+    height: 100vh !important;
   }
   .bm-overlay {
     height: 0vh !important;
@@ -3948,12 +3998,6 @@
   .text-center {
     display: flex;
     flex-direction: column;
-  }
-  .IntegrationLogos {
-    /* display: flex; */
-    gap: 20px;
-    /* align-items: center;
-    justify-content: center; */
   }
   .IntegrationCard {
     height: 86px !important;
@@ -3983,7 +4027,8 @@
   }
   .LeaderShipMob1 {
     display: flex;
-    margin-left: 3%;
+    justify-content: center;
+    align-items: center;
     padding-top: 10%;
     gap: 30px;
   }
@@ -3998,7 +4043,9 @@
   .IntegrationLogos {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
   }
   .text {
     font-size: 14px;
@@ -4105,7 +4152,6 @@
     cursor: pointer;
   }
   .homeVideo {
-    margin-left: 18%;
     width: 100%;
   }
   .img-left img {
@@ -4114,6 +4160,24 @@
   }
   .TestingContainer {
     margin-left: 2% !important;
+  }
+  .productpg {
+    display: none;
+  }
+  .productpgMobile {
+    padding-top: 1rem;
+  }
+  .opHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
+    padding-top: 10%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .opHeadnigs h1 {
+    color: #fff;
   }
   /* .Webdev2 img {
     width: 70%;
@@ -4195,7 +4259,11 @@
   }
   .hamburgerMenu {
     display: block;
-    margin-top: 2%;
+    margin-top: 3.5%;
+  }
+  .bm-burger-button {
+    height: 42px !important;
+    width: 42px !important;
   }
   .hamburgerMenuforWeb {
     display: none;
@@ -4212,10 +4280,10 @@
   .bm-menu {
     background: #ffffff;
     padding: 2rem 3rem;
-    font-size: 1.45em;
+    font-size: 1.4rem;
   }
   .bm-menu-wrap {
-    height: 35vh !important;
+    height: 100vh !important;
   }
   .bm-overlay {
     height: 0vh !important;
@@ -4239,12 +4307,7 @@
     display: flex;
     flex-direction: column;
   }
-  .IntegrationLogos {
-    /* display: flex; */
-    gap: 20px;
-    /* align-items: center;
-    justify-content: center; */
-  }
+
   .IntegrationCard {
     height: 86px !important;
     width: 86px !important;
@@ -4273,6 +4336,8 @@
   }
   .LeaderShipMob1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding-top: 10%;
     gap: 20px;
   }
@@ -4287,7 +4352,9 @@
   .IntegrationLogos {
     display: flex;
     flex-direction: row;
-    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
   }
   .text {
     font-size: 14px;
