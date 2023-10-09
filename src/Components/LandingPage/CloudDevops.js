@@ -20,163 +20,141 @@ export default function CloudDevops() {
     }, 2000)
 
     return (
-        <div className='TestingContainer row'>
-            <div className='col pr-0'>
-                <div className='CloudDev1'>
-                    <div>
-                        <img src='./Images/gobeyond/Group42.svg' width="180" height="50" />
-                    </div>
-                    <h1 id='heading' style={{ color: "#2563AC" }}>
-                    </h1>
-                    <h1 style={{ color: "#F38211", fontWeight: "700" }} className='webhead mb-3 mt-2'>
-                        Your cloud services<br />
-                    </h1>
-                    <span className='w-100'>
-                        Enhance your organization's cloud systems operational effeciency across all stages with our certified and experienced cloud experts. Attain exceptional complaince and
-                        governance standards , through seamless integration of cloud computing and DevOps
-                        methodologies to unlock unmatched operational excellence.
-                    </span>
-
-                    <div className='mt-5 cloudcontents'>
-                        <div>
-                            <div>
-                                <div>
-                                    <img className='cloudAppImg1' src='./Images/gobeyond/Cloud Migration and Modernisation.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Cloud Migration<br /> and Modernisation
-                                    </p>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <img className='cloudAppImg2' src='./Images/gobeyond/DevSecOps.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        DevSecOps
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div >
-                                <div>
-                                    <img className='cloudAppImg3' src='./Images/gobeyond/Infrastructure Services.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Infrastructure<br /> Services
-                                    </p>
-                                </div>
-                            </div>
-                            <div >
-                                <div>
-                                    <img className='cloudAppImg4' src='./Images/gobeyond/Data and AI.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Data and AI
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='thirdCloudService'>
-                            <div >
-                                <div>
-                                    <img className='cloudAppImg5' src='./Images/gobeyond/Cloud Security.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Cloud<br /> Security
-                                    </p>
-                                </div>
-                            </div>
-                            <div >
-                                <div>
-                                    <img className='cloudAppImg6' src='./Images/gobeyond/Cloud Economics.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Cloud Economics
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='formob'>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Cloud-oprations.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Cloud<br /> Operations
-                                    </p>
-                                </div>
-                            </div>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/CloudConsult.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Cloud<br /> Consulting
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='formob'>
-
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/Industry-cloud.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Industry <br /> Cloud
-                                    </p>
-                                </div>
-                            </div>
-                            <div >
-                                <div>
-                                    <img src='./Images/gobeyond/CloudBusinesApplication.svg' />
-                                </div>
-                                <div className='mt-2'>
-                                    <p>
-                                        Cloud Business<br /> Application
-                                    </p>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                    {/* <div>
-                    <div className='d-flex mt-2'>
-                        <h3 style={{ color: "#28B29A" }}>
-                            25%
-                        </h3>
-                        <p className='ml-3 mt-1'>
-                            Increase in retentio
-                        </p>
-                    </div>
-                    <div className='d-flex mt-2'>
-                        <h3 style={{ color: "#28B29A" }}>
-                            1.7X
-                        </h3>
-                        <p className='ml-3 mt-1'>
-                            User Data base growth
-                        </p>
-                    </div>
-                </div> */}
+        <div className='TestingContainer'>
+            <div className='col-lg-7'>
+                {/* <div className='CloudDev1'> */}
+                <div>
+                    <img src='./Images/gobeyond/Group42.svg' width="180" height="50" />
                 </div>
+                <h1 id='heading' style={{ color: "#2563AC" }}>
+                </h1>
+                <h1 style={{ color: "#F38211", fontWeight: "700" }} className='webhead mb-3 mt-2'>
+                    Your cloud services<br />
+                </h1>
+                <span className='w-100'>
+                    Enhance your organization's cloud systems operational effeciency across all stages with our certified and experienced cloud experts. Attain exceptional complaince and
+                    governance standards , through seamless integration of cloud computing and DevOps
+                    methodologies to unlock unmatched operational excellence.
+                </span>
+
+                <div className='mt-5 cloudcontents'>
+                    <div className='mb-2 mr-lg-2'>
+                        <div>
+                            <div>
+                                <img className='1' src='./Images/gobeyond/Cloud Migration and Modernisation.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud Migration<br /> and Modernisation
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img className='2' src='./Images/gobeyond/DevSecOps.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    DevSecOps
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mb-2 mr-lg-2'>
+                        <div >
+                            <div>
+                                <img className='3' src='./Images/gobeyond/Infrastructure Services.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Infrastructure<br /> Services
+                                </p>
+                            </div>
+                        </div>
+                        <div >
+                            <div>
+                                <img className='4' src='./Images/gobeyond/Data and AI.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Data and AI
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mb-2 mr-lg-2'>
+                        <div >
+                            <div>
+                                <img className='5' src='./Images/gobeyond/Cloud Security.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud<br /> Security
+                                </p>
+                            </div>
+                        </div>
+                        <div >
+                            <div>
+                                <img className='6' src='./Images/gobeyond/Cloud Economics.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud Economics
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=' mb-2 mr-lg-2'>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/Cloud-oprations.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud<br /> Operations
+                                </p>
+                            </div>
+                        </div>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/CloudConsult.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud<br /> Consulting
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='formob mb-2 mr-lg-2'>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/Industry-cloud.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Industry <br /> Cloud
+                                </p>
+                            </div>
+                        </div>
+                        <div >
+                            <div>
+                                <img src='./Images/gobeyond/CloudBusinesApplication.svg' />
+                            </div>
+                            <div className='mt-2'>
+                                <p>
+                                    Cloud Business<br /> Application
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                {/* </div> */}
             </div>
-            <div className='col ml-3'>
-                <div className='CloudDev2 img-left'>
-                    <img src='./Images/gobeyond/Cloud69.png' />
-                </div>
+            <div className='col-lg-5 img-left'>
+                <img src='./Images/gobeyond/Cloud69.png' />
             </div>
         </div>
     )

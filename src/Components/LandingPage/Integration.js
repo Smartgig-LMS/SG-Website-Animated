@@ -98,7 +98,7 @@ export default function Integration() {
             {/* for mobile -----------------------------------------------------------------*/}
 
             <div className='integrationForMobile'>
-                <div className='col-12 pb-5 IntegrationContainer'>
+                <div className='col-lg-7 mt-5'>
                     <div className='text-center'>
                         <img src='./Images/gobeyond/Group 427321129.svg' width="150" height="50" />
                         <h1 className='integrationHeader' style={{ color: "#0F0049", fontWeight: "700", marginTop: "1%" }}>

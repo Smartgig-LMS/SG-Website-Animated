@@ -103,26 +103,22 @@ export default function LeadershipTeam() {
 
             {/* for mobile -----------------------------------------------------------------*/}
 
-            <div className='LeadershipForMobile' >
-                <div className='row pt-1 vh-100 ml-1 LeadershipContainer '>
-                    <div className='col'>
-                        <div className='LeaderShip2'>
-                            <div>
-                                <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
-                            </div>
-                            <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className=' mb-3 mt-2'>
-                                Leadership Team
-                            </h1>
-                            <span style={{ fontWeight: "500", fontStyle: "Roboto", fontSize: "18px" }}>
-                                Meet our dynamic leadership team who are
-                                an epitome of unwavering dedication and
-                                determination in driving forward the organization
-                                towards excellence with innovation as vision and
-                                embarking new digital horizons as a
-                                mission.
-                            </span>
-                        </div>
+            <div className='LeadershipForMobile mt-4' >
+                <div className='col-lg-7'>
+                    <div>
+                        <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
                     </div>
+                    <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
+                        Leadership Team
+                    </h1>
+                    <span style={{ fontWeight: "500", fontStyle: "Roboto", fontSize: "18px" }}>
+                        Meet our dynamic leadership team who are
+                        an epitome of unwavering dedication and
+                        determination in driving forward the organization
+                        towards excellence with innovation as vision and
+                        embarking new digital horizons as a
+                        mission.
+                    </span>
                     <div className='LeaderShipMob1'>
                         <div className='LeaderShipMob2'>
                             <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
