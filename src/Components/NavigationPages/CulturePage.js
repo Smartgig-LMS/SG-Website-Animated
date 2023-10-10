@@ -159,7 +159,7 @@ export default function CulturePage() {
                     <div className='CultureHeadnig'>
                         <h1>Culture</h1>
                     </div>
-                    <div className='col-lg-7'>
+                    <div className='col-lg-7 mt-3 mb-3'>
                         <div>
                             <img src='./Images/gobeyond/Group 427321121.svg' width="129" height="50" />
                         </div>
@@ -167,7 +167,7 @@ export default function CulturePage() {
                             Client first, Team foremost
                         </h1>
                         <span>
-                            In this constantly evolving landscape of technology, SmartGig is a dynamic IT company that specializes in niche industries. Our team of enthusiastic experts, unlocks the full <br />potential of designing, developing, and testing solutions for our clients and help businesses embrace next-gen technologies to stay future-ready.<br />
+                            In this constantly evolving landscape of technology, SmartGig is a dynamic IT company that specializes in niche industries. Our team of enthusiastic experts, unlocks the full potential of designing, developing, and testing solutions for our clients and help businesses embrace next-gen technologies to stay future-ready.
                         </span>
 
                     </div>
@@ -193,7 +193,7 @@ export default function CulturePage() {
                             <div className='opLeftSec'>
                                 <img src='./Images/gobeyond/Group 427321.svg' width="139" height="45" />
                             </div>
-                            <p className='col-12 mb-4 mt-0'>
+                            <p className='col-12'>
                                 Our prime focus is to deliver absolute hands-free software
                                 development along  with other end -to -end software Testing
                                 and quality services to our clients to enhance their experience
@@ -202,7 +202,7 @@ export default function CulturePage() {
                                 landscape.
                             </p>
                         </div>
-                        <div className='img-left'>
+                        <div className='img-left mb-3'>
                             <img src="./Images/gobeyond/Vision_entrepreneurs_ecosystem 1.png" alt="image" className='vision' />
                         </div>
                     </div>
