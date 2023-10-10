@@ -3631,7 +3631,7 @@
   }
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 10%;
     margin-top: -3%;
     opacity: 1;
@@ -3698,6 +3698,7 @@
     background-size: cover;
     padding-bottom: 15%;
     padding-top: 15%;
+    text-align: center;
   }
   .cloudcontents {
     display: flex;
@@ -4035,7 +4036,7 @@
 
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 10%;
     margin-top: -3%;
     opacity: 1;
@@ -4101,6 +4102,7 @@
     opacity: 1;
     background-size: cover;
     padding-bottom: 15%;
+    text-align: center;
     padding-top: 15%;
   }
   .cloudcontents {
@@ -4438,7 +4440,7 @@
   }
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
-    padding-top: 10%;
+    padding-top: 15%;
     padding-bottom: 10%;
     margin-top: -3%;
     opacity: 1;
@@ -4505,6 +4507,7 @@
     background-size: cover;
     padding-bottom: 15%;
     padding-top: 15%;
+    text-align: center;
     padding-right: 55%;
   }
   .cloudcontents {

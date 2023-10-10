@@ -103,17 +103,17 @@ export default function ProductPage() {
                             At SmartGig, we pride ourselves on fostering a culture of collaboration and innovation. Our commitment to excellence is reflected in our diverse partnerships with startups, which are solving some of the serious problems in B2B ,B2C and P2P space.We are truely amazed with what our partners do and are always open to partner in solutions helping mankind. 'Come Join us to redefine possibilities together
                         </p>
                     </div>
-                    <div className='mt-4 mb-5'>
+                    <div className='mt-4 mb-5 img-left'>
                         <a href='https://occultcybersecurity.com/' target='_blank'>
                             <img src='./Images/gobeyond/Group 427321595.svg' />
                         </a>
                     </div>
-                    <div className='mt-3 mb-5'>
+                    <div className='mt-3 mb-5 img-left'>
                         <a href='https://infionic.com/' target='_blank'>
                             <img src='./Images/gobeyond/Group 427321594.svg' />
                         </a>
                     </div>
-                    <div className='mt-3 mb-5'>
+                    <div className='mt-3 mb-5 img-left'>
                         <a href='https://www.insurfin.in' target='_blank'>
                             <img src='./Images/gobeyond/Group 427321593.svg' />
                         </a>
