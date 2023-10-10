@@ -1,57 +1,11 @@
 import React from 'react'
 import Footer from '../LandingPage/Footer'
-// import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-// import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
-// import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
-
-// const slideImages = [
-//     {
-//         image: './Images/gobeyond/351.png',
-//     },
-//     {
-//         image: './Images/gobeyond/Rectangle 13369.png',
-//     },
-//     {
-//         image: './Images/gobeyond/351.png',
-//     },
-// ];
 
 export default function ProductPage() {
 
     React.useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
     }, []);
-
-    // const spanStyle = {
-    //     padding: '20px',
-    //     backgroundColor: '#efefef',
-    //     color: '#000000'
-    // }
-
-    // const divStyle = {
-    //     display: 'flex',
-    //     alignItems: 'center',
-    //     justifyContent: 'center',
-    //     backgroundSize: 'cover',
-    //     height: '400px'
-    // }
-
-    // const [current, setCurrent] = React.useState(0);
-    // const length = slideImages.length;
-
-    // if (!Array.isArray(slideImages) || slideImages.length <= 0) {
-    //     return null;
-    // }
-
-    // console.log(current);
-
-    // const nextSlide = () => {
-    //     setCurrent(current === length - 1 ? 0 : current + 1);
-    // };
-
-    // const prevSlide = () => {
-    //     setCurrent(current === 0 ? length - 1 : current - 1);
-    // };
 
     return (
         <>
@@ -140,28 +94,26 @@ export default function ProductPage() {
                 <div className='opHeadnigs'>
                     <h1>Our Partnerships</h1>
                 </div>
-
-                {/* new */}
-                <div className='d-fx'>
+                <div className='d-fx' style={{ textAlign: "center" }}>
                     <div>
-                        <div style={{ textAlign: "center" }}>
+                        <div style={{ textAlign: "center" }} className='mt-3'>
                             <img src='./Images/gobeyond/Grou.svg' />
                         </div>
                         <p className='mt-2 container' style={{ textAlign: "center", paddingLeft: "10%", paddingRight: "10%" }}>
                             At SmartGig, we pride ourselves on fostering a culture of collaboration and innovation. Our commitment to excellence is reflected in our diverse partnerships with startups, which are solving some of the serious problems in B2B ,B2C and P2P space.We are truely amazed with what our partners do and are always open to partner in solutions helping mankind. 'Come Join us to redefine possibilities together
                         </p>
                     </div>
-                    <div className='mt-5 mb-5'>
+                    <div className='mt-4 mb-5'>
                         <a href='https://occultcybersecurity.com/' target='_blank'>
                             <img src='./Images/gobeyond/Group 427321595.svg' />
                         </a>
                     </div>
-                    <div className='mt-5 mb-5'>
+                    <div className='mt-3 mb-5'>
                         <a href='https://infionic.com/' target='_blank'>
                             <img src='./Images/gobeyond/Group 427321594.svg' />
                         </a>
                     </div>
-                    <div className='mt-5 mb-5'>
+                    <div className='mt-3 mb-5'>
                         <a href='https://www.insurfin.in' target='_blank'>
                             <img src='./Images/gobeyond/Group 427321593.svg' />
                         </a>

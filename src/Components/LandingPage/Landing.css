@@ -806,6 +806,10 @@
   }
   .contactPg {
     text-align: center;
+    display: block;
+  }
+  .contactpgMobile {
+    display: none;
   }
 
   .secondContact h3 {
@@ -814,24 +818,10 @@
 
   .thirdContact {
     margin-top: 2%;
-    gap: 20rem;
-    margin-left: 0.5%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .thirdContact1 {
     display: flex;
     gap: 1rem;
     justify-content: center;
     align-items: center;
-  }
-
-  .thirdContact2 {
-    margin-top: 3rem;
-    display: flex;
-    /* gap: 2rem; */
-    justify-content: space-evenly;
   }
 
   .thirdContact h5 {
@@ -876,15 +866,15 @@
   .AddressText1 h4 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/65ce8-tirupati-tour-packages-holidays-all-inclusive-price-itinerary 1.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
   .real1 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Tirupati Black Tintend Image.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
 
@@ -892,15 +882,15 @@
     color: #fff;
     z-index: 100;
     background-image: url("../../../public/Images/gobeyond/Group 515922.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
   .real2 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Group 427321312.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
 
@@ -908,15 +898,15 @@
     color: #fff;
     z-index: 100;
     background-image: url("../../../public/Images/gobeyond/charminar-hyderabad-featured-imag.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
   .real3 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Hyd.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
 
@@ -924,15 +914,15 @@
     color: #fff;
     z-index: 100;
     background-image: url("../../../public/Images/gobeyond/image 93.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
   .real4 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Group 427321310.png");
-    height: 400px;
-    width: 300px;
+    height: 350px;
+    width: 250px;
     padding-top: 50%;
   }
 
@@ -1979,6 +1969,10 @@
 
   .contactPg {
     text-align: center;
+    display: block;
+  }
+  .contactpgMobile {
+    display: none;
   }
 
   .secondContact h3 {
@@ -1987,24 +1981,10 @@
 
   .thirdContact {
     margin-top: 2%;
-    gap: 20rem;
-    margin-left: 0.5%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .thirdContact1 {
     display: flex;
     gap: 1rem;
     justify-content: center;
     align-items: center;
-  }
-
-  .thirdContact2 {
-    margin-top: 3rem;
-    display: flex;
-    /* gap: 2rem; */
-    justify-content: space-evenly;
   }
 
   .thirdContact h5 {
@@ -3159,6 +3139,10 @@
   }
   .contactPg {
     text-align: center;
+    display: block;
+  }
+  .contactpgMobile {
+    display: none;
   }
 
   .secondContact h3 {
@@ -3167,24 +3151,10 @@
 
   .thirdContact {
     margin-top: 2%;
-    gap: 20rem;
-    margin-left: 0.5%;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .thirdContact1 {
     display: flex;
     gap: 1rem;
     justify-content: center;
     align-items: center;
-  }
-
-  .thirdContact2 {
-    margin-top: 3rem;
-    display: flex;
-    /* gap: 2rem; */
-    justify-content: space-evenly;
   }
 
   .thirdContact h5 {
@@ -3229,15 +3199,17 @@
   .AddressText1 h4 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/65ce8-tirupati-tour-packages-holidays-all-inclusive-price-itinerary 1.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
   .real1 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Tirupati Black Tintend Image.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
 
@@ -3245,15 +3217,17 @@
     color: #fff;
     z-index: 100;
     background-image: url("../../../public/Images/gobeyond/Group 515922.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
   .real2 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Group 427321312.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
 
@@ -3261,15 +3235,17 @@
     color: #fff;
     z-index: 100;
     background-image: url("../../../public/Images/gobeyond/charminar-hyderabad-featured-imag.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
   .real3 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Hyd.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
 
@@ -3277,15 +3253,17 @@
     color: #fff;
     z-index: 100;
     background-image: url("../../../public/Images/gobeyond/image 93.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
   .real4 {
     color: #fff;
     background-image: url("../../../public/Images/gobeyond/Group 427321310.png");
-    height: 400px;
-    width: 300px;
+    height: 450px;
+    width: 350px;
+    background-size: cover;
     padding-top: 50%;
   }
 
@@ -3559,13 +3537,11 @@
   .productpg {
     display: none;
   }
-  .productpgMobile {
-    padding-top: 1rem;
-  }
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 10%;
     padding-bottom: 10%;
+    margin-top: -3%;
     opacity: 1;
     text-align: center;
     background-size: cover;
@@ -3574,29 +3550,63 @@
   .opHeadnigs h1 {
     color: #fff;
   }
-  /* .Webdev2 img {
-    width: 20rem;
+  .contactPg {
+    display: none;
   }
-  .CloudDev2 img {
-    width: 20rem;
+  .contactpgMobile {
+    display: block;
   }
-  .MobApp2 img {
-    width: 20rem;
+  .cardsforMobile {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
-  .Testing2 img {
-    width: 20rem;
+  .cardsforMobile p {
+    border-bottom: solid #f18313;
+    border-width: 2px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 10%;
   }
-  .DataService2 img {
-    width: 20rem;
+
+  .forthContact {
+    margin-top: 5%;
   }
-  .Cyber2 img {
-    margin-top: 3%;
-    width: 20rem;
+
+  .cardBlue {
+    background-color: #2564aa;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    text-align: center;
   }
-  .GameImg {
-    width: 20rem;
-    margin-top: 3%;
-  } */
+
+  .cardBlue h2 {
+    padding-top: 3%;
+    color: #ffffff;
+  }
+
+  .cardBlue h5 {
+    font-weight: 300;
+    margin-top: 2%;
+    color: white;
+  }
+
+  .AddressImg {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+  }
+
+  .firstContact h1 {
+    color: white;
+    background-image: url("../../../public/Images/gobeyond/Contact-us-imaghe.png");
+    opacity: 1;
+    background-size: cover;
+    padding-bottom: 15%;
+    padding-top: 15%;
+  }
   .cloudcontents {
     display: flex;
     gap: 4%;
@@ -3855,17 +3865,18 @@
   }
   .TestingContainer {
     margin-left: 2% !important;
+    /* display: flex;
+    flex-direction: column-reverse; */
   }
   .productpg {
     display: none;
   }
-  .productpgMobile {
-    padding-top: 1rem;
-  }
+
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 10%;
     padding-bottom: 10%;
+    margin-top: -3%;
     opacity: 1;
     text-align: center;
     background-size: cover;
@@ -3874,31 +3885,63 @@
   .opHeadnigs h1 {
     color: #fff;
   }
-  /* .Webdev2 img {
-    width: 20rem;
+  .contactPg {
+    display: none;
   }
-  .CloudDev2 img {
-    width: 20rem;
+  .contactpgMobile {
+    display: block;
   }
-  .MobApp2 img {
-    width: 20rem;
+  .cardsforMobile {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
-  .Testing2 img {
-    width: 20rem;
-    margin-top: 3%;
+  .cardsforMobile p {
+    border-bottom: solid #f18313;
+    border-width: 2px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 10%;
   }
-  .DataService2 img {
-    width: 20rem;
-    margin-top: 3%;
+
+  .forthContact {
+    margin-top: 5%;
   }
-  .Cyber2 img {
-    margin-top: 3%;
-    width: 20rem;
+
+  .cardBlue {
+    background-color: #2564aa;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    text-align: center;
   }
-  .GameImg {
-    width: 20rem;
-    margin-top: 3%;
-  } */
+
+  .cardBlue h2 {
+    padding-top: 3%;
+    color: #ffffff;
+  }
+
+  .cardBlue h5 {
+    font-weight: 300;
+    margin-top: 2%;
+    color: white;
+  }
+
+  .AddressImg {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+  }
+
+  .firstContact h1 {
+    color: white;
+    background-image: url("../../../public/Images/gobeyond/Contact-us-imaghe.png");
+    opacity: 1;
+    background-size: cover;
+    padding-bottom: 15%;
+    padding-top: 15%;
+  }
   .cloudcontents {
     display: flex;
     gap: 4%;
@@ -4164,13 +4207,11 @@
   .productpg {
     display: none;
   }
-  .productpgMobile {
-    padding-top: 1rem;
-  }
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 10%;
     padding-bottom: 10%;
+    margin-top: -3%;
     opacity: 1;
     text-align: center;
     background-size: cover;
@@ -4179,32 +4220,64 @@
   .opHeadnigs h1 {
     color: #fff;
   }
-  /* .Webdev2 img {
-    width: 70%;
-    border-radius: 13px;
+  .contactPg {
+    display: none;
   }
-  .CloudDev2 img {
-    width: 70%;
+  .contactpgMobile {
+    display: block;
   }
-  .MobApp2 img {
-    width: 70%;
+  .cardsforMobile {
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
-  .Testing2 img {
-    width: 70%;
-    margin-top: 3%;
+  .cardsforMobile p {
+    border-bottom: solid #f18313;
+    border-width: 2px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 10%;
   }
-  .DataService2 img {
-    margin-top: 3%;
-    width: 70%;
+  .forthContact {
+    margin-top: 5%;
   }
-  .Cyber2 img {
-    margin-top: 3%;
-    width: 70%;
+
+  .cardBlue {
+    background-color: #2564aa;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 10%;
+    text-align: center;
   }
-  .GameImg {
-    width: 70%;
-    margin-top: 3%;
-  } */
+
+  .cardBlue h2 {
+    padding-top: 3%;
+    color: #ffffff;
+  }
+
+  .cardBlue h5 {
+    font-weight: 300;
+    margin-top: 2%;
+    color: white;
+  }
+
+  .AddressImg {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1%;
+  }
+
+  .firstContact h1 {
+    margin-bottom: 3rem;
+    color: white;
+    background-image: url("../../../public/Images/gobeyond/Contact-us-imaghe.png");
+    opacity: 1;
+    background-size: cover;
+    padding-bottom: 15%;
+    padding-top: 15%;
+    padding-right: 55%;
+  }
   .cloudcontents {
     display: flex;
     gap: 4%;

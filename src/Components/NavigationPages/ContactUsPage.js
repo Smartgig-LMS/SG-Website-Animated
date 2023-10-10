@@ -1,30 +1,9 @@
 import React, { useRef } from 'react'
-import {
-    MDBCard,
-} from 'mdb-react-ui-kit';
 import Footer from '../LandingPage/Footer';
 import { useNavigate } from 'react-router-dom';
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
 import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
-import { Checkbox, Typography } from '@mui/material';
-// import Select from '@mui/material';
-// import InputLabel from '@mui/material/InputLabel';
-// import MenuItem from '@mui/material/MenuItem';
-// import FormControl from '@mui/material/FormControl';
-// import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { toast } from 'react-toastify';
-import emailjs from '@emailjs/browser';
-import { parse, stringify, toJSON, fromJSON } from 'flatted';
 
 export default function ContactUsPage() {
-
-    // const clientId = '15739ebc-b8af-452f-af9e-4c3dade66b72';
-    // const clientSecret = 'c33814ab-aeb1-4a0d-8e12-cdf15454d82e';
 
     const formVar = useRef();
     const [flag1, setFlag1] = React.useState(true);
@@ -51,33 +30,6 @@ export default function ContactUsPage() {
         setOpen(false);
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault(); // prevents the page from reloading when you hit “Send”
-
-        emailjs.sendForm("service_i6lti6c", "template_07tu2i8", formVar.current, "MI_VKeA2nr8s0vNpD")
-            .then((result) => {
-                // show the user a success message
-                console.log(result, "success");
-                window.alert("Email Sent Successfully");
-                setOpen(false);
-                // toast.success("Email Sent Successfully");
-            }, (error) => {
-                // show the user an error   
-                console.log(error, "failed");
-                window.alert("Can't Sent Email");
-                setOpen(false);
-                // toast.warning("Can't Sent Email")
-            });
-    };
-
-    const handleClickProduct = () => {
-        navigate("/Partnerships")
-    };
-
-    const handleClickCareer = () => {
-        navigate("/career")
-    };
-
     return (
         <>
             <div>
@@ -97,48 +49,42 @@ export default function ContactUsPage() {
                     </h1>
                 </div>
                 <div className='secondContact'>
-                    <p>
-                        We are happy to assist you in providing comprehensive services, backed by a dedicated team of professionals<br /> who are committed to going the extra mile for you, around the clock, to enhance your experience with unwavering efficiency.<br />
-                        {/* Contact us:
-                        http://www.smartgig.tech<br />
-
-                        +91 8772999711 */}
-                    </p>
                     <h3
                     >I’m Looking for
                     </h3>
+                    <p>
+                        We are happy to assist you in providing comprehensive services, backed by a dedicated team of professionals<br /> who are committed to going the extra mile for you, around the clock, to enhance your experience with unwavering efficiency.<br />
+                    </p>
                 </div>
                 <div className='thirdContact'>
-                    <div className='thirdContact1'>
-                        <div className='card shadow' style={{ height: "248px", width: "286px", cursor: "pointer" }}>
-                            <div onClick={handleClickOpen}>
-                                <h5>
-                                    Request for service
-                                </h5>
-                            </div>
+                    <div className='card shadow' style={{ height: "248px", width: "286px", cursor: "pointer" }}>
+                        <div onClick={handleClickOpen}>
+                            <h5>
+                                Request for service
+                            </h5>
                         </div>
+                    </div>
 
-                        <div className='card shadow' style={{ height: "248px", width: "286px" }}>
-                            <a href='https://infionic.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
-                                <h5>
-                                    More about Infionic Product
-                                </h5>
-                            </a>
-                        </div>
-                        <div className='card shadow' style={{ height: "248px", width: "286px" }}>
-                            <a href='https://Occultcybersecurity.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
-                                <h5>
-                                    More about Occult Cyber Security
-                                </h5>
-                            </a>
-                        </div>
+                    <div className='card shadow' style={{ height: "248px", width: "286px" }}>
+                        <a href='https://infionic.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
+                            <h5>
+                                More about Infionic Product
+                            </h5>
+                        </a>
+                    </div>
+                    <div className='card shadow' style={{ height: "248px", width: "286px" }}>
+                        <a href='https://Occultcybersecurity.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
+                            <h5>
+                                More about Occult Cyber Security
+                            </h5>
+                        </a>
+                    </div>
 
-                        <div className='card shadow' style={{ height: "248px", width: "286px", cursor: "pointer" }}>
-                            <div onClick={handleClickOpen2}>
-                                <h5>
-                                    Career related Queries
-                                </h5>
-                            </div>
+                    <div className='card shadow' style={{ height: "248px", width: "286px", cursor: "pointer" }}>
+                        <div onClick={handleClickOpen2}>
+                            <h5>
+                                Career related Queries
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -238,6 +184,77 @@ export default function ContactUsPage() {
                     </div>
                 </div>
                 <Footer />
+            </div>
+
+            {/* for mobile-------------------------------------------------- */}
+
+            <div className='contactpgMobile'>
+                <div className='firstContact'>
+                    <h1>
+                        How can we help
+                        you?
+                    </h1>
+                </div>
+                <div className='col-lg-7' style={{ textAlign: "center" }}>
+                    <div className='secondContact p-3' >
+                        <h3 style={{ color: "#f18313" }}>
+                            I’m Looking for
+                        </h3>
+                        <p>
+                            We are happy to assist you in providing comprehensive services, backed by a dedicated team of professionals who are committed to going the extra mile for you, around the clock, to enhance your experience with unwavering efficiency.
+                        </p>
+                    </div>
+                </div>
+                <div className='col-lg-7'>
+                    <div className='row cardsforMobile'>
+                        <div className='card' style={{ width: "160px", height: "120px", cursor: "pointer" }}>
+                            <div onClick={handleClickOpen}>
+                                <p>
+                                    Request for service
+                                </p>
+                            </div>
+                        </div>
+
+                        <div className='card' style={{ width: "160px", height: "120px" }}>
+                            <a href='https://infionic.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
+                                <p>
+                                    More about Infionic Product
+                                </p>
+                            </a>
+                        </div>
+                        <div className='card' style={{ width: "160px", height: "120px" }}>
+                            <a href='https://Occultcybersecurity.com/' target='_blank' style={{ textDecoration: "none", color: "black" }}>
+                                <p>
+                                    More about Occult Cyber Security
+                                </p>
+                            </a>
+                        </div>
+
+                        <div className='card' style={{ width: "160px", height: "120px" }}>
+                            <div onClick={handleClickOpen2}>
+                                <p>
+                                    Career related Queries
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-lg-7 forthContact'>
+                    <div className='cardBlue'>
+                        <h2>Locations</h2>
+                        <h5>Explore our service offerings and subsidiaries</h5>
+                        <div className='img-left'>
+                            <img src='./Images/gobeyond/Tirupati.svg' />
+                            <img src='./Images/gobeyond/Hyderabad.svg' />
+                            <img src='./Images/gobeyond/Bangalore.svg' />
+                            <img src='./Images/gobeyond/Group 427321753.svg' />
+                        </div>
+                    </div>
+                </div>
+                <div className='footerForMobile'>
+                    <hr />
+                    Copyright © 2023 SmartGig. All Rights Reserved.
+                </div>
             </div>
         </>
     )
