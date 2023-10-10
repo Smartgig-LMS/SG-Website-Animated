@@ -718,7 +718,7 @@
     padding-top: 1rem;
     text-align: center;
   }
-  .CareerPgForMobileP {
+  .CareerPgForMobile {
     display: none;
   }
   .CareerHeadnig {
@@ -1885,7 +1885,7 @@
     padding-top: 1rem;
     text-align: center;
   }
-  .CareerPgForMobileP {
+  .CareerPgForMobile {
     display: none;
   }
   .CareerHeadnig {
@@ -3060,7 +3060,7 @@
     padding-top: 1rem;
     text-align: center;
   }
-  .CareerPgForMobileP {
+  .CareerPgForMobile {
     display: none;
   }
   .CareerHeadnig {
@@ -3559,7 +3559,7 @@
   .CareerPg {
     display: none;
   }
-  .CareerPgForMobileP {
+  .CareerPgForMobile {
     display: block;
   }
   .firstCareerDiv {
@@ -3959,8 +3959,7 @@
   .CareerPg {
     display: none;
   }
-
-  .CareerPgForMobileP {
+  .CareerPgForMobile {
     display: block;
   }
   .firstCareerDiv {
