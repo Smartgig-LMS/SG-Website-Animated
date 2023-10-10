@@ -99,7 +99,7 @@ export default function ProductPage() {
                         <div style={{ textAlign: "center" }} className='mt-3'>
                             <img src='./Images/gobeyond/Grou.svg' />
                         </div>
-                        <p className='mt-2 container' style={{ textAlign: "center", paddingLeft: "10%", paddingRight: "10%" }}>
+                        <p className='mt-2 col-lg-7' style={{ textAlign: "left" }}>
                             At SmartGig, we pride ourselves on fostering a culture of collaboration and innovation. Our commitment to excellence is reflected in our diverse partnerships with startups, which are solving some of the serious problems in B2B ,B2C and P2P space.We are truely amazed with what our partners do and are always open to partner in solutions helping mankind. 'Come Join us to redefine possibilities together
                         </p>
                     </div>

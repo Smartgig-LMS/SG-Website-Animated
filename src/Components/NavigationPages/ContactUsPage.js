@@ -2,6 +2,8 @@ import React, { useRef } from 'react'
 import Footer from '../LandingPage/Footer';
 import { useNavigate } from 'react-router-dom';
 import Dialog from '@mui/material/Dialog';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function ContactUsPage() {
 
@@ -27,6 +29,7 @@ export default function ContactUsPage() {
     };
 
     const handleClose = () => {
+        setOpen2(false);
         setOpen(false);
     };
 
@@ -34,11 +37,30 @@ export default function ContactUsPage() {
         <>
             <div>
                 <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">
+                    <IconButton
+                        edge="right"
+                        color="inherit"
+                        onClick={handleClose}
+                        aria-label="close"
+                        style={{ justifyContent: "right" }}
+                    >
+                        <CloseIcon />
+                    </IconButton>
                     <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUOFRDVlhBOTFQQjZZNVRIUjhGUEtXTjc3Vi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
                 </Dialog >
 
                 <Dialog open={open2} onClose={handleClose} fullWidth maxWidth="md">
-                    <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUNEdGUjBHWEE2S0MxQVRMVlU0TFhTNTRPRi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>                </Dialog >
+                    <IconButton
+                        edge="right"
+                        color="inherit"
+                        onClick={handleClose}
+                        aria-label="close"
+                        style={{ justifyContent: "right" }}
+                    >
+                        <CloseIcon />
+                    </IconButton>
+                    <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUNEdGUjBHWEE2S0MxQVRMVlU0TFhTNTRPRi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                </Dialog >
             </div >
 
             <div className='contactPg'>
@@ -200,7 +222,7 @@ export default function ContactUsPage() {
                         <h3 style={{ color: "#f18313" }}>
                             I’m Looking for
                         </h3>
-                        <p>
+                        <p className='text-left'>
                             We are happy to assist you in providing comprehensive services, backed by a dedicated team of professionals who are committed to going the extra mile for you, around the clock, to enhance your experience with unwavering efficiency.
                         </p>
                     </div>

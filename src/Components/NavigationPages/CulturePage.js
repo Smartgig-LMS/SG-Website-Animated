@@ -155,29 +155,29 @@ export default function CulturePage() {
             {/* for mobile--------------------------------------------------------------------------------  */}
 
             <div>
-                <div className='culturepgForMobile text-center'>
+                <div className='culturepgForMobile '>
                     <div className='CultureHeadnig'>
                         <h1>Culture</h1>
                     </div>
-                    <div className='col-lg-7 mt-3 mb-3'>
+                    <div className='col-lg-7 mt-3 mb-3 text-center'>
                         <div>
                             <img src='./Images/gobeyond/Group 427321121.svg' width="129" height="50" />
                         </div>
                         <h1>
                             Client first, Team foremost
                         </h1>
-                        <span>
+                        <p className='text-left'>
                             In this constantly evolving landscape of technology, SmartGig is a dynamic IT company that specializes in niche industries. Our team of enthusiastic experts, unlocks the full potential of designing, developing, and testing solutions for our clients and help businesses embrace next-gen technologies to stay future-ready.
-                        </span>
+                        </p>
 
                     </div>
-                    <div className='col-lg-7'>
+                    <div className='col-lg-7  text-center'>
 
                         <div className='rightContainer mt-3'>
                             <div className='opLeftSec'>
                                 <img src='./Images/gobeyond/Group 42732112121.svg' width="159" height="48" />
                             </div>
-                            <p>
+                            <p className='text-left'>
                                 Our mission is our meticulous vision to drive business
                                 excellence and empower customers through our expertise
                                 in smart technology driven transformations and to embrace
@@ -188,12 +188,12 @@ export default function CulturePage() {
                             <img src="./Images/gobeyond/mission 1.png" alt="image" className='mission' />
                         </div>
                     </div>
-                    <div className='totalMain3'>
+                    <div className='totalMain3 col-lg-7 text-center'>
                         <div className='rightContainer mt-5'>
                             <div className='opLeftSec'>
                                 <img src='./Images/gobeyond/Group 427321.svg' width="139" height="45" />
                             </div>
-                            <p className='col-12'>
+                            <p className='text-left'>
                                 Our prime focus is to deliver absolute hands-free software
                                 development along  with other end -to -end software Testing
                                 and quality services to our clients to enhance their experience
@@ -206,7 +206,7 @@ export default function CulturePage() {
                             <img src="./Images/gobeyond/Vision_entrepreneurs_ecosystem 1.png" alt="image" className='vision' />
                         </div>
                     </div>
-                    <div className='col-lg-7'>
+                    <div className='col-lg-7  text-center'>
                         <div>
                             <img src='./Images/gobeyond/Group 427321207.png' width="156" height="50" />
                         </div>

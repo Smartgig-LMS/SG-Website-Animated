@@ -124,6 +124,7 @@ export default function LeadershipTeam() {
                             <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/mahesh-nayani-4a947a1a' target='_blank'>
                                     <img className='mahesh' src='./Images/gobeyond/Mahesh.png' data-tooltip-id="my-tooltip-1" />
+                                    {/* <img className='mahesh' src='./Images/gobeyond/WhatsAppMahesh.jpeg' data-tooltip-id="my-tooltip-1" /> */}
                                 </a>
                                 <h6 style={{ color: "#F38313" }}>
                                     Mahesh Nayani

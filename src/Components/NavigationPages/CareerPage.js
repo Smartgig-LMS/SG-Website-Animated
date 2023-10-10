@@ -1,21 +1,16 @@
 import React, { useEffect, useRef } from 'react'
 import Footer from '../LandingPage/Footer'
-import Button from '@mui/material/Button';
-import TextField from '@mui/material/TextField';
 import Dialog from '@mui/material/Dialog';
-import DialogActions from '@mui/material/DialogActions';
-import DialogContent from '@mui/material/DialogContent';
-import DialogContentText from '@mui/material/DialogContentText';
-import DialogTitle from '@mui/material/DialogTitle';
-import axios from 'axios';
 import emailjs from '@emailjs/browser';
 import { useNavigate } from 'react-router-dom';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';
 
 export default function CareerPage() {
 
     const [star, setStar] = React.useState("");
     const formVar = useRef();
-    const [open, setOpen] = React.useState(false);
+    const [openState, setOpen] = React.useState(false);
     const navigate = useNavigate();
 
     React.useEffect(() => {
@@ -277,8 +272,17 @@ export default function CareerPage() {
 
     return (
         <>
-            <Dialog open={open} onClose={handleClose} fullWidth maxWidth="md">
-                <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUMVZJNEY1QUo4OFJKNUZTSVlDRlFXSU9YMi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+            <Dialog open={openState} onClose={handleClose} fullWidth maxWidth="md">
+                <IconButton
+                    edge="right"
+                    color="inherit"
+                    onClick={handleClose}
+                    aria-label="close"
+                    style={{ justifyContent: "right" }}
+                >
+                    <CloseIcon />
+                </IconButton>
+                <iframe width="900px" height="900px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUMVZJNEY1QUo4OFJKNUZTSVlDRlFXSU9YMi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
             </Dialog >
 
             <div className='CareerPg'>
@@ -970,9 +974,9 @@ export default function CareerPage() {
                         Career for everyone
                     </h4>
                 </div>
-                <p className='col-lg-7 mt-3 text-center'>
-                    Join us on a journey to elevate your professional career. Our aim is to empower you to achieve <br />
-                    significant growth through transformative career opportunities
+                <p className='col-lg-7 mt-3'>
+                    Join us on a journey to elevate your professional career. Our aim is to empower you to achieve
+                    significant growth through transformative career opportunities.
                 </p>
                 <div className='mt-3 text-center col-lg-7'>
                     <div className='card p-4 w-100 mdcrdForCareer'>
