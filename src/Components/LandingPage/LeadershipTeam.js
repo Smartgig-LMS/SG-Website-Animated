@@ -126,17 +126,17 @@ export default function LeadershipTeam() {
                     <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
                         Leadership Team
                     </h1>
-                    <span style={{ fontWeight: "500", fontStyle: "Roboto", fontSize: "18px" }}>
+                    <p>
                         Meet our dynamic leadership team who are
                         an epitome of unwavering dedication and
                         determination in driving forward the organization
                         towards excellence with innovation as vision and
                         embarking new digital horizons as a
                         mission.
-                    </span>
+                    </p>
                     <div className='LeaderShipMob1'>
                         <div className='LeaderShipMob2'>
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", justifyContent: "center" }}>
                                 <a href='https://www.linkedin.com/in/mahesh-nayani-4a947a1a' target='_blank'>
                                     <img className='mahesh' src='./Images/gobeyond/MicrosoftTeamsIm381.svg' data-tooltip-id="my-tooltip-1" />
                                 </a>
@@ -149,7 +149,7 @@ export default function LeadershipTeam() {
                                 </small>
                             </div>
 
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", justifyContent: "center" }}>
                                 <a href='https://www.linkedin.com/in/ramakrishnavaddi' target='_blank'>
                                     <img className='rama' src='./Images/gobeyond/RamaSVG.svg' data-tooltip-id="my-tooltip-2" />
                                 </a>
@@ -161,7 +161,7 @@ export default function LeadershipTeam() {
                             </div>
                         </div>
                         <div className='LeaderShipMob2' >
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", justifyContent: "center" }}>
                                 <a href='https://www.linkedin.com/in/sankar-r-499470210' target='_blank'>
                                     <img className='shankar' src='./Images/gobeyond/ShankarSVG.svg' height="109" width="109" data-tooltip-id="my-tooltip-4" />
                                 </a>
@@ -171,7 +171,7 @@ export default function LeadershipTeam() {
                                 </h6>
                                 <small>COO</small>
                             </div>
-                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
+                            <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", justifyContent: "center" }}>
                                 <a href='https://www.linkedin.com/in/leena-tiganapally-313487214' target='_blank'>
                                     <img className='leena' src='./Images/gobeyond/LeenaSVG.svg' height="109" width="109" data-tooltip-id="my-tooltip-3" />
                                 </a>
