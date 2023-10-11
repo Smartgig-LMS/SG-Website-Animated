@@ -3807,20 +3807,25 @@
   }
   /* Color/shape of burger icon bars */
   .bm-item-list {
-    color: black;
+    color: #f38313;
   }
   .bm-menu {
-    background: #ffffff;
-    padding: 2rem 3rem;
-    font-size: 1.4rem;
+    background: #fff0e0;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
   }
   .bm-menu-wrap {
+    top: 0;
     height: 100vh !important;
+    width: 200px !important;
+  }
+  .menu-item {
+    padding-top: 10%;
   }
   .bm-overlay {
     height: 0vh !important;
   }
-
+  
   .dataServiceImg {
     width: 380px;
     margin-top: 20px;
@@ -4250,15 +4255,20 @@
   }
   /* Color/shape of burger icon bars */
   .bm-item-list {
-    color: black;
+    color: #f38313;
   }
   .bm-menu {
-    background: #ffffff;
-    padding: 2rem 3rem;
-    font-size: 1.4rem;
+    background: #fff0e0;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
   }
   .bm-menu-wrap {
+    top: 0;
     height: 100vh !important;
+    width: 200px !important;
+  }
+  .menu-item {
+    padding-top: 10%;
   }
   .bm-overlay {
     height: 0vh !important;
@@ -4692,15 +4702,20 @@
   }
   /* Color/shape of burger icon bars */
   .bm-item-list {
-    color: black;
+    color: #f38313;
   }
   .bm-menu {
-    background: #ffffff;
-    padding: 2rem 3rem;
-    font-size: 1.4rem;
+    background: #fff0e0;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
   }
   .bm-menu-wrap {
+    top: 0;
     height: 100vh !important;
+    width: 200px !important;
+  }
+  .menu-item {
+    padding-top: 10%;
   }
   .bm-overlay {
     height: 0vh !important;
