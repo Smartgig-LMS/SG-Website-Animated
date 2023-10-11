@@ -96,22 +96,20 @@ export default function LeadershipTeam() {
 
                         </div>
                     </div>
-                    <div className='col'>
-                        <div className='LeaderShip2'>
-                            <div>
-                                <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
-                            </div>
-                            <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
-                                Meet our Leadership Team
-                            </h1>
-                            {/* <p>
+                    <div className='col-lg-6'>
+                        <div>
+                            <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
+                        </div>
+                        <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
+                            Meet our Leadership Team
+                        </h1>
+                        {/* <p>
                                 Our leadership team at SmartGig represents the driving force behind our organization's relentless pursuit of excellence. They are not just leaders, they are visionaries who have set their sights on innovation as the cornerstone of our journey. With a mission to explore new frontiers in the digital landscape, they inspire us to reach greater heights.
                                 Their collective dedication and unwavering commitment serve as a guiding light for our entire organization. Through their strategic acumen and industry expertise, they have not only fortified our market position but also enabled us to provide unparalleled services to our cherished clients.
                             </p> */}
-                            <p>
-                                With over 100+ years of combined experience we have got a well diverse leadership team. With a mission to explore new frontiers in the digital landscape, the organization is skyrocketing high.
-                            </p>
-                        </div>
+                        <p>
+                            With over 100+ years of combined experience we have got a well diverse leadership team. With a mission to explore new frontiers in the digital landscape, the organization is skyrocketing high.
+                        </p>
                     </div>
                 </div >
             </div >
