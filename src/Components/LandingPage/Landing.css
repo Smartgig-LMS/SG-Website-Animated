@@ -620,9 +620,9 @@
     transform: scale(1.05);
   } */
 
-  .Clientpg {
+  /* .Clientpg {
     margin-top: 4rem;
-  }
+  } */
   .ClientpgImgs {
     text-align: center;
   }
@@ -969,6 +969,11 @@
   .shankar {
     margin-left: 12rem;
     margin-top: 4.9rem;
+  }
+
+  .smartLogo {
+    margin-left: -6.9rem;
+    margin-top: -24rem;
   }
 
   .circle {
@@ -1791,9 +1796,9 @@
     margin-top: 7%;
   } */
 
-  .Clientpg {
+  /* .Clientpg {
     margin-top: 4rem;
-  }
+  } */
   .ClientpgImgs {
     text-align: center;
   }
@@ -2138,6 +2143,11 @@
   .shankar {
     margin-left: 12rem;
     margin-top: 4.9rem;
+  }
+
+  .smartLogo {
+    margin-left: -6.9rem;
+    margin-top: -24rem;
   }
 
   .circle {
@@ -2960,9 +2970,9 @@
     transform: scale(1.05);
   } */
 
-  .Clientpg {
+  /* .Clientpg {
     margin-top: 4rem;
-  }
+  } */
   .ClientpgImgs {
     text-align: center;
   }
@@ -3320,6 +3330,11 @@
   .shankar {
     margin-left: 12rem;
     margin-top: 4.9rem;
+  }
+
+  .smartLogo {
+    margin-left: -6.9rem;
+    margin-top: -24rem;
   }
 
   .circle {
@@ -3825,7 +3840,7 @@
   .bm-overlay {
     height: 0vh !important;
   }
-  
+
   .dataServiceImg {
     width: 380px;
     margin-top: 20px;

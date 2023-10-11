@@ -14,19 +14,22 @@ export default function LeadershipTeam() {
                         <div className='LeaderShip1 ml-5'>
                             <div className='circle'>
                                 <a href='https://www.linkedin.com/in/mahesh-nayani-4a947a1a' target='_blank'>
-                                    <img className='mahesh' src='./Images/gobeyond/Mahesh.png' data-tooltip-id="my-tooltip-1" />
+                                    <img className='mahesh' src='./Images/gobeyond/MicrosoftTeamsIm381.svg' data-tooltip-id="my-tooltip-1" />
                                 </a>
 
                                 <a href='https://www.linkedin.com/in/ramakrishnavaddi' target='_blank'>
-                                    <img className='rama' src='./Images/gobeyond/Rama.png' data-tooltip-id="my-tooltip-2" />
+                                    <img className='rama' src='./Images/gobeyond/RamaSVG.svg' data-tooltip-id="my-tooltip-2" />
                                 </a>
 
                                 <a href='https://www.linkedin.com/in/leena-tiganapally-313487214' target='_blank'>
-                                    <img className='leena' src='./Images/gobeyond/Leena.png' data-tooltip-id="my-tooltip-3" />
+                                    <img className='leena' src='./Images/gobeyond/LeenaSVG.svg' data-tooltip-id="my-tooltip-3" />
                                 </a>
 
                                 <a href='https://www.linkedin.com/in/sankar-r-499470210' target='_blank'>
-                                    <img className='shankar' src='./Images/gobeyond/Shankar.png' data-tooltip-id="my-tooltip-4" />
+                                    <img className='shankar' src='./Images/gobeyond/ShankarSVG.svg' data-tooltip-id="my-tooltip-4" />
+                                </a>
+                                <a href='https://www.linkedin.com/company/smartgig-technologies-private-limited/' target='_blank'>
+                                    <img className='smartLogo' src='./Images/gobeyond/SGLOGOSVG.svg' data-tooltip-id="my-tooltip-5" />
                                 </a>
                             </div>
                             <ReactTooltip
@@ -79,6 +82,18 @@ export default function LeadershipTeam() {
                                 <small>Cheif Operation Officer</small>
                             </ReactTooltip>
 
+                            <ReactTooltip
+                                id="my-tooltip-5"
+                                place="right"
+                                variant="warning"
+                            >
+                                <h6>
+                                    SmartGig Technologies
+                                    <img src='./Images/gobeyond/Linkedin.png' className='ml-2' width="20px" height="20px" />
+                                </h6>
+                                <small></small>
+                            </ReactTooltip>
+
                         </div>
                     </div>
                     <div className='col'>
@@ -123,8 +138,7 @@ export default function LeadershipTeam() {
                         <div className='LeaderShipMob2'>
                             <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/mahesh-nayani-4a947a1a' target='_blank'>
-                                    <img className='mahesh' src='./Images/gobeyond/Mahesh.png' data-tooltip-id="my-tooltip-1" />
-                                    {/* <img className='mahesh' src='./Images/gobeyond/WhatsAppMahesh.jpeg' data-tooltip-id="my-tooltip-1" /> */}
+                                    <img className='mahesh' src='./Images/gobeyond/MicrosoftTeamsIm381.svg' data-tooltip-id="my-tooltip-1" />
                                 </a>
                                 <h6 style={{ color: "#F38313" }}>
                                     Mahesh Nayani
@@ -137,7 +151,7 @@ export default function LeadershipTeam() {
 
                             <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/ramakrishnavaddi' target='_blank'>
-                                    <img className='rama' src='./Images/gobeyond/Rama.png' data-tooltip-id="my-tooltip-2" />
+                                    <img className='rama' src='./Images/gobeyond/RamaSVG.svg' data-tooltip-id="my-tooltip-2" />
                                 </a>
                                 <h6 style={{ color: "#2563AC" }}>
                                     Rama Vaddi
@@ -149,7 +163,7 @@ export default function LeadershipTeam() {
                         <div className='LeaderShipMob2' >
                             <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#DCECFF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/sankar-r-499470210' target='_blank'>
-                                    <img className='shankar' src='./Images/gobeyond/Shankar.png' height="109" width="109" data-tooltip-id="my-tooltip-4" />
+                                    <img className='shankar' src='./Images/gobeyond/ShankarSVG.svg' height="109" width="109" data-tooltip-id="my-tooltip-4" />
                                 </a>
                                 <h6 style={{ color: "#2563AC" }}>
                                     Shankar Reddy
@@ -159,7 +173,7 @@ export default function LeadershipTeam() {
                             </div>
                             <div className='card shadow' style={{ textAlign: "center", backgroundColor: "#FFE6CF", height: "210px", width: "160px", paddingTop: "10px", paddingBottom: "10px" }}>
                                 <a href='https://www.linkedin.com/in/leena-tiganapally-313487214' target='_blank'>
-                                    <img className='leena' src='./Images/gobeyond/Leena.png' height="109" width="109" data-tooltip-id="my-tooltip-3" />
+                                    <img className='leena' src='./Images/gobeyond/LeenaSVG.svg' height="109" width="109" data-tooltip-id="my-tooltip-3" />
                                 </a>
                                 <h6 style={{ color: "#F38313" }}>
                                     Leena Tiganapalli
