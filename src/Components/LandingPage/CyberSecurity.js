@@ -23,7 +23,7 @@ export default function CyberSecurity() {
                 </p>
             </div>
             <div className='col-lg-5 img-left'>
-                <img src='./Images/gobeyond/Group 427321293.png' />
+                <img src='./Images/gobeyond/Cyber-Security-Image.png' />
             </div>
         </div>
     )

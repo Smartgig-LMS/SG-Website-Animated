@@ -68,7 +68,7 @@ export default function Testing() {
                 </div>
             </div>
             <div className='col-lg-5 img-left'>
-                <img src='./Images/gobeyond/Software-Tester 1.png' />
+                <img src='./Images/gobeyond/Taas.png' />
             </div>
         </div>
     )

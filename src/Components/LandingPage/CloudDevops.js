@@ -265,7 +265,7 @@ export default function CloudDevops() {
 
             </div>
             <div className='col-lg-5 img-left'>
-                <img src='./Images/gobeyond/Cloud69.png' />
+                <img src='./Images/gobeyond/Cloud-Devops-image.png' />
             </div>
         </div>
     )

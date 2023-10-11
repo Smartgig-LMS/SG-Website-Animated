@@ -56,7 +56,7 @@ export default function DataServices() {
                 </div>
             </div>
             <div className='col-lg-5 img-left'>
-                <img src='./Images/gobeyond/7xm456259 2.png' />
+                <img src='./Images/gobeyond/Data Services images.png' />
             </div>
         </div>
     )
