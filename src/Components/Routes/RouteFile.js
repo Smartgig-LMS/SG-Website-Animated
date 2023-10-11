@@ -22,7 +22,7 @@ export default function RouteFile() {
         <Routes>
             <Route path='/' element={<LayoutPage />} >
                 <Route path='' element={<LandingPage />}></Route>
-                <Route path='Partnerships' element={<ProductPage />} ></Route>
+                <Route path='partnerships' element={<ProductPage />} ></Route>
                 <Route path='culture' element={<CulturePage />}></Route>
                 <Route path='career' element={<CareerPage />}></Route>
                 <Route path='contact' element={<ContactUsPage />} ></Route>

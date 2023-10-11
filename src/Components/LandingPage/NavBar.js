@@ -11,7 +11,7 @@ export default function NavBar() {
     const navigate = useNavigate();
     const navigateFn = () => {
         setIsopen(false);
-        navigate("/Partnerships");
+        navigate("/partnerships");
     }
     const navigateFn2 = () => {
         setIsopen(false);
