@@ -4117,11 +4117,11 @@
   .CultureHeadnig h1 {
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
+    text-align: center;
     padding-top: 13.49%;
     color: white;
     padding-bottom: 20.49%;
   }
-
   .TestingContainer {
     margin-left: 2% !important;
     /* display: flex;
@@ -4564,6 +4564,7 @@
   .CultureHeadnig h1 {
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
+    text-align: center;
     padding-top: 13.49%;
     color: white;
     padding-bottom: 20.49%;
