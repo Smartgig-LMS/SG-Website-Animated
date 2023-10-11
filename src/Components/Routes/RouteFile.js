@@ -10,15 +10,6 @@ import CareerPage from '../NavigationPages/CareerPage';
 
 export default function RouteFile() {
     return (
-        // <Routes>
-        //     {/* <Route index element={<LandingBanner />} /> */}
-        //     <Route path='/' element={<LandingPage />} />
-        //     <Route path='/products' element={<ProductPage />} />
-        //     <Route path='/culture' element={<CulturePage />} />
-        //     <Route path='/carrer' element={<CarrerPage />} />
-        //     <Route path='/contact' element={<ContactUsPage />} />
-        // </Routes >
-
         <Routes>
             <Route path='/' element={<LayoutPage />} >
                 <Route path='' element={<LandingPage />}></Route>

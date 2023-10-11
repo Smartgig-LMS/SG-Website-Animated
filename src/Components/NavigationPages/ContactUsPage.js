@@ -42,7 +42,7 @@ export default function ContactUsPage() {
                         color="inherit"
                         onClick={handleClose}
                         aria-label="close"
-                        style={{ justifyContent: "right" }}
+                        style={{ marginLeft: "95%" }}
                     >
                         <CloseIcon />
                     </IconButton>
@@ -54,12 +54,12 @@ export default function ContactUsPage() {
                         edge="right"
                         color="inherit"
                         onClick={handleClose}
-                        aria-label="close"
-                        style={{ justifyContent: "right" }}
+                        // aria-label="close"
+                        style={{ marginLeft: "95%" }}
                     >
                         <CloseIcon />
                     </IconButton>
-                    <iframe width="940px" height="940px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=yGm9mQ7PR0ey76f0YV3EO1u5dVf9_KVDjPCkcvodfsBUNEdGUjBHWEE2S0MxQVRMVlU0TFhTNTRPRi4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                    <iframe width="940px" height="940px" src="https://forms.office.com/r/z05GMz06md?embed=true" frameborder="0" marginwidth="0" marginheight="0" style={{ border: "none", maxWidth: "100%", maxHeight: "100vh" }} allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
                 </Dialog >
             </div >
 

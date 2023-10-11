@@ -278,7 +278,7 @@ export default function CareerPage() {
                     color="inherit"
                     onClick={handleClose}
                     aria-label="close"
-                    style={{ justifyContent: "right" }}
+                    style={{ marginLeft: "95%" }}
                 >
                     <CloseIcon />
                 </IconButton>
