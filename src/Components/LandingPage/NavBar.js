@@ -54,7 +54,7 @@ export default function NavBar() {
                             Culture
                         </li>
                         <li className='ml-4' onClick={navigateFn3} >
-                            Career
+                            Careers
                         </li>
                         <li className='ml-4' onClick={navigateFn4} >
                             Contact Us
@@ -64,26 +64,26 @@ export default function NavBar() {
 
                 <div className='hamburgerMenu'>
                     <div id="outer-container">
-                    <Menu right isOpen={isopen}  customBurgerIcon={<img src='./Images/gobeyond/Subtract.svg'></img> } 
-                    customCrossIcon={<img src='./Images/gobeyond/close.svg' />}
-                    onStateChange={(e) => handleStateChange(e)}
-                    >
-                        <li className='menu-item'  onClick={ navigateFnLP } >
-                            Home
-                        </li>
-                        <li className="menu-item" onClick={navigateFn} >
-                            Partnerships
-                        </li>
-                        <li className="menu-item" onClick={navigateFn2} >
-                            Culture
-                        </li>
-                        <li className="menu-item" onClick={navigateFn3} >
-                            Career
-                        </li>
-                        <li className="menu-item" onClick={navigateFn4} >
-                            Contact Us
-                        </li>
-                    </Menu>
+                        <Menu right isOpen={isopen} customBurgerIcon={<img src='./Images/gobeyond/Subtract.svg'></img>}
+                            customCrossIcon={<img src='./Images/gobeyond/close.svg' />}
+                            onStateChange={(e) => handleStateChange(e)}
+                        >
+                            <li className='menu-item' onClick={navigateFnLP} >
+                                Home
+                            </li>
+                            <li className="menu-item" onClick={navigateFn} >
+                                Partnerships
+                            </li>
+                            <li className="menu-item" onClick={navigateFn2} >
+                                Culture
+                            </li>
+                            <li className="menu-item" onClick={navigateFn3} >
+                                Careers
+                            </li>
+                            <li className="menu-item" onClick={navigateFn4} >
+                                Contact Us
+                            </li>
+                        </Menu>
                     </div>
                 </div>
             </div >
