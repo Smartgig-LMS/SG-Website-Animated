@@ -22,7 +22,7 @@ export default function Testing() {
                     help you in Requirement , Early Security,Performance Engineering and Infrastructure Testing thereby
                     reducing your UAT efforts.
                     <br />
-                    <span style={{ fontWeight: "bold" }}>Testing as a Service (TaaS) </span> offering ensures flexibilitiy to our customers to subscribe to
+                    <span style={{ fontWeight: "bold" }}>Testing as a Service (TaaS) </span> offering ensures flexibility to our customers to subscribe to
                     our testing services on need basis to reduce resources cost ,attain Agility ,Business
                     Assurance , Access to Tools and resources.
                 </span>
