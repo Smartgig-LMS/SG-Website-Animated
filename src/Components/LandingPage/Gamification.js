@@ -40,7 +40,7 @@ export default function Gamification() {
                     </span>
                 </div>
                 <div className='col-lg-5 img-left'>
-                    <img className='GameImg' src='./Images/gobeyond/gamification.png' />
+                    <img className='GameImg' src='./Images/gobeyond/Gamification-image.png' />
                 </div>
             </div>
         </>
