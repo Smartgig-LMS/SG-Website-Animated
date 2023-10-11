@@ -33,7 +33,7 @@ export default function MobileApp() {
                             </h6>
                         </div>
                         <p >
-                            Experience excellence on iOS
+                            Experience excellence on IOS
                             with high performance, and
                             visually stunning apps
                         </p>

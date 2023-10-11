@@ -3832,7 +3832,7 @@
   .bm-menu-wrap {
     top: 0;
     height: 100vh !important;
-    width: 200px !important;
+    width: 50% !important;
   }
   .menu-item {
     padding-top: 10%;
@@ -4280,7 +4280,7 @@
   .bm-menu-wrap {
     top: 0;
     height: 100vh !important;
-    width: 200px !important;
+    width: 50% !important;
   }
   .menu-item {
     padding-top: 10%;
@@ -4728,7 +4728,7 @@
   .bm-menu-wrap {
     top: 0;
     height: 100vh !important;
-    width: 200px !important;
+    width: 50% !important;
   }
   .menu-item {
     padding-top: 10%;

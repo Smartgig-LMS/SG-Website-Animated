@@ -31,14 +31,10 @@ export default function ProductPage() {
                                     <div className="containerNew">
                                         <a href='https://occultcybersecurity.com/' target='_blank'>
                                             <img src='./Images/gobeyond/Group 427321546.png' />
-                                            <div class="overlay">
-                                                <div class="text">
-                                                    <h1>
-                                                        Threat Intelligence Service
-                                                        Providers, Q3 2023
-                                                    </h1>
+                                            <div className="overlay">
+                                                <div className="text">
                                                     <p>
-                                                        Occult Cyber is a vitalizing hub for advanced threat surface management with a team of dedicated cyber professionals, who provide in-depth analyses, actionable recommendations, and the latest industry trends to mitigate the cyber threats and to elevate the cyber defenses of business organizations to ensure they stay one step ahead in fortification of their cyber fortress.
+                                                        Assuring digital trust with our secure by design, integrated approach and robust security posture.With robust and AI backed Occult Cyber Security Framework (OCSF) be on the vigil and execute the task of upholding the security posture of the organization. It empowers various teams in the organisations by providing them a secure environment to work, and by disseminating necessary security awareness.
                                                     </p>
                                                 </div>
                                             </div>
@@ -47,11 +43,11 @@ export default function ProductPage() {
                                 </div>
                                 <div style={{ display: "flex", flexDirection: "column" }}>
                                     <div className='imageOfCultureNew3'>
-                                        <div class="containerNew">
+                                        <div className="containerNew">
                                             <a href='https://infionic.com/' target='_blank'>
                                                 <img src='./Images/gobeyond/Group 427321532.png' />
-                                                <div class="overlay">
-                                                    <div class="text">
+                                                <div className="overlay">
+                                                    <div className="text">
                                                         <h4>
                                                             Infionic provides best
                                                             Business Solutions
@@ -65,11 +61,11 @@ export default function ProductPage() {
                                         </div>
                                     </div>
                                     <div className='imageOfCultureNew3'>
-                                        <div class="containerNew">
+                                        <div className="containerNew">
                                             <a href='https://www.insurfin.in' target='_blank'>
                                                 <img src='./Images/gobeyond/Group42.png' />
-                                                <div class="overlay">
-                                                    <div class="text">
+                                                <div className="overlay">
+                                                    <div className="text">
                                                         <h4>
                                                             Enhanced Opportunity
                                                             with Every Prospect
