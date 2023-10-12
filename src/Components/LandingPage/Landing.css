@@ -1051,6 +1051,9 @@
   .testiContain div {
     padding: 1%;
   }
+  .testimonialsForMobile {
+    display: none;
+  }
 
   .containerNew {
     position: relative;
@@ -2235,6 +2238,9 @@
   }
   .testiContain div {
     padding: 1%;
+  }
+  .testimonialsForMobile {
+    display: none;
   }
 
   .containerNew {
@@ -3439,6 +3445,9 @@
   .testiContain div {
     padding: 1%;
   }
+  .testimonialsForMobile {
+    display: none;
+  }
 
   .containerNew {
     position: relative;
@@ -3720,7 +3729,23 @@
     color: white;
     padding-bottom: 20.49%;
   }
-
+  .testimonialsForMobile {
+    padding-top: 4%;
+  }
+  .testiContain {
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+    justify-content: center;
+    text-align: left;
+  }
+  .testiContain div {
+    margin-bottom: 3%;
+    padding: 5%;
+  }
+  .testimonials {
+    display: none;
+  }
   .TestingContainer {
     margin-left: 2% !important;
   }
@@ -4171,6 +4196,23 @@
   .productpg {
     display: none;
   }
+  .testimonialsForMobile {
+    padding-top: 4%;
+  }
+  .testiContain {
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+    justify-content: center;
+    text-align: left;
+  }
+  .testiContain div {
+    margin-bottom: 3%;
+    padding: 5%;
+  }
+  .testimonials {
+    display: none;
+  }
 
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
@@ -4610,7 +4652,23 @@
     color: white;
     padding-bottom: 20.49%;
   }
-
+  .testimonialsForMobile {
+    padding-top: 4%;
+  }
+  .testiContain {
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+    justify-content: center;
+    text-align: left;
+  }
+  .testiContain div {
+    margin-bottom: 3%;
+    padding: 5%;
+  }
+  .testimonials {
+    display: none;
+  }
   .TestingContainer {
     margin-left: 2% !important;
   }

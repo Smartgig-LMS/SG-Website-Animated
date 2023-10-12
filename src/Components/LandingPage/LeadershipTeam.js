@@ -183,10 +183,10 @@ export default function LeadershipTeam() {
                         </div>
                     </div>
                 </div >
-                <div className='footerForMobile'>
+                {/* <div className='footerForMobile'>
                     <hr />
                     Copyright © 2023 SmartGig. All Rights Reserved.
-                </div>
+                </div> */}
             </div >
         </>
     )
