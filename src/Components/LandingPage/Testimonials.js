@@ -59,10 +59,11 @@ export default function Testimonials() {
                             “With support from the SmartGig team, we utilized scarce talent resources and saved time while optimizing key AWS solutions and Infra,  monitor cluster conditions and automatically fix faults 24 hours a day. Our users were able to complete cluster expansion with one click, ensure that all logs can be collected and analyzed, increase analysis efficiency by 20%, and only pay for the Amazon Web Services resources used"
                         </p>
                         <h6>
-                            Sandeep
+                            Anil
                         </h6>
                         <small>
                             Founder
+                            <h6>Awsome LLC</h6>
                         </small>
                     </div>
                     <div className='card'>
@@ -81,6 +82,7 @@ export default function Testimonials() {
                         <small>
                             Product Strategist
                         </small>
+                        <h6>InsurFin</h6>
                     </div>
                     <div className='card'>
                         <img src='./Images/gobeyond/Item.png' height="40" width="40" />
@@ -94,6 +96,7 @@ export default function Testimonials() {
                         <small>
                             Founder
                         </small>
+                        <h6>Infionic</h6>
                     </div>
                 </div>
 
@@ -134,11 +137,12 @@ export default function Testimonials() {
                             “With support from the SmartGig team, we utilized scarce talent resources and saved time while optimizing key AWS solutions and Infra,  monitor cluster conditions and automatically fix faults 24 hours a day. Our users were able to complete cluster expansion with one click, ensure that all logs can be collected and analyzed, increase analysis efficiency by 20%, and only pay for the Amazon Web Services resources used"
                         </p>
                         <h6>
-                            Sandeep
+                            Anil
                         </h6>
                         <small>
                             Founder
                         </small>
+                        <h6>Awsome LLC</h6>
                     </div>
                     <div className='card'>
                         <img src='./Images/gobeyond/Item11.png' height="40" width="40" />
@@ -156,6 +160,7 @@ export default function Testimonials() {
                         <small>
                             Product Strategist
                         </small>
+                        <h6>InsurFin</h6>
                     </div>
                     <div className='card'>
                         <img src='./Images/gobeyond/Item.png' height="40" width="40" />
@@ -169,6 +174,7 @@ export default function Testimonials() {
                         <small>
                             Founder
                         </small>
+                        <h6>Infionic</h6>
                     </div>
                 </div>
 
