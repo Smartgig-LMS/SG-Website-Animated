@@ -55,7 +55,7 @@ export default function CulturePage() {
                     </div>
                     <div className='totalMain2'>
                         <div className='Leftcontainer'>
-                            <img src="./Images/gobeyond/mission 1.png" alt="image" className='mission' />
+                            <img src="./Images/gobeyond/Group 4273218091.svg" alt="image" className='mission' />
                         </div>
                         <div className='rightContainer mt-3'>
                             <div className='opLeftSec ml-5'>
@@ -84,7 +84,7 @@ export default function CulturePage() {
                             </p>
                         </div>
                         <div className='Leftcontainer'>
-                            <img src="./Images/gobeyond/Vision_entrepreneurs_ecosystem 1.png" alt="image" className='vision' />
+                            <img src="./Images/gobeyond/MicrosoftTeams-image501.svg" alt="image" className='vision' />
                         </div>
 
                     </div>
@@ -185,7 +185,7 @@ export default function CulturePage() {
                             </p>
                         </div>
                         <div className='img-left'>
-                            <img src="./Images/gobeyond/mission 1.png" alt="image" className='mission' />
+                            <img src="./Images/gobeyond/Group 4273218091.svg" alt="image" className='mission' />
                         </div>
                     </div>
                     <div className='totalMain3 col-lg-7 text-center'>
@@ -203,7 +203,7 @@ export default function CulturePage() {
                             </p>
                         </div>
                         <div className='img-left mb-3'>
-                            <img src="./Images/gobeyond/Vision_entrepreneurs_ecosystem 1.png" alt="image" className='vision' />
+                            <img src="./Images/gobeyond/MicrosoftTeams-image501.svg" alt="image" className='vision' />
                         </div>
                     </div>
                     <div className='col-lg-7  text-center'>

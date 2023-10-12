@@ -22,7 +22,7 @@ export default function Integration() {
                             other great tools
                         </h1>
                         <span className='spanInteg' style={{ fontWeight: "500", marginTop: "20px" }} >
-                            We work closely with world class products to build solutions to our clients seamless and effeciently
+                            We collaborate closely with world-class products to efficiently create seamless solutions for our clients.
                         </span>
                     </div>
                     <div className='IntegrationLogos py-3 px-2 mt-4'>

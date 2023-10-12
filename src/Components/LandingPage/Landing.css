@@ -93,6 +93,14 @@
     top: 1000vh;
     z-index: 11;
   }
+  .main-homesection:nth-child(12) {
+    top: 1100vh;
+    z-index: 12;
+  }
+  .main-homesection:nth-child(13) {
+    top: 1200vh;
+    z-index: 13;
+  }
 
   /* end of parallax */
 
@@ -430,7 +438,8 @@
   .vertical-Links a {
     position: relative;
     list-style: none;
-    height: 32px;
+    /* height: 32px; */
+    height: 3.1rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
@@ -442,7 +451,8 @@
     opacity: 0;
     transition: opacity 0.3s ease-out;
     padding-top: 5px;
-    font-size: 11px;
+    /* font-size: 11px; */
+    font-size: 15px;
   }
   .vertical-Links a span:hover {
     opacity: 1;
@@ -1025,15 +1035,21 @@
     align-items: center;
   }
   .testimonials {
-    padding: 9%;
     text-align: center;
+    /* padding-top: 4%; */
   }
   .testiContain {
+    /* padding-top: 1%; */
+    padding-left: 7%;
+    padding-right: 7%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
     gap: 2%;
   }
   .testiContain div {
-    padding: 3%;
+    padding: 1%;
   }
 
   .containerNew {
@@ -1268,7 +1284,10 @@
     top: 1100vh;
     z-index: 12;
   }
-
+  .main-homesection:nth-child(13) {
+    top: 1200vh;
+    z-index: 13;
+  }
   /* end of parallax */
 
   .homesection2 {
@@ -1609,7 +1628,7 @@
   .vertical-Links a {
     position: relative;
     list-style: none;
-    height: 42px;
+    height: 3.1rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
@@ -1621,7 +1640,7 @@
     opacity: 0;
     transition: opacity 0.3s ease-out;
     padding-top: 5px;
-    font-size: 11px;
+    font-size: 15px;
   }
   .vertical-Links a span:hover {
     opacity: 1;
@@ -2201,15 +2220,21 @@
     align-items: center;
   }
   .testimonials {
-    padding: 3%;
     text-align: center;
+    padding-top: 4%;
   }
   .testiContain {
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
     gap: 2%;
   }
   .testiContain div {
-    padding: 3%;
+    padding: 1%;
   }
 
   .containerNew {
@@ -2438,6 +2463,14 @@
   .main-homesection:nth-child(11) {
     top: 1000vh;
     z-index: 11;
+  }
+  .main-homesection:nth-child(12) {
+    top: 1100vh;
+    z-index: 12;
+  }
+  .main-homesection:nth-child(13) {
+    top: 1200vh;
+    z-index: 13;
   }
 
   /* end of parallax */
@@ -2778,7 +2811,8 @@
   .vertical-Links a {
     position: relative;
     list-style: none;
-    height: 42px;
+    /* height: 42px; */
+    height: 3.1rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     text-decoration: none;
@@ -2790,7 +2824,8 @@
     opacity: 0;
     transition: opacity 0.3s ease-out;
     padding-top: 5px;
-    font-size: 11px;
+    /* font-size: 11px; */
+    font-size: 15px;
   }
   .vertical-Links a span:hover {
     opacity: 1;
@@ -3388,15 +3423,21 @@
     align-items: center;
   }
   .testimonials {
-    padding: 9%;
     text-align: center;
+    padding-top: 4%;
   }
   .testiContain {
+    padding-top: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
     gap: 2%;
   }
   .testiContain div {
-    padding: 3%;
+    padding: 1%;
   }
 
   .containerNew {

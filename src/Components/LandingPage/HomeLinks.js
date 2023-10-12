@@ -53,6 +53,7 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                         "integrations",
                         "leadership-team",
                         "our-clients",
+                        "testimonials",
                     ]}
                     currentClassName="current"
                     className="ms-0 ps-0 list-unstyled d-none d-md-block"
@@ -112,6 +113,11 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                     <li className={`${addClass}`}>
                         <a href="#our-clients">
                             <span>Our Clients</span>
+                        </a>
+                    </li>
+                    <li className={`${addClass}`}>
+                        <a href="#testimonials">
+                            <span>Testimonials</span>
                         </a>
                     </li>
 

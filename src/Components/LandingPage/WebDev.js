@@ -12,14 +12,10 @@ export default function WebDev() {
                     We make it
                 </h1>
                 <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className="webhead mb-3">
-                    effortlessly for user
+                    effortless for user
                 </h1>
                 <p>
-                    Businesses constantly evolve to survive, grow, sustain and flourish
-                    and we are always at your service to start with your idea and end
-                    with building Customer delight Web Apps .Together with our domain
-                    experts and expertise in Cutting-Edge technologies, visualise and
-                    design futuristic web apps to simplify your massive core systems.
+                    Businesses evolve continuously to survive, grow, sustain, and thrive, and we are here to serve you from shaping your initial idea to creating web apps that delight your customers. Collaborating with our domain experts and leveraging cutting-edge technologies, we envision and design futuristic web apps that streamline your complex core systems.
                 </p>
                 <div className="d-flex mt-5 text-center">
                     <div className="mb-2 mr-lg-2 card p-3 w-100">
@@ -39,8 +35,7 @@ export default function WebDev() {
                             Smooth Web Apps
                         </h6>
                         <p>
-                            Embark flawless user journey with
-                            converge of speed and usability
+                            Embark on a flawless user journey with a convergence of speed and usability
                         </p>
                     </div>
                 </div>

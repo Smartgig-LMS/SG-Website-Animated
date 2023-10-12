@@ -15,6 +15,7 @@ import DataServices from './DataServices';
 import CyberSecurity from './CyberSecurity';
 import LeadershipTeam from './LeadershipTeam';
 import Gamification from './Gamification';
+import Testimonials from './Testimonials';
 // import LeadershipTeam from './LeaderShip1';
 // import OurTeam from './OurTeam';
 
@@ -26,7 +27,6 @@ export default function LandingPage() {
         page: "homeVideo",
         bgColor: "blue",
     });
-
 
     React.useEffect(() => {
         window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
@@ -85,6 +85,10 @@ export default function LandingPage() {
 
                     <div className='main-homesection pt-4' id='our-clients'>
                         <OurClients />
+                    </div>
+
+                    <div className='main-homesection' id='testimonials'>
+                        <Testimonials />
                     </div>
 
                 </div>

@@ -1,15 +1,5 @@
 import React from 'react'
-import Slider from "react-slick";
 import "./Landing.css";
-import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
-    MDBCardImage,
-    MDBBtn
-} from 'mdb-react-ui-kit';
-import Footer from './Footer';
 import { useNavigate } from 'react-router-dom';
 
 const OurClients = () => {
@@ -74,30 +64,15 @@ const OurClients = () => {
                             </div>
 
                         </div>
-                        <span className=' mt-5'>
+                        <div className='mt-5'>
                             and many more...
-                        </span>
-                    </div>
-
-                    <div className='col-12 text-center tryusbtn'>
-                        <button type='button' className='btn btn-primary' onClick={navigatetoContact}>Try us out</button>
-                    </div>
-                    <div style={{ marginTop: "3%", paddingBottom: "1%", backgroundColor: "#F0F0F0" }}>
-                        <hr />
-                        <div className='d-flex' style={{ justifyContent: "space-around" }}>
-                            <div style={{ fontWeight: "500" }}>
-                                Copyright © 2023 SmartGig. All Rights Reserved.
-                            </div>
-                            <div className='d-flex' style={{ fontWeight: "500" }}>
-                                <div>
-                                    Terms of Service
-                                </div>
-                                <div className='ml-4'>
-                                    Privacy Policy
-                                </div>
-                            </div>
                         </div>
                     </div>
+
+                    {/* <div className='col-12 text-center tryusbtn'>
+                        <button type='button' className='btn btn-primary' onClick={navigatetoContact}>Try us out</button>
+                    </div> */}
+
                 </div>
             </div>
         </div>

@@ -18,9 +18,7 @@ export default function Gamification() {
                         </h1>
                     </div>
                     <span>
-                        In the new age of constant changes to user behaviour and interest towards products Gamification techniques are much needed to reward users upon accomplishing desired task.
-                        SmartGig's Gamification Platform(SGP) can be easily implemented for any enterprise scenerio which will resonate well by imbibing fun, incentive based
-                        engagement.
+                        In this era of ever-evolving user behaviors and product interests, Gamification techniques are essential for rewarding users upon accomplishing desired tasks. SmartGig's Gamification Platform (SGP) can be seamlessly implemented in any enterprise scenario, fostering fun and incentive-based engagement that resonates well with users.
                         <br />
                         <br />
                         <ul>

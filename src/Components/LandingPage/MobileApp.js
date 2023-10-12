@@ -16,10 +16,7 @@ export default function MobileApp() {
                     </h1>
                 </div>
                 <span>
-                    As mobile applications continue to rise as a primary mode of Digital Accessibility, we signify the need for crafting them
-                    with the vital prospects of high performance, user friendly and
-                    visually stunning designs to captivate audiences and drive business
-                    growth. Be it Native or Hybrid bring Enhanced User Experience, Functionally effective, Highly Secured and Personalised apps into use swiftly.
+                    As mobile applications continue to rise as a primary mode of Digital Accessibility, we signify the need for crafting them with the vital prospects of high performance, user-friendliness, and visually stunning designs to captivate audiences. Whether native or hybrid, our aim is to deliver enhanced user experiences, functionality, security, and personalized apps swiftly, promoting business growth.
                 </span>
 
                 <div className='d-flex mt-5 text-center'>
@@ -34,7 +31,7 @@ export default function MobileApp() {
                         </div>
                         <p >
                             Experience excellence on IOS
-                            with high performance, and
+                            through high performance, and
                             visually stunning apps
                         </p>
                     </div>
@@ -50,7 +47,7 @@ export default function MobileApp() {
                         <p >
                             Unlock exponential growth
                             with our expert Android
-                            app development
+                            app development services
                         </p>
                     </div>
                 </div>

@@ -32,9 +32,7 @@ export default function CloudDevops() {
                     Your cloud services<br />
                 </h1>
                 <span className='w-100'>
-                    Enhance your organization's cloud systems operational effeciency across all stages with our certified and experienced cloud experts. Attain exceptional complaince and
-                    governance standards , through seamless integration of cloud computing and DevOps
-                    methodologies to unlock unmatched operational excellence.
+                    Enhance your organization's cloud systems operational efficiency across all stages of cloud system management with our certified and experienced cloud experts. Attain exceptional complaince and governance standards , through the seamless integration of cloud computing and DevOps methodologies,  unlocking unparalleled operational excellence.
                 </span>
 
                 <div className='mt-5 cloudcontents'>
@@ -45,7 +43,7 @@ export default function CloudDevops() {
                             </div>
                             <div className='mt-2'>
                                 <p>
-                                    Cloud Migration<br /> and Modernisation
+                                    Cloud Migration<br /> and Modernization
                                 </p>
                             </div>
                         </div>
