@@ -35,7 +35,7 @@ export default function MobileApp() {
                             visually stunning apps
                         </p>
                     </div>
-                    <div className="mb-2 mr-lg-2 card p-3 w-100">
+                    <div className="mr-lg-2 card p-3 w-100">
                         <div >
                             <div className='mb-2'>
                                 <img src='./Images/gobeyond/Android.svg' />
@@ -51,8 +51,8 @@ export default function MobileApp() {
                         </p>
                     </div>
                 </div>
-                <div className='mt-2 cloudcontents'>
-                    
+                <div className='mt-2 cloudcontents mb-2 card'>
+
                     <div>
                         <div>
                             <img className='mobileAppIcon' src='./Images/gobeyond/Flutter.png' />
@@ -69,12 +69,12 @@ export default function MobileApp() {
 
                             <img className='mobileAppIcon' src='./Images/gobeyond/Titanium.png' />
 
-                            <img  className='mobileAppIcon' src='./Images/gobeyond/React.png' />
+                            <img className='mobileAppIcon' src='./Images/gobeyond/React.png' />
                         </div>
                     </div>
-                
-               
-            </div>
+
+
+                </div>
 
             </div>
             <div className='col-lg-5 img-left'>
