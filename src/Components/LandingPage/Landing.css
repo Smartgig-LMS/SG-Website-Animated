@@ -1040,13 +1040,17 @@
   }
   .testiContain {
     /* padding-top: 1%; */
+    padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     gap: 2%;
+    margin: auto;
+    position: relative;
+    width: 80%; 
   }
   .testiContain div {
     padding: 1%;
@@ -1184,6 +1188,26 @@
     margin-top: 0px;
     padding: 35px;
   } */
+  .mobileAppIcon{
+    width: 12%;
+    border-right: 1px solid #e4d9d9;
+  }
+
+  .carousel__next-button,
+  .carousel__back-button {
+    border-radius: 9px;
+    border: 1px solid grey;
+    background-color: #fde4cd;
+  }
+
+  .carousel-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-btn :disabled {
+    opacity: 0.5 !important;
+  }
 }
 
 /* Width 1200 to 1500 */
@@ -2233,8 +2257,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     gap: 2%;
+    margin: auto;
+    position: relative;
+    width: 80%; 
   }
   .testiContain div {
     padding: 1%;
@@ -2371,6 +2398,27 @@
     margin-left: 15%;
     margin-top: 0px;
   } */
+  .mobileAppIcon{
+    width: 12%;
+    border-right: 1px solid #e4d9d9;
+  }
+
+    .carousel__next-button,
+    .carousel__back-button {
+      border-radius: 9px;
+      border: 1px solid grey;
+      background-color: #fde4cd;
+    }
+  
+    .carousel-btn {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .carousel-btn :disabled {
+      opacity: 0.5 !important;
+    }
+
 }
 
 /* Width 1600 to 2000 */
@@ -3439,8 +3487,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     gap: 2%;
+    margin: auto;
+    position: relative;
+    width: 80%; 
   }
   .testiContain div {
     padding: 1%;
@@ -3578,6 +3629,26 @@
     margin-left: 10%;
     margin-top: 40px;
   } */
+  .mobileAppIcon{
+    width: 12%;
+    border-right: 1px solid #e4d9d9;
+  }
+
+  .carousel__next-button,
+  .carousel__back-button {
+    border-radius: 9px;
+    border: 1px solid grey;
+    background-color: #fde4cd;
+  }
+
+  .carousel-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-btn :disabled {
+    opacity: 0.5 !important;
+  }
 }
 
 /* .img-left {
@@ -3736,8 +3807,14 @@
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
+    gap: 2%;
+    margin: auto;
+    position: relative;
+    width: 80%; 
   }
   .testiContain div {
     margin-bottom: 3%;
@@ -4056,6 +4133,26 @@
   .thirdCloudService {
     margin-left: -26px;
   }
+  .mobileAppIcon{
+    width: 12%;
+    border-right: 1px solid #e4d9d9;
+  }
+
+  .carousel__next-button,
+  .carousel__back-button {
+    border-radius: 9px;
+    border: 1px solid grey;
+    background-color: #fde4cd;
+  }
+
+  .carousel-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-btn :disabled {
+    opacity: 0.5 !important;
+  }
 }
 
 /* for mobile less than 767px-------------------------------------------------------------- */
@@ -4203,8 +4300,14 @@
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
+    gap: 2%;
+    margin: auto;
+    position: relative;
+    width: 80%; 
   }
   .testiContain div {
     margin-bottom: 3%;
@@ -4521,6 +4624,26 @@
   .thirdCloudService {
     margin-left: -26px;
   }
+  .mobileAppIcon{
+    width: 12%;
+    border-right: 1px solid #e4d9d9;
+  }
+
+  .carousel__next-button,
+  .carousel__back-button {
+    border-radius: 9px;
+    border: 1px solid grey;
+    background-color: #fde4cd;
+  }
+
+  .carousel-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-btn :disabled {
+    opacity: 0.5 !important;
+  }
 }
 
 /* for mobile less than 1000px-------------------------------------------------------------- */
@@ -4659,8 +4782,14 @@
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: left;
+    text-align: center;
+    gap: 2%;
+    margin: auto;
+    position: relative;
+    width: 80%; 
   }
   .testiContain div {
     margin-bottom: 3%;
@@ -4984,5 +5113,25 @@
   }
   .thirdCloudService {
     margin-left: -26px;
+  }
+  .mobileAppIcon{
+    width: 12%;
+    border-right: 1px solid #e4d9d9;
+  }
+
+  .carousel__next-button,
+  .carousel__back-button {
+    border-radius: 9px;
+    border: 1px solid grey;
+    background-color: #fde4cd;
+  }
+
+  .carousel-btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .carousel-btn :disabled {
+    opacity: 0.5 !important;
   }
 }

@@ -51,6 +51,31 @@ export default function MobileApp() {
                         </p>
                     </div>
                 </div>
+                <div className='mt-2 cloudcontents'>
+                    
+                    <div>
+                        <div>
+                            <img className='mobileAppIcon' src='./Images/gobeyond/Flutter.png' />
+
+                            <img className='mobileAppIcon' src='./Images/gobeyond/PhoneGap.png' />
+
+                            <img className='mobileAppIcon' src='./Images/gobeyond/node.png' />
+
+                            <img className='mobileAppIcon' src='./Images/gobeyond/xamarin.png' />
+
+                            <img className='mobileAppIcon' src='./Images/gobeyond/corona.png' />
+
+                            <img className='mobileAppIcon' src='./Images/gobeyond/Ionic.png' />
+
+                            <img className='mobileAppIcon' src='./Images/gobeyond/Titanium.png' />
+
+                            <img  className='mobileAppIcon' src='./Images/gobeyond/React.png' />
+                        </div>
+                    </div>
+                
+               
+            </div>
+
             </div>
             <div className='col-lg-5 img-left'>
                 <img src='./Images/gobeyond/MobileAppSmartphone1.png' />

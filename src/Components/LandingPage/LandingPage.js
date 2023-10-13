@@ -90,7 +90,6 @@ export default function LandingPage() {
                     <div className='main-homesection' id='testimonials'>
                         <Testimonials />
                     </div>
-
                 </div>
             </div>
         </>
