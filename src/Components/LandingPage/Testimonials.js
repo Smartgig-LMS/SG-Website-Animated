@@ -315,10 +315,10 @@ export default function Testimonials() {
                         </Slider>
                         <div className='carousel-btn'>
                             <ButtonBack>
-                                <img src='./Images/gobeyond/left.png' width={20} />
+                                <img src='./Images/gobeyond/left.png' width={20} height={30} />
                             </ButtonBack>
                             <ButtonNext>
-                                <img src='./Images/gobeyond/right.png' width={20} />
+                                <img src='./Images/gobeyond/right.png' width={20} height={30} />
                             </ButtonNext>
                         </div>
                     </CarouselProvider>
