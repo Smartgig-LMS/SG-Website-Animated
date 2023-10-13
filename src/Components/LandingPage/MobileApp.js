@@ -51,29 +51,42 @@ export default function MobileApp() {
                         </p>
                     </div>
                 </div>
-                <div className='mt-2 cloudcontents mb-2 card'>
+                <div className='mt-2 mb-2 cloudcontents card'>
 
                     <div>
-                        <div>
-                            <img className='mobileAppIcon' src='./Images/gobeyond/Flutter.png' />
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Flutter.png' />
 
-                            <img className='mobileAppIcon' src='./Images/gobeyond/PhoneGap.png' />
+                        <img className='mobileAppIcon' src='./Images/gobeyond/PhoneGap.png' />
 
-                            <img className='mobileAppIcon' src='./Images/gobeyond/node.png' />
+                        <img className='mobileAppIcon' src='./Images/gobeyond/node.png' />
 
-                            <img className='mobileAppIcon' src='./Images/gobeyond/xamarin.png' />
+                        <img className='mobileAppIcon' src='./Images/gobeyond/xamarin.png' />
 
-                            <img className='mobileAppIcon' src='./Images/gobeyond/corona.png' />
+                        <img className='mobileAppIcon' src='./Images/gobeyond/corona.png' />
 
-                            <img className='mobileAppIcon' src='./Images/gobeyond/Ionic.png' />
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Ionic.png' />
 
-                            <img className='mobileAppIcon' src='./Images/gobeyond/Titanium.png' />
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Titanium.png' />
 
-                            <img className='mobileAppIcon' src='./Images/gobeyond/React.png' />
-                        </div>
+                        <img className='mobileAppIcon' src='./Images/gobeyond/React.png' />
                     </div>
+                    {/* <div>
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321819.svg' />
 
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321820.svg' />
 
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321821.svg' />
+
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321822.svg' />
+
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321823.svg' />
+
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321826.svg' />
+
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321825.svg' />
+
+                        <img className='mobileAppIcon' src='./Images/gobeyond/Group 427321824.svg' />
+                    </div> */}
                 </div>
 
             </div>
