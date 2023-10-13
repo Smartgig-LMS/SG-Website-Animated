@@ -90,11 +90,11 @@ export default function Testimonials() {
                                         <img src='./Images/gobeyond/Item11.png' height="40" width="40" />
                                         <br />
                                         <p>
-                                            "It has been a great experience so far in our engagement with Smartgig Technologies as our Technology Provider. They have been truly professional in their approach and have provided the necessary support and have been flexible and agile to accommodate changing business requirements for our MVP Premium Financing solution which is a crucial need for a startup like Insurfin.
+                                            "It has been a great experience so far in our engagement with SmartGig Technologies as our Technology Provider. They have been truly professional in their approach and have provided the necessary support and have been flexible and agile to accommodate changing business requirements for our MVP Premium Financing solution which is a crucial need for a startup like Insurfin.
 
                                             Their quality standards have been quite good and they have been able to deliver  results consistently.
 
-                                            We definitely recommend Smartgig as a great Technology / Professional Services Provider to the Startup Community or companies due to their flexible delivery approach without compromising on quality"
+                                            We definitely recommend SmartGig as a great Technology / Professional Services Provider to the Startup Community or companies due to their flexible delivery approach without compromising on quality"
                                         </p>
                                         <h6>
                                             Sambit
@@ -114,7 +114,7 @@ export default function Testimonials() {
                                         <img src='./Images/gobeyond/Item.png' height="40" width="40" />
                                         <br />
                                         <p>
-                                            "Working with Smartgig Technologies has been an exceptional experience. "They have proven themselves to be a reliable and trustworthy partner, and I look forward to our continued collaboration. Our partnership has not only been productive but also enjoyable, as they have shown themselves to be a friendly and approachable group of professionals"
+                                            "Working with SmartGig Technologies has been an exceptional experience. "They have proven themselves to be a reliable and trustworthy partner, and I look forward to our continued collaboration. Our partnership has not only been productive but also enjoyable, as they have shown themselves to be a friendly and approachable group of professionals"
                                         </p>
                                         <h6>
                                             Subramanyam
@@ -182,11 +182,11 @@ export default function Testimonials() {
                         <img src='./Images/gobeyond/Item11.png' height="40" width="40" />
                         <br />
                         <p>
-                            "It has been a great experience so far in our engagement with Smartgig Technologies as our Technology Provider. They have been truly professional in their approach and have provided the necessary support and have been flexible and agile to accommodate changing business requirements for our MVP Premium Financing solution which is a crucial need for a startup like Insurfin.
+                            "It has been a great experience so far in our engagement with SmartGig Technologies as our Technology Provider. They have been truly professional in their approach and have provided the necessary support and have been flexible and agile to accommodate changing business requirements for our MVP Premium Financing solution which is a crucial need for a startup like Insurfin.
 
                             Their quality standards have been quite good and they have been able to deliver  results consistently.
 
-                            We definitely recommend Smartgig as a great Technology / Professional Services Provider to the Startup Community or companies due to their flexible delivery approach without compromising on quality"
+                            We definitely recommend SmartGig as a great Technology / Professional Services Provider to the Startup Community or companies due to their flexible delivery approach without compromising on quality"
                         </p>
                         <h6>
                             Sambit
@@ -200,7 +200,7 @@ export default function Testimonials() {
                         <img src='./Images/gobeyond/Item.png' height="40" width="40" />
                         <br />
                         <p>
-                            "Working with Smartgig Technologies has been an exceptional experience. "They have proven themselves to be a reliable and trustworthy partner, and I look forward to our continued collaboration. Our partnership has not only been productive but also enjoyable, as they have shown themselves to be a friendly and approachable group of professionals"
+                            "Working with SmartGig Technologies has been an exceptional experience. "They have proven themselves to be a reliable and trustworthy partner, and I look forward to our continued collaboration. Our partnership has not only been productive but also enjoyable, as they have shown themselves to be a friendly and approachable group of professionals"
                         </p>
                         <h6>
                             Subramanyam
@@ -277,11 +277,11 @@ export default function Testimonials() {
                                         <img src='./Images/gobeyond/Item11.png' height="40" width="40" />
                                         <br />
                                         <p>
-                                            "It has been a great experience so far in our engagement with Smartgig Technologies as our Technology Provider. They have been truly professional in their approach and have provided the necessary support and have been flexible and agile to accommodate changing business requirements for our MVP Premium Financing solution which is a crucial need for a startup like Insurfin.
+                                            "It has been a great experience so far in our engagement with SmartGig Technologies as our Technology Provider. They have been truly professional in their approach and have provided the necessary support and have been flexible and agile to accommodate changing business requirements for our MVP Premium Financing solution which is a crucial need for a startup like Insurfin.
 
                                             Their quality standards have been quite good and they have been able to deliver  results consistently.
 
-                                            We definitely recommend Smartgig as a great Technology / Professional Services Provider to the Startup Community or companies due to their flexible delivery approach without compromising on quality"
+                                            We definitely recommend SmartGig as a great Technology / Professional Services Provider to the Startup Community or companies due to their flexible delivery approach without compromising on quality"
                                         </p>
                                         <h6>
                                             Sambit
@@ -300,7 +300,7 @@ export default function Testimonials() {
                                         <img src='./Images/gobeyond/Item.png' height="40" width="40" />
                                         <br />
                                         <p>
-                                            "Working with Smartgig Technologies has been an exceptional experience. "They have proven themselves to be a reliable and trustworthy partner, and I look forward to our continued collaboration. Our partnership has not only been productive but also enjoyable, as they have shown themselves to be a friendly and approachable group of professionals"
+                                            "Working with SmartGig Technologies has been an exceptional experience. "They have proven themselves to be a reliable and trustworthy partner, and I look forward to our continued collaboration. Our partnership has not only been productive but also enjoyable, as they have shown themselves to be a friendly and approachable group of professionals"
                                         </p>
                                         <h6>
                                             Subramanyam

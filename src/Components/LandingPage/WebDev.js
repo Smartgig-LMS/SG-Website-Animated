@@ -12,7 +12,7 @@ export default function WebDev() {
                     We make it
                 </h1>
                 <h1 style={{ color: "#F38211", fontWeight: "700", width: "458", height: "124" }} className="webhead mb-3">
-                    effortless for user
+                    effortless for users
                 </h1>
                 <p>
                     Businesses evolve continuously to survive, grow, sustain, and thrive, and we are here to serve you from shaping your initial idea to creating web apps that delight your customers. Collaborating with our domain experts and leveraging cutting-edge technologies, we envision and design futuristic web apps that streamline your complex core systems.
