@@ -15,7 +15,7 @@ export default function DataServices() {
                 <span>
                     Ever thought of turning your data into a strategic asset.
                     Make it happen with our exceptional data services - A combination of data Capturing,storing,
-                    cleansing , modeling ,Integrating ,Analysis,Analytics and Insights based solutions using tools
+                    cleansing , modelling ,Integrating ,Analysis,Analytics and Insights based solutions using tools
                     and process available.Combined with Data Science,Cloud Computing and AI gives you the advantage of
                     bringing out solutions which foster an advantage to your customers.
                 </span>

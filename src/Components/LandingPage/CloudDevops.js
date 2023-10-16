@@ -32,7 +32,7 @@ export default function CloudDevops() {
                     Your cloud services<br />
                 </h1>
                 <span className='w-100'>
-                    Enhance your organization's cloud systems operational efficiency across all stages of cloud system management with our certified and experienced cloud experts. Attain exceptional complaince and governance standards , through the seamless integration of cloud computing and DevOps methodologies,  unlocking unparalleled operational excellence.
+                    Enhance your organization's cloud systems operational efficiency across all stages of cloud system management with our certified and experienced cloud experts. Attain exceptional compliance and governance standards , through the seamless integration of cloud computing and DevOps methodologies,  unlocking unparalleled operational excellence.
                 </span>
 
                 <div className='mt-5 cloudcontents'>

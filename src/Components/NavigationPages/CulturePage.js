@@ -76,7 +76,7 @@ export default function CulturePage() {
                             </div>
                             <p className='col-12 mb-4 mt-0'>
                                 Our prime focus is to deliver absolute hands-free software <br />
-                                development along  with other end -to -end software Testing <br />
+                                development along  with other end-to-end software Testing <br />
                                 and quality services to our clients to enhance their experience<br />
                                 with efficiency and to build a strong long-term relationship with<br />
                                 them to navigate them towards leveraging on the technology <br />
@@ -96,7 +96,7 @@ export default function CulturePage() {
                             Values & Principles
                         </h2>
                         <div className='img-left'>
-                            <img src='./Images/gobeyond/Group 427321385.png' width={"50%"} className='mt-2' />
+                            <img src='./Images/gobeyond/Group 427321805.svg' width={"50%"} className='mt-2' />
                         </div>
                         <div className='card mt-5'>
                             <div className='d-flex'>

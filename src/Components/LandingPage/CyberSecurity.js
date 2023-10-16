@@ -19,7 +19,7 @@ export default function CyberSecurity() {
                 <p className='mb-3'>
                     In an increasingly connected world, security is not a choice; it's a necessity. At SmartGig, we're dedicated to providing top-tier cybersecurity solutions that empower businesses to thrive in the digital age.
                     We stay ahead of emerging threats to keep your systems secure. <br /><br />
-                    Managed Cyber Security: Simplify your cloud, network, and endpoint security with our cloud-native suite, part of an Extended Detection and Response (XDR) platform, built with skilled and certified professionals, Technology partenerships and MITRE ATT&CK framework.
+                    Managed Cyber Security: Simplify your cloud, network, and endpoint security with our cloud-native suite, part of an Extended Detection and Response (XDR) platform, built with skilled and certified professionals, Technology partnerships and MITRE ATT&CK framework.
                 </p>
             </div>
             <div className='col-lg-5 img-left'>

@@ -23,7 +23,7 @@ export default function Gamification() {
                         <br />
                         <ul>
                             <li>
-                                Push the boundries
+                                Push the boundaries
                             </li>
                             <li>
                                 Its about experience and engagement
@@ -32,7 +32,7 @@ export default function Gamification() {
                                 Amplify business outcomes
                             </li>
                             <li>
-                                Build loyality
+                                Build Loyalty
                             </li>
                         </ul>
                     </span>
