@@ -39,11 +39,11 @@ export default function CulturePage() {
             <div>
                 <div className='culturepg'>
                     <div className='CultureHeadnig'>
-                        <h1>Culture</h1>
+                        <h1>The beauty of the world lies in the diversity of its people</h1>
                     </div>
                     <div className='Lastcontainer'>
                         <div>
-                            <img src='./Images/gobeyond/Group 427321121.svg' width="129" height="50" />
+                            <img src='./Images/gobeyond/Group 4273211.svg' width="129" height="50" />
                         </div>
                         <h1>
                             Client first, Team foremost
@@ -55,11 +55,11 @@ export default function CulturePage() {
                     </div>
                     <div className='totalMain2'>
                         <div className='Leftcontainer'>
-                            <img src="./Images/gobeyond/Group 4273218091.svg" alt="image" className='mission' />
+                            <img src="./Images/gobeyond/MicrosoftTe1.svg" alt="image" className='mission' />
                         </div>
                         <div className='rightContainer mt-3'>
                             <div className='opLeftSec ml-5'>
-                                <img src='./Images/gobeyond/Group 42732112121.svg' width="159" height="48" />
+                                <img src='./Images/gobeyond/Group 4273211211.svg' width="159" height="48" />
                             </div>
                             <p className='col-12 mb-4 mt-0'>
                                 Our mission is our meticulous vision to drive business<br />
@@ -72,7 +72,7 @@ export default function CulturePage() {
                     <div className='totalMain3'>
                         <div className='rightContainer mt-5'>
                             <div className='opLeftSec'>
-                                <img src='./Images/gobeyond/Group 427321.svg' width="139" height="45" />
+                                <img src='./Images/gobeyond/Group 427321849.svg' width="139" height="45" />
                             </div>
                             <p className='col-12 mb-4 mt-0'>
                                 Our prime focus is to deliver absolute hands-free software <br />
@@ -84,7 +84,7 @@ export default function CulturePage() {
                             </p>
                         </div>
                         <div className='Leftcontainer'>
-                            <img src="./Images/gobeyond/MicrosoftTeams-image501.svg" alt="image" className='vision' />
+                            <img src="./Images/gobeyond/MicrosoftT501.svg" alt="image" className='vision' />
                         </div>
 
                     </div>
@@ -157,11 +157,11 @@ export default function CulturePage() {
             <div>
                 <div className='culturepgForMobile '>
                     <div className='CultureHeadnig'>
-                        <h1>Culture</h1>
+                    <h1>The beauty of the world lies in the diversity of its people</h1>
                     </div>
                     <div className='col-lg-7 mt-3 mb-3 text-center'>
                         <div>
-                            <img src='./Images/gobeyond/Group 427321121.svg' width="129" height="50" />
+                            <img src='./Images/gobeyond/Group 4273211.svg' width="129" height="50" />
                         </div>
                         <h1>
                             Client first, Team foremost
@@ -175,7 +175,7 @@ export default function CulturePage() {
 
                         <div className='rightContainer mt-3'>
                             <div className='opLeftSec'>
-                                <img src='./Images/gobeyond/Group 42732112121.svg' width="159" height="48" />
+                                <img src='./Images/gobeyond/Group 4273211211.svg' width="159" height="48" />
                             </div>
                             <p className='text-left'>
                                 Our mission is our meticulous vision to drive business
@@ -185,13 +185,13 @@ export default function CulturePage() {
                             </p>
                         </div>
                         <div className='img-left'>
-                            <img src="./Images/gobeyond/Group 4273218091.svg" alt="image" className='mission' />
+                            <img src="./Images/gobeyond/MicrosoftTe481.svg" alt="image" className='mission' />
                         </div>
                     </div>
                     <div className='totalMain3 col-lg-7 text-center'>
                         <div className='rightContainer mt-5'>
                             <div className='opLeftSec'>
-                                <img src='./Images/gobeyond/Group 427321.svg' width="139" height="45" />
+                                <img src='./Images/gobeyond/Group 427321849.svg' width="139" height="45" />
                             </div>
                             <p className='text-left'>
                                 Our prime focus is to deliver absolute hands-free software
@@ -203,7 +203,7 @@ export default function CulturePage() {
                             </p>
                         </div>
                         <div className='img-left mb-3'>
-                            <img src="./Images/gobeyond/MicrosoftTeams-image501.svg" alt="image" className='vision' />
+                            <img src="./Images/gobeyond/MicrosoftTeams501.svg" alt="image" className='vision' />
                         </div>
                     </div>
                     <div className='col-lg-7  text-center'>
@@ -214,7 +214,7 @@ export default function CulturePage() {
                             Values & Principles
                         </h2>
                         <div className='img-left'>
-                            <img src='./Images/gobeyond/Group 427321385.png' />
+                            <img src='./Images/gobeyond/Group 427321805.svg' />
                         </div>
 
                         <div className='card mt-2'>

@@ -287,13 +287,7 @@ export default function CareerPage() {
 
             <div className='CareerPg'>
                 <div className='firstCareerDiv'>
-                    <h1 className='CareerHeadnig'>
-                        Career for everyone
-                    </h1>
-                    <span className='firstCareerDivSpan'>
-                        Join us on a journey to elevate your professional career. Our aim is to empower you to achieve <br />
-                        significant growth through transformative career opportunities
-                    </span>
+                 <img src='./Images/gobeyond/Group 427321818.svg' />
                 </div>
 
                 <div className='mt-5'>
@@ -969,15 +963,9 @@ export default function CareerPage() {
             {/* for mobile-------------------------------------------------------------------------- */}
 
             <div className='CareerPgForMobile'>
-                <div className='firstCareerDiv'>
-                    <h4>
-                        Career for everyone
-                    </h4>
+            <div className='firstCareerDiv'>
+                 <img src='./Images/gobeyond/Group 427321818.svg' />
                 </div>
-                <p className='col-lg-7 mt-3'>
-                    Join us on a journey to elevate your professional career. Our aim is to empower you to achieve
-                    significant growth through transformative career opportunities.
-                </p>
                 <div className='mt-3 text-center col-lg-7'>
                     <div className='card p-4 w-100 mdcrdForCareer'>
                         <div className='careerRate'>

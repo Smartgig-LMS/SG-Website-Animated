@@ -4,6 +4,9 @@
     border-radius: 33px !important;
     overflow: hidden;
   }
+  #navigation .active {
+    font-weight: bold;
+  }
   .img-left img {
     height: auto;
     max-width: 100%;
@@ -361,7 +364,7 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
-    color: white;
+    color: #F38313;
     padding-bottom: 20.49%;
   }
 
@@ -641,6 +644,12 @@
     font-weight: 700;
     margin-top: 20px;
   }
+  .clientPageforWeb {
+    display: block;
+  }
+  .clientPageforMobile{
+    display: none;
+  }
   .clientPgPara {
     font-weight: 400;
   }
@@ -711,20 +720,11 @@
   .IntegrationCard:hover img {
     transform: scale(1.18);
   }
-  .firstCareerDiv {
-    background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
-    opacity: 1;
-    background-size: cover;
-    padding-top: 15%;
-    padding-bottom: 5%;
-  }
-  .firstCareerDiv h1 {
-    color: white;
-  }
-
-  .firstCareerDivSpan {
-    color: white;
-  }
+  .firstCareerDiv img {
+    padding-top: 4%;
+    width: 100% !important;
+    object-fit: cover;
+  } 
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
@@ -1038,6 +1038,72 @@
     text-align: center;
     /* padding-top: 4%; */
   }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    width: 80%;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+  .autoplay-progress {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--swiper-theme-color);
+  }
+  
+  .autoplay-progress svg {
+    --progress: 0;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    stroke-width: 4px;
+    stroke: var(--swiper-theme-color);
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+  }
+  
+
+  
   .testiContain {
     /* padding-top: 1%; */
     padding-top: 1%;
@@ -1220,7 +1286,9 @@
     border-radius: 33px !important;
     overflow: hidden;
   }
-
+  #navigation .active {
+    font-weight: bold;
+  }
   .img-left img {
     height: auto;
     max-width: 100%;
@@ -1584,7 +1652,7 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
-    color: white;
+    color: #F38313;
     padding-bottom: 20.49%;
   }
 
@@ -1855,6 +1923,12 @@
     font-weight: 700;
     margin-top: 20px;
   }
+  .clientPageforWeb {
+    display: block;
+  }
+  .clientPageforMobile{
+    display: none;
+  }
   .clientPgPara {
     font-weight: 400;
   }
@@ -1925,20 +1999,13 @@
   .IntegrationCard:hover img {
     transform: scale(1.18);
   }
-  .firstCareerDiv {
-    background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
-    opacity: 1;
-    background-size: cover;
-    padding-top: 15%;
-    padding-bottom: 5%;
-  }
-  .firstCareerDiv h1 {
-    color: white;
-  }
-
-  .firstCareerDivSpan {
-    color: white;
-  }
+  
+  .firstCareerDiv img {
+    padding-top: 4%;
+    width: 100% !important;
+    object-fit: cover;
+  } 
+ 
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
@@ -2250,9 +2317,14 @@
     align-items: center;
   }
   .testimonials {
+    padding-top: 8%;
+    padding-left: 12%;
+    padding-right: 12%;
     text-align: center;
-    padding-top: 4%;
+    justify-content: center;
+    align-items: center;
   }
+
   .testiContain {
     padding-top: 1%;
     padding-left: 7%;
@@ -2433,7 +2505,9 @@
     border-radius: 33px !important;
     overflow: hidden;
   }
-
+  ul#navigation .active {
+    font-weight: bold;
+  }
   .img-left img {
     height: auto;
     max-width: 100%;
@@ -2797,7 +2871,7 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
-    color: white;
+    color: #F38313;
     padding-bottom: 20.49%;
   }
 
@@ -3075,6 +3149,12 @@
     margin-top: 20px;
     font-size: 3rem;
   }
+  .clientPageforWeb {
+    display: block;
+  }
+  .clientPageforMobile{
+    display: none;
+  }
   .clientPgPara {
     font-weight: 400;
     font-size: x-large;
@@ -3152,20 +3232,12 @@
     font-size: 2rem;
   }
 
-  .firstCareerDiv {
-    background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
-    opacity: 1;
-    background-size: cover;
-    padding-top: 15%;
-    padding-bottom: 5%;
-  }
-  .firstCareerDiv h1 {
-    color: white;
-  }
+  .firstCareerDiv img {
+    padding-top: 4%;
+    width: 100% !important;
+    object-fit: cover;
+  } 
 
-  .firstCareerDivSpan {
-    color: white;
-  }
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
@@ -3673,6 +3745,9 @@
     width: 100%;
     z-index: 1000;
   }
+  #navigation #active {
+    font-weight: bold;
+  }
   .navbarStyle {
     list-style: none;
     font-weight: 500;
@@ -3690,22 +3765,6 @@
     max-width: 100%;
     object-fit: cover;
   }
-
-  /* .firstCareerDiv {
-    background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
-    opacity: 1;
-    background-size: cover;
-    padding-top: 15%;
-    padding-bottom: 15%;
-    text-align: center;
-  }
-  .firstCareerDiv h1 {
-    color: white;
-  }
-  .firstCareerDivSpan {
-    color: white;
-    display: none;
-  } */
 
   .culturepg {
     display: none;
@@ -3740,17 +3799,11 @@
   .CareerPgForMobile {
     display: block;
   }
-  .firstCareerDiv {
-    background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
-    background-size: cover;
-    opacity: 1;
-    padding-top: 17%;
-    padding-bottom: 4%;
-    text-align: center;
-  }
-  .firstCareerDiv h4 {
-    color: white;
-  }
+  .firstCareerDiv img {
+    padding-top: 4%;
+    width: 100% !important;
+    object-fit: cover;
+  } 
   .glassdoor4 img {
     max-width: 100%;
     object-fit: cover;
@@ -3804,9 +3857,10 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     text-align: center;
-    padding-top: 13.49%;
-    color: white;
-    padding-bottom: 20.49%;
+    padding-top: 14.49%;
+    color: #F38313;
+    padding-bottom: 15.49%;
+    font-size: 15px;
   }
   .testimonialsForMobile {
     padding-top: 4%;
@@ -4046,6 +4100,9 @@
   .clientPageforWeb {
     display: none;
   }
+  .clientPageforMobile{
+    display: block;
+  }
   .LeaderShipMob2 {
     display: flex;
     flex-direction: column;
@@ -4175,6 +4232,9 @@
     width: 100%;
     z-index: 1000;
   }
+  #navigation #active {
+    font-weight: bold;
+  }
   .navbarStyle {
     list-style: none;
     font-weight: 500;
@@ -4226,17 +4286,11 @@
   .CareerPgForMobile {
     display: block;
   }
-  .firstCareerDiv {
-    background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
-    background-size: cover;
-    opacity: 1;
-    padding-top: 17%;
-    padding-bottom: 4%;
-    text-align: center;
-  }
-  .firstCareerDiv h4 {
-    color: white;
-  }
+  .firstCareerDiv img {
+    padding-top: 4%;
+    width: 100% !important;
+    object-fit: cover;
+  } 
 
   .glassdoor4 img {
     max-width: 100%;
@@ -4292,9 +4346,10 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     text-align: center;
-    padding-top: 13.49%;
-    color: white;
-    padding-bottom: 20.49%;
+    padding-top: 14.49%;
+    color: #F38313;
+    padding-bottom: 15.49%;
+    font-size: 15px;
   }
   .TestingContainer {
     margin-left: 2% !important;
@@ -4540,6 +4595,22 @@
   .clientPageforWeb {
     display: none;
   }
+  .clientPageforMobile{
+    display: block;
+  }
+  .GapForClient {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .ClientPgCard {
+      height: 86px !important;
+      width: 86px !important;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
   .LeaderShipMob2 {
     display: flex;
     flex-direction: column;
@@ -4669,6 +4740,9 @@
     width: 100%;
     z-index: 1000;
   }
+  #navigation #active {
+    font-weight: bold;
+  }
   .navbarStyle {
     list-style: none;
     font-weight: 500;
@@ -4720,17 +4794,11 @@
   .CareerPgForMobileP {
     display: block;
   }
-  .firstCareerDiv {
-    background-image: url("../../../public/Images/gobeyond/Career-page-heading-image.png");
-    background-size: cover;
-    opacity: 1;
-    padding-top: 17%;
-    padding-bottom: 4%;
-    text-align: center;
-  }
-  .firstCareerDiv h4 {
-    color: white;
-  }
+  .firstCareerDiv img {
+    padding-top: 4%;
+    width: 100% !important;
+    object-fit: cover;
+  } 
 
   .glassdoor4 img {
     max-width: 100%;
@@ -4785,10 +4853,12 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     text-align: center;
-    padding-top: 13.49%;
-    color: white;
-    padding-bottom: 20.49%;
+    padding-top: 14.49%;
+    color: #F38313;
+    padding-bottom: 15.49%;
+    font-size: 20px;
   }
+
   .testimonialsForMobile {
     padding-top: 4%;
   }
@@ -5033,6 +5103,9 @@
   }
   .clientPageforWeb {
     display: none;
+  }
+  .clientPageforMobile{
+    display: block;
   }
   .LeaderShipMob2 {
     display: flex;
