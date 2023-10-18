@@ -5,7 +5,13 @@ import { useNavigate } from "react-router-dom";
 import Carousel from "react-bootstrap/Carousel";
 
 // import Swiper from "swiper";
-import { Navigation, Pagination,Autoplay, Mousewheel, Keyboard } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Autoplay,
+  Mousewheel,
+  Keyboard,
+} from "swiper/modules";
 // // import Swiper and modules styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -66,28 +72,30 @@ export default function Testimonials() {
   return (
     <>
       <div className="testimonials ">
-        <img src='./Images/gobeyond/Group 427321194.svg' height="48" width="190" />
-                <h2 style={{ fontWeight: "bold" }}>
-                    What people are saying
-                </h2>
+        <img
+          src="./Images/gobeyond/Group 427321194.svg"
+          height="48"
+          width="190"
+        />
+        <h2 style={{ fontWeight: "bold" }}>What people are saying</h2>
         <Swiper
           className="mySwiper"
           slidesPerView={2}
-        //   loop={true}
+          //   loop={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: true,
           }}
           centeredSlides={true}
           spaceBetween={50}
-        //   navigation={{
-        //     clickable: true,
-        //   }}
+          //   navigation={{
+          //     clickable: true,
+          //   }}
           pagination={{
             clickable: true,
           }}
           keyboard={true}
-          modules={[Navigation,Autoplay, Pagination, Mousewheel, Keyboard]}
+          modules={[Navigation, Autoplay, Pagination, Mousewheel, Keyboard]}
         >
           <SwiperSlide>
             <div className="card p-3">
@@ -149,25 +157,38 @@ export default function Testimonials() {
             </div>
           </SwiperSlide>
         </Swiper>
+        <div className="col-12 text-center tryusbtn pt-2">
+          <button
+            type="button"
+            className="btn btn-primary"
+            onClick={navigatetoContact}
+          >
+            Try us out
+          </button>
+        </div>
       </div>
 
-        <div style={{ marginTop: "3%", paddingBottom: "1%", backgroundColor: "#FFF" }}>
-                    <hr />
-                    <div className='d-flex' style={{ justifyContent: "space-around" }}>
-                        <div style={{ fontWeight: "500" }}>
-                            Copyright © 2023 SmartGig. All Rights Reserved.
-                        </div>
-                        <div className='d-flex' style={{ fontWeight: "500" }}>
-                            <div>
-                                Terms of Service
-                            </div>
-                            <div className='ml-4'>
-                                Privacy Policy
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        {/* <img
+      <div className="FooterNotForMob">
+        <div
+          style={{
+            marginTop: "3%",
+            paddingBottom: "1%",
+            backgroundColor: "#FFF",
+          }}
+        >
+          <hr />
+          <div className="d-flex" style={{ justifyContent: "space-around" }}>
+            <div style={{ fontWeight: "500" }}>
+              Copyright © 2023 SmartGig. All Rights Reserved.
+            </div>
+            <div className="d-flex" style={{ fontWeight: "500" }}>
+              <div>Terms of Service</div>
+              <div className="ml-4">Privacy Policy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <img
           src="./Images/gobeyond/Group 427321194.svg"
           height="48"
           width="190"
@@ -301,7 +322,7 @@ export default function Testimonials() {
             Try us out
           </button>
         </div> */}
-        {/* <div style={{ marginTop: "3%", paddingBottom: "1%", backgroundColor: "#F0F0F0" }}>
+      {/* <div style={{ marginTop: "3%", paddingBottom: "1%", backgroundColor: "#F0F0F0" }}>
                     <hr />
                     <div className='d-flex' style={{ justifyContent: "space-around" }}>
                         <div style={{ fontWeight: "500" }}>
@@ -397,10 +418,12 @@ export default function Testimonials() {
       {/* for mobile --------------------------------------------------------------------- */}
 
       <div className="testimonialsForMobile col-lg-7">
-      <img src='./Images/gobeyond/Group 427321194.svg' height="48" width="190" />
-                <h2 style={{ fontWeight: "bold" }}>
-                    What people are saying
-                </h2>
+        <img
+          src="./Images/gobeyond/Group 427321194.svg"
+          height="48"
+          width="190"
+        />
+        <h2 style={{ fontWeight: "bold" }}>What people are saying</h2>
         <Swiper
           className="mySwiper"
           slidesPerView={1}
@@ -411,16 +434,16 @@ export default function Testimonials() {
           }}
           centeredSlides={true}
           spaceBetween={10}
-        //   navigation={{
-        //     clickable: true,
-        //   }}
+          //   navigation={{
+          //     clickable: true,
+          //   }}
           pagination={{
             clickable: true,
           }}
           //   mousewheel={true}
           //   onAutoplayTimeLeft={onAutoplayTimeLeft}
           keyboard={true}
-          modules={[Navigation,Autoplay, Pagination, Mousewheel, Keyboard]}
+          modules={[Navigation, Autoplay, Pagination, Mousewheel, Keyboard]}
         >
           <SwiperSlide>
             <div className="card p-3">

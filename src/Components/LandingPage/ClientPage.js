@@ -113,17 +113,17 @@ const OurClients = () => {
               width="150"
               height="50"
             />
-            <h2 className="col-12 mb-3 mt-2 clientPgHeading">
+            <h2 className="mb-2 mt-2 clientPgHeading">
               Fueling Innovation Through Collaborative Excellence
             </h2>
-            <span className="col-12 mb-0 mt-2 clientPgPara">
+            <span className="mb-4 text-left clientPgPara">
               Powering the best teams, from next-generation startups to
               establish enterprises.
             </span>
           </div>
           <div className="ClientpgImgs">
             <div className="mdbcardMain">
-              <div className="d-flex py-3 px-2 GapForClient">
+              <div className="d-flex py-1 px-2 GapForClient">
                 <div className="card shadow ClientPgCard p-2">
                   <img src="./Images/gobeyond/Atcs.png" className="ATCSIMG"
                     width="100%"
@@ -145,6 +145,9 @@ const OurClients = () => {
                     />
                 </div>
 
+              </div>
+
+              <div className="d-flex px-2 py-1 GapForClient px-2">
                 <div className="card shadow ClientPgCard">
                   <img
                     src="./Images/brand/InfionicLogo.png"
@@ -153,9 +156,6 @@ const OurClients = () => {
                     alt="..."
                   />
                 </div>
-              </div>
-
-              <div className="d-flex px-2 py-1 GapForClient p-2">
                 <div className="card shadow ClientPgCard">
                   <img
                     src="./Images/gobeyond/TEAM15919945.png"
@@ -178,6 +178,8 @@ const OurClients = () => {
                     width="75%"
                   />
                 </div>
+              </div>
+              <div className="d-flex px-2 py-1 GapForClient">
                 <div className="card shadow ClientPgCard">
                   <img
                     src="./Images/gobeyond/FineKonLogo.png"
@@ -186,8 +188,6 @@ const OurClients = () => {
                     width="100%"
                   />
                 </div>
-              </div>
-              <div className="d-flex px-2 py-1 GapForClient">
                 <div className="card shadow ClientPgCard">
                   <img src="./Images/gobeyond/Group4273215.png" width="75%" />
                 </div>

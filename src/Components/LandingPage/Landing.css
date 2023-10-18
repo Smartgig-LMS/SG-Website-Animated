@@ -1027,85 +1027,41 @@
     width: 75px;
   }
 
-  .slider {
+  /* carousal  ---------------------------------- */
+  .testimonials {
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonialsForMobile {
+    display: none;
+  }
+  /* .slider {
     position: relative;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .testimonials {
-    text-align: center;
-    /* padding-top: 4%; */
-  }
-  .swiper {
+  } */
+  /* .swiper {
     width: 100%;
     height: 100%;
-  }
+  } */
   
-  .swiper-slide {
+  /* .swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
-  
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .swiper-slide {
-    width: 80%;
-  }
-  
-  .swiper-slide:nth-child(2n) {
-    width: 60%;
-  }
-  
-  .swiper-slide:nth-child(3n) {
-    width: 40%;
-  }
-  .autoplay-progress {
-    position: absolute;
-    right: 16px;
-    bottom: 16px;
-    z-index: 10;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: var(--swiper-theme-color);
-  }
-  
-  .autoplay-progress svg {
-    --progress: 0;
-    position: absolute;
-    left: 0;
-    top: 0px;
-    z-index: 10;
-    width: 100%;
-    height: 100%;
-    stroke-width: 4px;
-    stroke: var(--swiper-theme-color);
-    fill: none;
-    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
-    stroke-dasharray: 125.6;
-    transform: rotate(-90deg);
-  }
-  
-
-  
-  .testiContain {
-    /* padding-top: 1%; */
+  } */
+/*   
+  /* .testiContain {
+    padding-top: 1%;
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
@@ -1117,13 +1073,10 @@
     margin: auto;
     position: relative;
     width: 80%;
-  }
-  .testiContain div {
+  } */
+  /* .testiContain div {
     padding: 1%;
-  }
-  .testimonialsForMobile {
-    display: none;
-  }
+  } */
 
   .containerNew {
     position: relative;
@@ -2309,23 +2262,25 @@
 
   /* ....... Carousel */
 
-  .slider {
-    position: relative;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
   .testimonials {
-    padding-top: 8%;
+    padding-top: 5%;
     padding-left: 12%;
     padding-right: 12%;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-
-  .testiContain {
+  .testimonialsForMobile {
+    display: none;
+  }
+  /* .slider {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  /* .testiContain {
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
@@ -2340,10 +2295,7 @@
   }
   .testiContain div {
     padding: 1%;
-  }
-  .testimonialsForMobile {
-    display: none;
-  }
+  } */
 
   .containerNew {
     position: relative;
@@ -3546,18 +3498,25 @@
 
   /* ....... Carousel */
 
-  .slider {
+  .testimonials {
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-right: 12%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonialsForMobile {
+    display: none;
+  }
+  /* .slider {
     position: relative;
     height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  .testimonials {
-    text-align: center;
-    padding-top: 4%;
-  }
-  .testiContain {
+  } */
+  /* .testiContain {
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
@@ -3572,10 +3531,7 @@
   }
   .testiContain div {
     padding: 1%;
-  }
-  .testimonialsForMobile {
-    display: none;
-  }
+  } */
 
   .containerNew {
     position: relative;
@@ -3865,7 +3821,10 @@
   .testimonialsForMobile {
     padding-top: 4%;
   }
-  .testiContain {
+  .testimonials {
+    display: none;
+  }
+  /* .testiContain {
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
@@ -3881,13 +3840,10 @@
   .testiContain div {
     margin-bottom: 3%;
     padding: 5%;
-  }
-  .testimonials {
-    display: none;
-  }
-  .TestingContainer {
+  } */
+  /* .TestingContainer {
     margin-left: 2% !important;
-  }
+  } */
   .productpg {
     display: none;
   }
@@ -4103,6 +4059,19 @@
   .clientPageforMobile{
     display: block;
   }
+  .GapForClient {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  .ClientPgCard {
+      height: 86px !important;
+      width: 86px !important;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
   .LeaderShipMob2 {
     display: flex;
     flex-direction: column;
@@ -4151,11 +4120,12 @@
     text-align: left;
     white-space: nowrap;
   }
-
-  .mt-2 {
-    line-height: 1.4;
+  .FooterNotForMob{
+    display: none;
+  }
+  .clientPgHeading {
     text-align: left;
-    font-weight: 500;
+    font-weight: 700;
     white-space: normal;
   }
   .integrationHeader {
@@ -4351,18 +4321,21 @@
     padding-bottom: 15.49%;
     font-size: 15px;
   }
-  .TestingContainer {
+  /* .TestingContainer {
     margin-left: 2% !important;
-    /* display: flex;
-    flex-direction: column-reverse; */
-  }
+    display: flex;
+    flex-direction: column-reverse;
+  } */
   .productpg {
     display: none;
   }
   .testimonialsForMobile {
     padding-top: 4%;
   }
-  .testiContain {
+  .testimonials {
+    display: none;
+  }
+  /* .testiContain {
     padding-top: 1%;
     padding-left: 7%;
     padding-right: 7%;
@@ -4378,10 +4351,7 @@
   .testiContain div {
     margin-bottom: 3%;
     padding: 5%;
-  }
-  .testimonials {
-    display: none;
-  }
+  } */
 
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
@@ -4600,7 +4570,7 @@
   }
   .GapForClient {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
     justify-content: center;
   }
@@ -4659,11 +4629,12 @@
     text-align: left;
     white-space: nowrap;
   }
-
-  .mt-2 {
-    line-height: 1.4;
+.FooterNotForMob{
+  display: none;
+}
+  .clientPgHeading {
     text-align: left;
-    font-weight: 500;
+    font-weight: 700;
     white-space: normal;
   }
   .integrationHeader {
@@ -4862,6 +4833,9 @@
   .testimonialsForMobile {
     padding-top: 4%;
   }
+  .testimonials {
+    display: none;
+  }
   .testiContain {
     padding-top: 1%;
     padding-left: 7%;
@@ -4879,12 +4853,9 @@
     margin-bottom: 3%;
     padding: 5%;
   }
-  .testimonials {
-    display: none;
-  }
-  .TestingContainer {
+  /* .TestingContainer {
     margin-left: 2% !important;
-  }
+  } */
   .productpg {
     display: none;
   }
@@ -5107,6 +5078,19 @@
   .clientPageforMobile{
     display: block;
   }
+  .GapForClient {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .ClientPgCard {
+      height: 86px !important;
+      width: 86px !important;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
   .LeaderShipMob2 {
     display: flex;
     flex-direction: column;
@@ -5155,11 +5139,12 @@
     text-align: left;
     white-space: nowrap;
   }
-
-  .mt-2 {
-    line-height: 1.4;
+  .FooterNotForMob{
+    display: none;
+  }
+  .clientPgHeading {
     text-align: left;
-    font-weight: 500;
+    font-weight: 700;
     white-space: normal;
   }
   .integrationHeader {
