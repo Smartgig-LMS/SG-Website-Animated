@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -8,6 +8,7 @@ import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 export default function NavBar() {
   const [isopen, setIsopen] = React.useState(false);
+  const [style, setStyle] = React.useState();
   const [activeState, setActiveState] = React.useState("");
   const [activeState2, setActiveState2] = React.useState("");
   const [activeState3, setActiveState3] = React.useState("");
@@ -65,6 +66,36 @@ export default function NavBar() {
   const handleStateChange = (e) => {
     setIsopen(e.isOpen);
   };
+
+  const SmallNavFn = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
+  const listenScrollEvent = (e) => {
+    if (window.scrollY > 45) {
+      setStyle({
+        position: "fixed",
+        marginTop: "140%",
+        //   fontSize: "xxx-large",
+        backgroundColor: "#5789dbf2",
+        borderRadius: "50%",
+        color: "white",
+      });
+    } 
+    else{
+      setStyle({
+        display:"none",
+        color:'white'
+      });
+    }
+  };
+
+  useEffect(() => {
+    setStyle({
+        display:"none",
+    });
+    window.addEventListener("scroll", listenScrollEvent);
+  }, []);
 
   return (
     <div className="Navsection">
@@ -147,17 +178,8 @@ export default function NavBar() {
               </li>
             </Menu>
           </div>
-          <div
-            style={{
-              position: "fixed",
-              marginTop: "100%",
-            //   fontSize: "xxx-large",
-              backgroundColor: "#5789dbf2",
-              borderRadius: "50%",
-              color: "white",
-            }}
-          >
-            <KeyboardArrowUpIcon onClick={navigateFnLP} />
+          <div style={style}>
+            <KeyboardArrowUpIcon onClick={SmallNavFn} />
           </div>
         </div>
       </div>
