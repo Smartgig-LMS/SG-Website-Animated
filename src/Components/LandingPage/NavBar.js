@@ -150,7 +150,7 @@ export default function NavBar() {
           <div
             style={{
               position: "fixed",
-              marginTop: "40rem",
+              marginTop: "100%",
             //   fontSize: "xxx-large",
               backgroundColor: "#5789dbf2",
               borderRadius: "50%",
