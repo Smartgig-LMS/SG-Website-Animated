@@ -70,7 +70,7 @@ export default function NavBar() {
         <div className='Navsection'>
             <div className='d-flex' style={{ justifyContent: "space-between" }}>
                 <div style={{ marginLeft: "30px" }} onClick={navigateFnLP}>
-                    <img src='./Images/gobeyond/SmartGig-logo.png' height="70px" width="131px" />
+                    <img src='./Images/gobeyond/SmartGig-logo.png' height="70px" width="131px" style={{cursor:"pointer"}}/>
                 </div>
 
                 <div className='hamburgerMenuforWeb'>
