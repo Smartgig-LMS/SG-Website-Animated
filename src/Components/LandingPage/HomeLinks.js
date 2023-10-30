@@ -1,17 +1,6 @@
 import React, { useEffect, useState } from "react";
-// import AnchorLink from 'react-anchor-link-smooth-scroll'
 import Scrollspy from "react-scrollspy";
-// import Scrollspy from 'react-scrollspy'
-// const verticalLinkst = [
-//     { href: 'homeVideo', title: "To Link", bgColo: '' },
-//     { href: 'web-developement', title: "Web Developement", bgColo: 'bg-orange' },
-//     { href: 'mobile-app-developement', title: "Mobile App Developement", bgColo: 'bg-green' },
-//     { href: 'gamification', title: "Gamification", bgColo: 'bg-darkblue' },
-//     { href: 'aws-azure', title: "AWS AZURE", bgColo: 'bg-lightblue' },
-//     { href: 'devops', title: "devops", bgColo: 'bg-bringle' },
-//     { href: 'cloud-services', title: "Cloud Services", bgColo: 'bg-purple' },
-//     { href: 'security-services', title: "SECURITY Services", bgColo: 'bg-darkgreen' }
-// ]
+
 const Homelinks = ({ setPageName, setActive, active }) => {
     const [addClass, setAddClass] = useState("");
     const listenScrollEvent = (e) => {
@@ -21,21 +10,6 @@ const Homelinks = ({ setPageName, setActive, active }) => {
             setAddClass("");
         }
     };
-    // useEffect(() => {
-    //   window.addEventListener("scroll", listenScrollEvent);
-    // }, []);
-
-    //need to execute responsively
-
-    //width: 1920 , width:1440, width:767 
-
-    //for vertical scrolling need to check the height tooo
-
-    function modifyit() {
-        // const listitems=document.querySelectorAll('vertical-Links')
-        // // document.getElementsByTagName('li').classList.addClass('current')
-        // console.log(listitems)
-    }
 
     return (
         <>
@@ -72,7 +46,7 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                     </li>
                     <li className={`${addClass}`}>
                         <a href="#cloud-services">
-                            <span>Cloud Services</span>
+                            <span>Cloud<br/>Services</span>
                         </a>
                     </li>
                     <li className={`${addClass}`}>
@@ -92,7 +66,7 @@ const Homelinks = ({ setPageName, setActive, active }) => {
                     </li>
                     <li className={`${addClass}`}>
                         <a href="#cyber-security">
-                            <span>Cyber Security</span>
+                            <span>Cyber<br/>Security</span>
                         </a>
                     </li>
                     <li className={`${addClass}`}>

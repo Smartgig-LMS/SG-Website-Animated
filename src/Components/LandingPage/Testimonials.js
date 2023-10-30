@@ -77,10 +77,10 @@ export default function Testimonials() {
           height="48"
           width="190"
         />
-        <h2 style={{ fontWeight: "bold" }}>What people are saying</h2>
+        <h2 className="mt-2 mb-3" style={{ fontWeight: "bold" }}>What people are saying</h2>
         <Swiper
           className="mySwiper"
-          slidesPerView={2}
+          slidesPerView={'auto'}
           //   loop={true}
           autoplay={{
             delay: 2500,
