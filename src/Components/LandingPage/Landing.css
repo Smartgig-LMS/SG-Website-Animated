@@ -1107,10 +1107,10 @@
   }
   .text {
     color: white;
-    font-size: 18px;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    right: -39%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -1124,7 +1124,7 @@
     transition: 0.5s all ease-in-out;
   }
   .imageOfCultureNew3:hover img {
-    transform: scale(1.1);
+    transform: scale(1.04);
   }
 
   .imageOfCultureNew4 {
@@ -2333,10 +2333,10 @@
   }
   .text {
     color: white;
-    font-size: 18px;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    right: -39%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -2350,7 +2350,7 @@
     transition: 0.5s all ease-in-out;
   }
   .imageOfCultureNew3:hover img {
-    transform: scale(1.1);
+    transform: scale(1.04);
   }
 
   .imageOfCultureNew4 {
@@ -3578,10 +3578,10 @@
   }
   .text {
     color: white;
-    font-size: 18px;
     position: absolute;
     top: 50%;
-    left: 40%;
+    left: 50%;
+    right: -39%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -3595,7 +3595,7 @@
     transition: 0.5s all ease-in-out;
   }
   .imageOfCultureNew3:hover img {
-    transform: scale(1.1);
+    transform: scale(1.04);
   }
 
   .imageOfCultureNew4 {
