@@ -115,6 +115,23 @@ export default function ProductPage() {
                 </div>
                 <div className="imageOfCultureNew3">
                   <div className="containerNew">
+                    <a href="https://www.insurfin.in" target="_blank">
+                      <img src="./Images/gobeyond/InsurFin3.svg" />
+                      <div className="overlay">
+                        <div className="text">
+                          <h4>Enhanced Opportunity with Every Prospect</h4>
+                          <p>
+                            InsurFin Financing is a practice in which a lender
+                            provides funds to an individual to pay for their
+                            insurance premiums.
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div className="imageOfCultureNew3">
+                  <div className="containerNew">
                     <a href="https://itconnectus.com/" target="_blank">
                       <img src="./Images/gobeyond/Group 4273218653.svg" />
                       <div className="overlay">
@@ -133,23 +150,6 @@ export default function ProductPage() {
                             products at the forefront of industry standards, and
                             addressing critical challenges that define our
                             industry.
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <div className="imageOfCultureNew3">
-                  <div className="containerNew">
-                    <a href="https://www.insurfin.in" target="_blank">
-                      <img src="./Images/gobeyond/InsurFin3.svg" />
-                      <div className="overlay">
-                        <div className="text">
-                          <h4>Enhanced Opportunity with Every Prospect</h4>
-                          <p>
-                            InsurFin Financing is a practice in which a lender
-                            provides funds to an individual to pay for their
-                            insurance premiums.
                           </p>
                         </div>
                       </div>
@@ -204,11 +204,6 @@ export default function ProductPage() {
               possibilities together
             </p>
           </div>
-          <div className="mt-4 mb-5 img-left">
-            <a href="https://occultcybersecurity.com/" target="_blank">
-              <img src="./Images/gobeyond/Group 427321595.svg" />
-            </a>
-          </div>
           <div className="mt-3 mb-5 img-left">
             <a href="https://infionic.com/" target="_blank">
               <img src="./Images/gobeyond/Group 427321594.svg" />
@@ -217,6 +212,16 @@ export default function ProductPage() {
           <div className="mt-3 mb-5 img-left">
             <a href="https://www.insurfin.in" target="_blank">
               <img src="./Images/gobeyond/Group 427321593.svg" />
+            </a>
+          </div>
+          <div className="mt-4 mb-5 img-left">
+            <a href="https://itconnectus.com/" target="_blank">
+              <img src="./Images/gobeyond/Group 427321873.svg" />
+            </a>
+          </div>
+          <div className="mt-4 mb-5 img-left">
+            <a href="https://occultcybersecurity.com/" target="_blank">
+              <img src="./Images/gobeyond/Group 427321874.svg" />
             </a>
           </div>
         </div>
