@@ -364,7 +364,7 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
-    color: #F38313;
+    color: #f38313;
     padding-bottom: 20.49%;
   }
 
@@ -420,7 +420,11 @@
     align-items: center;
     justify-content: center;
   }
-
+  .LastcontainerProductPg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .topcontain {
     display: flex;
     gap: 20px;
@@ -508,7 +512,9 @@
     justify-content: center;
     align-items: center;
   }
-  .mySwiper { width: 50% }
+  .mySwiper {
+    width: 50%;
+  }
 
   .webhead {
     transition: 0.5s all ease-in-out;
@@ -649,7 +655,7 @@
   .clientPageforWeb {
     display: block;
   }
-  .clientPageforMobile{
+  .clientPageforMobile {
     display: none;
   }
   .clientPgPara {
@@ -726,7 +732,7 @@
     padding-top: 4%;
     width: 100% !important;
     object-fit: cover;
-  } 
+  }
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
@@ -1052,7 +1058,7 @@
     width: 100%;
     height: 100%;
   } */
-  
+
   /* .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -1061,7 +1067,7 @@
     justify-content: center;
     align-items: center;
   } */
-/*   
+  /*   
   /* .testiContain {
     padding-top: 1%;
     padding-top: 1%;
@@ -1111,7 +1117,7 @@
     text-align: left;
   }
   .imageOfCultureNew3 {
-    width: 330px;
+    width: 100%;
     overflow: hidden;
   }
   .imageOfCultureNew3 img {
@@ -1607,7 +1613,7 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
-    color: #F38313;
+    color: #f38313;
     padding-bottom: 20.49%;
   }
 
@@ -1660,7 +1666,11 @@
     align-items: center;
     justify-content: center;
   }
-
+  .LastcontainerProductPg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .topcontain {
     display: flex;
     gap: 20px;
@@ -1746,7 +1756,7 @@
     justify-content: center;
     align-items: center;
   }
-  .mySwiper { 
+  .mySwiper {
     width: 50%;
   }
 
@@ -1884,7 +1894,7 @@
   .clientPageforWeb {
     display: block;
   }
-  .clientPageforMobile{
+  .clientPageforMobile {
     display: none;
   }
   .clientPgPara {
@@ -1957,13 +1967,13 @@
   .IntegrationCard:hover img {
     transform: scale(1.18);
   }
-  
+
   .firstCareerDiv img {
     padding-top: 4%;
     width: 100% !important;
     object-fit: cover;
-  } 
- 
+  }
+
   .CareerPg {
     align-items: center;
     padding-top: 1rem;
@@ -2333,7 +2343,7 @@
     text-align: left;
   }
   .imageOfCultureNew3 {
-    width: 330px;
+    width: 100%;
     overflow: hidden;
   }
   .imageOfCultureNew3 img {
@@ -2828,7 +2838,7 @@
     background-image: url("../../../public/Images/gobeyond/Group 427321738.png");
     background-size: cover;
     padding-top: 13.49%;
-    color: #F38313;
+    color: #f38313;
     padding-bottom: 20.49%;
   }
 
@@ -2880,7 +2890,12 @@
     align-items: center;
     justify-content: center;
   }
-
+  .LastcontainerProductPg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .topcontain {
     display: flex;
     gap: 20px;
@@ -2968,7 +2983,9 @@
     justify-content: center;
     align-items: center;
   }
-  .mySwiper { width: 50% }
+  .mySwiper {
+    width: 50%;
+  }
 
   .webhead {
     transition: 0.5s all ease-in-out;
@@ -3111,7 +3128,7 @@
   .clientPageforWeb {
     display: block;
   }
-  .clientPageforMobile{
+  .clientPageforMobile {
     display: none;
   }
   .clientPgPara {
@@ -3195,7 +3212,7 @@
     padding-top: 4%;
     width: 100% !important;
     object-fit: cover;
-  } 
+  }
 
   .CareerPg {
     align-items: center;
@@ -3571,7 +3588,7 @@
     text-align: left;
   }
   .imageOfCultureNew3 {
-    width: 330px;
+    width: 100%;
     overflow: hidden;
   }
   .imageOfCultureNew3 img {
@@ -3766,7 +3783,7 @@
     padding-top: 4%;
     width: 100% !important;
     object-fit: cover;
-  } 
+  }
   .glassdoor4 img {
     max-width: 100%;
     object-fit: cover;
@@ -3821,7 +3838,7 @@
     background-size: cover;
     text-align: center;
     padding-top: 14.49%;
-    color: #F38313;
+    color: #f38313;
     padding-bottom: 15.49%;
     font-size: 15px;
   }
@@ -4063,7 +4080,7 @@
   .clientPageforWeb {
     display: none;
   }
-  .clientPageforMobile{
+  .clientPageforMobile {
     display: block;
   }
   .GapForClient {
@@ -4073,11 +4090,11 @@
     justify-content: center;
   }
   .ClientPgCard {
-      height: 86px !important;
-      width: 86px !important;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+    height: 86px !important;
+    width: 86px !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
   }
   .LeaderShipMob2 {
     display: flex;
@@ -4127,7 +4144,7 @@
     text-align: left;
     white-space: nowrap;
   }
-  .FooterNotForMob{
+  .FooterNotForMob {
     display: none;
   }
   .clientPgHeading {
@@ -4267,7 +4284,7 @@
     padding-top: 4%;
     width: 100% !important;
     object-fit: cover;
-  } 
+  }
 
   .glassdoor4 img {
     max-width: 100%;
@@ -4324,7 +4341,7 @@
     background-size: cover;
     text-align: center;
     padding-top: 14.49%;
-    color: #F38313;
+    color: #f38313;
     padding-bottom: 15.49%;
     font-size: 15px;
   }
@@ -4572,7 +4589,7 @@
   .clientPageforWeb {
     display: none;
   }
-  .clientPageforMobile{
+  .clientPageforMobile {
     display: block;
   }
   .GapForClient {
@@ -4582,11 +4599,11 @@
     justify-content: center;
   }
   .ClientPgCard {
-      height: 86px !important;
-      width: 86px !important;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+    height: 86px !important;
+    width: 86px !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
   }
   .LeaderShipMob2 {
     display: flex;
@@ -4636,9 +4653,9 @@
     text-align: left;
     white-space: nowrap;
   }
-.FooterNotForMob{
-  display: none;
-}
+  .FooterNotForMob {
+    display: none;
+  }
   .clientPgHeading {
     text-align: left;
     font-weight: 700;
@@ -4776,7 +4793,7 @@
     padding-top: 4%;
     width: 100% !important;
     object-fit: cover;
-  } 
+  }
 
   .glassdoor4 img {
     max-width: 100%;
@@ -4832,7 +4849,7 @@
     background-size: cover;
     text-align: center;
     padding-top: 14.49%;
-    color: #F38313;
+    color: #f38313;
     padding-bottom: 15.49%;
     font-size: 20px;
   }
@@ -5082,7 +5099,7 @@
   .clientPageforWeb {
     display: none;
   }
-  .clientPageforMobile{
+  .clientPageforMobile {
     display: block;
   }
   .GapForClient {
@@ -5092,11 +5109,11 @@
     justify-content: center;
   }
   .ClientPgCard {
-      height: 86px !important;
-      width: 86px !important;
-      align-items: center;
-      justify-content: center;
-      overflow: hidden;
+    height: 86px !important;
+    width: 86px !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
   }
   .LeaderShipMob2 {
     display: flex;
@@ -5146,7 +5163,7 @@
     text-align: left;
     white-space: nowrap;
   }
-  .FooterNotForMob{
+  .FooterNotForMob {
     display: none;
   }
   .clientPgHeading {
