@@ -1,5 +1,13 @@
 @media all and (min-width: 1000px) and (max-width: 1200px) {
-  .img-left {
+  .blogimg{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .blogimg2{
+    padding: 5%;
+  }
+
+   .img-left {
     max-width: 100%;
     border-radius: 33px !important;
     overflow: hidden;
@@ -258,6 +266,18 @@
     margin-left: 5rem;
   }
 
+  .BlogHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .BlogHeadnigs h1 {
+    color: #fff;
+  }
   /* productpage css start ------------------------> */
 
   .opHeadnigs {
@@ -644,6 +664,14 @@
   /* .Clientpg {
     margin-top: 4rem;
   } */
+
+  .BlogPageMobile{
+    display: none;
+  }
+  .BlogPageWeb{
+    display: block;
+  }
+
   .ClientpgImgs {
     text-align: center;
   }
@@ -1242,6 +1270,14 @@
 
 /* Width 1200 to 1500 */
 @media all and (min-width: 1200px) and (max-width: 1600px) {
+  .blogimg{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .blogimg2{
+    padding: 5%;
+  }
+
   .img-left {
     max-width: 100%;
     border-radius: 33px !important;
@@ -1500,6 +1536,18 @@
     margin-left: 5rem;
   }
 
+  .BlogHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .BlogHeadnigs h1 {
+    color: #fff;
+  }
   /* productpage css start ------------------------> */
 
   .opHeadnigs {
@@ -1880,6 +1928,12 @@
   /* .Gamification1 {
     margin-top: 7%;
   } */
+  .BlogPageMobile{
+    display: none;
+  }
+  .BlogPageWeb{
+    display: block;
+  }
 
   .Clientpg {
     margin-top: 4rem;
@@ -2467,6 +2521,14 @@
 
 /* Width 1600 to 2000 */
 @media all and (min-width: 1600px) and (max-width: 2000px) {
+  .blogimg{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .blogimg2{
+    padding: 5%;
+  }
+  
   .img-left {
     max-width: 100%;
     border-radius: 33px !important;
@@ -2726,6 +2788,18 @@
     margin-left: 5rem;
   }
 
+  .BlogHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .BlogHeadnigs h1 {
+    color: #fff;
+  }
   /* productpage css start ------------------------> */
 
   .opHeadnigs {
@@ -3113,6 +3187,13 @@
   .Gamification2:hover img {
     transform: scale(1.05);
   } */
+
+  .BlogPageMobile{
+    display: none;
+  }
+  .BlogPageWeb{
+    display: block;
+  } 
 
   .Clientpg {
     margin-top: 4rem;
@@ -3871,6 +3952,19 @@
   .productpg {
     display: none;
   }
+  .BlogHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .BlogHeadnigs h1 {
+    color: #fff;
+  }
+
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 15%;
@@ -4077,6 +4171,14 @@
     padding-top: 10%;
     gap: 20px;
   }
+
+  .BlogPageMobile{
+    display: block;
+  }
+  .BlogPageWeb{
+    display: none;
+  }
+
   .clientPageforWeb {
     display: none;
   }
@@ -4377,6 +4479,19 @@
     padding: 5%;
   } */
 
+  .BlogHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .BlogHeadnigs h1 {
+    color: #fff;
+  }
+
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 15%;
@@ -4586,6 +4701,14 @@
     padding-top: 10%;
     gap: 30px;
   }
+
+  .BlogPageMobile{
+    display: block;
+  }
+  .BlogPageWeb{
+    display: none;
+  }
+
   .clientPageforWeb {
     display: none;
   }
@@ -4883,6 +5006,18 @@
   .productpg {
     display: none;
   }
+  .BlogHeadnigs {
+    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+
+  .BlogHeadnigs h1 {
+    color: #fff;
+  }
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 15%;
@@ -5096,6 +5231,14 @@
     padding-top: 10%;
     gap: 20px;
   }
+  
+  .BlogPageMobile{
+    display: block;
+  }
+  .BlogPageWeb{
+    display: none;
+  }
+
   .clientPageforWeb {
     display: none;
   }

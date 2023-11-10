@@ -19,7 +19,7 @@ export default function Testing() {
                 <span>
                     At Next Gen SmartGig Quality Engineering Services, we offer a tailored approach to defining and implementing strategies that elevate your QA landscape. In this era of digital transformations, Our QA offerings cover requirement analysis, early security, performance engineering, and infrastructure testing. Thereby, reducing your UAT efforts.
                     <br />
-                    <span style={{ fontWeight: "bold" }}>Our Testing as a Service (TaaS) </span>  offering provides flexibility to our customers allowing them to subscribe to our testing services as needed,  to reduce resource costs ,enhance Agility ,assures Business continuity, and provide access to Tools and resources.
+                    <span style={{ fontWeight: "bold" }}>Testing as a Service (TaaS) </span>  offering provides flexibility to our customers allowing them to subscribe to our testing services as needed,  to reduce resource costs ,enhance Agility ,assures Business continuity, and provide access to Tools and resources.
                 </span>
                 <div className='mt-3 mb-3'>
                     <Accordion>

@@ -17,8 +17,8 @@ export default function WebDev() {
                 <p>
                     Businesses evolve continuously to survive, grow, sustain, and thrive, and we are here to serve you from shaping your initial idea to creating web apps that delight your customers. Collaborating with our domain experts and leveraging cutting-edge technologies, we envision and design futuristic web apps that streamline your complex core systems.
                 </p>
-                <div className="d-flex mt-5 text-center">
-                    <div className="mb-2 mr-lg-2 card p-3 w-100">
+                <div className="d-flex mt-5">
+                    <div className="mb-2 mr-lg-2 p-3 w-100">
                         <div className='mb-2'>
                             <img src='./Images/gobeyond/Slick websites Icon2.svg' />
                         </div>
@@ -27,7 +27,7 @@ export default function WebDev() {
                             Crafting digital experiences that captivate
                         </p>
                     </div>
-                    <div className="mb-2 mr-lg-2 card p-3 w-100">
+                    <div className="mb-2 mr-lg-2 p-3 w-100">
                         <div className='mb-2'>
                             <img src='./Images/gobeyond/Smooth Web Apps Icon.svg' />
                         </div>

@@ -14,6 +14,7 @@ export default function NavBar() {
   const [activeState3, setActiveState3] = React.useState("");
   const [activeState4, setActiveState4] = React.useState("");
   const [activeState5, setActiveState5] = React.useState("");
+  const [activeState6, setActiveState6] = React.useState("");
 
   const navigate = useNavigate();
   const navigateFn = () => {
@@ -24,6 +25,7 @@ export default function NavBar() {
     setActiveState3("");
     setActiveState4("");
     setActiveState5("");
+    setActiveState6("");
   };
   const navigateFn2 = () => {
     setIsopen(false);
@@ -32,6 +34,7 @@ export default function NavBar() {
     setActiveState2("");
     setActiveState3("active");
     setActiveState4("");
+    setActiveState6("");
     setActiveState5("");
   };
   const navigateFn3 = () => {
@@ -41,6 +44,7 @@ export default function NavBar() {
     setActiveState2("");
     setActiveState3("");
     setActiveState4("active");
+    setActiveState6("");
     setActiveState5("");
   };
   const navigateFn4 = () => {
@@ -49,8 +53,19 @@ export default function NavBar() {
     setActiveState("");
     setActiveState2("");
     setActiveState3("");
+    setActiveState6("");
     setActiveState4("");
     setActiveState5("active");
+  };
+  const navigateFn5 = () => {
+    setIsopen(false);
+    navigate("/blogs");
+    setActiveState("");
+    setActiveState2("");
+    setActiveState3("");
+    setActiveState4("");
+    setActiveState6("active");
+    setActiveState5("");
   };
   const navigateFnLP = () => {
     navigate("/");
@@ -59,6 +74,7 @@ export default function NavBar() {
     setActiveState2("");
     setActiveState3("");
     setActiveState4("");
+    setActiveState6("");
     setActiveState5("");
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
@@ -123,6 +139,9 @@ export default function NavBar() {
             <li className={`ml-4 ${activeState4}`} onClick={navigateFn3}>
               Careers
             </li>
+            <li className={`ml-4 ${activeState6}`} onClick={navigateFn5}>
+              Blogs
+            </li>
             <li className={`ml-4 ${activeState5}`} onClick={navigateFn4}>
               Contact Us
             </li>
@@ -168,6 +187,13 @@ export default function NavBar() {
                 id={`${activeState4}`}
               >
                 Careers
+              </li>
+              <li
+                className="menu-item"
+                onClick={navigateFn5}
+                id={`${activeState6}`}
+              >
+                Blogs
               </li>
               <li
                 className="menu-item"

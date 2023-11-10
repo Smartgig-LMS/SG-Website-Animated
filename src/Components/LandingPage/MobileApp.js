@@ -19,8 +19,8 @@ export default function MobileApp() {
                     As mobile applications continue to rise as a primary mode of Digital Accessibility, we signify the need for crafting them with the vital prospects of high performance, user-friendliness, and visually stunning designs to captivate audiences. Whether native or hybrid, our aim is to deliver enhanced user experiences, functionality, security, and personalized apps swiftly, promoting business growth.
                 </span>
 
-                <div className='d-flex mt-5 text-center'>
-                    <div className="mb-2 mr-lg-2 card p-3 w-100" >
+                <div className='d-flex mt-5'>
+                    <div className="mb-2 mr-lg-2 p-3 w-100" >
                         <div>
                             <div className='mb-2'>
                                 <img src='./Images/gobeyond/AplleIOS.svg' />
@@ -35,7 +35,7 @@ export default function MobileApp() {
                             visually stunning apps
                         </p>
                     </div>
-                    <div className="mr-lg-2 card p-3 w-100">
+                    <div className="mr-lg-2 p-3 w-100">
                         <div >
                             <div className='mb-2'>
                                 <img src='./Images/gobeyond/Android.svg' />
@@ -51,7 +51,7 @@ export default function MobileApp() {
                         </p>
                     </div>
                 </div>
-                <div className='mt-2 mb-2 cloudcontents card'>
+                <div className='mt-2 mb-2 cloudcontents '>
 
                     <div>
                         <img className='mobileAppIcon' src='./Images/gobeyond/Flutter.png' />

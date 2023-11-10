@@ -7,6 +7,7 @@ import CulturePage from '../NavigationPages/CulturePage';
 import ContactUsPage from '../NavigationPages/ContactUsPage';
 import LayoutPage from '../LandingPage/LayoutPage';
 import CareerPage from '../NavigationPages/CareerPage';
+import BlogPage from '../LandingPage/BlogPage';
 
 export default function RouteFile() {
     return (
@@ -17,6 +18,7 @@ export default function RouteFile() {
                 <Route path='culture' element={<CulturePage />}></Route>
                 <Route path='career' element={<CareerPage />}></Route>
                 <Route path='contact' element={<ContactUsPage />} ></Route>
+                <Route path='blogs' element={<BlogPage />} ></Route>
             </Route>
         </Routes >
     )
