@@ -2,11 +2,10 @@ import React from "react";
 import Footer from "./Footer";
 
 export default function BlogPage() {
-
   React.useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
-  
+
   return (
     <>
       <div className="BlogHeadnigs">
@@ -120,12 +119,56 @@ export default function BlogPage() {
               src="./Images/gobeyond/Utilizing AI and Machinе Lеarning 1.svg"
               className="blogimg p-5"
             /> */}
+            <div
+          className="m-4"
+          style={{
+            // display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "3%",
+          }}
+        >
+          <div className="card p-3 mb-4">
+            (a) Improved Visibility: Accurate data metrics offer a holistic view
+            of operations, enabling decision-makers to pinpoint areas of
+            improvement, such as underperforming shifts, machine downtimes, or
+            production bottlenecks.
+          </div>
+          <div className="card p-3">
+            {" "}
+            (b) Use of Analytics: Advanced techniques like predictive
+            maintenance are possible through machine learning and artificial
+            intelligence, facilitating detailed decision-making based on data
+          </div>
+        </div>
+        <div
+          className="m-4"
+          style={{
+            // display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            gap: "3%",
+          }}
+        >
+          <div className="card p-3 mb-4">
+            (c) Automation with Data Integration:
+            Data-driven automation involves automated data collection and using
+            data for automated decision-making, allowing manufacturers to
+            understand current, past, and future scenarios autonomously. 
+          </div>
+          <div className="card p-3">
+            (d) Operational Cost Reduction: Data, in
+            conjunction with lean manufacturing principles, streamlines
+            production processes and minimizes waste, enabling real-time
+            measurement of production enhancements and cost savings.
+          </div>
+        </div>
           </div>
           <div className="p-5">
-            <img
+            {/* <img
               src="./Images/gobeyond/Data Inteligence 1.svg"
               className="blogimg2"
-            />
+            /> */}
             <div>
               <div className="card text-center mb-4">
                 <h6
@@ -153,6 +196,10 @@ export default function BlogPage() {
                 </h6>
               </div>
             </div>
+            <img
+              src="./Images/gobeyond/Data Inteligence 1.svg"
+              className="blogimg2"
+            />
             <div
               className="card text-center p-5"
               style={{ backgroundColor: "#EBEBEB" }}
@@ -260,51 +307,7 @@ export default function BlogPage() {
         </div>
 
         {/* <div style={{justifyContent:"space-evenly"}}> */}
-        <div
-          className="m-4"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "3%",
-          }}
-        >
-          <div className="card p-3">
-            (a) Improved Visibility: Accurate data metrics offer a holistic view
-            of operations, enabling decision-makers to pinpoint areas of
-            improvement, such as underperforming shifts, machine downtimes, or
-            production bottlenecks.
-          </div>
-          <div className="card p-3">
-            {" "}
-            (a) Improved Visibility: Accurate data metrics offer a holistic view
-            of operations, enabling decision-makers to pinpoint areas of
-            improvement, such as underperforming shifts, machine downtimes, or
-            production bottlenecks.
-          </div>
-        </div>
-        <div
-          className="m-4"
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            gap: "3%",
-          }}
-        >
-          <div className="card p-3">
-            (a) Improved Visibility: Accurate data metrics offer a holistic view
-            of operations, enabling decision-makers to pinpoint areas of
-            improvement, such as underperforming shifts, machine downtimes, or
-            production bottlenecks.
-          </div>
-          <div className="card p-3">
-            (a) Improved Visibility: Accurate data metrics offer a holistic view
-            of operations, enabling decision-makers to pinpoint areas of
-            improvement, such as underperforming shifts, machine downtimes, or
-            production bottlenecks.
-          </div>
-        </div>
+        
         <div className="d-flex">
           <img
             src="./Images/gobeyond/Utilizing AI and Machinе Lеarning 1.svg"
@@ -407,7 +410,7 @@ export default function BlogPage() {
         </div>
         <hr />
 
-        <div className="text-center" style={{fontFamily:"Lato"}}>
+        <div className="text-center" style={{ fontFamily: "Lato" }}>
           <h4>WRITE A COMMENT</h4>
           <div
             className="mb-5 mt-5"
@@ -424,19 +427,19 @@ export default function BlogPage() {
           </div>
           <textarea placeholder="" className="p-2" />
         </div>
-        <div className="text-center mt-5" style={{fontFamily:"Lato"}}>
-        <button
-          style={{
-            // display: "flex",
-            // justifyContent: "center",
-            // alignItems: "center",
-            backgroundColor: "#F38313",
-            border: "none",
-          }}
-          className="p-3"
-        >
-          POST COMMENT
-        </button>
+        <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
+          <button
+            style={{
+              // display: "flex",
+              // justifyContent: "center",
+              // alignItems: "center",
+              backgroundColor: "#F38313",
+              border: "none",
+            }}
+            className="p-3"
+          >
+            POST COMMENT
+          </button>
         </div>
 
         <Footer />
