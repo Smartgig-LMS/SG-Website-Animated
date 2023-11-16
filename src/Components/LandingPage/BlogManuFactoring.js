@@ -221,66 +221,6 @@ export default function BlogManuFactoring() {
               </div>
             </div>
           </div>
-          {/* <div className="p-5">
-           
-            <h5
-              style={{ fontFamily: "Lato", fontStyle: "italic" }}
-              className="mt-4"
-            >
-              Producing goods in a manufacturing arеa rеquirеs many steps and
-              processes. Keeping thеsе processes on schedule necessitates a
-              well-organizеd working еnvironmеnt. Lеt us sее fundamental
-              challenges that nееd tо be tackled in the manufacturing area.
-            </h5>
-            <p>
-              1. Process Optimization Challenges: Maximizing efficiency in
-              manufacturing involves refining production steps, removing
-              bottlenecks, and optimizing every part of the process, making it a
-              persistent challenge.
-            </p>
-            <p>
-              2. Continous Improvement: Manufacturing must stay responsive to
-              shifting market demands, technological advances, and evolving
-              consumer preferences.
-            </p>
-            <p>
-              3. Complеx Supply Chain Management: Managing a complex supply
-              chain includes ensuring reliable supplier stocks, maintaining
-              quality, and coordinating logistics for timely deliveries is
-              overall major challenge.
-            </p>
-            <p>
-              4. Advancеd Tеchnology Adoption: Identifying and effectively
-              implementing advanced technologies that align with company goals
-              can be complex, requiring substantial investment and process
-              restructuring
-            </p>
-            <p>
-              5. Not Using Data-Drivеn Dеcision-Making: Without data-driven
-              insights, manufacturers struggle to identify and eliminate
-              inefficiencies, leading to wasted time, materials, and resources,
-              affecting productivity, inventory, costs, and quality
-            </p>
-            6. Strеamlining Opеrations: Streamlining manufacturing operations
-            faces challenges due to resistance to change, process complexity,
-            and resource allocation decisions, resulting in inefficiency and
-            reduced competitiveness. SmartGig Technologies Private Limited
-            Bangalore | Tirupati | Hyderabad | Singapore info@smartgig.tech |
-            www.smartgig.tech
-            <p>
-              7. Rеgulatory Compliancе in Procеssеs: Failure to maintain
-              regulatory compliance can lead to severe consequences, including
-              legal penalties, damage to reputation, and potential environmental
-              and workforce harm
-            </p>
-            <p>
-              8. Cybеr-Sеcurity Risk: Manufacturing's blend of physical and
-              digital systems makes it vulnerable to various cyber threats,
-              which can disrupt production, compromise intellectual property,
-              disrupt supply chains, and risk employee safety.
-            </p>
-            
-          </div> */}
         </div>
 
         <div className="d-flex">
@@ -482,7 +422,7 @@ export default function BlogManuFactoring() {
           </p>
           <div className="d-flex">
             <img
-              src="./Images/gobeyond/Group 427321936.svg"
+              src="./Images/gobeyond/Group 427321961.svg"
               className="blogimg p-2"
             />
           </div>
@@ -595,21 +535,14 @@ export default function BlogManuFactoring() {
 
           <div
             className="m-4"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "3%",
-            }}
           >
-            <div className="card p-3">
+            <div className="card p-3 mb-4">
               (a) Improved Visibility: Accurate data metrics offer a holistic
               view of operations, enabling decision-makers to pinpoint areas of
               improvement, such as underperforming shifts, machine downtimes, or
               production bottlenecks.
             </div>
             <div className="card p-3">
-              {" "}
               (b) Use of Analytics: Advanced techniques like predictive
               maintenance are possible through machine learning and artificial
               intelligence, facilitating detailed decision-making based on data
@@ -617,12 +550,6 @@ export default function BlogManuFactoring() {
           </div>
           <div
             className="m-4"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "3%",
-            }}
           >
             <div className="card p-3 mb-4">
               (c) Automation with Data Integration: Data-driven automation
@@ -639,9 +566,9 @@ export default function BlogManuFactoring() {
           </div>
         </div>
 
-        <div className="col-lg-9">
+        <div>
           <img
-            src="./Images/gobeyond/Frame 427321887.svg"
+            src="./Images/gobeyond/Group 427321963.svg"
             className="blogimg p-5"
           />
         </div>
@@ -720,7 +647,7 @@ export default function BlogManuFactoring() {
             goals.
             <div className="d-flex">
               <img
-                src="./Images/gobeyond/Frame 427321888.svg"
+                src="./Images/gobeyond/Group 427321955.svg"
                 className="blogimg p-5"
               />
             </div>
@@ -745,29 +672,16 @@ export default function BlogManuFactoring() {
 
         <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
           <h4>WRITE A COMMENT</h4>
-          <div
-            className="mb-5 mt-5"
-            style={
-              {
-                // display: "flex",
-                // justifyContent: "center",
-                // alignItems: "center",
-                // gap: "1%",
-              }
-            }
-          >
+          <div className="mb-2 mt-2">
             <input placeholder="Name" className="p-2 mb-2" />
             <input placeholder="Email" className="p-2 mb-2" />
             <input placeholder="Website" className="p-2 mb-2" />
+            <input placeholder="comments" className="p-2" />
           </div>
-          <textarea placeholder="" className="p-5" />
         </div>
-        <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
+        <div className="text-center mt-2" style={{ fontFamily: "Lato" }}>
           <button
             style={{
-              // display: "flex",
-              // justifyContent: "center",
-              // alignItems: "center",
               backgroundColor: "#F38313",
               border: "none",
             }}
