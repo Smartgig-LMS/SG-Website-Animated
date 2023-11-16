@@ -1,13 +1,13 @@
 @media all and (min-width: 1000px) and (max-width: 1200px) {
-  .blogimg{
+  .blogimg {
     max-width: 100%;
     object-fit: cover;
   }
-  .blogimg2{
+  .blogimg2 {
     padding: 5%;
   }
 
-   .img-left {
+  .img-left {
     max-width: 100%;
     border-radius: 33px !important;
     overflow: hidden;
@@ -267,14 +267,17 @@
   }
 
   .BlogHeadnigs {
-    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
     padding-bottom: 15%;
     opacity: 1;
     text-align: center;
     background-size: cover;
   }
-
+  .BlogCard img{
+    object-fit: cover;
+    max-width: 100%;
+  }
   .BlogHeadnigs h1 {
     color: #fff;
   }
@@ -373,6 +376,17 @@
     width: 165px;
   }
 
+  .BlogpageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BlogpageLogo img {
+    margin-top: 3%;
+    height: 50px;
+    width: 165px;
+  }
   /* Culturepage css start ------------------------> */
 
   .CultureHeadnig {
@@ -665,10 +679,10 @@
     margin-top: 4rem;
   } */
 
-  .BlogPageMobile{
+  .BlogPageMobile {
     display: none;
   }
-  .BlogPageWeb{
+  .BlogPageWeb {
     display: block;
   }
 
@@ -1270,11 +1284,11 @@
 
 /* Width 1200 to 1500 */
 @media all and (min-width: 1200px) and (max-width: 1600px) {
-  .blogimg{
+  .blogimg {
     max-width: 100%;
     object-fit: cover;
   }
-  .blogimg2{
+  .blogimg2 {
     padding: 5%;
   }
 
@@ -1537,12 +1551,19 @@
   }
 
   .BlogHeadnigs {
-    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
+    background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
     opacity: 1;
     text-align: center;
     background-size: cover;
+  }
+
+  .BlogCard img{
+    /* object-fit: cover; */
+    position: relative;
+    width: 100%;
   }
 
   .BlogHeadnigs h1 {
@@ -1649,7 +1670,17 @@
     height: 50px;
     width: 165px;
   }
+  .BlogpageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .BlogpageLogo img {
+    margin-top: 3%;
+    height: 50px;
+    width: 165px;
+  }
   /* Culturepage css start ------------------------> */
 
   .CultureHeadnig {
@@ -1928,10 +1959,10 @@
   /* .Gamification1 {
     margin-top: 7%;
   } */
-  .BlogPageMobile{
+  .BlogPageMobile {
     display: none;
   }
-  .BlogPageWeb{
+  .BlogPageWeb {
     display: block;
   }
 
@@ -2521,14 +2552,14 @@
 
 /* Width 1600 to 2000 */
 @media all and (min-width: 1600px) and (max-width: 2000px) {
-  .blogimg{
+  .blogimg {
     max-width: 100%;
     object-fit: cover;
   }
-  .blogimg2{
+  .blogimg2 {
     padding: 5%;
   }
-  
+
   .img-left {
     max-width: 100%;
     border-radius: 33px !important;
@@ -2789,14 +2820,17 @@
   }
 
   .BlogHeadnigs {
-    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
     padding-bottom: 15%;
     opacity: 1;
     text-align: center;
     background-size: cover;
   }
-
+  .BlogCard img{
+    object-fit: cover;
+    max-width: 100%;
+  }
   .BlogHeadnigs h1 {
     color: #fff;
   }
@@ -2900,6 +2934,17 @@
     margin-top: 3%;
     height: 65px;
     width: 185px;
+  }
+   .BlogpageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BlogpageLogo img {
+    margin-top: 3%;
+    height: 50px;
+    width: 165px;
   }
   /* Culturepage css start ------------------------> */
 
@@ -3188,12 +3233,12 @@
     transform: scale(1.05);
   } */
 
-  .BlogPageMobile{
+  .BlogPageMobile {
     display: none;
   }
-  .BlogPageWeb{
+  .BlogPageWeb {
     display: block;
-  } 
+  }
 
   .Clientpg {
     margin-top: 4rem;
@@ -3953,18 +3998,35 @@
     display: none;
   }
   .BlogHeadnigs {
-    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
     padding-bottom: 15%;
     opacity: 1;
     text-align: center;
     background-size: cover;
   }
+  .BlogCard img{
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .BlogpageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .BlogpageLogo img {
+    margin-top: 5%;
+    height: 40px;
+    width: 135px;
+  }
   .BlogHeadnigs h1 {
     color: #fff;
   }
-
+  .blogimg {
+    max-width: 100%;
+    object-fit: cover;
+  }
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 15%;
@@ -4172,10 +4234,10 @@
     gap: 20px;
   }
 
-  .BlogPageMobile{
+  .BlogPageMobile {
     display: block;
   }
-  .BlogPageWeb{
+  .BlogPageWeb {
     display: none;
   }
 
@@ -4480,18 +4542,35 @@
   } */
 
   .BlogHeadnigs {
-    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
     padding-bottom: 15%;
     opacity: 1;
     text-align: center;
     background-size: cover;
+  }  
+  .BlogCard img{
+    object-fit: cover;
+    max-width: 100%;
+  } .BlogpageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .BlogpageLogo img {
+    margin-top: 5%;
+    height: 40px;
+    width: 135px;
   }
 
   .BlogHeadnigs h1 {
     color: #fff;
   }
-
+  .blogimg {
+    max-width: 100%;
+    object-fit: cover;
+  }
   .opHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321435.png");
     padding-top: 15%;
@@ -4702,10 +4781,10 @@
     gap: 30px;
   }
 
-  .BlogPageMobile{
+  .BlogPageMobile {
     display: block;
   }
-  .BlogPageWeb{
+  .BlogPageWeb {
     display: none;
   }
 
@@ -5007,14 +5086,32 @@
     display: none;
   }
   .BlogHeadnigs {
-    background-image: url("../../../public/Images/gobeyond/Background1.png");
+    background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
     padding-bottom: 15%;
     opacity: 1;
     text-align: center;
     background-size: cover;
   }
+  .BlogCard img{
+    object-fit: cover;
+    max-width: 100%;
+  }
+  .blogimg {
+    max-width: 100%;
+    object-fit: cover;
+  }
+  .BlogpageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
+  .BlogpageLogo img {
+    margin-top: 5%;
+    height: 40px;
+    width: 135px;
+  }
   .BlogHeadnigs h1 {
     color: #fff;
   }
@@ -5231,11 +5328,11 @@
     padding-top: 10%;
     gap: 20px;
   }
-  
-  .BlogPageMobile{
+
+  .BlogPageMobile {
     display: block;
   }
-  .BlogPageWeb{
+  .BlogPageWeb {
     display: none;
   }
 
