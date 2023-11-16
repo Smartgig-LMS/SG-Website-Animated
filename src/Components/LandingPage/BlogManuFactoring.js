@@ -566,7 +566,7 @@ export default function BlogManuFactoring() {
           </div>
         </div>
 
-        <div>
+        <div className="col-lg-7">
           <img
             src="./Images/gobeyond/Group 427321963.svg"
             className="blogimg pb-5"
