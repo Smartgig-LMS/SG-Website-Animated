@@ -423,7 +423,7 @@ export default function BlogManuFactoring() {
           <div className="d-flex">
             <img
               src="./Images/gobeyond/Group 427321961.svg"
-              className="blogimg p-2"
+              className="blogimg "
             />
           </div>
 
@@ -569,7 +569,7 @@ export default function BlogManuFactoring() {
         <div>
           <img
             src="./Images/gobeyond/Group 427321963.svg"
-            className="blogimg p-5"
+            className="blogimg pb-5"
           />
         </div>
 
@@ -648,7 +648,7 @@ export default function BlogManuFactoring() {
             <div className="d-flex">
               <img
                 src="./Images/gobeyond/Group 427321955.svg"
-                className="blogimg p-5"
+                className="blogimg pt-5"
               />
             </div>
             <br />
