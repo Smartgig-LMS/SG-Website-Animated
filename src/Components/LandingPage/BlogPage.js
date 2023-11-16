@@ -14,7 +14,6 @@ export default function BlogPage() {
   const [RetailFlag, setRetailFlag] = React.useState(false);
 
   const ManuFactoring = () => {
-    window.scrollTo({ top: 800, left: 0, behavior: "smooth" });
     setPharmaFlag(false);
     setRetailFlag(false);
     setManuFactoringFlag(true);
