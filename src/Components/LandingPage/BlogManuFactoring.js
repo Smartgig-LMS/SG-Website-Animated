@@ -17,7 +17,7 @@ export default function BlogManuFactoring() {
           <img
             src="./Images/gobeyond/Gro83988394888.svg"
             style={{
-              height: "55px",
+              height: "52px",
               width: "245px",
             }}
           />

@@ -5,9 +5,6 @@ import BlogPharma from "./BlogPharma";
 import BlogReatil from "./BlogReatil";
 
 export default function BlogPage() {
-  React.useEffect(() => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  }, []);
 
   const [ManuFactoringFlag, setManuFactoringFlag] = React.useState(false);
   const [PharmaFlag, setPharmaFlag] = React.useState(false);
@@ -30,6 +27,10 @@ export default function BlogPage() {
     setManuFactoringFlag(false);
     setRetailFlag(true);
   };
+
+  React.useEffect(() => {
+    window.scrollTo({ top: 400, left: 0, behavior: "smooth" });
+  }, [ManuFactoringFlag,PharmaFlag,RetailFlag]);
 
   return (
     <>
