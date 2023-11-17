@@ -7,7 +7,8 @@ import CulturePage from '../NavigationPages/CulturePage';
 import ContactUsPage from '../NavigationPages/ContactUsPage';
 import LayoutPage from '../LandingPage/LayoutPage';
 import CareerPage from '../NavigationPages/CareerPage';
-import BlogPage from '../LandingPage/BlogPage';
+import BlogPage from '../LandingPage/BlogFolder/LandingBlog';
+import ManufactoringBlog1 from '../LandingPage/BlogFolder/ManufactoringBlog1';
 
 export default function RouteFile() {
     return (
@@ -19,6 +20,7 @@ export default function RouteFile() {
                 <Route path='career' element={<CareerPage />}></Route>
                 <Route path='contact' element={<ContactUsPage />} ></Route>
                 <Route path='blogs' element={<BlogPage />} ></Route>
+                <Route path='manufactoringblog1' element={<ManufactoringBlog1 />} ></Route>
             </Route>
         </Routes >
     )

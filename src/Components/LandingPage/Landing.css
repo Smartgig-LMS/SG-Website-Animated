@@ -265,7 +265,18 @@
     display: flex;
     margin-left: 5rem;
   }
-
+  .ManuBlogHeadnigs {
+    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
+    background-image: url("../../../public/Images/gobeyond/Group 427321943.svg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .ManuBlogHeadnigs h1 {
+    color: #fff;
+  }
   .BlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 14%;
@@ -277,6 +288,13 @@
   .BlogCard img{
     object-fit: cover;
     max-width: 100%;
+  }
+  .ManuFactoringCard:hover{
+    /* -webkit-transform: rotate(360deg) scale(1.3); 360 degree rotate */
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all .5s; 
+    -moz-transition: all .5s;
+    transition: all .5s;
   }
   .BlogHeadnigs h1 {
     color: #fff;
@@ -1549,7 +1567,18 @@
     display: flex;
     margin-left: 5rem;
   }
-
+  .ManuBlogHeadnigs {
+    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
+    background-image: url("../../../public/Images/gobeyond/Group 427321943.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .ManuBlogHeadnigs h1 {
+    color: #fff;
+  }
   .BlogHeadnigs {
     /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
     background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
@@ -1559,16 +1588,23 @@
     text-align: center;
     background-size: cover;
   }
+  .BlogHeadnigs h1 {
+    color: #fff;
+  }
 
   .BlogCard img{
     /* object-fit: cover; */
     position: relative;
     width: 100%;
   }
-
-  .BlogHeadnigs h1 {
-    color: #fff;
+  .ManuFactoringCard:hover{
+    /* -webkit-transform: rotate(360deg) scale(1.3); 360 degree rotate */
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all .5s; 
+    -moz-transition: all .5s;
+    transition: all .5s;
   }
+
   /* productpage css start ------------------------> */
 
   .opHeadnigs {
@@ -2818,7 +2854,18 @@
     display: flex;
     margin-left: 5rem;
   }
-
+  .ManuBlogHeadnigs {
+    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
+    background-image: url("../../../public/Images/gobeyond/Group 427321943.svg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .ManuBlogHeadnigs h1 {
+    color: #fff;
+  }
   .BlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
@@ -2830,6 +2877,13 @@
   .BlogCard img{
     object-fit: cover;
     max-width: 100%;
+  }
+  .ManuFactoringCard:hover{
+    /* -webkit-transform: rotate(360deg) scale(1.3); 360 degree rotate */
+    -webkit-transform: scale(1.1);
+    -webkit-transition: all .5s; 
+    -moz-transition: all .5s;
+    transition: all .5s;
   }
   .BlogHeadnigs h1 {
     color: #fff;
@@ -3997,6 +4051,19 @@
   .productpg {
     display: none;
   }
+  .ManuBlogHeadnigs {
+    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
+    background-image: url("../../../public/Images/gobeyond/Group 427321943.svg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .ManuBlogHeadnigs h1 {
+    color: #fff;
+  }
+ 
   .BlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
@@ -4540,7 +4607,18 @@
     margin-bottom: 3%;
     padding: 5%;
   } */
-
+  .ManuBlogHeadnigs {
+    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
+    background-image: url("../../../public/Images/gobeyond/Group 427321943.svg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .ManuBlogHeadnigs h1 {
+    color: #fff;
+  }
   .BlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
@@ -5084,6 +5162,18 @@
   } */
   .productpg {
     display: none;
+  }
+  .ManuBlogHeadnigs {
+    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
+    background-image: url("../../../public/Images/gobeyond/Group 427321943.svg");
+    padding-top: 15%;
+    padding-bottom: 15%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .ManuBlogHeadnigs h1 {
+    color: #fff;
   }
   .BlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");

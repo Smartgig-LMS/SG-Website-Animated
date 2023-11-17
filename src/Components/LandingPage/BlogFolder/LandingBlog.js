@@ -1,11 +1,10 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../Footer";
 import BlogManuFactoring from "./BlogManuFactoring";
 import BlogPharma from "./BlogPharma";
 import BlogReatil from "./BlogReatil";
 
 export default function BlogPage() {
-
   const [ManuFactoringFlag, setManuFactoringFlag] = React.useState(false);
   const [PharmaFlag, setPharmaFlag] = React.useState(false);
   const [RetailFlag, setRetailFlag] = React.useState(false);
@@ -30,7 +29,7 @@ export default function BlogPage() {
 
   React.useEffect(() => {
     window.scrollTo({ top: 400, left: 0, behavior: "smooth" });
-  }, [ManuFactoringFlag,PharmaFlag,RetailFlag]);
+  }, [ManuFactoringFlag, PharmaFlag, RetailFlag]);
 
   return (
     <>
@@ -41,25 +40,26 @@ export default function BlogPage() {
         <img src="./Images/gobeyond/Group 427321877.svg" />
       </div>
       <div
-      className="mt-4 mb-5"
+        className="mt-4 mb-5"
         style={{
           display: "flex",
           justifyContent: "center",
           alignContent: "center",
-          gap:"3%",
-          padding:"3%",
+          gap: "3%",
+          padding: "3%",
+          cursor:"pointer"
         }}
       >
         <div className="BlogCard" onClick={ManuFactoring}>
-          <img src="./Images/gobeyond/Group 427321948.svg" />
+          <img className="ManuFactoringCard" src="./Images/gobeyond/Group 427321948.svg" />
         </div>
 
         <div className="BlogCard" onClick={Pharma}>
-          <img src="./Images/gobeyond/Group 427321949.svg" />
+          <img className="ManuFactoringCard" src="./Images/gobeyond/Group 427321949.svg" />
         </div>
 
         <div className="BlogCard" onClick={Retail}>
-          <img src="./Images/gobeyond/Group 427321950.svg" />
+          <img className="ManuFactoringCard" src="./Images/gobeyond/Group 427321950.svg" />
         </div>
       </div>
 
@@ -71,7 +71,6 @@ export default function BlogPage() {
     </>
   );
 }
-
 
 // import React from "react";
 // import Footer from "./Footer";

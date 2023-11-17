@@ -1,9 +1,98 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../Footer";
+import { toast } from "react-toastify";
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
-export default function BlogManuFactoring() {
+export default function ManufactoringBlog1() {
+    const navigate = useNavigate();
+
+  const [state, setState] = React.useState({
+    name: "",
+    email: "",
+    website: "",
+    comment: "",
+  });
+
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
+  
+  const handleChange = (e) => {
+    setState({
+      ...state,
+      [e.target.name]: [e.target.value],
+    });
+  };
+
+  const { name, email, website, comment } = state;
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    axios
+      .post(`http://13.126.18.172:3011/api/v1/post/comment`, {
+        name: `${name}`,
+        email: `${email}`,
+        website: `${website}`,
+        comment: `${comment}`,
+      })
+      .then((res) => {
+        console.log(res.data, "data");
+        if (res.data=="comment created successfully") {
+            window.alert("Comment created successfully")
+            setState({
+                ...state,
+                [e.target.name]: [],
+              });
+        }
+        // toast.warning("Comment Posted Successfully");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
+
+  const BackBtn = () => {
+    navigate("/blogs");
+  };
+
   return (
     <>
+      <div className="ManuBlogHeadnigs">
+        {/* <h4 className="pl-3" style={{color:"white",display:"flex",justifyContent:"left"}}>Back</h4> */}
+        <div>
+          <p
+            className="pr-4 pl-4 pt-1 pb-1 ml-3"
+            style={{
+              color: "white",
+              border: "none",
+              position: "absolute",
+              top: "10%",
+              right: "93%",
+              display:"flex",
+              alignItems:"center",
+              justifyContent:"center",
+            }}
+            onClick={BackBtn}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-left mr-2"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
+              />
+            </svg>
+            Back
+          </p>
+        </div>
+        <h1>Manufacturing</h1>
+      </div>
       {/* web screen ----------------------------------------------------------------*/}
       <div className="BlogPageWeb">
         <div
@@ -15,6 +104,7 @@ export default function BlogManuFactoring() {
           }}
         >
           <img
+            className="mt-3"
             src="./Images/gobeyond/Gro83988394888.svg"
             style={{
               height: "52px",
@@ -22,8 +112,11 @@ export default function BlogManuFactoring() {
             }}
           />
         </div>
+        <h4 className="text-center mt-3" style={{ fontWeight: "bold" }}>
+          Data Intelligence For Process Improvement In Manufacturing
+        </h4>
         <div className="col-12">
-          <div className="p-5">
+          <div className="pl-5 pr-5 pt-2">
             <p>
               Data undoubtеdly holds significant valuе and thе valuablе
               intеlligеncе dеrivеd from data еnablеs companiеs to gain a
@@ -327,38 +420,64 @@ export default function BlogManuFactoring() {
         </div>
         <hr />
 
-        <div className="text-center" style={{ fontFamily: "Lato" }}>
-          <h4>WRITE A COMMENT</h4>
-          <div
-            className="mb-5 mt-5"
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              gap: "3%",
-            }}
-          >
-            <input placeholder="Name" className="p-2" />
-            <input placeholder="Email" className="p-2" />
-            <input placeholder="Website" className="p-2" />
+        <form onSubmit={onSubmit}>
+          <div className="text-center" style={{ fontFamily: "Lato" }}>
+            <h4>WRITE A COMMENT</h4>
+            <div
+              className="mb-5 mt-5"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "3%",
+              }}
+            >
+              <input
+                placeholder="Name"
+                className="p-2"
+                onChange={handleChange}
+                name="name"
+                value={name}
+              />
+              <input
+                placeholder="Email"
+                className="p-2"
+                onChange={handleChange}
+                name="email"
+                value={email}
+              />
+              <input
+                placeholder="Website"
+                className="p-2"
+                onChange={handleChange}
+                name="website"
+                value={website}
+              />
+            </div>
+            <textarea
+              placeholder="write your comments"
+              className="p-2"
+              onChange={handleChange}
+              name="comment"
+              value={comment}
+            />
           </div>
-          <textarea placeholder="" className="p-2" />
-        </div>
-        <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
-          <button
-            style={{
-              // display: "flex",
-              // justifyContent: "center",
-              // alignItems: "center",
-              backgroundColor: "#F38313",
-              border: "none",
-            }}
-            className="p-3"
-          >
-            POST COMMENT
-          </button>
-        </div>
-
+          <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
+            <button
+              style={{
+                // display: "flex",
+                // justifyContent: "center",
+                // alignItems: "center",
+                backgroundColor: "#F38313",
+                border: "none",
+              }}
+              className="p-3"
+              type="submit"
+            >
+              POST COMMENT
+            </button>
+          </div>
+        </form>
         <Footer />
       </div>
       {/* </div> */}
@@ -533,9 +652,7 @@ export default function BlogManuFactoring() {
             </li>
           </p>
 
-          <div
-            className="m-4"
-          >
+          <div className="m-4">
             <div className="card p-3 mb-4">
               (a) Improved Visibility: Accurate data metrics offer a holistic
               view of operations, enabling decision-makers to pinpoint areas of
@@ -548,9 +665,7 @@ export default function BlogManuFactoring() {
               intelligence, facilitating detailed decision-making based on data
             </div>
           </div>
-          <div
-            className="m-4"
-          >
+          <div className="m-4">
             <div className="card p-3 mb-4">
               (c) Automation with Data Integration: Data-driven automation
               involves automated data collection and using data for automated
@@ -670,26 +785,61 @@ export default function BlogManuFactoring() {
         </div>
         <hr />
 
+        <form onSubmit={onSubmit}>
         <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
-          <h4>WRITE A COMMENT</h4>
-          <div className="mb-2 mt-2">
-            <input placeholder="Name" className="p-2 mb-2" />
-            <input placeholder="Email" className="p-2 mb-2" />
-            <input placeholder="Website" className="p-2 mb-2" />
-            <input placeholder="comments" className="p-2" />
+        <h4>WRITE A COMMENT</h4>
+            <div
+              className="mb-5 mt-5"
+              style={{
+                // display: "flex",
+                // justifyContent: "center",
+                // alignItems: "center",
+                gap: "3%",
+              }}
+            >
+              <input
+                placeholder="Name"
+                className="p-2 mb-2"
+                onChange={handleChange}
+                name="name"
+                value={name}
+              />
+              <input
+                placeholder="Email"
+                className="p-2 mb-2"
+                onChange={handleChange}
+                name="email"
+                value={email}
+              />
+              <input
+                placeholder="Website"
+                className="p-2 mb-2"
+                onChange={handleChange}
+                name="website"
+                value={website}
+              />
+            </div>
+            <textarea
+              placeholder="write your comments"
+              className="p-2"
+              onChange={handleChange}
+              name="comment"
+              value={comment}
+            />
+        </div>
+        <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
+            <button
+              style={{
+                backgroundColor: "#F38313",
+                border: "none",
+              }}
+              className="p-3"
+              type="submit"
+            >
+              POST COMMENT
+            </button>
           </div>
-        </div>
-        <div className="text-center mt-2" style={{ fontFamily: "Lato" }}>
-          <button
-            style={{
-              backgroundColor: "#F38313",
-              border: "none",
-            }}
-            className="p-3"
-          >
-            POST COMMENT
-          </button>
-        </div>
+          </form>
 
         <div className="footerForMobile">
           <hr />
