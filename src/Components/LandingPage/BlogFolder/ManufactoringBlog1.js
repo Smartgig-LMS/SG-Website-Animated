@@ -4,20 +4,22 @@ import { toast } from "react-toastify";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-export default function ManufactoringBlog1() {
-    const navigate = useNavigate();
+const initialData = {
+  name: "",
+  email: "",
+  website: "",
+  comment: "",
+};
 
-  const [state, setState] = React.useState({
-    name: "",
-    email: "",
-    website: "",
-    comment: "",
-  });
+export default function ManufactoringBlog1() {
+  const navigate = useNavigate();
+
+  const [state, setState] = React.useState(initialData);
 
   React.useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
-  
+
   const handleChange = (e) => {
     setState({
       ...state,
@@ -38,12 +40,9 @@ export default function ManufactoringBlog1() {
       })
       .then((res) => {
         console.log(res.data, "data");
-        if (res.data=="comment created successfully") {
-            window.alert("Comment created successfully")
-            setState({
-                ...state,
-                [e.target.name]: [],
-              });
+        if (res.data == "comment created successfully") {
+          window.alert("Comment created successfully");
+          setState(initialData);
         }
         // toast.warning("Comment Posted Successfully");
       })
@@ -69,9 +68,9 @@ export default function ManufactoringBlog1() {
               position: "absolute",
               top: "10%",
               right: "93%",
-              display:"flex",
-              alignItems:"center",
-              justifyContent:"center",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
             }}
             onClick={BackBtn}
           >
@@ -786,17 +785,8 @@ export default function ManufactoringBlog1() {
         <hr />
 
         <form onSubmit={onSubmit}>
-        <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
-        <h4>WRITE A COMMENT</h4>
-            <div
-              className="mb-5 mt-5"
-              style={{
-                // display: "flex",
-                // justifyContent: "center",
-                // alignItems: "center",
-                gap: "3%",
-              }}
-            >
+          <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
+            <h4>WRITE A COMMENT</h4>
               <input
                 placeholder="Name"
                 className="p-2 mb-2"
@@ -818,7 +808,6 @@ export default function ManufactoringBlog1() {
                 name="website"
                 value={website}
               />
-            </div>
             <textarea
               placeholder="write your comments"
               className="p-2"
@@ -826,8 +815,8 @@ export default function ManufactoringBlog1() {
               name="comment"
               value={comment}
             />
-        </div>
-        <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
+          </div>
+          <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
             <button
               style={{
                 backgroundColor: "#F38313",
@@ -839,7 +828,7 @@ export default function ManufactoringBlog1() {
               POST COMMENT
             </button>
           </div>
-          </form>
+        </form>
 
         <div className="footerForMobile">
           <hr />

@@ -9,6 +9,7 @@ import LayoutPage from '../LandingPage/LayoutPage';
 import CareerPage from '../NavigationPages/CareerPage';
 import BlogPage from '../LandingPage/BlogFolder/LandingBlog';
 import ManufactoringBlog1 from '../LandingPage/BlogFolder/ManufactoringBlog1';
+import ManufactoringBlog2 from '../LandingPage/BlogFolder/ManufactoringBlog2';
 
 export default function RouteFile() {
     return (
@@ -21,6 +22,7 @@ export default function RouteFile() {
                 <Route path='contact' element={<ContactUsPage />} ></Route>
                 <Route path='blogs' element={<BlogPage />} ></Route>
                 <Route path='manufactoringblog1' element={<ManufactoringBlog1 />} ></Route>
+                <Route path='manufactoringblog2' element={<ManufactoringBlog2 />} ></Route>
             </Route>
         </Routes >
     )

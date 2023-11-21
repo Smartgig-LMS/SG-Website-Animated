@@ -1,10 +1,15 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import Footer from "../Footer";
 
 export default function BlogManuFactoring() {
   const navigate = useNavigate();
   const toManuFactoring1 = () => {
     navigate("/manufactoringblog1");
+  };
+
+  const toManuFactoring2 = () => {
+    navigate("/manufactoringblog2");
   };
 
   return (
@@ -52,15 +57,15 @@ export default function BlogManuFactoring() {
             </button>
           </div>
         </div>
-        <div className="d-flex" style={{cursor:"pointer"}}>
+        <div className="d-flex pl-5 pr-5 pb-5" style={{cursor:"pointer",gap:"5%"}}>
           <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group card 3.svg" />
+            <img src="./Images/gobeyond/Group card 1.svg" />
+          </div>
+          <div className="BlogCard" onClick={toManuFactoring2}>
+            <img src="./Images/gobeyond/Group card2321.svg" />
           </div>
           <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group card 2.svg" />
-          </div>
-          <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group card 3.svg" />
+            <img src="./Images/gobeyond/Group card 1.svg" />
           </div>
         </div>
       </div>
@@ -94,15 +99,15 @@ export default function BlogManuFactoring() {
             Here’s what we've been up to recently.
           </p>
         </div>
-        <div className="d-flex">
+        <div className="d-flex pl-2 pr-2" style={{gap:"5%"}}>
           <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Item.svg" />
+            <img src="./Images/gobeyond/Group card 1.svg" />
+          </div>
+          <div className="BlogCard" onClick={toManuFactoring2}>
+            <img src="./Images/gobeyond/Group card2321.svg" />
           </div>
           <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Item111.svg" />
-          </div>
-          <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Item222.svg" />
+            <img src="./Images/gobeyond/Group card 1.svg" />
           </div>
         </div>
       </div>
