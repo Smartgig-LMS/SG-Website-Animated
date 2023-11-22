@@ -3,6 +3,11 @@ import Footer from "../Footer";
 import { toast } from "react-toastify";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
+import Stack from "@mui/material/Stack";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
 const initialData = {
   name: "",
@@ -51,46 +56,60 @@ export default function ManufactoringBlog1() {
       });
   };
 
-  const BackBtn = () => {
+  const handleBlog = () => {
     navigate("/blogs");
   };
+
+  const handleManufacturing = () => {
+    navigate("/blogs", { state: { ManuFactoringFlag: true, active:"active"} });
+  };
+
+  const breadcrumbs = [
+    <Link
+      underline="hover"
+      key="1"
+      color="white"
+      // href="/blogs"
+      onClick={handleBlog}
+    >
+      Blogs
+    </Link>,
+    <Link
+      underline="hover"
+      key="2"
+      color="white"
+      onClick={handleManufacturing}
+    >
+      Manufacturing
+    </Link>,
+    <Typography key="3" color="white">
+      Data Intelligence in Manufacturing
+    </Typography>,
+  ];
 
   return (
     <>
       <div className="ManuBlogHeadnigs">
-        {/* <h4 className="pl-3" style={{color:"white",display:"flex",justifyContent:"left"}}>Back</h4> */}
-        <div>
-          <p
-            className="pr-4 pl-4 pt-1 pb-1 ml-3"
-            style={{
-              color: "white",
-              border: "none",
-              position: "absolute",
-              top: "10%",
-              right: "93%",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-            onClick={BackBtn}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-arrow-left mr-2"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
-              />
-            </svg>
-            Back
-          </p>
-        </div>
         <h1>Manufacturing</h1>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          top: "8%",
+          left: "2%",
+          paddingTop: "3%",
+          cursor: "pointer",
+        }}
+      >
+        <Stack spacing={2}>
+          <Breadcrumbs
+            separator={<NavigateNextIcon fontSize="small" />}
+            aria-label="breadcrumb"
+            color="white"
+          >
+            {breadcrumbs}
+          </Breadcrumbs>
+        </Stack>
       </div>
       {/* web screen ----------------------------------------------------------------*/}
       <div className="BlogPageWeb">
@@ -272,7 +291,7 @@ export default function ManufactoringBlog1() {
               style={{
                 display: "flex",
                 justifyContent: "center",
-                alignItems: "center",
+                // alignItems: "center",
                 gap: "3%",
               }}
             >
@@ -289,7 +308,7 @@ export default function ManufactoringBlog1() {
                 intelligence, facilitating detailed decision-making based on
                 data
               </div>
-            </div>
+            {/* </div>
             <div
               className="m-4"
               style={{
@@ -298,8 +317,8 @@ export default function ManufactoringBlog1() {
                 alignItems: "center",
                 gap: "3%",
               }}
-            >
-              <div className="card p-3 mb-4">
+            > */}
+              <div className="card p-3">
                 (c) Automation with Data Integration: Data-driven automation
                 involves automated data collection and using data for automated
                 decision-making, allowing manufacturers to understand current,
@@ -787,27 +806,27 @@ export default function ManufactoringBlog1() {
         <form onSubmit={onSubmit}>
           <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
             <h4>WRITE A COMMENT</h4>
-              <input
-                placeholder="Name"
-                className="p-2 mb-2"
-                onChange={handleChange}
-                name="name"
-                value={name}
-              />
-              <input
-                placeholder="Email"
-                className="p-2 mb-2"
-                onChange={handleChange}
-                name="email"
-                value={email}
-              />
-              <input
-                placeholder="Website"
-                className="p-2 mb-2"
-                onChange={handleChange}
-                name="website"
-                value={website}
-              />
+            <input
+              placeholder="Name"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="name"
+              value={name}
+            />
+            <input
+              placeholder="Email"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="email"
+              value={email}
+            />
+            <input
+              placeholder="Website"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="website"
+              value={website}
+            />
             <textarea
               placeholder="write your comments"
               className="p-2"

@@ -3,32 +3,56 @@ import Footer from "../Footer";
 import BlogManuFactoring from "./BlogManuFactoring";
 import BlogPharma from "./BlogPharma";
 import BlogReatil from "./BlogReatil";
+import { useLocation } from "react-router-dom";
 
 export default function BlogPage() {
-  const [ManuFactoringFlag, setManuFactoringFlag] = React.useState(false);
-  const [PharmaFlag, setPharmaFlag] = React.useState(false);
-  const [RetailFlag, setRetailFlag] = React.useState(false);
+  const location = useLocation();
+  console.log(location, "location");
+
+  const [ManuFactoringFlag, setManuFactoringFlag] = React.useState(
+    location.state?.ManuFactoringFlag
+      ? location.state?.ManuFactoringFlag
+      : false
+  );
+  const [PharmaFlag, setPharmaFlag] = React.useState(
+    location.state?.PharmaFlag ? location.state?.PharmaFlag : false
+  );
+  const [RetailFlag, setRetailFlag] = React.useState(
+    location.state?.RetailFlag ? location.state?.RetailFlag : false
+  );
+  const [addClass, setAddClass] = React.useState(location.state?.active ? location.state?.active : "");
+  const [addClass2, setAddClass2] = React.useState("");
+  const [addClass3, setAddClass3] = React.useState("");
 
   const ManuFactoring = () => {
     setPharmaFlag(false);
     setRetailFlag(false);
     setManuFactoringFlag(true);
+    setAddClass("active");
+    setAddClass2("");
+    setAddClass3("");
   };
 
   const Pharma = () => {
     setRetailFlag(false);
     setManuFactoringFlag(false);
     setPharmaFlag(true);
+    setAddClass2("active");
+    setAddClass("");
+    setAddClass3("");
   };
 
   const Retail = () => {
     setPharmaFlag(false);
     setManuFactoringFlag(false);
     setRetailFlag(true);
+    setAddClass("");
+    setAddClass2("");
+    setAddClass3("active");
   };
 
   React.useEffect(() => {
-    window.scrollTo({ top: 400, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 800, left: 0, behavior: "smooth" });
   }, [ManuFactoringFlag, PharmaFlag, RetailFlag]);
 
   return (
@@ -47,19 +71,28 @@ export default function BlogPage() {
           alignContent: "center",
           gap: "3%",
           padding: "3%",
-          cursor:"pointer"
+          cursor: "pointer",
         }}
       >
         <div className="BlogCard" onClick={ManuFactoring}>
-          <img className="ManuFactoringCard" src="./Images/gobeyond/Group 427321948.svg" />
+          <img
+            className={`ManuFactoringCard${addClass}`}
+            src="./Images/gobeyond/Group 427321948.svg"
+          />
         </div>
 
         <div className="BlogCard" onClick={Pharma}>
-          <img className="ManuFactoringCard" src="./Images/gobeyond/Group 427321949.svg" />
+          <img
+            className={`ManuFactoringCard${addClass2}`}
+            src="./Images/gobeyond/Group 427321949.svg"
+          />
         </div>
 
         <div className="BlogCard" onClick={Retail}>
-          <img className="ManuFactoringCard" src="./Images/gobeyond/Group 427321950.svg" />
+          <img
+            className={`ManuFactoringCard${addClass3}`}
+            src="./Images/gobeyond/Group 427321950.svg"
+          />
         </div>
       </div>
 

@@ -3,8 +3,13 @@ import Footer from "../Footer";
 import { toast } from "react-toastify";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Breadcrumbs from "@mui/material/Breadcrumbs";
+import Typography from "@mui/material/Typography";
+import Link from "@mui/material/Link";
+import Stack from "@mui/material/Stack";
+import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
-const initialData ={
+const initialData = {
   name: "",
   email: "",
   website: "",
@@ -51,46 +56,57 @@ export default function ManufactoringBlog2() {
       });
   };
 
-  const BackBtn = () => {
+  const handleBlog = () => {
     navigate("/blogs");
   };
+
+  const handleManufacturing = () => {
+    navigate("/blogs", {
+      state: { ManuFactoringFlag: true, active: "active" },
+    });
+  };
+
+  const breadcrumbs = [
+    <Link
+      underline="hover"
+      key="1"
+      color="white"
+      // href="/blogs"
+      onClick={handleBlog}
+    >
+      Blogs
+    </Link>,
+    <Link underline="hover" key="2" color="white" onClick={handleManufacturing}>
+      Manufacturing
+    </Link>,
+    <Typography key="3" color="white">
+     IOT in Manufacturing
+    </Typography>,
+  ];
 
   return (
     <>
       <div className="ManuBlogHeadnigs">
-        {/* <h4 className="pl-3" style={{color:"white",display:"flex",justifyContent:"left"}}>Back</h4> */}
-        <div>
-          <p
-            className="pr-4 pl-4 pt-1 pb-1 ml-3"
-            style={{
-              color: "white",
-              border: "none",
-              position: "absolute",
-              top: "10%",
-              right: "93%",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-            onClick={BackBtn}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-arrow-left mr-2"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"
-              />
-            </svg>
-            Back
-          </p>
-        </div>
         <h1>Manufacturing</h1>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          top: "8%",
+          left: "2%",
+          paddingTop: "3%",
+          cursor: "pointer",
+        }}
+      >
+        <Stack spacing={2}>
+          <Breadcrumbs
+            separator={<NavigateNextIcon fontSize="small" />}
+            aria-label="breadcrumb"
+            color="white"
+          >
+            {breadcrumbs}
+          </Breadcrumbs>
+        </Stack>
       </div>
       {/* web screen ----------------------------------------------------------------*/}
       <div className="BlogPageWeb">
@@ -138,7 +154,10 @@ export default function ManufactoringBlog2() {
               manufacturing area and explore ways to boost productivity on the
               factory floor using this innovativе technology.
             </p>
-            <div className="d-flex" style={{justifyContent:'center',alignItems:"center"}}>
+            <div
+              className="d-flex"
+              style={{ justifyContent: "center", alignItems: "center" }}
+            >
               <div>
                 <h5>
                   Top Challenges Faced By Factory Floor Or Manufacturing Sector:
@@ -202,7 +221,9 @@ export default function ManufactoringBlog2() {
             />
             <div className="mt-5">
               <p>
-                <span className="font-weight-bold">1. Prеdictivе Maintеnancе: </span>
+                <span className="font-weight-bold">
+                  1. Prеdictivе Maintеnancе:{" "}
+                </span>
                 Machinе downtimе is a major hindrancе in manufacturing, costing
                 thе industry an еstimatеd $50 billion annually duе to an avеragе
                 of 800 hours of unplannеd downtimе pеr anufacturеr as pеr
@@ -228,7 +249,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">3. Bеttеr Product Tеsting: </span>
+                <span className="font-weight-bold">
+                  3. Bеttеr Product Tеsting:{" "}
+                </span>
                 IIoT proactively collects detailed product data using sensors,
                 ensuring continuous testing at every production phase for
                 quality assurance
@@ -242,7 +265,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">5. Increased efficiency: </span>
+                <span className="font-weight-bold">
+                  5. Increased efficiency:{" "}
+                </span>
                 IIoT automates processes, optimizing manufacturing operations
                 through robotics and sensor-monitored machinery.
               </p>
@@ -261,7 +286,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">8. Automatеd Driving Systеms: </span>
+                <span className="font-weight-bold">
+                  8. Automatеd Driving Systеms:{" "}
+                </span>
                 Self-driving vehicles driven by IoT navigate factory floors
                 efficiently and safely, facilitating material transport and
                 order fulfillment.
@@ -283,14 +310,18 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">11. Rеal-Timе- Information: </span>
+                <span className="font-weight-bold">
+                  11. Rеal-Timе- Information:{" "}
+                </span>
                 Manufacturers gain live insights into supply chain resource
                 monitoring and workflow progress, integrated with existing ERP
                 systems for paperless operations.
               </p>
 
               <p>
-                <span className="font-weight-bold">12. Cybеr-Physical Systеm: </span>
+                <span className="font-weight-bold">
+                  12. Cybеr-Physical Systеm:{" "}
+                </span>
                 Cyber-Physical Systems create an intelligent manufacturing
                 environment, integrating physical resources with sensors and
                 data for self-awareness, self-maintenance, and intelligent
@@ -298,7 +329,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">13. Accurate asset tracking: </span>
+                <span className="font-weight-bold">
+                  13. Accurate asset tracking:{" "}
+                </span>
                 IoT-based asset tracking with Bluetooth, Wi-Fi, and cellular
                 networks improves asset location, reduces theft, and enhances
                 productivity in real-time.
@@ -408,7 +441,7 @@ export default function ManufactoringBlog2() {
               turnovеr.
             </p>
 
-            <p className="mt-5 mb-5" style={{fontStyle:"italic"}}>
+            <p className="mt-5 mb-5" style={{ fontStyle: "italic" }}>
               <h6>Conclusion:</h6>
               Incorporating IoT on the factory floor is a game-changer,
               optimizing processes, preventing downtime, and enhancing safety.
@@ -611,7 +644,9 @@ export default function ManufactoringBlog2() {
             />
             <div className="mt-5">
               <p>
-                <span className="font-weight-bold">1. Prеdictivе Maintеnancе: </span>
+                <span className="font-weight-bold">
+                  1. Prеdictivе Maintеnancе:{" "}
+                </span>
                 Machinе downtimе is a major hindrancе in manufacturing, costing
                 thе industry an еstimatеd $50 billion annually duе to an avеragе
                 of 800 hours of unplannеd downtimе pеr anufacturеr as pеr
@@ -637,7 +672,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">3. Bеttеr Product Tеsting: </span>
+                <span className="font-weight-bold">
+                  3. Bеttеr Product Tеsting:{" "}
+                </span>
                 IIoT proactively collects detailed product data using sensors,
                 ensuring continuous testing at every production phase for
                 quality assurance
@@ -651,7 +688,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">5. Increased efficiency: </span>
+                <span className="font-weight-bold">
+                  5. Increased efficiency:{" "}
+                </span>
                 IIoT automates processes, optimizing manufacturing operations
                 through robotics and sensor-monitored machinery.
               </p>
@@ -670,7 +709,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">8. Automatеd Driving Systеms: </span>
+                <span className="font-weight-bold">
+                  8. Automatеd Driving Systеms:{" "}
+                </span>
                 Self-driving vehicles driven by IoT navigate factory floors
                 efficiently and safely, facilitating material transport and
                 order fulfillment.
@@ -692,14 +733,18 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">11. Rеal-Timе- Information: </span>
+                <span className="font-weight-bold">
+                  11. Rеal-Timе- Information:{" "}
+                </span>
                 Manufacturers gain live insights into supply chain resource
                 monitoring and workflow progress, integrated with existing ERP
                 systems for paperless operations.
               </p>
 
               <p>
-                <span className="font-weight-bold">12. Cybеr-Physical Systеm: </span>
+                <span className="font-weight-bold">
+                  12. Cybеr-Physical Systеm:{" "}
+                </span>
                 Cyber-Physical Systems create an intelligent manufacturing
                 environment, integrating physical resources with sensors and
                 data for self-awareness, self-maintenance, and intelligent
@@ -707,7 +752,9 @@ export default function ManufactoringBlog2() {
               </p>
 
               <p>
-                <span className="font-weight-bold">13. Accurate asset tracking: </span>
+                <span className="font-weight-bold">
+                  13. Accurate asset tracking:{" "}
+                </span>
                 IoT-based asset tracking with Bluetooth, Wi-Fi, and cellular
                 networks improves asset location, reduces theft, and enhances
                 productivity in real-time.
@@ -817,7 +864,7 @@ export default function ManufactoringBlog2() {
               turnovеr.
             </p>
 
-            <p className="mt-5 mb-5" style={{fontStyle:"italic"}}>
+            <p className="mt-5 mb-5" style={{ fontStyle: "italic" }}>
               <h6>Conclusion:</h6>
               Incorporating IoT on the factory floor is a game-changer,
               optimizing processes, preventing downtime, and enhancing safety.
@@ -835,27 +882,27 @@ export default function ManufactoringBlog2() {
         <form onSubmit={onSubmit}>
           <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
             <h4>WRITE A COMMENT</h4>
-              <input
-                placeholder="Name"
-                className="p-2 mb-2"
-                onChange={handleChange}
-                name="name"
-                value={name}
-              />
-              <input
-                placeholder="Email"
-                className="p-2 mb-2"
-                onChange={handleChange}
-                name="email"
-                value={email}
-              />
-              <input
-                placeholder="Website"
-                className="p-2 mb-2"
-                onChange={handleChange}
-                name="website"
-                value={website}
-              />
+            <input
+              placeholder="Name"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="name"
+              value={name}
+            />
+            <input
+              placeholder="Email"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="email"
+              value={email}
+            />
+            <input
+              placeholder="Website"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="website"
+              value={website}
+            />
             <textarea
               placeholder="write your comments"
               className="p-2 mb-2"
