@@ -21,8 +21,8 @@ export default function BlogPage() {
     location.state?.RetailFlag ? location.state?.RetailFlag : false
   );
   const [addClass, setAddClass] = React.useState(location.state?.active ? location.state?.active : "");
-  const [addClass2, setAddClass2] = React.useState("");
-  const [addClass3, setAddClass3] = React.useState("");
+  const [addClass2, setAddClass2] = React.useState(location.state?.activePharma ? location.state?.activePharma : "");
+  const [addClass3, setAddClass3] = React.useState(location.state?.activeRetail ? location.state?.activeRetail : "");
 
   const ManuFactoring = () => {
     setPharmaFlag(false);
