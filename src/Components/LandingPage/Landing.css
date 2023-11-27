@@ -6,7 +6,14 @@
   .blogimg2 {
     padding: 5%;
   }
-
+  .blogimg60per {
+    max-width: 60%;
+    object-fit: cover;
+  }
+  .blogimg50per {
+    max-width: 50%;
+    object-fit: cover;
+  }
   .img-left {
     max-width: 100%;
     border-radius: 33px !important;
@@ -1327,7 +1334,14 @@
   .blogimg2 {
     padding: 5%;
   }
-
+  .blogimg60per {
+    max-width: 50%;
+    object-fit: cover;
+  }
+  .blogimg50per {
+    max-width: 40%;
+    object-fit: cover;
+  }
   .img-left {
     max-width: 100%;
     border-radius: 33px !important;
@@ -2631,7 +2645,14 @@
   .blogimg2 {
     padding: 5%;
   }
-
+  .blogimg60per {
+    max-width: 40%;
+    object-fit: cover;
+  }
+  .blogimg50per {
+    max-width: 50%;
+    object-fit: cover;
+  }
   .img-left {
     max-width: 100%;
     border-radius: 33px !important;

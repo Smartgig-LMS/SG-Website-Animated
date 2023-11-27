@@ -164,7 +164,7 @@ export default function PharmaBlog1() {
               </div>
               <img
                 src="./Images/gobeyond/Quality Management System 1 1.svg"
-                className="blogimg p-2"
+                className="blogimg60per p-2"
               />
             </div>
 
@@ -411,7 +411,7 @@ export default function PharmaBlog1() {
           </div>
           <img
             src="./Images/gobeyond/Components of 1 1.svg"
-            className="blogimg p-5"
+            className="blogimg50per p-5"
           />
         </div>
 
