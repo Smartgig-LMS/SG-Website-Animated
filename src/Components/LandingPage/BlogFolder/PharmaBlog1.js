@@ -330,8 +330,8 @@ export default function PharmaBlog1() {
           </div>
         </div>
 
-        <div className="d-flex justify-content-center align-items-center">
-          <div className="pl-5 pr-5 w-50">
+        <div className="d-flex justify-content-center align-items-top p-5">
+          <div className="pl-5 pr-5 pt-5 w-50">
             <div
               style={{ fontStyle: "italic", color: "#F38313" }}
             >
