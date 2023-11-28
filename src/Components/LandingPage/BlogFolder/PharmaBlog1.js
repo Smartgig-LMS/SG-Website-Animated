@@ -722,7 +722,7 @@ export default function PharmaBlog1() {
         </div>
 
         <div className="col-12">
-          <h5 className="flex mt-4 mb-2" style={{ fontStyle: "italic" }}>
+          <h5 className="flex mt-4 mb-2" style={{ fontStyle: "italic",color:"#F38313" }}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
