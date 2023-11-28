@@ -7,7 +7,7 @@
     padding: 5%;
   }
   .blogimg60per {
-    max-width: 60%;
+    max-width: 50%;
     object-fit: cover;
   }
   .blogimg50per {
@@ -1339,7 +1339,7 @@
     object-fit: cover;
   }
   .blogimg50per {
-    max-width: 40%;
+    max-width: 45%;
     object-fit: cover;
   }
   .img-left {
@@ -2646,7 +2646,7 @@
     padding: 5%;
   }
   .blogimg60per {
-    max-width: 40%;
+    max-width: 50%;
     object-fit: cover;
   }
   .blogimg50per {

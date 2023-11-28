@@ -142,15 +142,15 @@ export default function PharmaBlog1() {
               <br />
             </p>
             <h6>Understanding GxP solutions:</h6>
-            <div className="p-5">
+            <div className="pl-5 pr-5">
               <img
                 src="./Images/gobeyond/Understanding GxP solutions 1 1.svg"
                 className="blogimg p-2"
               />
             </div>
-            <div className="d-flex justify-content-center align-items-center">
-              <div className="p-5">
-                <p>
+            <div className="d-flex justify-content-center align-items-center p-5">
+              <div className="pl-5 pr-5">
+                <p className="pl-5">
                   Need in the Pharmaceutical sector: Good practices are a set of
                   guidelines that are important to maintain the integrity of
                   data, the safety of products, and the trust of regulatory
@@ -164,7 +164,7 @@ export default function PharmaBlog1() {
               </div>
               <img
                 src="./Images/gobeyond/Quality Management System 1 1.svg"
-                className="blogimg60per p-2"
+                className="blogimg60per pr-5"
               />
             </div>
 
@@ -331,20 +331,15 @@ export default function PharmaBlog1() {
         </div>
 
         <div className="d-flex justify-content-center align-items-center">
-          <div className="p-5">
-            <h5 className="flex mt-5 mb-5" style={{ fontStyle: "italic",color:"#F38313" }}>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="25"
-                height="25"
-                fill="#F38313"
-                class="bi bi-quote"
-                viewBox="0 0 16 16"
-              >
-                <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
-              </svg>
-              How to Choose the right GxP solutions if you are a Pharma Company
-            </h5>
+          <div className="p-5 w-50">
+            <div
+              style={{ fontStyle: "italic", color: "#F38313" }}
+            >
+              <h4>
+                " How to Choose the right GxP solutions if you are a Pharma
+                Company "
+              </h4>
+            </div>
             <p>
               <h6 className="mt-4">
                 1. Asses the current needs and challenges:
@@ -415,7 +410,7 @@ export default function PharmaBlog1() {
           />
         </div>
 
-        <div className="p-5">
+        <div className="pl-5 pr-5">
           <p>
             <h6 className="mt-4">
               Key takeaways and Impact of GxP on Pharma industry:
@@ -720,9 +715,11 @@ export default function PharmaBlog1() {
             </div>
           </div>
         </div>
-
         <div className="col-12">
-          <h5 className="flex mt-4 mb-2" style={{ fontStyle: "italic",color:"#F38313" }}>
+          <h5
+            className="flex mt-4 mb-2"
+            style={{ fontStyle: "italic", color: "#F38313" }}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -800,7 +797,6 @@ export default function PharmaBlog1() {
           src="./Images/gobeyond/Components of 1 1.svg"
           className="blogimg p-3"
         />
-
         <div className="col-12">
           <p>
             <h6 className="mt-4">
@@ -819,7 +815,6 @@ export default function PharmaBlog1() {
           </p>
         </div>
         <hr />
-
         <form onSubmit={onSubmit}>
           <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
             <h4>WRITE A COMMENT</h4>
@@ -868,7 +863,8 @@ export default function PharmaBlog1() {
         <div className="footerForMobile">
           <hr />
           Copyright © 2023 SmartGig. All Rights Reserved.
-        </div>      </div>
+        </div>{" "}
+      </div>
     </>
   );
 }
