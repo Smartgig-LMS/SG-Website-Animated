@@ -331,7 +331,7 @@ export default function PharmaBlog1() {
         </div>
 
         <div className="d-flex justify-content-center align-items-center">
-          <div className="p-5 w-50">
+          <div className="pl-5 pr-5 w-50">
             <div
               style={{ fontStyle: "italic", color: "#F38313" }}
             >
@@ -406,15 +406,15 @@ export default function PharmaBlog1() {
           </div>
           <img
             src="./Images/gobeyond/Components of 1 1.svg"
-            className="blogimg50per p-5"
+            className="blogimg50per pr-5"
           />
         </div>
 
-        <div className="pl-5 pr-5">
+        <div className="p-5">
           <p>
-            <h6 className="mt-4">
-              Key takeaways and Impact of GxP on Pharma industry:
-            </h6>
+            <span className="font-weight-bold">
+              Key takeaways and Impact of GxP on Pharma industry:{" "}
+            </span>
             GxP solutions are the smarter way to uphold the safety and quality
             standards in the Pharma industry. They are critical for compliance
             standards and maintaining data integrity; they assure quality and
