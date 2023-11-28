@@ -149,8 +149,8 @@ export default function PharmaBlog1() {
               />
             </div>
             <div className="d-flex justify-content-center align-items-center pl-5 pr-5">
-              <div className="pl-5 pr-5">
-                <p className="pl-5">
+              <div className="col-lg-4">
+                <p className="pl-5 pr-5">
                   Need in the Pharmaceutical sector: Good practices are a set of
                   guidelines that are important to maintain the integrity of
                   data, the safety of products, and the trust of regulatory
