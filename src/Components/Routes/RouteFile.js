@@ -12,6 +12,8 @@ import ManufactoringBlog1 from '../LandingPage/BlogFolder/ManufactoringBlog1';
 import ManufactoringBlog2 from '../LandingPage/BlogFolder/ManufactoringBlog2';
 import PharmaBlog1 from '../LandingPage/BlogFolder/PharmaBlog1';
 import PharmaBlog2 from '../LandingPage/BlogFolder/PharmaBlog2';
+import RetailBlog1 from '../LandingPage/BlogFolder/RetailBlog1';
+import RetailBlog2 from '../LandingPage/BlogFolder/RetailBlog2';
 
 export default function RouteFile() {
     return (
@@ -27,6 +29,8 @@ export default function RouteFile() {
                 <Route path='manufactoringblog2' element={<ManufactoringBlog2 />} ></Route>
                 <Route path='pharmablog1' element={<PharmaBlog1 />} ></Route>
                 <Route path='pharmablog2' element={<PharmaBlog2 />} ></Route>
+                <Route path='retailblog1' element={<RetailBlog1 />} ></Route>
+                <Route path='retailblog2' element={<RetailBlog2 />} ></Route>
             </Route>
         </Routes >
     )

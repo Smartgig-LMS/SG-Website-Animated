@@ -66,7 +66,7 @@ export default function BlogPharma() {
       </div>
       <div className="d-flex pl-5 pr-5 pb-5" style={{cursor:"pointer",gap:"5%"}}>
         <div className="BlogCard" onClick={topharma1}>
-          <img src="./Images/gobeyond/Group 427321989.svg" />
+          <img src="./Images/gobeyond/Group 427322023.svg" />
         </div>
         <div className="BlogCard" onClick={topharma2}>
           <img src="./Images/gobeyond/Group 427321989.svg" />
@@ -108,7 +108,7 @@ export default function BlogPharma() {
       </div>
       <div className="d-flex pl-2 pr-2" style={{gap:"5%"}}>
         <div className="BlogCard" onClick={topharma1}>
-          <img src="./Images/gobeyond/Group 427321989.svg" />
+          <img src="./Images/gobeyond/Group 427322023.svg" />
         </div>
         <div className="BlogCard" onClick={topharma2}>
           <img src="./Images/gobeyond/Group 427321989.svg" />

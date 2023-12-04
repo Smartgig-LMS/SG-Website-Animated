@@ -148,7 +148,7 @@ export default function PharmaBlog1() {
                 className="blogimg p-2"
               />
             </div>
-            <div className="d-flex justify-content-center align-items-center pl-5 pr-5">
+            <div className="d-flex justify-content-center align-items-center">
               <div className="col-lg-4">
                 <p className="pl-5 pr-5">
                   Need in the Pharmaceutical sector: Good practices are a set of
