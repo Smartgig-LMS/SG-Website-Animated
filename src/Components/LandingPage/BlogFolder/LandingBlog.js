@@ -77,21 +77,21 @@ export default function BlogPage() {
         <div className="BlogCard" onClick={ManuFactoring}>
           <img
             className={`ManuFactoringCard${addClass}`}
-            src="./Images/gobeyond/Group 427321948.svg"
+            src="./Images/gobeyond/Group 427322028.svg"
           />
         </div>
 
         <div className="BlogCard" onClick={Pharma}>
           <img
             className={`ManuFactoringCard${addClass2}`}
-            src="./Images/gobeyond/Group 427321949.svg"
+            src="./Images/gobeyond/Group 427322006.svg"
           />
         </div>
 
         <div className="BlogCard" onClick={Retail}>
           <img
             className={`ManuFactoringCard${addClass3}`}
-            src="./Images/gobeyond/Group 427321950.svg"
+            src="./Images/gobeyond/Group 427322026.svg"
           />
         </div>
       </div>
