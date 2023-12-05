@@ -141,7 +141,6 @@ export default function RetailBlog1() {
               intelligent and secure QR codes powered by AI, but first we will
               see what actually a QR code is?
               <br />
-              <br />
             </p>
             <h6>What is a QR Code?</h6>
             <p>
@@ -177,7 +176,7 @@ export default function RetailBlog1() {
               tracking inventory in businesses. This versatility has made QR
               codes an indispensable tool in today's digital world.
             </p>
-            <div className="d-flex justify-content-around align-items-center p-5">
+            <div className="d-flex justify-content-around align-items-center pl-5 pr-5 pt-3 pb-3">
               <div className="col-lg-4">
                 <h6> How AI is Making QR Codes Smarter</h6>
                 <p>
@@ -203,7 +202,7 @@ export default function RetailBlog1() {
               />
             </div>
 
-            <div className="d-flex justify-content-evenly align-items-center p-2">
+            <div className="d-flex justify-content-evenly align-items-center">
               <div className="col-lg-6">
                 <h6> Enhanced Security: Fortifying QR Codes</h6>
                 <p>
@@ -227,52 +226,58 @@ export default function RetailBlog1() {
         </div>
 
         <div
-          className="pl-5 pr-5 pt-5"
+          className="pl-5 pr-5 pt-3"
           style={{ fontStyle: "italic", color: "#F38313" }}
         >
-          <h4>" The Future of Intelligent QR Codes "</h4>
+          <h4>"The Future of Intelligent QR Codes"</h4>
         </div>
         <p className="pl-5 pr-5">
           As we stand at the intersection of AI and QR codes, the future looks
           incredibly promising. Let’s have a detailed look. 
         </p>
-        <div className="d-flex justify-content-center align-items-top p-5">
+        <div className="d-flex justify-content-center align-items-center pl-5 pr-5 pb-5">
           <div className="p-3">
             <p>
-              <h6 className="mt-4">Dynamic Companions: </h6>
+              <span style={{ fontWeight: "bold" }}>Dynamic Companions: </span>
               Envision a world where QR codes go beyond static gateways,
               becoming dynamic companions attuned to your needs and preferences.
             </p>
 
             <p>
-              <h6 className="mt-4">Daily Enhancement: </h6>
+              <span style={{ fontWeight: "bold" }}>Daily Enhancement: </span>
               Imagine your daily routine transformed, with QR codes not just
               providing information but understanding your preferences.
             </p>
             <p>
-              <h6 className="mt-4">Personalized Experience: </h6>
+              <span style={{ fontWeight: "bold" }}>
+                Personalized Experience:{" "}
+              </span>
               AI advancements ensure more than just tailored suggestions; QR
               codes become like digital assistants, offering exclusive deals
               personalized just for you.
             </p>
             <p>
-              <h6 className="mt-4"> Seamless Integration: </h6>
+              <span style={{ fontWeight: "bold" }}>Seamless Integration: </span>
               Ongoing advancements in AI promise a seamless integration of
               intelligent QR codes into our daily routines.
             </p>
             <p>
-              <h6 className="mt-4">Blurring Realms: </h6>
+              <span style={{ fontWeight: "bold" }}>Blurring Realms: </span>
               Boundaries between the physical and digital blur as QR codes
               anticipate your needs, creating a symbiotic relationship between
               technology and human experience.
             </p>
             <p>
-              <h6 className="mt-4">Efficiency and Enhancement: </h6>
+              <span style={{ fontWeight: "bold" }}>
+                Efficiency and Enhancement:{" "}
+              </span>
               It's not just about efficiency; it's about enhancing our lives in
               ways we've only dreamed of.
             </p>
             <p>
-              <h6 className="mt-4">Limitless Possibilities: </h6>
+              <span style={{ fontWeight: "bold" }}>
+                Limitless Possibilities:{" "}
+              </span>
               Brace yourself for a future where QR codes are intuitive
               companions, simplifying and enhancing our daily lives. The
               adventure is just beginning, and the possibilities are limitless.
@@ -286,7 +291,7 @@ export default function RetailBlog1() {
             className="blogimg50per pr-5"
           />
         </div>
-        <p className="pl-5 pr-5 pb-4" style={{ fontStyle: "italic" }}>
+        <p className="pl-5 pr-5 pb-4">
           You can imagine a world where QR codes not only provide information
           but also anticipate your needs and preferences. With ongoing
           advancements in AI, we can expect even more seamless integration of
@@ -310,7 +315,7 @@ export default function RetailBlog1() {
             reaching over 100 million users in the U.S. by 2025.” Which means,
             contactless payments are on the rise.
           </p>
-          <p style={{ fontStyle: "italic", fontWeight: "bold" }}>
+          <p style={{ fontWeight: "bold" }}>
             AI-powered QR codes facilitate secure and seamless contactless
             payments. Just a quick scan, and your transaction is complete
             without the need for physical cards or cash.
@@ -319,33 +324,33 @@ export default function RetailBlog1() {
 
         <div className="pl-5 pr-5">
           <p>
-            <h6 className="mt-4"> Smart Marketing: </h6>
+            <span style={{ fontWeight: "bold" }}>Smart Marketing: </span>
             Businesses can create interactive and engaging marketing campaigns
             using intelligent QR codes. From scavenger hunts to exclusive
             content access, the possibilities are endless.
           </p>
           <p>
-            <h6 className="mt-4"> Retail: </h6>
+            <span style={{ fontWeight: "bold" }}>Retail: </span>
             Retailers are increasingly using AI-powered QR codes for inventory
             management and improved customer experiences. They provide customers
             with product information, reviews, and even the option to purchase
             directly from their smartphones.
           </p>
           <p>
-            <h6 className="mt-4"> Tourism: </h6>
+            <span style={{ fontWeight: "bold" }}>Tourism: </span>
             Tourist destinations are leveraging AI-enhanced QR codes to provide
             tourists with information about historical sites, local attractions,
             and cultural insights. Forbes in this article has explained how you
             can boost your connections using AI QR Codes.
           </p>
           <p>
-            <h6 className="mt-4"> Healthcare: </h6>
+            <span style={{ fontWeight: "bold" }}>Healthcare: </span>
             In the era of digital health, QR codes play a crucial role in
             accessing medical records, vaccination information, and appointment
             details securely.
           </p>
           <p>
-            <h6 className="mt-4">Education: </h6>
+            <span style={{ fontWeight: "bold" }}>Education: </span>
             AI QR codes enhance the learning experience by providing instant
             access to supplementary materials, interactive quizzes, and video
             tutorials.
@@ -354,7 +359,7 @@ export default function RetailBlog1() {
 
         <div className="pl-5 pr-5">
           <p>
-            <p style={{ fontWeight: "bold" }}>Conclusion:</p>
+            <span style={{ fontWeight: "bold" }}>Conclusion: </span>
             In conclusion, the marriage of artificial intelligence and QR codes
             has given birth to a new era of connectivity and convenience. From
             enhancing security to providing personalized experiences,
@@ -536,18 +541,17 @@ export default function RetailBlog1() {
                 src="./Images/gobeyond/WhatsApp Image 2023-11-27 at 12.17 5.svg"
                 className="retailimg30per"
               />
-                <h6 className="pt-4"> Enhanced Security: Fortifying QR Codes</h6>
-                <p>
-                  With the rise in QR code usage, concerns about security
-                  naturally follow. Here, enters the AI technology all over
-                  again, but this time to fortify the security of QR codes.
-                  Intelligent algorithms can detect and prevent malicious
-                  activities, ensuring that your QR code experience is not
-                  compromised by cyber threats. Further, this added layer of
-                  security is crucial, especially as QR codes are increasingly
-                  used for financial transactions and sensitive information
-                  sharing.
-                </p>
+              <h6 className="pt-4"> Enhanced Security: Fortifying QR Codes</h6>
+              <p>
+                With the rise in QR code usage, concerns about security
+                naturally follow. Here, enters the AI technology all over again,
+                but this time to fortify the security of QR codes. Intelligent
+                algorithms can detect and prevent malicious activities, ensuring
+                that your QR code experience is not compromised by cyber
+                threats. Further, this added layer of security is crucial,
+                especially as QR codes are increasingly used for financial
+                transactions and sensitive information sharing.
+              </p>
             </div>
           </div>
         </div>
@@ -611,79 +615,78 @@ export default function RetailBlog1() {
             className="blogimg50per p-3"
           />
         </div>
-        
         <div className="col-12">
-        <h4 className="pt-3">
-          Practical Applications: Where Intelligence Meets Convenience
-        </h4>
-        <div>
-          <p>
-            Let's explore how intelligent and secure QR codes are making a
-            tangible impact on our daily lives:
-          </p>
-          <p>
-            Contactless Payments: According to Statista, “In 2022, approximately
-            89 million smartphone users in the United States scanned a QR code
-            on their mobile devices, up by 26 percent compared to 2020. Usage of
-            mobile QR code scanners is projected to experience constant growth,
-            reaching over 100 million users in the U.S. by 2025.” Which means,
-            contactless payments are on the rise.
-          </p>
-          <p style={{ fontStyle: "italic", fontWeight: "bold" }}>
-            AI-powered QR codes facilitate secure and seamless contactless
-            payments. Just a quick scan, and your transaction is complete
-            without the need for physical cards or cash.
-          </p>
-        </div>
-        <div>
-          <p>
-            <h6 className="mt-4"> Smart Marketing: </h6>
-            Businesses can create interactive and engaging marketing campaigns
-            using intelligent QR codes. From scavenger hunts to exclusive
-            content access, the possibilities are endless.
-          </p>
-          <p>
-            <h6 className="mt-4"> Retail: </h6>
-            Retailers are increasingly using AI-powered QR codes for inventory
-            management and improved customer experiences. They provide customers
-            with product information, reviews, and even the option to purchase
-            directly from their smartphones.
-          </p>
-          <p>
-            <h6 className="mt-4"> Tourism: </h6>
-            Tourist destinations are leveraging AI-enhanced QR codes to provide
-            tourists with information about historical sites, local attractions,
-            and cultural insights. Forbes in this article has explained how you
-            can boost your connections using AI QR Codes.
-          </p>
-          <p>
-            <h6 className="mt-4"> Healthcare: </h6>
-            In the era of digital health, QR codes play a crucial role in
-            accessing medical records, vaccination information, and appointment
-            details securely.
-          </p>
-          <p>
-            <h6 className="mt-4">Education: </h6>
-            AI QR codes enhance the learning experience by providing instant
-            access to supplementary materials, interactive quizzes, and video
-            tutorials.
-          </p>
-        </div>
-        <div>
-          <p>
-            <p style={{ fontWeight: "bold" }}>Conclusion:</p>
-            In conclusion, the marriage of artificial intelligence and QR codes
-            has given birth to a new era of connectivity and convenience. From
-            enhancing security to providing personalized experiences,
-            intelligent QR codes are redefining how we interact with the digital
-            world. So, the next time you scan a QR code, remember that it's not
-            just a static square; it's a gateway to a world where intelligence
-            and security converge to simplify and enrich our lives. So, now you
-            know and all set to step into the future of QR codes, that are
-            intelligent, secure, and ready to revolutionize the way we
-            experience the world around us.
-          </p>
-        </div>
+          <h4 className="pt-3">
+            Practical Applications: Where Intelligence Meets Convenience
+          </h4>
+          <div>
+            <p>
+              Let's explore how intelligent and secure QR codes are making a
+              tangible impact on our daily lives:
+            </p>
+            <p>
+              Contactless Payments: According to Statista, “In 2022,
+              approximately 89 million smartphone users in the United States
+              scanned a QR code on their mobile devices, up by 26 percent
+              compared to 2020. Usage of mobile QR code scanners is projected to
+              experience constant growth, reaching over 100 million users in the
+              U.S. by 2025.” Which means, contactless payments are on the rise.
+            </p>
+            <p style={{ fontStyle: "italic", fontWeight: "bold" }}>
+              AI-powered QR codes facilitate secure and seamless contactless
+              payments. Just a quick scan, and your transaction is complete
+              without the need for physical cards or cash.
+            </p>
+          </div>
+          <div>
+            <p>
+              <h6 className="mt-4"> Smart Marketing: </h6>
+              Businesses can create interactive and engaging marketing campaigns
+              using intelligent QR codes. From scavenger hunts to exclusive
+              content access, the possibilities are endless.
+            </p>
+            <p>
+              <h6 className="mt-4"> Retail: </h6>
+              Retailers are increasingly using AI-powered QR codes for inventory
+              management and improved customer experiences. They provide
+              customers with product information, reviews, and even the option
+              to purchase directly from their smartphones.
+            </p>
+            <p>
+              <h6 className="mt-4"> Tourism: </h6>
+              Tourist destinations are leveraging AI-enhanced QR codes to
+              provide tourists with information about historical sites, local
+              attractions, and cultural insights. Forbes in this article has
+              explained how you can boost your connections using AI QR Codes.
+            </p>
+            <p>
+              <h6 className="mt-4"> Healthcare: </h6>
+              In the era of digital health, QR codes play a crucial role in
+              accessing medical records, vaccination information, and
+              appointment details securely.
+            </p>
+            <p>
+              <h6 className="mt-4">Education: </h6>
+              AI QR codes enhance the learning experience by providing instant
+              access to supplementary materials, interactive quizzes, and video
+              tutorials.
+            </p>
+          </div>
+          <div>
+            <p>
+              <p style={{ fontWeight: "bold" }}>Conclusion:</p>
+              In conclusion, the marriage of artificial intelligence and QR
+              codes has given birth to a new era of connectivity and
+              convenience. From enhancing security to providing personalized
+              experiences, intelligent QR codes are redefining how we interact
+              with the digital world. So, the next time you scan a QR code,
+              remember that it's not just a static square; it's a gateway to a
+              world where intelligence and security converge to simplify and
+              enrich our lives. So, now you know and all set to step into the
+              future of QR codes, that are intelligent, secure, and ready to
+              revolutionize the way we experience the world around us.
+            </p>
+          </div>
         </div>
         <hr />
         <form onSubmit={onSubmit}>
