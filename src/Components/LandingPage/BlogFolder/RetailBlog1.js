@@ -203,7 +203,11 @@ export default function RetailBlog1() {
             </div>
 
             <div className="d-flex justify-content-evenly align-items-center">
-              <div className="col-lg-6">
+            <img
+                src="./Images/gobeyond/WhatsApp Image 2023-11-27 at 12.17 5 (1).svg"
+                className="retailimg30per"
+              />
+               <div className="col-lg-7">
                 <h6> Enhanced Security: Fortifying QR Codes</h6>
                 <p>
                   With the rise in QR code usage, concerns about security
@@ -217,16 +221,13 @@ export default function RetailBlog1() {
                   sharing.
                 </p>
               </div>
-              <img
-                src="./Images/gobeyond/WhatsAppBlog2Retail.svg"
-                className="retailimg30per pr-5"
-              />
+              
             </div>
           </div>
         </div>
 
         <div
-          className="pl-5 pr-5 pt-3"
+          className="pl-5 pr-5 pt-5"
           style={{ fontStyle: "italic", color: "#F38313" }}
         >
           <h4>"The Future of Intelligent QR Codes"</h4>
