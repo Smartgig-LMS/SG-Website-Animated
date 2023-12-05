@@ -10,7 +10,7 @@ export default function BlogReatil() {
   };
 
   const toRetail2 = () => {
-    navigate("/retailblog1");
+    navigate("/retailblog2");
   };
 
   const toRetail3 = () => {
@@ -67,7 +67,7 @@ export default function BlogReatil() {
           <img src="./Images/gobeyond/Group 427322024.svg" />
         </div>
         <div className="BlogCard" onClick={toRetail2}>
-          <img src="./Images/gobeyond/Group 427322024.svg" />
+          <img src="./Images/gobeyond/Group 427322037.svg" />
         </div>
         <div className="BlogCard" onClick={toRetail3}>
           <img src="./Images/gobeyond/Group 427322024.svg" />
@@ -109,7 +109,7 @@ export default function BlogReatil() {
           <img src="./Images/gobeyond/Group 427322024.svg" />
         </div>
         <div className="BlogCard" onClick={toRetail2}>
-          <img src="./Images/gobeyond/Group 427322024.svg" />
+          <img src="./Images/gobeyond/Group 427322037.svg" />
         </div>
         <div className="BlogCard" onClick={toRetail3}>
           <img src="./Images/gobeyond/Group 427322024.svg" />

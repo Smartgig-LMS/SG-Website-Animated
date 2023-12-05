@@ -18,6 +18,10 @@
     max-width: 60%;
     object-fit: cover;
   }
+  .retailimg100per{
+    max-width: 100%;
+    object-fit: cover;
+  }
   .retailimg30per{
     max-width: 30%;
     object-fit: cover;
@@ -313,6 +317,17 @@
     background-size: cover;
   }
   .RetailBlogHeadnigs h1 {
+    color: #fff;
+  }
+  .RetailBlogHeadnigs2 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322016.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .RetailBlogHeadnigs2 h1 {
     color: #fff;
   }
   .BlogHeadnigs {
@@ -1357,6 +1372,10 @@
     max-width: 53%;
     object-fit: cover;
   }
+  .retailimg100per{
+    max-width: 100%;
+    object-fit: cover;
+  }
   .retailimg30per{
     max-width: 30%;
     object-fit: cover;
@@ -1659,6 +1678,17 @@
     background-size: cover;
   }
   .RetailBlogHeadnigs h1 {
+    color: #fff;
+  }
+  .RetailBlogHeadnigs2 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322016.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .RetailBlogHeadnigs2 h1 {
     color: #fff;
   }
   .BlogHeadnigs {
@@ -2695,6 +2725,10 @@
     max-width: 50%;
     object-fit: cover;
   }
+  .retailimg100per{
+    max-width: 100%;
+    object-fit: cover;
+  }
   .retailimg30per{
     max-width: 30%;
     object-fit: cover;
@@ -2990,6 +3024,17 @@
     background-size: cover;
   }
   .RetailBlogHeadnigs h1 {
+    color: #fff;
+  }
+  .RetailBlogHeadnigs2 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322016.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .RetailBlogHeadnigs2 h1 {
     color: #fff;
   }
   .BlogHeadnigs {
@@ -4217,6 +4262,17 @@
   .RetailBlogHeadnigs h1 {
     color: #fff;
   }
+  .RetailBlogHeadnigs2 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322016.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .RetailBlogHeadnigs2 h1 {
+    color: #fff;
+  }
   .BlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427321889.svg");
     padding-top: 15%;
@@ -4792,6 +4848,17 @@
     background-size: cover;
   }
   .RetailBlogHeadnigs h1 {
+    color: #fff;
+  }
+  .RetailBlogHeadnigs2 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322016.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .RetailBlogHeadnigs2 h1 {
     color: #fff;
   }
   .BlogHeadnigs {
@@ -5370,6 +5437,17 @@
     background-size: cover;
   }
   .RetailBlogHeadnigs h1 {
+    color: #fff;
+  }
+  .RetailBlogHeadnigs2 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322016.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .RetailBlogHeadnigs2 h1 {
     color: #fff;
   }
   .BlogHeadnigs {
