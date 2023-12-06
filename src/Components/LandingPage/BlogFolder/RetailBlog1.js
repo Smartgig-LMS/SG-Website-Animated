@@ -176,7 +176,7 @@ export default function RetailBlog1() {
               tracking inventory in businesses. This versatility has made QR
               codes an indispensable tool in today's digital world.
             </p>
-            <div className="d-flex justify-content-around align-items-center pl-5 pr-5 pt-3 pb-3">
+            {/* <div className="d-flex justify-content-around align-items-center pl-5 pr-5 pt-3 pb-3">
               <div className="col-lg-4">
                 <h6> How AI is Making QR Codes Smarter</h6>
                 <p>
@@ -222,7 +222,66 @@ export default function RetailBlog1() {
                 </p>
               </div>
               
+            </div> */}
+
+            <div className="d-flex justify-content-around align-items-top pt-5">
+              <div className="col-lg-6">
+                <img
+                  src="./Images/gobeyond/WhatsApp Image 2023-11-27 at 12.17 3.svg"
+                  className="retailimg100per pr-5"
+                />
+                <h6 className="mt-4"> How AI is Making QR Codes Smarter</h6>
+                <p>
+                  Now, the wait is over as, I will introduce you to the star of
+                  the show—Artificial Intelligence. AI has taken QR codes to a
+                  whole new level by making them intelligent. Instead of static
+                  information, AI-powered QR codes can dynamically adapt and
+                  provide personalized content. Imagine scanning a QR code and
+                  receiving customized recommendations based on your preferences
+                  or real-time updates on an event. AI-powered QR codes have the
+                  ability to gather and analyze data in real-time, allowing
+                  businesses to gain valuable insights into consumer behavior
+                  and preferences. This not only enhances the user experience
+                  but also enables businesses to tailor their marketing
+                  strategies and offerings accordingly. With AI, QR codes have
+                  become a powerful tool for personalized engagement and
+                  targeted marketing in today's digital landscape.
+                </p>
+              </div>
+
+            <div className="col-lg-5">
+              <img
+                src="./Images/gobeyond/WhatsApp Image 2023-11-27 at 12.17 5 (2).svg"
+                className="retailimg80per"
+                />
+              <h6 className="mt-4"> Enhanced Security: Fortifying QR Codes</h6>
+              <p>
+                With the rise in QR code usage, concerns about security
+                naturally follow. Here, enters the AI technology all over again,
+                but this time to fortify the security of QR codes. Intelligent
+                algorithms can detect and prevent malicious activities, ensuring
+                that your QR code experience is not compromised by cyber
+                threats. Further, this added layer of security is crucial,
+                especially as QR codes are increasingly used for financial
+                transactions and sensitive information sharing.
+              </p>
             </div>
+            </div>
+
+            {/* <div className="d-flex justify-content-center align-items-center">
+            <img
+              src="./Images/gobeyond/Group 427322040.svg"
+              className="retailimg80per"
+            />
+             <img
+              src="./Images/gobeyond/Group 427322039.svg"
+              className="retailimg100per"
+            />
+             <img
+              src="./Images/gobeyond/Group 427322038.svg"
+              className="retailimg100per"
+            />
+              </div> */}
           </div>
         </div>
 

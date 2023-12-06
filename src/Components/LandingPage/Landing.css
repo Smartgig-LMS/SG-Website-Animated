@@ -26,6 +26,10 @@
     max-width: 30%;
     object-fit: cover;
   }
+  .retailimg80per{
+    max-width: 82%;
+    object-fit: cover;
+  }
   .img-left {
     max-width: 100%;
     border-radius: 33px !important;
@@ -1380,6 +1384,10 @@
     max-width: 25%;
     object-fit: cover;
   }
+  .retailimg80per{
+    max-width: 82%;
+    object-fit: cover;
+  }
   .blogimg50per {
     max-width: 45%;
     object-fit: cover;
@@ -2731,6 +2739,10 @@
   }
   .retailimg30per{
     max-width: 30%;
+    object-fit: cover;
+  }
+  .retailimg80per{
+    max-width: 82%;
     object-fit: cover;
   }
   .img-left {
