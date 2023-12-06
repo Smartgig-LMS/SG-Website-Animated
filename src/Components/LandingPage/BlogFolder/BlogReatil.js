@@ -86,7 +86,7 @@ export default function BlogReatil() {
       >
         <img
           className="mb-2"
-          src="./Images/gobeyond/Group 427321143.svg"
+          src="./Images/gobeyond/Group 4273211216353.svg"
           style={{
             height: "45px",
             width: "215px",
