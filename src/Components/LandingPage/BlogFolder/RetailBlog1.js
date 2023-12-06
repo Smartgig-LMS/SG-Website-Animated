@@ -177,7 +177,7 @@ export default function RetailBlog1() {
               codes an indispensable tool in today's digital world.
             </p>
 
-            <div className="d-flex justify-content-around align-items-top pt-5">
+            <div className="d-flex justify-content-around align-items-top pt-4">
               <div className="col-lg-6">
                 <img
                   src="./Images/gobeyond/WhatsApp Image 2023-11-27 at 12.17 3.svg"
@@ -204,8 +204,8 @@ export default function RetailBlog1() {
 
               <div className="col-lg-5">
                 <img
-                  src="./Images/gobeyond/WhatsApp Image 2023-11-27 at 12.17 5 (2).svg"
-                  className="retailimg80per"
+                  src="./Images/gobeyond/WhatsApp Image 2023-11-27 at 12.17 5 (3).svg"
+                  className="retailimg100per"
                 />
                 <h6 className="mt-4">
                   {" "}
