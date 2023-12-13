@@ -69,7 +69,7 @@ export default function BlogPharma() {
           <img src="./Images/gobeyond/Group 427322023.svg" />
         </div>
         <div className="BlogCard" onClick={topharma2}>
-          <img src="./Images/gobeyond/Group 427321989.svg" />
+          <img src="./Images/gobeyond/Group 427322066.svg" />
         </div>
         <div className="BlogCard" onClick={topharma3}>
           <img src="./Images/gobeyond/Group 427321989.svg" />
@@ -111,7 +111,7 @@ export default function BlogPharma() {
           <img src="./Images/gobeyond/Group 427322023.svg" />
         </div>
         <div className="BlogCard" onClick={topharma2}>
-          <img src="./Images/gobeyond/Group 427321989.svg" />
+          <img src="./Images/gobeyond/Group 427322066.svg" />
         </div>
         <div className="BlogCard" onClick={topharma3}>
           <img src="./Images/gobeyond/Group 427321989.svg" />
