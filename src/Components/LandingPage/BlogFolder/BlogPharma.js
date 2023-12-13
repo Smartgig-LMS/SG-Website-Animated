@@ -11,12 +11,10 @@ export default function BlogPharma() {
 
   const topharma2 = () => {
     navigate("/pharmablog2");
-    // navigate("/pharmablog2");
   };
 
   const topharma3 = () => {
     navigate("/pharmablog1");
-    // navigate("/pharmablog3");
   };
 
   return (
