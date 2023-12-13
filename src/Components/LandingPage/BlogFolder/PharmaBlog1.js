@@ -81,7 +81,7 @@ export default function PharmaBlog1() {
   return (
     <>
       <div className="PharmaBlogHeadnigs">
-        <h1>Pharma</h1>
+        <h1>Pharmaceutical</h1>
       </div>
       <div
         style={{
@@ -114,7 +114,7 @@ export default function PharmaBlog1() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/Group 427321121 (1).svg"
             style={{
               height: "52px",
               width: "245px",
@@ -503,7 +503,7 @@ export default function PharmaBlog1() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/Group 427321121 (1).svg"
             style={{
               height: "52px",
               width: "245px",

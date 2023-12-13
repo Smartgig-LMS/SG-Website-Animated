@@ -10,7 +10,7 @@ export default function BlogPharma() {
   };
 
   const topharma2 = () => {
-    navigate("/pharmablog1");
+    navigate("/pharmablog2");
     // navigate("/pharmablog2");
   };
 
