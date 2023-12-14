@@ -110,7 +110,7 @@ export default function BlogManuFactoring() {
           <div className="BlogCard" onClick={toManuFactoring2}>
             <img src="./Images/gobeyond/Group card 2 (1).svg" />
           </div>
-          <div className="BlogCard" onClick={toManuFactoring1}>
+          <div className="BlogCard" onClick={toManuFactoring3}>
             <img src="./Images/gobeyond/Group card 3 (2).svg" />
           </div>
         </div>

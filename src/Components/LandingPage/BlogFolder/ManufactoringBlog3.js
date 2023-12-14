@@ -86,7 +86,7 @@ export default function ManufactoringBlog3() {
 
   return (
     <>
-      <div className="ManuBlogHeadnigs">
+      <div className="ManuBlogHeadnigs3">
         <h1>Manufacturing</h1>
       </div>
       <div
