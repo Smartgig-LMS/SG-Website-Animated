@@ -12,6 +12,10 @@ export default function BlogManuFactoring() {
     navigate("/manufactoringblog2");
   };
 
+  const toManuFactoring3 = () => {
+    navigate("/manufactoringblog3");
+  };
+
   return (
     <div>
       <div className="BlogPageWeb">
@@ -59,13 +63,13 @@ export default function BlogManuFactoring() {
         </div>
         <div className="d-flex pl-5 pr-5 pb-5" style={{cursor:"pointer",gap:"5%"}}>
           <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group card 1.svg" />
+            <img src="./Images/gobeyond/Group 427322023 (1).svg" />
           </div>
           <div className="BlogCard" onClick={toManuFactoring2}>
-            <img src="./Images/gobeyond/Group card2321.svg" />
+            <img src="./Images/gobeyond/Group card 2 (1).svg" />
           </div>
-          <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group card 3 (1).svg" />
+          <div className="BlogCard" onClick={toManuFactoring3}>
+            <img src="./Images/gobeyond/Group card 3 (2).svg" />
           </div>
         </div>
       </div>
@@ -101,13 +105,13 @@ export default function BlogManuFactoring() {
         </div>
         <div className="d-flex pl-2 pr-2" style={{gap:"5%"}}>
           <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group card 1.svg" />
+            <img src="./Images/gobeyond/Group 427322023 (1).svg" />
           </div>
           <div className="BlogCard" onClick={toManuFactoring2}>
-            <img src="./Images/gobeyond/Group card2321.svg" />
+            <img src="./Images/gobeyond/Group card 2 (1).svg" />
           </div>
           <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group card 1.svg" />
+            <img src="./Images/gobeyond/Group card 3 (2).svg" />
           </div>
         </div>
       </div>
