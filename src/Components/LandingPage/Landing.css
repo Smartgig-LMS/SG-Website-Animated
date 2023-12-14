@@ -5523,14 +5523,11 @@
     margin-bottom: 3%;
     padding: 5%;
   }
-  /* .TestingContainer {
-    margin-left: 2% !important;
-  } */
+ 
   .productpg {
     display: none;
   }
   .ManuBlogHeadnigs {
-    /* background-image: url("../../../public/Images/gobeyond/Background\ \(1\).png"); */
     background-image: url("../../../public/Images/gobeyond/Group 427321943.svg");
     padding-top: 15%;
     padding-bottom: 15%;
