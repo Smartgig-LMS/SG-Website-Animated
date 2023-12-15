@@ -144,8 +144,8 @@ export default function ManufactoringBlog3() {
                   system throughout its lifecycle. It dynamically updates in
                   real-time through continuous data feeds and machine learning
                   to help organization improve their decision-making.
-                <br/>
-                <br/>
+                  <br />
+                  <br />
                   From the statistics from the sources like McKinsey and Altair,
                   it's evident that the role of digital twins especially in the
                   manufacturing sector is undeniable. Considering its benefits,
@@ -158,7 +158,7 @@ export default function ManufactoringBlog3() {
               <img
                 src="./Images/gobeyond/Digital twins  (7) 1.svg"
                 className="p-2"
-                style={{objectFit:"cover", maxWidth:"60%"}}
+                style={{ objectFit: "cover", maxWidth: "60%" }}
               />
             </div>
             <img
@@ -598,10 +598,7 @@ export default function ManufactoringBlog3() {
               designers with real-time insights, accelerates prototyping cycles,
               and introduces proactive maintenance. From intricate designs to
               predictive interventions, Digital Twins revolutionize the product
-              lifecycle. Smartgig.tech leads this transformation, leveraging
-              Digital Twins to redefine manufacturing. Explore the future with
-              us—contact Smartgig.tech for innovative solutions aligning with
-              the dynamic needs of modern manufacturing.
+              lifecycle.
             </p>
           </div>
         </div>
@@ -717,8 +714,9 @@ export default function ManufactoringBlog3() {
               className="blogimg"
             />
 
-            <h6 style={{color:"#F38313"}} className="pt-4 pb-3">
-                "How Digital Twin is Transforming Product Design in Manufacturing Industry"
+            <h6 style={{ color: "#F38313" }} className="pt-4 pb-3">
+              "How Digital Twin is Transforming Product Design in Manufacturing
+              Industry"
             </h6>
 
             <img
@@ -1135,10 +1133,7 @@ export default function ManufactoringBlog3() {
               designers with real-time insights, accelerates prototyping cycles,
               and introduces proactive maintenance. From intricate designs to
               predictive interventions, Digital Twins revolutionize the product
-              lifecycle. Smartgig.tech leads this transformation, leveraging
-              Digital Twins to redefine manufacturing. Explore the future with
-              us—contact Smartgig.tech for innovative solutions aligning with
-              the dynamic needs of modern manufacturing.
+              lifecycle.
             </p>
           </div>
         </div>
