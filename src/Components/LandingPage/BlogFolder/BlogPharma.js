@@ -17,6 +17,10 @@ export default function BlogPharma() {
     navigate("/pharmablog3");
   };
 
+  const topharma4 = () => {
+    navigate("/pharmablog4");
+  };
+
   return (
     <div>
     <div className="BlogPageWeb">
@@ -72,6 +76,9 @@ export default function BlogPharma() {
         <div className="BlogCard" onClick={topharma3}>
         <img src="./Images/gobeyond/Group card 3 (3).svg" />
         </div>
+        <div className="BlogCard" onClick={topharma4}>
+        <img src="./Images/gobeyond/Group 427322187 (1).svg" />
+        </div>
       </div>
     </div>
 
@@ -113,6 +120,9 @@ export default function BlogPharma() {
         </div>
         <div className="BlogCard" onClick={topharma3}>
         <img src="./Images/gobeyond/Group card 3 (3).svg" />
+        </div>
+        <div className="BlogCard" onClick={topharma4}>
+        <img src="./Images/gobeyond/Group 427322187 (1).svg" />
         </div>
       </div>
     </div>
