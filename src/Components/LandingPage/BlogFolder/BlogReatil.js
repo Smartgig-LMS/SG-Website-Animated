@@ -16,6 +16,10 @@ export default function BlogReatil() {
     navigate("/retailblog3");
   };
 
+  const toRetail4 = () => {
+    navigate("/retailblog4");
+  };
+
   return (
     <div>
       <div className="BlogPageWeb">
@@ -74,6 +78,9 @@ export default function BlogReatil() {
           <div className="BlogCard" onClick={toRetail3}>
             <img src="./Images/gobeyond/Group 427322126.svg" />
           </div>
+          <div className="BlogCard" onClick={toRetail4}>
+            <img src="./Images/gobeyond/Group 427322189 (1).svg" />
+          </div>
         </div>
       </div>
 
@@ -115,6 +122,9 @@ export default function BlogReatil() {
           </div>
           <div className="BlogCard" onClick={toRetail3}>
             <img src="./Images/gobeyond/Group 427322126.svg" />
+          </div>
+          <div className="BlogCard" onClick={toRetail4}>
+            <img src="./Images/gobeyond/Group 427322189 (1).svg" />
           </div>
         </div>
       </div>
