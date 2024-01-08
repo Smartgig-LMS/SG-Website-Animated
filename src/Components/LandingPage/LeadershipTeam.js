@@ -98,7 +98,7 @@ export default function LeadershipTeam() {
                     </div>
                     <div className='col-lg-6'>
                         <div>
-                            <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
+                            <img src='./Images/gobeyond/Leadership-Team.svg' width="180" height="80" />
                         </div>
                         <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
                             Meet our Leadership Team
@@ -119,7 +119,7 @@ export default function LeadershipTeam() {
             <div className='LeadershipForMobile mt-4' >
                 <div className='col-lg-7'>
                     <div>
-                        <img src='./Images/gobeyond/Group 427321128.svg' width="180" height="80" />
+                        <img src='./Images/gobeyond/Leadership-Team.svg' width="180" height="80" />
                     </div>
                     <h1 style={{ color: "#5789DB", fontWeight: "700", width: "458", height: "124" }} className='mb-3'>
                         Leadership Team

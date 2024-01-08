@@ -114,7 +114,7 @@ export default function PharmaBlog4() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Group 427321121 (1).svg"
+            src="./Images/gobeyond/Pharmaceutical-Blog.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -749,7 +749,7 @@ export default function PharmaBlog4() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Group 427321121 (1).svg"
+            src="./Images/gobeyond/Pharmaceutical-Blog.svg"
             style={{
               height: "52px",
               width: "245px",

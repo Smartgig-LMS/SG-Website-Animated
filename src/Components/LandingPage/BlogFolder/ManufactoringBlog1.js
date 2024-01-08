@@ -123,7 +123,7 @@ export default function ManufactoringBlog1() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/blog-manufacturing.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -503,7 +503,7 @@ export default function ManufactoringBlog1() {
       {/* mobile screen ----------------------------------------------------------------*/}
       <div className="BlogPageMobile">
         <div
-          className="mb-3"
+          className="mb-3 mt-3"
           style={{
             display: "flex",
             alignItems: "center",
@@ -511,7 +511,7 @@ export default function ManufactoringBlog1() {
           }}
         >
           <img
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/blog-manufacturing.svg"
             style={{
               height: "42px",
               width: "215px",

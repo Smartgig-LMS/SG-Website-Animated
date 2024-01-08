@@ -15,7 +15,7 @@ const OurClients = () => {
         <div className="col-12 pt-5 vh-100 Clientpg">
           <div className="text-center">
             <img
-              src="./Images/gobeyond/OurClient.svg"
+              src="./Images/gobeyond/Our-Client-Icon.svg"
               width="150"
               height="50"
             />
@@ -109,7 +109,7 @@ const OurClients = () => {
         <div className="col-lg-7 pt-4 Clientpg">
           <div className="text-center">
             <img
-              src="./Images/gobeyond/OurClient.svg"
+              src="./Images/gobeyond/Our-Client-Icon.svg"
               width="150"
               height="50"
             />

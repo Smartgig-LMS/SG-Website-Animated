@@ -114,7 +114,7 @@ export default function PharmaBlog3() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Group 427321121 (1).svg"
+            src="./Images/gobeyond/Pharmaceutical-Blog.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -747,7 +747,7 @@ export default function PharmaBlog3() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Group 427321121 (1).svg"
+            src="./Images/gobeyond/Pharmaceutical-Blog.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -1287,7 +1287,6 @@ export default function PharmaBlog3() {
             devices in the drug discovery ecosystem.
           </p>
         </div>
-      </div>
       <hr />
       <form onSubmit={onSubmit}>
         <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
@@ -1338,6 +1337,7 @@ export default function PharmaBlog3() {
         <hr />
         Copyright © 2023 SmartGig. All Rights Reserved.
       </div>{" "}
+      </div>
     </>
   );
 }

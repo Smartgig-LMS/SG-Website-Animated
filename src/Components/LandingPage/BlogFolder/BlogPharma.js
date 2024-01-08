@@ -32,7 +32,7 @@ export default function BlogPharma() {
         }}
       >
         <img
-          src="./Images/gobeyond/Group 427321143.svg"
+          src="./Images/gobeyond/Pharma-Blog.svg"
           style={{
             height: "52px",
             width: "245px",
@@ -66,18 +66,20 @@ export default function BlogPharma() {
           </button>
         </div>
       </div>
-      <div className="d-flex pl-5 pr-5 pb-5" style={{cursor:"pointer",gap:"5%"}}>
-        <div className="BlogCard" onClick={topharma1}>
-          <img src="./Images/gobeyond/Group card 1 (1).svg" />
-        </div>
-        <div className="BlogCard" onClick={topharma2}>
-          <img src="./Images/gobeyond/Group 427322066.svg" />
-        </div>
-        <div className="BlogCard" onClick={topharma3}>
-        <img src="./Images/gobeyond/Group card 3 (3).svg" />
-        </div>
-        <div className="BlogCard" onClick={topharma4}>
-        <img src="./Images/gobeyond/Group 427322187 (1).svg" />
+      <div className="d-flex pl-5 pr-5 pb-5" style={{cursor:"pointer",gap:"2%"}}>
+        <div class="row">
+          <div className="BlogCard col-lg-3" onClick={topharma1}>
+            <img src="./Images/gobeyond/Pharma-img-1.svg" />
+          </div>
+          <div className="BlogCard col-lg-3" onClick={topharma2}>
+            <img src="./Images/gobeyond/Pharma-img-2.svg" />
+          </div>
+          <div className="BlogCard col-lg-3" onClick={topharma3}>
+          <img src="./Images/gobeyond/Pharma-img-3.svg" />
+          </div>
+          <div className="BlogCard col-lg-3" onClick={topharma4}>
+          <img src="./Images/gobeyond/Pharma-img-4.svg" />
+          </div>
         </div>
       </div>
     </div>
@@ -93,7 +95,7 @@ export default function BlogPharma() {
       >
         <img
           className="mb-2"
-          src="./Images/gobeyond/Group 427321143.svg"
+          src="./Images/gobeyond/Pharma-Blog.svg"
           style={{
             height: "45px",
             width: "215px",
@@ -111,19 +113,21 @@ export default function BlogPharma() {
           Here’s what we've been up to recently.
         </p>
       </div>
-      <div className="d-flex pl-2 pr-2" style={{gap:"5%"}}>
-        <div className="BlogCard" onClick={topharma1}>
-          <img src="./Images/gobeyond/Group card 1 (1).svg" />
-        </div>
-        <div className="BlogCard" onClick={topharma2}>
-          <img src="./Images/gobeyond/Group 427322066.svg" />
-        </div>
-        <div className="BlogCard" onClick={topharma3}>
-        <img src="./Images/gobeyond/Group card 3 (3).svg" />
-        </div>
-        <div className="BlogCard" onClick={topharma4}>
-        <img src="./Images/gobeyond/Group 427322187 (1).svg" />
-        </div>
+      <div className="d-flex pl-2 pr-2" style={{gap:"2%"}}>
+     <div class="row">
+          <div className="BlogCard col-6" onClick={topharma1}>
+            <img src="./Images/gobeyond/Pharma-img-1.svg" />
+          </div>
+          <div className="BlogCard col-6" onClick={topharma2}>
+            <img src="./Images/gobeyond/Pharma-img-2.svg" />
+          </div>
+          <div className="BlogCard col-6 mt-4" onClick={topharma3}>
+          <img src="./Images/gobeyond/Pharma-img-3.svg" />
+          </div>
+          <div className="BlogCard col-6 mt-4" onClick={topharma4}>
+          <img src="./Images/gobeyond/Pharma-img-4.svg" />
+          </div>
+      </div> 
       </div>
     </div>
   </div>

@@ -27,7 +27,7 @@ export default function BlogManuFactoring() {
           }}
         >
           <img
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/blog-manufacturing.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -61,15 +61,18 @@ export default function BlogManuFactoring() {
             </button>
           </div>
         </div>
-        <div className="d-flex pl-5 pr-5 pb-5" style={{cursor:"pointer",gap:"5%"}}>
-          <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group 427322023 (1).svg" />
+        <div className="d-flex pl-5 pr-5 pb-5" style={{cursor:"pointer",gap:"2%"}}>
+          <div className="BlogCard col-sm-12 col-md-6 col-lg-3" onClick={toManuFactoring1}>
+            <img src="./Images/gobeyond/Manufacturing-img-1.svg" />
           </div>
-          <div className="BlogCard" onClick={toManuFactoring2}>
-            <img src="./Images/gobeyond/Group card 2 (1).svg" />
+          <div className="BlogCard col-sm-12 col-md-6 col-lg-3" onClick={toManuFactoring2}>
+            <img src="./Images/gobeyond/Manufacturing-img-2.svg" />
           </div>
-          <div className="BlogCard" onClick={toManuFactoring3}>
-            <img src="./Images/gobeyond/Group card 3 (2).svg" />
+          <div className="BlogCard col-sm-12 col-md-6 col-lg-3" onClick={toManuFactoring3}>
+            <img src="./Images/gobeyond/Manufacturing-img-3.svg" />
+          </div>
+          <div className="BlogCard col-sm-12 col-md-6 col-lg-3">
+            {/* <img src="./Images/gobeyond/Manufacturing-img-3.svg" />s */}
           </div>
         </div>
       </div>
@@ -85,7 +88,7 @@ export default function BlogManuFactoring() {
         >
           <img
             className="mb-2"
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/blog-manufacturing.svg"
             style={{
               height: "45px",
               width: "215px",
@@ -103,15 +106,20 @@ export default function BlogManuFactoring() {
             Here’s what we've been up to recently.
           </p>
         </div>
-        <div className="d-flex pl-2 pr-2" style={{gap:"5%"}}>
-          <div className="BlogCard" onClick={toManuFactoring1}>
-            <img src="./Images/gobeyond/Group 427322023 (1).svg" />
+        <div className="d-flex pl-2 pr-2" style={{gap:"2%"}}>
+        <div class="row">
+          <div className="BlogCard col-6" onClick={toManuFactoring1}>
+            <img src="./Images/gobeyond/Manufacturing-img-1.svg" />
           </div>
-          <div className="BlogCard" onClick={toManuFactoring2}>
-            <img src="./Images/gobeyond/Group card 2 (1).svg" />
+          <div className="BlogCard col-6" onClick={toManuFactoring2}>
+            <img src="./Images/gobeyond/Manufacturing-img-2.svg" />
           </div>
-          <div className="BlogCard" onClick={toManuFactoring3}>
-            <img src="./Images/gobeyond/Group card 3 (2).svg" />
+          <div className="BlogCard col-6  mt-4" onClick={toManuFactoring3}>
+            <img src="./Images/gobeyond/Manufacturing-img-3.svg" />
+          </div>
+          <div className="BlogCard col-6  mt-4">
+            {/* <img src="./Images/gobeyond/Manufacturing-img-3.svg" /> */}
+          </div>
           </div>
         </div>
       </div>

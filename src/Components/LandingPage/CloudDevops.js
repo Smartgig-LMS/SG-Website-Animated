@@ -24,7 +24,7 @@ export default function CloudDevops() {
             <div className='col-lg-7'>
                 {/* <div className='CloudDev1'> */}
                 <div>
-                    <img src='./Images/gobeyond/Group42.svg' width="180" height="50" />
+                    <img src='./Images/gobeyond/cloud-icon-home.svg' width="180" height="50" />
                 </div>
                 <h1 id='heading' style={{ color: "#2563AC" }}>
                 </h1>

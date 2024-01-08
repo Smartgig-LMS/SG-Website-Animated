@@ -31,7 +31,7 @@ export default function BlogReatil() {
           }}
         >
           <img
-            src="./Images/gobeyond/Group 4273211216353.svg"
+            src="./Images/gobeyond/Retail-Blog.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -67,19 +67,19 @@ export default function BlogReatil() {
         </div>
         <div
           className="d-flex pl-5 pr-5 pb-5"
-          style={{ cursor: "pointer", gap: "5%" }}
+          style={{ cursor: "pointer", gap: "2%" }}
         >
           <div className="BlogCard" onClick={toRetail1}>
-            <img src="./Images/gobeyond/Group 427322024.svg" />
+            <img src="./Images/gobeyond/Retail-img-1.svg" />
           </div>
           <div className="BlogCard" onClick={toRetail2}>
-            <img src="./Images/gobeyond/Group 427322037.svg" />
+            <img src="./Images/gobeyond/Retail-img-2.svg" />
           </div>
           <div className="BlogCard" onClick={toRetail3}>
-            <img src="./Images/gobeyond/Group 427322126.svg" />
+            <img src="./Images/gobeyond/Retail-img-3.svg" />
           </div>
           <div className="BlogCard" onClick={toRetail4}>
-            <img src="./Images/gobeyond/Group 427322189 (1).svg" />
+            <img src="./Images/gobeyond/Retail-img-4.svg" />
           </div>
         </div>
       </div>
@@ -95,7 +95,7 @@ export default function BlogReatil() {
         >
           <img
             className="mb-2"
-            src="./Images/gobeyond/Group 4273211216353.svg"
+            src="./Images/gobeyond/Retail-Blog.svg"
             style={{
               height: "45px",
               width: "215px",
@@ -113,18 +113,20 @@ export default function BlogReatil() {
             Here’s what we've been up to recently.
           </p>
         </div>
-        <div className="d-flex pl-2 pr-2" style={{ gap: "5%" }}>
-          <div className="BlogCard" onClick={toRetail1}>
-            <img src="./Images/gobeyond/Group 427322024.svg" />
+        <div className="d-flex pl-2 pr-2" style={{ gap: "2%" }}>
+          <div class="row">
+          <div className="BlogCard col-6" onClick={toRetail1}>
+            <img src="./Images/gobeyond/Retail-img-1.svg" />
           </div>
-          <div className="BlogCard" onClick={toRetail2}>
-            <img src="./Images/gobeyond/Group 427322037.svg" />
+          <div className="BlogCard col-6" onClick={toRetail2}>
+            <img src="./Images/gobeyond/Retail-img-2.svg" />
           </div>
-          <div className="BlogCard" onClick={toRetail3}>
-            <img src="./Images/gobeyond/Group 427322126.svg" />
+          <div className="BlogCard col-6 mt-4" onClick={toRetail3}>
+            <img src="./Images/gobeyond/Retail-img-3.svg" />
           </div>
-          <div className="BlogCard" onClick={toRetail4}>
-            <img src="./Images/gobeyond/Group 427322189 (1).svg" />
+          <div className="BlogCard col-6 mt-4" onClick={toRetail4}>
+            <img src="./Images/gobeyond/Retail-img-4.svg" />
+          </div>
           </div>
         </div>
       </div>

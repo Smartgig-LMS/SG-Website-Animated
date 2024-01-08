@@ -6,7 +6,7 @@ export default function WebDev() {
         <div className="TestingContainer">
             <div className="field-content-left col-lg-7">
                 <div>
-                    <img src='./Images/gobeyond/Group 427321583.svg' width="180" height="50" />
+                    <img src='./Images/gobeyond/web-development-icon-home.svg' width="180" height="50" />
                 </div>
                 <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className=" mt-2">
                     We make it

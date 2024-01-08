@@ -6,7 +6,7 @@ export default function Testing() {
         <div className='TestingContainer'>
             <div className='col-lg-7'>
                 <div>
-                    <img src='./Images/gobeyond/TAAS Icon.svg' width="90" height="45" />
+                    <img src='./Images/gobeyond/taas-home.svg' width="90" height="45" />
                 </div>
                 <div >
                     <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className='mt-2'>

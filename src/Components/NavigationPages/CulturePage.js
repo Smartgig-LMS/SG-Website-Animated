@@ -43,7 +43,7 @@ export default function CulturePage() {
                     </div>
                     <div className='Lastcontainer'>
                         <div>
-                            <img src='./Images/gobeyond/Group 4273211.svg' width="129" height="50" />
+                            <img src='./Images/gobeyond/About-Us.svg' width="129" height="50" />
                         </div>
                         <h1>
                             Client first, Team foremost
@@ -59,7 +59,7 @@ export default function CulturePage() {
                         </div>
                         <div className='rightContainer mt-3'>
                             <div className='opLeftSec ml-5'>
-                                <img src='./Images/gobeyond/Group 4273211211.svg' width="159" height="48" />
+                                <img src='./Images/gobeyond/Our-Mission.svg' width="159" height="48" />
                             </div>
                             <p className='col-12 mb-4 mt-0'>
                                 Our mission is our meticulous vision to drive business<br />
@@ -72,7 +72,7 @@ export default function CulturePage() {
                     <div className='totalMain3'>
                         <div className='rightContainer mt-5'>
                             <div className='opLeftSec'>
-                                <img src='./Images/gobeyond/Group 427321849.svg' width="139" height="45" />
+                                <img src='./Images/gobeyond/Our-Vision.svg' width="139" height="45" />
                             </div>
                             <p className='col-12 mb-4 mt-0'>
                                 Our prime focus is to deliver absolute hands-free software <br />
@@ -90,7 +90,7 @@ export default function CulturePage() {
                     </div>
                     <div className='Lastcontainer'>
                         <div>
-                            <img src='./Images/gobeyond/Group 427321207.png' width="156" height="50" />
+                            <img src='./Images/gobeyond/Our-Culture.svg' width="156" height="50" />
                         </div>
                         <h2>
                             Values & Principles
@@ -161,7 +161,7 @@ export default function CulturePage() {
                     </div>
                     <div className='col-lg-7 mt-3 mb-3 text-center'>
                         <div>
-                            <img src='./Images/gobeyond/Group 4273211.svg' width="129" height="50" />
+                            <img src='./Images/gobeyond/About-Us.svg' width="129" height="50" />
                         </div>
                         <h1>
                             Client first, Team foremost
@@ -175,7 +175,7 @@ export default function CulturePage() {
 
                         <div className='rightContainer mt-3'>
                             <div className='opLeftSec'>
-                                <img src='./Images/gobeyond/Group 4273211211.svg' width="159" height="48" />
+                                <img src='./Images/gobeyond/Our-Mission.svg' width="159" height="48" />
                             </div>
                             <p className='text-left'>
                                 Our mission is our meticulous vision to drive business
@@ -191,7 +191,7 @@ export default function CulturePage() {
                     <div className='totalMain3 col-lg-7 text-center'>
                         <div className='rightContainer mt-5'>
                             <div className='opLeftSec'>
-                                <img src='./Images/gobeyond/Group 427321849.svg' width="139" height="45" />
+                                <img src='./Images/gobeyond/Our-Vision.svg' width="139" height="45" />
                             </div>
                             <p className='text-left'>
                                 Our prime focus is to deliver absolute hands-free software
@@ -208,7 +208,7 @@ export default function CulturePage() {
                     </div>
                     <div className='col-lg-7  text-center'>
                         <div>
-                            <img src='./Images/gobeyond/Group 427321207.png' width="156" height="50" />
+                            <img src='./Images/gobeyond/Our-Culture.svg' width="156" height="50" />
                         </div>
                         <h2>
                             Values & Principles

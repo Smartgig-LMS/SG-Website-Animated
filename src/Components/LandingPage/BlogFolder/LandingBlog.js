@@ -61,7 +61,7 @@ export default function BlogPage() {
         <h1>Blogs</h1>
       </div>
       <div className="BlogpageLogo">
-        <img src="./Images/gobeyond/Group 427321877.svg" />
+        <img src="./Images/gobeyond/Category-image.svg" />
       </div>
       <div
         className="mt-4 mb-5"
@@ -145,7 +145,7 @@ export default function BlogPage() {
 //           <h1>Blogs</h1>
 //         </div>
 //         <div className="BlogpageLogo">
-//           <img src="./Images/gobeyond/Group 427321877.svg" />
+//           <img src="./Images/gobeyond/Category-image.svg" />
 //         </div>
 //         <div
 //           className="mt-4 mb-5"
@@ -184,7 +184,7 @@ export default function BlogPage() {
 //           <h1>Blogs</h1>
 //         </div>
 //         <div className="BlogpageLogo">
-//           <img src="./Images/gobeyond/Group 427321877.svg" />
+//           <img src="./Images/gobeyond/Category-image.svg" />
 //         </div>
 //         <div className="mt-4 mb-5">
 //           <div className="BlogCard p-2" onClick={ManuFactoring}>

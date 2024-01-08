@@ -5,7 +5,7 @@ export default function MobileApp() {
         <div className='TestingContainer'>
             <div className='col-lg-7'>
                 <div>
-                    <img src='./Images/gobeyond/Mobile app Development Icon.svg' width="150" height="50" />
+                    <img src='./Images/gobeyond/Mobile-app-Development-Icon.svg' width="150" height="50" />
                 </div>
                 <div >
                     <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className='mt-2'>

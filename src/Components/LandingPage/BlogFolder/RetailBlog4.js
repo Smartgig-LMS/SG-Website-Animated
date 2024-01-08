@@ -114,7 +114,7 @@ export default function RetailBlog4() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Group 428765.svg"
+            src="./Images/gobeyond/Retail-Blog.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -667,7 +667,7 @@ export default function RetailBlog4() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Group 428765.svg"
+            src="./Images/gobeyond/Retail-Blog.svg"
             style={{
               height: "52px",
               width: "245px",

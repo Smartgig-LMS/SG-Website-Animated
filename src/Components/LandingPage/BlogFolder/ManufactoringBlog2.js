@@ -120,7 +120,7 @@ export default function ManufactoringBlog2() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/blog-manufacturing.svg"
             style={{
               height: "52px",
               width: "245px",
@@ -530,7 +530,7 @@ export default function ManufactoringBlog2() {
         >
           <img
             className="mt-3"
-            src="./Images/gobeyond/Gro83988394888.svg"
+            src="./Images/gobeyond/blog-manufacturing.svg"
             style={{
               height: "52px",
               width: "245px",

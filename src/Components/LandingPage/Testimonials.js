@@ -73,7 +73,7 @@ export default function Testimonials() {
     <>
       <div className="testimonials ">
         <img
-          src="./Images/gobeyond/Group 427321194.svg"
+          src="./Images/gobeyond/Testimonials.svg"
           height="48"
           width="190"
         />
@@ -189,7 +189,7 @@ export default function Testimonials() {
         </div>
       </div>
       {/* <img
-          src="./Images/gobeyond/Group 427321194.svg"
+          src="./Images/gobeyond/Testimonials.svg"
           height="48"
           width="190"
         />
@@ -340,7 +340,7 @@ export default function Testimonials() {
                 </div> */}
 
       {/* <div className='testimonials'>
-                <img src='./Images/gobeyond/Group 427321194.svg' height="48" width="190" />
+                <img src='./Images/gobeyond/Testimonials.svg' height="48" width="190" />
                 <h2 style={{ fontWeight: "bold" }}>
                     What people are saying
                 </h2>
@@ -419,7 +419,7 @@ export default function Testimonials() {
 
       <div className="testimonialsForMobile col-lg-7">
         <img
-          src="./Images/gobeyond/Group 427321194.svg"
+          src="./Images/gobeyond/Testimonials.svg"
           height="48"
           width="190"
         />

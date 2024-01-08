@@ -6,7 +6,7 @@ export default function CyberSecurity() {
         <div className='TestingContainer'>
             <div className='col-lg-7'>
                 <div>
-                    <img src='./Images/gobeyond/CyberIocn1.svg' width="190" height="50" />
+                    <img src='./Images/gobeyond/cyber-security-home.svg' width="190" height="50" />
                 </div>
                 <div>
                     <h1 style={{ color: "#2563AC", fontWeight: "700", width: "458", height: "124" }} className='mt-2'>

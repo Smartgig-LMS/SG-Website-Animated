@@ -17,7 +17,7 @@ export default function ProductPage() {
         <div className="d-fx">
           <div>
             <div className="infiLogo">
-              <img src="./Images/gobeyond/Grou.svg" />
+              <img src="./Images/gobeyond/Partnership-Icon.svg" />
             </div>
             <p
               className="mt-2 container"
@@ -192,7 +192,7 @@ export default function ProductPage() {
         <div className="d-fx" style={{ textAlign: "center" }}>
           <div>
             <div style={{ textAlign: "center" }} className="mt-3">
-              <img src="./Images/gobeyond/Grou.svg" />
+              <img src="./Images/gobeyond/Partnership-Icon.svg" />
             </div>
             <p className="mt-2 col-lg-7" style={{ textAlign: "left" }}>
               At SmartGig, we pride ourselves on fostering a culture of
