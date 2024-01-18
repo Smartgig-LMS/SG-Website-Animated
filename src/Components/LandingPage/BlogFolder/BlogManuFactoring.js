@@ -80,7 +80,7 @@ export default function BlogManuFactoring() {
               <img src="./Images/gobeyond/Manufacturing-img-3.svg" />
             </div>
             <div className="BlogCard col-lg-3" onClick={toManuFactoring4}>
-              <img src="./Images/gobeyond/Manufacturing-img-3.svg" />
+              <img src="./Images/gobeyond/Group 427322192.svg" />
             </div>
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function BlogManuFactoring() {
               <img src="./Images/gobeyond/Manufacturing-img-3.svg" />
             </div>
             <div className="BlogCard col-6  mt-4" onClick={toManuFactoring4}>
-              <img src="./Images/gobeyond/Manufacturing-img-3.svg" />
+              <img src="./Images/gobeyond/Group 427322192.svg" />
             </div>
           </div>
         </div>
