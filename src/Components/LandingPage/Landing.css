@@ -10,23 +10,31 @@
     max-width: 50%;
     object-fit: cover;
   }
+  .img20per {
+    max-width: 20%;
+    object-fit: cover;
+  }
   .blogimg50per {
     max-width: 45%;
     object-fit: cover;
   }
-  .retailimg60per{
+  .blogimg40per {
+    max-width: 40%;
+    object-fit: cover;
+  }
+  .retailimg60per {
     max-width: 60%;
     object-fit: cover;
   }
-  .retailimg100per{
+  .retailimg100per {
     max-width: 100%;
     object-fit: cover;
   }
-  .retailimg30per{
+  .retailimg30per {
     max-width: 30%;
     object-fit: cover;
   }
-  .retailimg80per{
+  .retailimg80per {
     max-width: 82%;
     object-fit: cover;
   }
@@ -37,7 +45,7 @@
   }
   #navigation .active {
     font-weight: bold;
-    color: #F38313;
+    color: #f38313;
   }
   .img-left img {
     height: auto;
@@ -360,7 +368,6 @@
     color: #fff;
   }
 
-
   .PharmaBlogHeadnigs4 {
     background-image: url("../../../public/Images/gobeyond/Group 427322186.svg");
     padding-top: 14%;
@@ -370,6 +377,18 @@
     background-size: cover;
   }
   .PharmaBlogHeadnigs4 h1 {
+    color: #fff;
+  }
+
+  .PharmaBlogHeadnigs5 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322195.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .PharmaBlogHeadnigs5 h1 {
     color: #fff;
   }
 
@@ -427,22 +446,22 @@
     text-align: center;
     background-size: cover;
   }
-  .BlogCard img{
+  .BlogCard img {
     object-fit: cover;
     max-width: 100%;
   }
-  .ManuFactoringCard:hover{
+  .ManuFactoringCard:hover {
     /* -webkit-transform: rotate(360deg) scale(1.3); 360 degree rotate */
     -webkit-transform: scale(1.1);
-    -webkit-transition: all .5s; 
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
   }
-  .ManuFactoringCardactive{
+  .ManuFactoringCardactive {
     -webkit-transform: scale(1.1);
-    -webkit-transition: all .5s; 
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
   }
   .BlogHeadnigs h1 {
     color: #fff;
@@ -1457,24 +1476,32 @@
   .blogimg2 {
     padding: 5%;
   }
-  .retailimg60per{
+  .img20per {
+    max-width: 20%;
+    object-fit: cover;
+  }
+  .retailimg60per {
     max-width: 53%;
     object-fit: cover;
   }
-  .retailimg100per{
+  .retailimg100per {
     max-width: 100%;
     object-fit: cover;
   }
-  .retailimg30per{
+  .retailimg30per {
     max-width: 25%;
     object-fit: cover;
   }
-  .retailimg80per{
+  .retailimg80per {
     max-width: 82%;
     object-fit: cover;
   }
   .blogimg50per {
     max-width: 45%;
+    object-fit: cover;
+  }
+  .blogimg40per {
+    max-width: 40%;
     object-fit: cover;
   }
   .blogimg60per {
@@ -1488,7 +1515,7 @@
   }
   #navigation .active {
     font-weight: bold;
-    color: #F38313;
+    color: #f38313;
   }
   .img-left img {
     height: auto;
@@ -1819,6 +1846,17 @@
     color: #fff;
   }
 
+  .PharmaBlogHeadnigs5 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322195.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .PharmaBlogHeadnigs5 h1 {
+    color: #fff;
+  }
   .RetailBlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427322017.svg");
     padding-top: 14%;
@@ -1876,23 +1914,23 @@
     color: #fff;
   }
 
-  .BlogCard img{
+  .BlogCard img {
     /* object-fit: cover; */
     position: relative;
     width: 100%;
   }
-  .ManuFactoringCard:hover{
+  .ManuFactoringCard:hover {
     /* -webkit-transform: rotate(360deg) scale(1.3); 360 degree rotate */
     -webkit-transform: scale(1.1);
-    -webkit-transition: all .5s; 
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
   }
-   .ManuFactoringCardactive{
+  .ManuFactoringCardactive {
     -webkit-transform: scale(1.1);
-    -webkit-transition: all .5s; 
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
   }
 
   /* productpage css start ------------------------> */
@@ -2893,19 +2931,27 @@
     max-width: 45%;
     object-fit: cover;
   }
-  .retailimg60per{
+  .blogimg40per {
+    max-width: 40%;
+    object-fit: cover;
+  }
+  .img20per {
+    max-width: 20%;
+    object-fit: cover;
+  }
+  .retailimg60per {
     max-width: 50%;
     object-fit: cover;
   }
-  .retailimg100per{
+  .retailimg100per {
     max-width: 100%;
     object-fit: cover;
   }
-  .retailimg30per{
+  .retailimg30per {
     max-width: 30%;
     object-fit: cover;
   }
-  .retailimg80per{
+  .retailimg80per {
     max-width: 82%;
     object-fit: cover;
   }
@@ -2916,7 +2962,7 @@
   }
   ul#navigation .active {
     font-weight: bold;
-    color: #F38313;
+    color: #f38313;
   }
   .img-left img {
     height: auto;
@@ -3247,6 +3293,17 @@
   .PharmaBlogHeadnigs4 h1 {
     color: #fff;
   }
+  .PharmaBlogHeadnigs5 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322195.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .PharmaBlogHeadnigs5 h1 {
+    color: #fff;
+  }
 
   .RetailBlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427322017.svg");
@@ -3300,22 +3357,22 @@
     text-align: center;
     background-size: cover;
   }
-  .BlogCard img{
+  .BlogCard img {
     object-fit: cover;
     max-width: 100%;
   }
-  .ManuFactoringCard:hover{
+  .ManuFactoringCard:hover {
     /* -webkit-transform: rotate(360deg) scale(1.3); 360 degree rotate */
     -webkit-transform: scale(1.1);
-    -webkit-transition: all .5s; 
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
   }
-  .ManuFactoringCardactive{
+  .ManuFactoringCardactive {
     -webkit-transform: scale(1.1);
-    -webkit-transition: all .5s; 
-    -moz-transition: all .5s;
-    transition: all .5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
   }
   .BlogHeadnigs h1 {
     color: #fff;
@@ -3421,7 +3478,7 @@
     height: 65px;
     width: 185px;
   }
-   .BlogpageLogo {
+  .BlogpageLogo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4563,6 +4620,18 @@
     color: #fff;
   }
 
+  .PharmaBlogHeadnigs5 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322195.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .PharmaBlogHeadnigs5 h1 {
+    color: #fff;
+  }
+
   .RetailBlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427322017.svg");
     padding-top: 14%;
@@ -4615,7 +4684,7 @@
     text-align: center;
     background-size: cover;
   }
-  .BlogCard img{
+  .BlogCard img {
     object-fit: cover;
     max-width: 100%;
   }
@@ -5230,6 +5299,18 @@
     color: #fff;
   }
 
+  .PharmaBlogHeadnigs5 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322195.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .PharmaBlogHeadnigs5 h1 {
+    color: #fff;
+  }
+
   .RetailBlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427322017.svg");
     padding-top: 14%;
@@ -5281,11 +5362,12 @@
     opacity: 1;
     text-align: center;
     background-size: cover;
-  }  
-  .BlogCard img{
+  }
+  .BlogCard img {
     object-fit: cover;
     max-width: 100%;
-  } .BlogpageLogo {
+  }
+  .BlogpageLogo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -5812,7 +5894,7 @@
     margin-bottom: 3%;
     padding: 5%;
   }
- 
+
   .productpg {
     display: none;
   }
@@ -5894,7 +5976,19 @@
   .PharmaBlogHeadnigs4 h1 {
     color: #fff;
   }
-  
+
+  .PharmaBlogHeadnigs5 {
+    background-image: url("../../../public/Images/gobeyond/Group 427322195.svg");
+    padding-top: 14%;
+    padding-bottom: 10%;
+    opacity: 1;
+    text-align: center;
+    background-size: cover;
+  }
+  .PharmaBlogHeadnigs5 h1 {
+    color: #fff;
+  }
+
   .RetailBlogHeadnigs {
     background-image: url("../../../public/Images/gobeyond/Group 427322017.svg");
     padding-top: 14%;
@@ -5947,7 +6041,7 @@
     text-align: center;
     background-size: cover;
   }
-  .BlogCard img{
+  .BlogCard img {
     object-fit: cover;
     max-width: 100%;
   }
