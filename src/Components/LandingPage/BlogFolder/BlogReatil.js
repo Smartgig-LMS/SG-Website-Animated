@@ -20,6 +20,10 @@ export default function BlogReatil() {
     navigate("/retailblog4");
   };
 
+  const toRetail5 = () => {
+    navigate("/retailblog5");
+  };
+
   return (
     <div>
       <div className="BlogPageWeb">
@@ -69,17 +73,22 @@ export default function BlogReatil() {
           className="d-flex pl-5 pr-5 pb-5"
           style={{ cursor: "pointer", gap: "2%" }}
         >
-          <div className="BlogCard" onClick={toRetail1}>
-            <img src="./Images/gobeyond/Retail-img-1.svg" />
-          </div>
-          <div className="BlogCard" onClick={toRetail2}>
-            <img src="./Images/gobeyond/Retail-img-2.svg" />
-          </div>
-          <div className="BlogCard" onClick={toRetail3}>
-            <img src="./Images/gobeyond/Retail-img-3.svg" />
-          </div>
-          <div className="BlogCard" onClick={toRetail4}>
-            <img src="./Images/gobeyond/Retail-img-4.svg" />
+          <div class="row">
+            <div className="BlogCard col-lg-3" onClick={toRetail1}>
+              <img src="./Images/gobeyond/Retail-img-1.svg" />
+            </div>
+            <div className="BlogCard col-lg-3" onClick={toRetail2}>
+              <img src="./Images/gobeyond/Retail-img-2.svg" />
+            </div>
+            <div className="BlogCard col-lg-3" onClick={toRetail3}>
+              <img src="./Images/gobeyond/Retail-img-3.svg" />
+            </div>
+            <div className="BlogCard col-lg-3" onClick={toRetail4}>
+              <img src="./Images/gobeyond/Retail-img-4.svg" />
+            </div>
+            <div className="BlogCard col-lg-3 mt-4" onClick={toRetail5}>
+              <img src="./Images/gobeyond/Group 427322198.svg" />
+            </div>
           </div>
         </div>
       </div>
@@ -115,18 +124,21 @@ export default function BlogReatil() {
         </div>
         <div className="d-flex pl-2 pr-2" style={{ gap: "2%" }}>
           <div class="row">
-          <div className="BlogCard col-6" onClick={toRetail1}>
-            <img src="./Images/gobeyond/Retail-img-1.svg" />
-          </div>
-          <div className="BlogCard col-6" onClick={toRetail2}>
-            <img src="./Images/gobeyond/Retail-img-2.svg" />
-          </div>
-          <div className="BlogCard col-6 mt-4" onClick={toRetail3}>
-            <img src="./Images/gobeyond/Retail-img-3.svg" />
-          </div>
-          <div className="BlogCard col-6 mt-4" onClick={toRetail4}>
-            <img src="./Images/gobeyond/Retail-img-4.svg" />
-          </div>
+            <div className="BlogCard col-lg-3 col-6" onClick={toRetail1}>
+              <img src="./Images/gobeyond/Retail-img-1.svg" />
+            </div>
+            <div className="BlogCard col-lg-3 col-6" onClick={toRetail2}>
+              <img src="./Images/gobeyond/Retail-img-2.svg" />
+            </div>
+            <div className="BlogCard col-lg-3 col-6 mt-4" onClick={toRetail3}>
+              <img src="./Images/gobeyond/Retail-img-3.svg" />
+            </div>
+            <div className="BlogCard col-lg-3 col-6 mt-4" onClick={toRetail4}>
+              <img src="./Images/gobeyond/Retail-img-4.svg" />
+            </div>
+            <div className="BlogCard col-lg-3 col-6 mt-4" onClick={toRetail5}>
+              <img src="./Images/gobeyond/Group 427322198.svg" />
+            </div>
           </div>
         </div>
       </div>
