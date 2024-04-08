@@ -20,6 +20,10 @@ export default function BlogManuFactoring() {
     navigate("/manufactoringblog4");
   };
 
+  const toManuFactoring5 = () => {
+    navigate("/manufactoringblog5");
+  };
+
   return (
     <div>
       <div className="BlogPageWeb">
@@ -82,6 +86,9 @@ export default function BlogManuFactoring() {
             <div className="BlogCard col-lg-3" onClick={toManuFactoring4}>
               <img src="./Images/gobeyond/Group 427322192.svg" />
             </div>
+            <div className="BlogCard col-lg-3 mt-4" onClick={toManuFactoring5}>
+              <img src="./Images/gobeyond/Group 427322200.svg" />
+            </div>
           </div>
         </div>
       </div>
@@ -123,11 +130,14 @@ export default function BlogManuFactoring() {
             <div className="BlogCard col-6" onClick={toManuFactoring2}>
               <img src="./Images/gobeyond/Manufacturing-img-2.svg" />
             </div>
-            <div className="BlogCard col-6  mt-4" onClick={toManuFactoring3}>
+            <div className="BlogCard col-6 mt-4" onClick={toManuFactoring3}>
               <img src="./Images/gobeyond/Manufacturing-img-3.svg" />
             </div>
-            <div className="BlogCard col-6  mt-4" onClick={toManuFactoring4}>
+            <div className="BlogCard col-6 mt-4" onClick={toManuFactoring4}>
               <img src="./Images/gobeyond/Group 427322192.svg" />
+            </div>
+            <div className="BlogCard col-6 mt-4" onClick={toManuFactoring5}>
+              <img src="./Images/gobeyond/Group 427322200.svg" />
             </div>
           </div>
         </div>

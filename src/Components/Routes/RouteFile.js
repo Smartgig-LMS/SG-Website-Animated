@@ -22,6 +22,7 @@ import RetailBlog4 from "../LandingPage/BlogFolder/RetailBlog4";
 import ManufactoringBlog4 from "../LandingPage/BlogFolder/ManufactoringBlog4";
 import PharmaBlog5 from "../LandingPage/BlogFolder/PharmaBlog5";
 import RetailBlog5 from "../LandingPage/BlogFolder/RetailBlog5";
+import ManufactoringBlog5 from "../LandingPage/BlogFolder/ManufactoringBlog5";
 
 export default function RouteFile() {
   return (
@@ -45,9 +46,13 @@ export default function RouteFile() {
           path="manufactoringblog3"
           element={<ManufactoringBlog3 />}
         ></Route>
-         <Route
+        <Route
           path="manufactoringblog4"
           element={<ManufactoringBlog4 />}
+        ></Route>
+        <Route
+          path="manufactoringblog5"
+          element={<ManufactoringBlog5 />}
         ></Route>
         <Route path="pharmablog1" element={<PharmaBlog1 />}></Route>
         <Route path="pharmablog2" element={<PharmaBlog2 />}></Route>
