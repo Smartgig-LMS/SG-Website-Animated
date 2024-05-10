@@ -24,6 +24,10 @@ export default function BlogManuFactoring() {
     navigate("/manufactoringblog5");
   };
 
+  const toManuFactoring6 = () => {
+    navigate("/manufactoringblog6");
+  };
+
   return (
     <div>
       <div className="BlogPageWeb">
@@ -89,6 +93,9 @@ export default function BlogManuFactoring() {
             <div className="BlogCard col-lg-3 mt-4" onClick={toManuFactoring5}>
               <img src="./Images/gobeyond/Group 427322200.svg" />
             </div>
+            <div className="BlogCard col-lg-3 mt-4" onClick={toManuFactoring6}>
+              <img src="./Images/gobeyond/Group 1000015239.svg" />
+            </div>
           </div>
         </div>
       </div>
@@ -138,6 +145,9 @@ export default function BlogManuFactoring() {
             </div>
             <div className="BlogCard col-6 mt-4" onClick={toManuFactoring5}>
               <img src="./Images/gobeyond/Group 427322200.svg" />
+            </div>
+            <div className="BlogCard col-6 mt-4" onClick={toManuFactoring6}>
+              <img src="./Images/gobeyond/Group 1000015239.svg" />
             </div>
           </div>
         </div>
