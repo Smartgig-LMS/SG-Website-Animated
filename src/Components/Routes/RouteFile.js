@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "../LandingPage/LandingPage";
 import NavBar from "../LandingPage/NavBar";
-import ProductPage from "../NavigationPages/ProductPage";
+import ProductPage from "../NavigationPages/PartenershipPage";
 import CulturePage from "../NavigationPages/CulturePage";
 import ContactUsPage from "../NavigationPages/ContactUsPage";
 import LayoutPage from "../LandingPage/LayoutPage";
@@ -24,13 +24,29 @@ import PharmaBlog5 from "../LandingPage/BlogFolder/PharmaBlog5";
 import RetailBlog5 from "../LandingPage/BlogFolder/RetailBlog5";
 import ManufactoringBlog5 from "../LandingPage/BlogFolder/ManufactoringBlog5";
 import ManufactoringBlog6 from "../LandingPage/BlogFolder/ManufactoringBlog6";
+import Products from "../NavigationPages/Perch";
+import PartenershipPage from "../NavigationPages/PartenershipPage";
+import Perch from "../NavigationPages/Perch";
+import Feeeler from "../NavigationPages/Feeeler";
+import HanumanGame from "../NavigationPages/HanumanGame";
+import Tellida from "../NavigationPages/Tellida";
+import TermsPage from "../LandingPage/TermsPage";
+import PrivacyPage from "../LandingPage/PrivacyPage";
+import RefundPage from "../LandingPage/RefundPage";
 
 export default function RouteFile() {
   return (
     <Routes>
       <Route path="/" element={<LayoutPage />}>
         <Route path="" element={<LandingPage />}></Route>
-        <Route path="partnerships" element={<ProductPage />}></Route>
+        <Route path="partnerships" element={<PartenershipPage />}></Route>
+        <Route path="termspage" element={<TermsPage />}></Route>
+        <Route path="privacypage" element={<PrivacyPage />}></Route>
+        <Route path="refundpage" element={<RefundPage />}></Route>
+        <Route path="perch" element={<Perch />}></Route>
+        <Route path="feeeler" element={<Feeeler />}></Route>
+        <Route path="hanuman" element={<HanumanGame />}></Route>
+        <Route path="tellida" element={<Tellida />}></Route>
         <Route path="culture" element={<CulturePage />}></Route>
         <Route path="career" element={<CareerPage />}></Route>
         <Route path="contact" element={<ContactUsPage />}></Route>

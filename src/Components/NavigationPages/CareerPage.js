@@ -957,7 +957,6 @@ export default function CareerPage() {
                         </div> */}
                     </div>
                 </div>
-                <Footer />
             </div >
 
             {/* for mobile-------------------------------------------------------------------------- */}
@@ -1630,11 +1629,8 @@ export default function CareerPage() {
                         </div>
                     </div>
                 </div>
-                <div className='footerForMobile'>
-                    <hr />
-                    Copyright © 2023 SmartGig. All Rights Reserved.
-                </div>
             </div >
+            <Footer />
         </>
     )
 }

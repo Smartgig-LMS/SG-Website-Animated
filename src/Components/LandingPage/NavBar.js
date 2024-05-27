@@ -1,9 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { slide as Menu } from "react-burger-menu";
-import MenuIcon from "@mui/icons-material/Menu";
-import { colors } from "@mui/material";
-import { red } from "@mui/material/colors";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 
 export default function NavBar() {
@@ -15,6 +12,7 @@ export default function NavBar() {
   const [activeState4, setActiveState4] = React.useState("");
   const [activeState5, setActiveState5] = React.useState("");
   const [activeState6, setActiveState6] = React.useState("");
+  const [activeState7, setActiveState7] = React.useState("");
 
   const navigate = useNavigate();
   const navigateFn = () => {
@@ -24,6 +22,7 @@ export default function NavBar() {
     setActiveState("");
     setActiveState3("");
     setActiveState4("");
+    setActiveState7("");
     setActiveState5("");
     setActiveState6("");
   };
@@ -34,6 +33,7 @@ export default function NavBar() {
     setActiveState2("");
     setActiveState3("active");
     setActiveState4("");
+    setActiveState7("");
     setActiveState6("");
     setActiveState5("");
   };
@@ -44,6 +44,7 @@ export default function NavBar() {
     setActiveState2("");
     setActiveState3("");
     setActiveState4("active");
+    setActiveState7("");
     setActiveState6("");
     setActiveState5("");
   };
@@ -54,6 +55,7 @@ export default function NavBar() {
     setActiveState2("");
     setActiveState3("");
     setActiveState6("");
+    setActiveState7("");
     setActiveState4("");
     setActiveState5("active");
   };
@@ -64,13 +66,55 @@ export default function NavBar() {
     setActiveState2("");
     setActiveState3("");
     setActiveState4("");
+    setActiveState7("");
     setActiveState6("active");
+    setActiveState5("");
+  };
+  const navigateFn6 = () => {
+    navigate("/feeeler");
+    setActiveState("");
+    setActiveState2("");
+    setActiveState3("");
+    setActiveState4("");
+    setActiveState7("active");
+    setActiveState6("");
+    setActiveState5("");
+  };
+  const navigateFn7 = () => {
+    navigate("/hanuman");
+    setActiveState("");
+    setActiveState2("");
+    setActiveState3("");
+    setActiveState4("");
+    setActiveState7("active");
+    setActiveState6("");
+    setActiveState5("");
+  };
+  const navigateFn8 = () => {
+    navigate("/perch");
+    setActiveState("");
+    setActiveState2("");
+    setActiveState3("");
+    setActiveState4("");
+    setActiveState7("active");
+    setActiveState6("");
+    setActiveState5("");
+  };
+  const navigateFn9 = () => {
+    navigate("/tellida");
+    setActiveState("");
+    setActiveState2("");
+    setActiveState3("");
+    setActiveState4("");
+    setActiveState7("active");
+    setActiveState6("");
     setActiveState5("");
   };
   const navigateFnLP = () => {
     navigate("/");
     setIsopen(false);
     setActiveState("active");
+    setActiveState7("");
     setActiveState2("");
     setActiveState3("");
     setActiveState4("");
@@ -97,18 +141,17 @@ export default function NavBar() {
         borderRadius: "50%",
         color: "white",
       });
-    } 
-    else{
+    } else {
       setStyle({
-        display:"none",
-        color:'white'
+        display: "none",
+        color: "white",
       });
     }
   };
 
   useEffect(() => {
     setStyle({
-        display:"none",
+      display: "none",
     });
     window.addEventListener("scroll", listenScrollEvent);
   }, []);
@@ -133,6 +176,63 @@ export default function NavBar() {
             <li className={`ml-4 ${activeState2}`} onClick={navigateFn}>
               Partnerships
             </li>
+            <li className={`ml-4 ${activeState7}`}>
+              <div className="dropdown">
+                <button
+                  className="btn dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products
+                </button>
+                <ul
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuButton1"
+                >
+                  <div className="d-flex flex-column">
+                    <li>
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        onClick={navigateFn6}
+                      >
+                        Feeeler
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        onClick={navigateFn7}
+                      >
+                        Hanuman Gaming
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        onClick={navigateFn8}
+                      >
+                        Perch
+                      </a>
+                    </li>
+                    {/* <li>
+                      <a
+                        className="dropdown-item"
+                        href="#"
+                        onClick={navigateFn9}
+                      >
+                        Tellida
+                      </a>
+                    </li> */}
+                  </div>
+                </ul>
+              </div>
+            </li>
+
             <li className={`ml-4 ${activeState3}`} onClick={navigateFn2}>
               Culture
             </li>
@@ -173,6 +273,62 @@ export default function NavBar() {
                 id={`${activeState2}`}
               >
                 Partnerships
+              </li>
+              <li className="menu-item" id={`${activeState7}`}>
+                <div className="dropdown">
+                  <div
+                    className="dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Products
+                  </div>
+                  <ul
+                    className="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <div className="d-flex flex-column">
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="#"
+                          onClick={navigateFn6}
+                        >
+                          Feeeler
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="#"
+                          onClick={navigateFn7}
+                        >
+                          Hanuman Gaming
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="dropdown-item"
+                          href="#"
+                          onClick={navigateFn8}
+                        >
+                          Perch
+                        </a>
+                      </li>
+                      {/* <li>
+                        <a
+                          className="dropdown-item"
+                          href="#"
+                          onClick={navigateFn9}
+                        >
+                          Tellida
+                        </a>
+                      </li> */}
+                    </div>
+                  </ul>
+                </div>
               </li>
               <li
                 className="menu-item"

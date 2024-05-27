@@ -101,6 +101,7 @@ export default function BlogPage() {
         {PharmaFlag ? <BlogPharma /> : ""}
         {RetailFlag ? <BlogReatil /> : ""}
       </div>
+      <Footer/>
     </>
   );
 }
