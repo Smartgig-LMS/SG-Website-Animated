@@ -61,7 +61,9 @@ export default function ManufactoringBlog1() {
   };
 
   const handleManufacturing = () => {
-    navigate("/blogs", { state: { ManuFactoringFlag: true, active:"active"} });
+    navigate("/blogs", {
+      state: { ManuFactoringFlag: true, active: "active" },
+    });
   };
 
   const breadcrumbs = [
@@ -74,12 +76,7 @@ export default function ManufactoringBlog1() {
     >
       Blogs
     </Link>,
-    <Link
-      underline="hover"
-      key="2"
-      color="white"
-      onClick={handleManufacturing}
-    >
+    <Link underline="hover" key="2" color="white" onClick={handleManufacturing}>
       Manufacturing
     </Link>,
     <Typography key="3" color="white">
@@ -308,7 +305,7 @@ export default function ManufactoringBlog1() {
                 intelligence, facilitating detailed decision-making based on
                 data
               </div>
-            {/* </div>
+              {/* </div>
             <div
               className="m-4"
               style={{
@@ -851,7 +848,8 @@ export default function ManufactoringBlog1() {
 
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>
       </div>
     </>

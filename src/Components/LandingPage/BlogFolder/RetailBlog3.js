@@ -776,9 +776,7 @@ export default function RetailBlog3() {
                 loyalty.{" "}
               </li>
             </div>
-            <img
-              src="./Images/gobeyond/omnichannel_3 1 (1).svg"
-            />
+            <img src="./Images/gobeyond/omnichannel_3 1 (1).svg" />
 
             <div>
               <h6 className="mt-3">2. Improved Inventory Management: </h6>
@@ -1005,7 +1003,8 @@ export default function RetailBlog3() {
         </form>
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>
       </div>
     </>

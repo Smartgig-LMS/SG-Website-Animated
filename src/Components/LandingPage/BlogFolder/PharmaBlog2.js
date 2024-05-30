@@ -150,10 +150,7 @@ export default function PharmaBlog2() {
                   management systems used to work previously.
                 </p>
               </div>
-              <img
-                src="./Images/gobeyond/VS (2) 1.svg"
-                className="w-25"
-              />
+              <img src="./Images/gobeyond/VS (2) 1.svg" className="w-25" />
             </div>
 
             <div>
@@ -834,7 +831,8 @@ export default function PharmaBlog2() {
         </form>
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>{" "}
       </div>
     </>

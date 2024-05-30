@@ -1248,27 +1248,23 @@ export default function ManufactoringBlog4() {
           Manufacturing
         </h4>
         <div className="col-12">
-            <p>
-              In the complex landscape of global manufacturing, recent years
-              have witnessed a paradigm shift. The pursuit of efficiency and
-              cost savings once achieved through distant global suppliers, faced
-              unprecedented challenges. The outbreak of a global pandemic and
-              geopolitical tensions exposed vulnerabilities in the supply chain,
-              prompting a strategic rethink. This blog explores the practical
-              trends of reshoring and supply chain localization – strategies
-              aimed at enhancing resilience and reducing dependency on global
-              suppliers. In the wake of disruptions, the global supply chain
-              revealed its fragility. Events such as the pandemic and
-              geopolitical tensions disrupted the seamless flow of goods,
-              highlighting the need for a more resilient approach. Manufacturers
-              found themselves reconsidering the risks associated with extensive
-              reliance on global suppliers and pondering alternatives for
-              greater stability.
-            </p>
-          <img
-            src="./Images/gobeyond/1 (5) 1 1.svg"
-            className="blogimg"
-          />
+          <p>
+            In the complex landscape of global manufacturing, recent years have
+            witnessed a paradigm shift. The pursuit of efficiency and cost
+            savings once achieved through distant global suppliers, faced
+            unprecedented challenges. The outbreak of a global pandemic and
+            geopolitical tensions exposed vulnerabilities in the supply chain,
+            prompting a strategic rethink. This blog explores the practical
+            trends of reshoring and supply chain localization – strategies aimed
+            at enhancing resilience and reducing dependency on global suppliers.
+            In the wake of disruptions, the global supply chain revealed its
+            fragility. Events such as the pandemic and geopolitical tensions
+            disrupted the seamless flow of goods, highlighting the need for a
+            more resilient approach. Manufacturers found themselves
+            reconsidering the risks associated with extensive reliance on global
+            suppliers and pondering alternatives for greater stability.
+          </p>
+          <img src="./Images/gobeyond/1 (5) 1 1.svg" className="blogimg" />
           <h6 className="mt-5 font-weight-bold" style={{ color: "#F38313" }}>
             Challenges and vulnerabilities
           </h6>
@@ -2294,7 +2290,8 @@ export default function ManufactoringBlog4() {
 
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>
       </div>
     </>

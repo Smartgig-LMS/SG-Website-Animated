@@ -35,7 +35,8 @@ export default function Footer() {
       <div className="container">
         <div className="row py-3 justify-content-between text-center text-md-left">
           <div className="col-12 col-md-4 font-weight-bold mb-2 mb-md-0">
-            Copyright © {year} SmartGig. All Rights Reserved.
+            Copyright © {year} SmartGig Technology Private Limited. All Rights
+            Reserved.
           </div>
           <div className="col-12 col-md-8">
             <div className="row font-weight-bold">

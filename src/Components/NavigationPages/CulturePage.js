@@ -60,9 +60,10 @@ export default function CulturePage() {
             </div>
             <h1>Client first, Team foremost</h1>
             <span>
-              In this constantly evolving landscape of technology, SmartGig is a
-              dynamic IT company that specializes in niche industries. Our team
-              of enthusiastic experts, unlocks the full <br />
+              In this constantly evolving landscape of technology, SmartGig
+              Technology Private Limited is a dynamic IT company that
+              specializes in niche industries. Our team of enthusiastic experts,
+              unlocks the full <br />
               potential of designing, developing, and testing solutions for our
               clients and help businesses embrace next-gen technologies to stay
               future-ready.
@@ -215,11 +216,12 @@ export default function CulturePage() {
             </div>
             <h1>Client first, Team foremost</h1>
             <p className="text-left">
-              In this constantly evolving landscape of technology, SmartGig is a
-              dynamic IT company that specializes in niche industries. Our team
-              of enthusiastic experts, unlocks the full potential of designing,
-              developing, and testing solutions for our clients and help
-              businesses embrace next-gen technologies to stay future-ready.
+              In this constantly evolving landscape of technology, SmartGig
+              Technology Private Limited is a dynamic IT company that
+              specializes in niche industries. Our team of enthusiastic experts,
+              unlocks the full potential of designing, developing, and testing
+              solutions for our clients and help businesses embrace next-gen
+              technologies to stay future-ready.
             </p>
           </div>
           <div className="col-lg-7  text-center">
@@ -338,7 +340,7 @@ export default function CulturePage() {
           </div>
           {/* <div className='footerForMobile'>
                         <hr />
-                        Copyright © 2023 SmartGig. All Rights Reserved.
+                        Copyright © 2023 SmartGig Technology Private Limited. All Rights Reserved.
                     </div> */}
         </div>
       </div>

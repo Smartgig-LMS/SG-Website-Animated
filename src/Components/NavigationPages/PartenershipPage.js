@@ -27,13 +27,13 @@ export default function PartenershipPage() {
                 paddingRight: "10%",
               }}
             >
-              At SmartGig, we pride ourselves on fostering a culture of
-              collaboration and innovation. Our commitment to excellence is
-              reflected in our diverse partnerships with startups, which are
-              solving some of the serious problems in B2B ,B2C and P2P space.We
-              are truly amazed with what our partners do and are always open to
-              partner in solutions helping mankind. 'Come Join us to redefine
-              possibilities together
+              At SmartGig Technology Private Limited, we pride ourselves on
+              fostering a culture of collaboration and innovation. Our
+              commitment to excellence is reflected in our diverse partnerships
+              with startups, which are solving some of the serious problems in
+              B2B ,B2C and P2P space.We are truly amazed with what our partners
+              do and are always open to partner in solutions helping mankind.
+              'Come Join us to redefine possibilities together
             </p>
           </div>
           <div className="LastcontainerProductPg">
@@ -125,13 +125,13 @@ export default function PartenershipPage() {
               <img src="./Images/gobeyond/Partnership-Icon.svg" />
             </div>
             <p className="mt-2 col-lg-7" style={{ textAlign: "left" }}>
-              At SmartGig, we pride ourselves on fostering a culture of
-              collaboration and innovation. Our commitment to excellence is
-              reflected in our diverse partnerships with startups, which are
-              solving some of the serious problems in B2B ,B2C and P2P space.We
-              are truely amazed with what our partners do and are always open to
-              partner in solutions helping mankind. 'Come Join us to redefine
-              possibilities together
+              At SmartGig Technology Private Limited, we pride ourselves on
+              fostering a culture of collaboration and innovation. Our
+              commitment to excellence is reflected in our diverse partnerships
+              with startups, which are solving some of the serious problems in
+              B2B ,B2C and P2P space.We are truely amazed with what our partners
+              do and are always open to partner in solutions helping mankind.
+              'Come Join us to redefine possibilities together
             </p>
           </div>
           <div className="mt-3 mb-5 img-left">
@@ -157,7 +157,7 @@ export default function PartenershipPage() {
         </div>
         {/* <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights Reserved.
         </div> */}
       </div>
       <Footer />

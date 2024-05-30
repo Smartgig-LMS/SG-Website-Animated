@@ -40,7 +40,8 @@ const Perch = ({ pageName }) => {
           <h3 style={{ color: "#2563AC" }}>Perch</h3>
           <h3>
             <k style={{ color: "#2563AC" }}>Experience Excellence</k> in
-            Software Product Development with Smartgig
+            Software Product Development with SmartGig Technology Private
+            Limited
           </h3>
           <p>
             PERCH is a unique HRMS application used by signing in through magic

@@ -1287,56 +1287,57 @@ export default function PharmaBlog3() {
             devices in the drug discovery ecosystem.
           </p>
         </div>
-      <hr />
-      <form onSubmit={onSubmit}>
-        <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
-          <h4>WRITE A COMMENT</h4>
-          <input
-            placeholder="Name"
-            className="p-2 mb-2"
-            onChange={handleChange}
-            name="name"
-            value={name}
-          />
-          <input
-            placeholder="Email"
-            className="p-2 mb-2"
-            onChange={handleChange}
-            name="email"
-            value={email}
-          />
-          <input
-            placeholder="Website"
-            className="p-2 mb-2"
-            onChange={handleChange}
-            name="website"
-            value={website}
-          />
-          <textarea
-            placeholder="write your comments"
-            className="p-2"
-            onChange={handleChange}
-            name="comment"
-            value={comment}
-          />
-        </div>
-        <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
-          <button
-            style={{
-              backgroundColor: "#F38313",
-              border: "none",
-            }}
-            className="p-3"
-            type="submit"
-          >
-            POST COMMENT
-          </button>
-        </div>
-      </form>
-      <div className="footerForMobile">
         <hr />
-        Copyright © 2023 SmartGig. All Rights Reserved.
-      </div>{" "}
+        <form onSubmit={onSubmit}>
+          <div className="text-center p-3" style={{ fontFamily: "Lato" }}>
+            <h4>WRITE A COMMENT</h4>
+            <input
+              placeholder="Name"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="name"
+              value={name}
+            />
+            <input
+              placeholder="Email"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="email"
+              value={email}
+            />
+            <input
+              placeholder="Website"
+              className="p-2 mb-2"
+              onChange={handleChange}
+              name="website"
+              value={website}
+            />
+            <textarea
+              placeholder="write your comments"
+              className="p-2"
+              onChange={handleChange}
+              name="comment"
+              value={comment}
+            />
+          </div>
+          <div className="text-center mt-5" style={{ fontFamily: "Lato" }}>
+            <button
+              style={{
+                backgroundColor: "#F38313",
+                border: "none",
+              }}
+              className="p-3"
+              type="submit"
+            >
+              POST COMMENT
+            </button>
+          </div>
+        </form>
+        <div className="footerForMobile">
+          <hr />
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
+        </div>{" "}
       </div>
     </>
   );

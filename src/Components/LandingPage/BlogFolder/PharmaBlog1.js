@@ -332,9 +332,7 @@ export default function PharmaBlog1() {
 
         <div className="d-flex justify-content-center align-items-top p-5">
           <div className="pl-5 pr-5 pt-5 w-50">
-            <div
-              style={{ fontStyle: "italic", color: "#F38313" }}
-            >
+            <div style={{ fontStyle: "italic", color: "#F38313" }}>
               <h4>
                 " How to Choose the right GxP solutions if you are a Pharma
                 Company "
@@ -862,7 +860,8 @@ export default function PharmaBlog1() {
         </form>
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>{" "}
       </div>
     </>

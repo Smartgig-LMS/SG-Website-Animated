@@ -974,9 +974,11 @@ export default function ManufactoringBlog5() {
           <h6 className="font-weight-bold" style={{ color: "#F38313" }}>
             Cutting-edge Technologies Shaping the Landscape of Industry 5.0{" "}
           </h6>
-          <img src="/Images/gobeyond/SmartGig_Industrial 577.svg" alt="" 
-              style={{ objectFit: "cover", maxWidth: "100%" }}
-              />
+          <img
+            src="/Images/gobeyond/SmartGig_Industrial 577.svg"
+            alt=""
+            style={{ objectFit: "cover", maxWidth: "100%" }}
+          />
           <p>
             <span className="font-weight-bold"> Cobots:</span> A collaborative
             robot (cobot) is an industrial robot engineered to collaborate
@@ -1094,7 +1096,8 @@ export default function ManufactoringBlog5() {
 
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>
       </div>
     </>

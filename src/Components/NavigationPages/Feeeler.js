@@ -54,7 +54,8 @@ const Feeeler = () => {
             <p className="descText">
               Experience Excellence{" "}
               <span className="text-black">
-                in Software Product Development with Smartgig
+                in Software Product Development with SmartGig Technology Private
+                Limited
               </span>
             </p>
             <p className="p-text">
@@ -84,7 +85,11 @@ const Feeeler = () => {
           </div>
           <div className="w-100 w-md-50">
             <div>
-              <img src="./Images/gobeyond/Group 1707485353.svg" alt="mobile-img" className="img-fluid" />
+              <img
+                src="./Images/gobeyond/Group 1707485353.svg"
+                alt="mobile-img"
+                className="img-fluid"
+              />
             </div>
           </div>
         </div>
@@ -94,7 +99,11 @@ const Feeeler = () => {
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center px-md-5 p-1">
           <div className="w-100 w-md-50">
             <div>
-              <img src="./Images/gobeyond/Group 1707485350.svg" alt="mobile-app" className="img-fluid" />
+              <img
+                src="./Images/gobeyond/Group 1707485350.svg"
+                alt="mobile-app"
+                className="img-fluid"
+              />
             </div>
           </div>
           <div className="w-100 w-md-50">
@@ -127,9 +136,7 @@ const Feeeler = () => {
         <div className="d-flex flex-column flex-md-row justify-content-between align-items-center px-md-5 p-1 section-3">
           <div className="w-100 w-md-50">
             <div>
-              <img 
-              src={webApp}
-               alt="web-app" className="img-fluid" />
+              <img src={webApp} alt="web-app" className="img-fluid" />
             </div>
           </div>
           <div className="w-100 w-md-50">

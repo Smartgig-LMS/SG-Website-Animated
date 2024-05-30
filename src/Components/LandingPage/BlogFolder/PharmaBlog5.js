@@ -945,7 +945,8 @@ export default function PharmaBlog5() {
         </form>
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>{" "}
       </div>
     </>

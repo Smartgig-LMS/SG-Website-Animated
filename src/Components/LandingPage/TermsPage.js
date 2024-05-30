@@ -14,12 +14,14 @@ export default function TermsPage() {
 
       <div className="container my-4">
         <p>
-          <b style={{ color: "#F38211" }}>Welcome to SmartGig!</b> These Terms
-          of Service govern your access to and use of the SmartGig website and
-          its services, including but not limited to browsing, purchasing
-          subscriptions, and accessing content (collectively referred to as the
-          "Services"). Please read these Terms carefully before using the Site
-          or Services.
+          <b style={{ color: "#F38211" }}>
+            Welcome to SmartGig Technology Private Limited!
+          </b>{" "}
+          These Terms of Service govern your access to and use of the SmartGig
+          Technologies Pvt Ltd website and its services, including but not
+          limited to browsing, purchasing subscriptions, and accessing content
+          (collectively referred to as the "Services"). Please read these Terms
+          carefully before using the Site or Services.
         </p>
 
         <h5 style={{ color: "#F38211" }}>Acceptance of Terms: </h5>
@@ -76,8 +78,9 @@ export default function TermsPage() {
           <li>
             All content and materials available on the Site, including but not
             limited to text, graphics, logos, images, and software, are the
-            property of SmartGig or its licensors and are protected by
-            copyright, trademark, and other intellectual property laws.
+            property of SmartGig Technology Private Limited or its licensors and
+            are protected by copyright, trademark, and other intellectual
+            property laws.
           </li>
         </ul>
 
@@ -102,20 +105,21 @@ export default function TermsPage() {
             implied.
           </li>
           <li>
-            SmartGig disclaims all warranties, express or implied, including but
-            not limited to warranties of merchantability, fitness for a
-            particular purpose, and non-infringement.
+            SmartGig Technology Private Limited disclaims all warranties,
+            express or implied, including but not limited to warranties of
+            merchantability, fitness for a particular purpose, and
+            non-infringement.
           </li>
         </ul>
 
         <h5 style={{ color: "#F38211" }}>Limitation of Liability: </h5>
         <ul>
           <li>
-            To the fullest extent permitted by law, SmartGig shall not be liable
-            for any indirect, incidental, special, consequential, or punitive
-            damages arising out of or related to your use of the Site or
-            Services, whether based on warranty, contract, tort (including
-            negligence), or any other legal theory.
+            To the fullest extent permitted by law, SmartGig Technologies Pvt
+            Ltd shall not be liable for any indirect, incidental, special,
+            consequential, or punitive damages arising out of or related to your
+            use of the Site or Services, whether based on warranty, contract,
+            tort (including negligence), or any other legal theory.
           </li>
         </ul>
 
@@ -136,8 +140,8 @@ export default function TermsPage() {
         <ul>
           <li>
             {" "}
-            SmartGig reserves the right to modify or update these Terms at any
-            time without prior notice.
+            SmartGig Technology Private Limited reserves the right to modify or
+            update these Terms at any time without prior notice.
           </li>
           <li>
             Changes to these Terms will be effective upon posting on the Site.{" "}

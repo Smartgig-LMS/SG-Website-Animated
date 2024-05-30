@@ -902,14 +902,14 @@ export default function PharmaBlog4() {
           </div>
 
           <img
-              src="/Images/gobeyond/Group 427322184 (1).svg"
-              alt=""
-              className="blogimg p-1"
-            />
+            src="/Images/gobeyond/Group 427322184 (1).svg"
+            alt=""
+            className="blogimg p-1"
+          />
 
-            <h6 className="pb-4" style={{ color: "#F38313" }}>
-              Importance of Traceability and Transparency in Pharmaceuticals
-            </h6>
+          <h6 className="pb-4" style={{ color: "#F38313" }}>
+            Importance of Traceability and Transparency in Pharmaceuticals
+          </h6>
 
           <div>
             <h6>Introduction to Blockchain Technology:</h6>
@@ -1353,7 +1353,8 @@ export default function PharmaBlog4() {
         </form>
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights
+          Reserved.
         </div>{" "}
       </div>
     </>

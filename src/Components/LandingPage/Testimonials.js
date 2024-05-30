@@ -73,15 +73,13 @@ export default function Testimonials() {
   return (
     <>
       <div className="testimonials">
-        <img
-          src="./Images/gobeyond/Testimonials.svg"
-          height="48"
-          width="190"
-        />
-        <h2 className="mt-2 mb-3" style={{ fontWeight: "bold" }}>What people are saying</h2>
+        <img src="./Images/gobeyond/Testimonials.svg" height="48" width="190" />
+        <h2 className="mt-2 mb-3" style={{ fontWeight: "bold" }}>
+          What people are saying
+        </h2>
         <Swiper
           className="mySwiper"
-          slidesPerView={'auto'}
+          slidesPerView={"auto"}
           //   loop={true}
           autoplay={{
             delay: 2500,
@@ -103,13 +101,14 @@ export default function Testimonials() {
               <img src="./Images/gobeyond/Item.png" height="40" width="40" />
               <br />
               <p>
-                “With support from the SmartGig team, we utilized scarce talent
-                resources and saved time while optimizing key AWS solutions and
-                Infra, monitor cluster conditions and automatically fix faults
-                24 hours a day. Our users were able to complete cluster
-                expansion with one click, ensure that all logs can be collected
-                and analyzed, increase analysis efficiency by 20%, and only pay
-                for the Amazon Web Services resources used"
+                “With support from the SmartGig Technology Private Limited team,
+                we utilized scarce talent resources and saved time while
+                optimizing key AWS solutions and Infra, monitor cluster
+                conditions and automatically fix faults 24 hours a day. Our
+                users were able to complete cluster expansion with one click,
+                ensure that all logs can be collected and analyzed, increase
+                analysis efficiency by 20%, and only pay for the Amazon Web
+                Services resources used"
               </p>
               <h6>Anil</h6>
               <small>
@@ -124,16 +123,17 @@ export default function Testimonials() {
               <br />
               <p>
                 "It has been a great experience so far in our engagement with
-                SmartGig Technologies as our Technology Provider. They have been
-                truly professional in their approach and have provided the
-                necessary support and have been flexible and agile to
-                accommodate changing business requirements for our MVP Premium
-                Financing solution which is a crucial need for a startup like
-                Insurfin. Their quality standards have been quite good and they
-                have been able to deliver results consistently. We definitely
-                recommend SmartGig as a great Technology / Professional Services
-                Provider to the Startup Community or companies due to their
-                flexible delivery approach without compromising on quality"
+                SmartGig Technology Private Limited as our Technology Provider.
+                They have been truly professional in their approach and have
+                provided the necessary support and have been flexible and agile
+                to accommodate changing business requirements for our MVP
+                Premium Financing solution which is a crucial need for a startup
+                like Insurfin. Their quality standards have been quite good and
+                they have been able to deliver results consistently. We
+                definitely recommend SmartGig Technology Private Limited as a
+                great Technology / Professional Services Provider to the Startup
+                Community or companies due to their flexible delivery approach
+                without compromising on quality"
               </p>
               <h6>Sambit</h6>
               <small>Product Strategist</small>
@@ -145,12 +145,12 @@ export default function Testimonials() {
               <img src="./Images/gobeyond/Item.png" height="40" width="40" />
               <br />
               <p>
-                "Working with SmartGig Technologies has been an exceptional
-                experience. "They have proven themselves to be a reliable and
-                trustworthy partner, and I look forward to our continued
-                collaboration. Our partnership has not only been productive but
-                also enjoyable, as they have shown themselves to be a friendly
-                and approachable group of professionals"
+                "Working with SmartGig Technology Private Limited has been an
+                exceptional experience. "They have proven themselves to be a
+                reliable and trustworthy partner, and I look forward to our
+                continued collaboration. Our partnership has not only been
+                productive but also enjoyable, as they have shown themselves to
+                be a friendly and approachable group of professionals"
               </p>
               <h6>Subramanyam</h6>
               <small>Founder</small>
@@ -179,7 +179,7 @@ export default function Testimonials() {
           <hr />
           <div className="d-flex" style={{ justifyContent: "space-around" }}>
             <div style={{ fontWeight: "500" }}>
-              Copyright © 2023 SmartGig. All Rights Reserved.
+              Copyright © 2023 SmartGig Technology Private Limited. All Rights Reserved.
             </div>
             <div className="d-flex" style={{ fontWeight: "500" }}>
               <div>Terms of Service</div>
@@ -192,11 +192,7 @@ export default function Testimonials() {
       {/* for mobile --------------------------------------------------------------------- */}
 
       <div className="testimonialsForMobile col-lg-7">
-        <img
-          src="./Images/gobeyond/Testimonials.svg"
-          height="48"
-          width="190"
-        />
+        <img src="./Images/gobeyond/Testimonials.svg" height="48" width="190" />
         <h2 style={{ fontWeight: "bold" }}>What people are saying</h2>
         <Swiper
           className="mySwiper"
@@ -224,13 +220,14 @@ export default function Testimonials() {
               <img src="./Images/gobeyond/Item.png" height="40" width="40" />
               <br />
               <p>
-                “With support from the SmartGig team, we utilized scarce talent
-                resources and saved time while optimizing key AWS solutions and
-                Infra, monitor cluster conditions and automatically fix faults
-                24 hours a day. Our users were able to complete cluster
-                expansion with one click, ensure that all logs can be collected
-                and analyzed, increase analysis efficiency by 20%, and only pay
-                for the Amazon Web Services resources used"
+                “With support from the SmartGig Technology Private Limited team,
+                we utilized scarce talent resources and saved time while
+                optimizing key AWS solutions and Infra, monitor cluster
+                conditions and automatically fix faults 24 hours a day. Our
+                users were able to complete cluster expansion with one click,
+                ensure that all logs can be collected and analyzed, increase
+                analysis efficiency by 20%, and only pay for the Amazon Web
+                Services resources used"
               </p>
               <h6>Anil</h6>
               <small>
@@ -245,16 +242,17 @@ export default function Testimonials() {
               <br />
               <p>
                 "It has been a great experience so far in our engagement with
-                SmartGig Technologies as our Technology Provider. They have been
-                truly professional in their approach and have provided the
-                necessary support and have been flexible and agile to
-                accommodate changing business requirements for our MVP Premium
-                Financing solution which is a crucial need for a startup like
-                Insurfin. Their quality standards have been quite good and they
-                have been able to deliver results consistently. We definitely
-                recommend SmartGig as a great Technology / Professional Services
-                Provider to the Startup Community or companies due to their
-                flexible delivery approach without compromising on quality"
+                SmartGig Technology Private Limited as our Technology Provider.
+                They have been truly professional in their approach and have
+                provided the necessary support and have been flexible and agile
+                to accommodate changing business requirements for our MVP
+                Premium Financing solution which is a crucial need for a startup
+                like Insurfin. Their quality standards have been quite good and
+                they have been able to deliver results consistently. We
+                definitely recommend SmartGig Technology Private Limited as a
+                great Technology / Professional Services Provider to the Startup
+                Community or companies due to their flexible delivery approach
+                without compromising on quality"
               </p>
               <h6>Sambit</h6>
               <small>Product Strategist</small>
@@ -266,12 +264,12 @@ export default function Testimonials() {
               <img src="./Images/gobeyond/Item.png" height="40" width="40" />
               <br />
               <p>
-                "Working with SmartGig Technologies has been an exceptional
-                experience. "They have proven themselves to be a reliable and
-                trustworthy partner, and I look forward to our continued
-                collaboration. Our partnership has not only been productive but
-                also enjoyable, as they have shown themselves to be a friendly
-                and approachable group of professionals"
+                "Working with SmartGig Technology Private Limited has been an
+                exceptional experience. "They have proven themselves to be a
+                reliable and trustworthy partner, and I look forward to our
+                continued collaboration. Our partnership has not only been
+                productive but also enjoyable, as they have shown themselves to
+                be a friendly and approachable group of professionals"
               </p>
               <h6>Subramanyam</h6>
               <small>Founder</small>
@@ -291,10 +289,10 @@ export default function Testimonials() {
 
         <div className="footerForMobile">
           <hr />
-          Copyright © 2023 SmartGig. All Rights Reserved.
+          Copyright © 2023 SmartGig Technology Private Limited. All Rights Reserved.
         </div> */}
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 }
